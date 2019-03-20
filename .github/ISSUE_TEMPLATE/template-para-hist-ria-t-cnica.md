@@ -1,13 +1,13 @@
 ---
-name: Template para História de Usuário
-about: Template para US
-title: 'USN° - Título da US '
-labels: User Story
+name: Template para História Técnica
+about: Template para TS.
+title: TSN° - Título da Issue
+labels: Technical Story
 assignees: ''
 
 ---
 
-# USN° - Título da Issue
+# TSN° - Título da Issue
 ---
 ### Descrição:
 Pequena e objetiva descrição sobre da issue.

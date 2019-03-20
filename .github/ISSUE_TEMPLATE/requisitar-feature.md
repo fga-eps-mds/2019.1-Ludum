@@ -1,11 +1,13 @@
 ---
 name: Requisitar Feature
 about: Sugira qualquer ideia para o projeto
-title: ''
-labels: ''
+title: FN° - Título da Feature
+labels: Feature
 assignees: ''
 
 ---
+
+# FN° - Título da Feature
 
 **Sua solicitação de feature está relacionada a um problema? Por favor descreva.**
 

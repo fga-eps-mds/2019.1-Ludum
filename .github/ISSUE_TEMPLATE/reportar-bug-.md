@@ -1,11 +1,13 @@
 ---
 name: 'Reportar Bug '
 about: Reportar Bug
-title: ''
-labels: ''
+title: BUGN° - Título do Bug
+labels: Bug
 assignees: ''
 
 ---
+
+# BUGN° - Título do Bug
 
 **Descreva o bug**
 Uma clara e concisa descrição do que o bug é.
