@@ -17,8 +17,5 @@ Esse PR atende os requisitos abaixo:
 - [ ] A definir;
 - [ ] A definir.
 
-## Reviewers
-Marcar o integrante da equipe de EPS responsável. Ex: @nomedointegrante
-
 ## Comentários
 Alguma informação complementar necessária para melhor compreensão.
