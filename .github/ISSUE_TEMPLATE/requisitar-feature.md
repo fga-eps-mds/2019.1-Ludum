@@ -7,8 +7,6 @@ assignees: ''
 
 ---
 
-# FN° - Título da Feature
-
 **Sua solicitação de feature está relacionada a um problema? Por favor descreva.**
 
 Uma clara e concisa descrição do que o problema é. Ex: "Eu sempre fico frustrado quando [...]"

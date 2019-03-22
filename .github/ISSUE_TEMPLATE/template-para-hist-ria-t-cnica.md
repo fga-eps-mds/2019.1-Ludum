@@ -7,8 +7,6 @@ assignees: ''
 
 ---
 
-# TSN° - Título da Issue
----
 ### Descrição:
 Pequena e objetiva descrição sobre da issue.
 

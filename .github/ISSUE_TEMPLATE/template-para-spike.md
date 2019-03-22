@@ -7,8 +7,6 @@ assignees: ''
 
 ---
 
-# SN° - Título da Spike
----
 ### O que será estudado:
 Pequena e objetiva descrição.
 

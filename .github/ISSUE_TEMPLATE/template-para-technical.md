@@ -7,8 +7,6 @@ assignees: ''
 
 ---
 
-# TN° - Título da Technical
----
 ### Descrição:
 Pequena e objetiva descrição sobre da issue.
 

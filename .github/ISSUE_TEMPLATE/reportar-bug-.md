@@ -7,8 +7,6 @@ assignees: ''
 
 ---
 
-# BUGN° - Título do Bug
-
 **Descreva o bug**
 Uma clara e concisa descrição do que o bug é.
 
