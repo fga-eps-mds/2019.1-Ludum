@@ -22,9 +22,9 @@ Todos os contribuidores do projeto devem seguir os seguintes passos:
 
   1. Clone o repositório
   ```bash
-  git clone https://github.com/fga-eps-mds/2019.1-Grupo-8.git
+  git clone https://github.com/fga-eps-mds/2019.1-Ludum.git
   ```
-  2. Abra o projeto [2019.1-Grupo-8](https://github.com/fga-eps-mds/2019.1-Grupo-8) no editor de texto de sua preferência
+  2. Abra o projeto [2019.1-Ludum](https://github.com/fga-eps-mds/2019.1-Ludum.git) no editor de texto de sua preferência
   3. Faça as suas contribuições
 
 ## Politicas de Branches
@@ -61,11 +61,11 @@ Mais documentação é algo que você pode contribuir de forma simples:
 
   1. Clone o repositório
   ```bash
-  git clone https://github.com/fga-eps-mds/2019.1-Grupo-8.git
+  git clone https://github.com/fga-eps-mds/2019.1-Ludum.git
   ```  
   2. Acesse a pasta docs
   ```bash
-  cd 2019.1-Grupo-8
+  cd 2019.1-Ludum
   ```
   3. Edite ou crie novas documentações e salve-as na pasta correspondente
 

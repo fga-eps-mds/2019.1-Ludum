@@ -3,14 +3,14 @@
 **Importante:** este tutorial utiliza linhas de comando no terminal do Linux/macOS ou prompt de comando do Windows. Há alternativas de interfaces gráficas para utilização git, mas não serão abordadas nesse tutorial.
 1) Para clonar o repositório, utilize o seguinte comando no terminal do Linux/macOS ou prompt de comando do Windows dentro de uma pasta de sua preferência
 ```bash
-git clone https://github.com/fga-eps-mds/2019.1-Grupo-8
+git clone https://github.com/fga-eps-mds/2019.1-Ludum.git
 ```
 Algo parecido com isto será apresentado no seu terminal caso processo de clone for bem sucedido:
 ![clone](https://i.imgur.com/DyUXnHH.png)
 
 2) Ainda dentro do mesmo terminal, navegue até a pasta do repositório que você clonou utilizando o comando:
 ```bash
-cd 2019.1-Grupo-8/
+cd 2019.1-Ludum/
 ``` 
 
 3) Utilizaremos o git flow, trabalhando com **branches**, portanto, após clonar o repositório, deve-se verificar em qual branch você está. Para isso, execute o comando:
