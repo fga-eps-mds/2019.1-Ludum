@@ -1,11 +1,11 @@
 # Contribuindo com o projeto
 
 Coisas nas quais você pode ajudar:
- - [Documentação](#documentacao)
- - [Criação de novas features](#novas-features)
+ - [Documentação](#documentação)
+ - [Criação de novas features](#criação-de-novas-features)
  - [Issues](#issues)
      - [Bugs](#bugs)
-     - [Sugestões de melhoria](#sugestoes-de-melhoria)
+     - [Sugestões de melhoria](#sugestões-de-melhoria)
 
 ## Fluxo de trabalho
 
@@ -55,6 +55,7 @@ em que 'nome' é o nome do artefato.
 
 ## Políticas de *Commits*
 Os *commits* devem ser atômicos e a mensagem do *commit* deve ser clara e objetiva e no idioma português.
+
 ## Documentação
 
 Mais documentação é algo que você pode contribuir de forma simples:
