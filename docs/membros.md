@@ -12,7 +12,7 @@
 </div>
 <div style="float:left;margin:0 110px 110px 0">
     <img align="left" width="125" height="125" src="https://avatars0.githubusercontent.com/u/23313535?s=460&v=4">
-    <h4> Lucas Lérmen</h4>
+    <h4> Lucas Lermen</h4>
     Tech Leader 
 </div>
 
