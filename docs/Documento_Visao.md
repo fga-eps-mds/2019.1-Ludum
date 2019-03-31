@@ -6,6 +6,7 @@
 | 28/03/19 | 0.4 | Construção do Documento de Visão | Wictor Girardi, João de Assis |
 | 29/03/19 | 0.5 | Formatação em markdown e revisão | Wictor Girardi |
 | 30/03/19 | 0.6 | Revisão e mudanças | Lucas Ganda, Wictor Girardi, João Pedro Correia |
+| 31/03/19 | 0.7 | Revisão do documento | Wictor Girardi |
 
 # 1. Introdução
 
@@ -18,7 +19,7 @@ Este documento tem como objetivo definir os requisitos, necessidades e os recurs
 ## 1.2 Escopo
 
 O ChatBot Ludum é um projeto realizado para as disciplinas Métodos de Desenvolvimento de Software (MDS) e Engenharia de Produto de Software (EPS), do curso de Engenharia de Software da Faculdade UnB Gama (FGA) da Universidade de Brasília (UnB).
-O projeto, a ser realizado pela equipe 8, composta por alunos das duas disciplinas, possui como objetivo auxiliar os alunos da universidade em dúvidas que eles tenham em relação ao desenvolvimento de jogos utilizando a linguagem em ascensão Python. Isso envolve obter dicas, guias da linguagem, tutoriais ao desenvolvimento de games, ferramentas necessárias e integração ao ambiente de desenvolvimento Jupyter. A partir da interação com o ChatBot, o usuário poderá requisitar destes serviços, ajudas, informes relacionados à linguagem Python e sua biblioteca Pygame.
+O projeto, a ser realizado pela equipe 8, composta por alunos das duas disciplinas, possui como objetivo auxiliar os interessados em progamações e desenvolvimento de jogos em dúvidas que eles tenham em relação ao desenvolvimento de jogos utilizando a linguagem em ascensão Python. Isso envolve obter dicas, guias da linguagem, tutoriais ao desenvolvimento de games, ferramentas necessárias e integração a um ambiente de desenvolvimento externo. A partir da interação com o ChatBot, o usuário poderá requisitar destes serviços, ajudas, informes relacionados à linguagem Python e sua biblioteca Pygame.
 
 ## 1.3 Definições, acrônimos e abreviações
 
@@ -61,10 +62,10 @@ Hoje em dia, muitas pessoas se interessam em aprender a desenvolver jogos e como
 
 <table> 
 <tr><th>Para</th><td>Estudantes da área de programação e pessoas interessadas no desenvolvimento de jogos.</td></tr>
-<tr><th>Que</th><td>Buscam num software uma maneira prática e acessível de aprender e desenvolver um jogo na linguagem Python através da biblioteca  Pygame.</td></tr>
+<tr><th>Que</th><td>Buscam em um software uma maneira prática e acessível de aprender e desenvolver um jogo na linguagem Python através da biblioteca  Pygame.</td></tr>
 <tr><th>O Ludum</th><td>É um ChatBot.</td></tr>
 <tr><th>Diferente de</th><td>Todas as opções disponíveis para aprender a desenvolver jogos usando a biblioteca Pygame.</td></tr>
-<tr><th>Nosso Produto</th><td>Responde perguntas sobre o desenvolvimento de jogos em Python, e sua biblioteca Pygame. Além de facilitar o estudo por meio da integração ao ambiente Jupyter.</td></tr>
+<tr><th>Nosso Produto</th><td>Responde perguntas sobre o desenvolvimento de jogos em Python, e sua biblioteca Pygame.</td></tr>
 </table>
 
 # 3. Descrições da Parte Interessada e do Usuário
@@ -72,7 +73,7 @@ Hoje em dia, muitas pessoas se interessam em aprender a desenvolver jogos e como
 ## 3.1 Demográficos de Mercado
 
 Os principais envolvidos neste projeto serão as equipes de desenvolvimento (MDS), gestores (EPS) e monitores, sendo que esses não necessariamente irão ser usuários do aplicativo.
-O público-alvo do projeto, que irá interagir com o Ludum, são alunos da FGA, sejam eles de graduação ou pós-graduação.
+O público-alvo do projeto, que irá interagir com o Ludum, são pessoas interessadas no desenvolvimento de jogos em Python, sejam eles de graduação ou pós-graduação.
 Os principais artefatos que o Ludum propõe é a maior interatividade e facilidade para o desenvolvimento de pessoas não ligadas a software dentro da Universidade de Brasília.
 
 ## 3.2 Resumo dos envolvidos
@@ -87,7 +88,7 @@ Os principais artefatos que o Ludum propõe é a maior interatividade e facilida
 
 | Nome | Descrição | Responsabilidades |
 |:----:|:---------:|:-----------------:|
-|Estudantes|Alunos da universidade de Brasília e interessados|Interagir com o Ludum por meio da plataforma Telegram, receber auxílio e sanar suas dúvidas sobre o desenvolvimento de jogos em Python|
+|Estudantes|Interessados em programações de jogos|Interagir com o Ludum por meio da plataforma Telegram, receber auxílio e sanar suas dúvidas sobre o desenvolvimento de jogos em Python|
 
 ## 3.4 Principais Necessidades dos Usuários e dos Envolvidos
 
@@ -125,14 +126,14 @@ Os usuários realizarão a interação com o Ludum por meio do Telegram, serviç
 
 <table> 
 <tr><th>Perfil</th><td>--</td></tr>
-<tr><th>Representantes</th><td>Alunos da Universidade de Brasília, no campus Faculdade do Gama (FGA - UnB)</td></tr>
+<tr><th>Representantes</th><td>Interessados em programações de jogos</td></tr>
 <tr><th>Descrição</th><td>Alunos que tenham interesse no desenvolvimento de jogos em Python</td></tr>
 <tr><th>Tipo</th><td>Estudantes da FGA que tenham dúvidas e necessitem de ajuda com o desenvolvimento de jogos em Python</td></tr>
 <tr><th>Responsabilidades</th><td>Interagir com o Ludum por meio da aplicação Telegram.
 </td></tr>
 <tr><th>Critérios de Sucesso</th><td>Desenvolver jogos com ajuda do bot Ludum</td></tr>
 <tr><th>Envolvimento</th><td>Alto</td></tr>
-<tr><th>Problemas/comentários</th><td>Não possuir cadastro no Telegram</td></tr>
+<tr><th>Problemas/comentários</th><td>Não possuir cadastro no Telegram, não possuir conexão com a internet e possuir hardware insuficiente para a execução da aplicação</td></tr>
 </table>
 
 ## 3.7 Principais Necessidades da Parte Interessada ou do Usuário
@@ -141,7 +142,7 @@ Os usuários realizarão a interação com o Ludum por meio do Telegram, serviç
 |:----:|:---------:|:-----------------:|:------------------:|:------:|
 |Sanar dúvidas que tangem o quesito de desenvolvimento de jogos em Python|Alta|Falta de interação com o Ludum|Um ChatBot de Telegram que consiga auxiliar os universitários respondendo suas dúvidas e necessidades| Videos no youtube, Stackoverflow e sites de desenvolvimento|
 |Ajudar a configuração de ambientes|Média|Falta de interação com o Ludum ou hardware antigo|Guias propostos pelo Ludum para auxiliar de maneira rápida a configuração do ambiente|Google e fóruns|
-|Execução de códigos no Jupyter|Alta|Códigos mal digitados ou em outras linguagens|A identificação de códigos e a rápida execução e debug dentro do chat|Instalar a ferramenta Jupyter no computador|
+|Execução de códigos em uma ferramenta externa|Alta|Códigos mal digitados ou em outras linguagens|A identificação de códigos e a rápida execução e debug dentro do chat|Instalar a ferramenta externa no computador|
 
 ## 3.8 Alternativas e Concorrência  
 
@@ -158,8 +159,9 @@ Não existem.
 | Benefício para o cliente | Recursos de suporte |
 |:------------------------:|:-------------------:|
 | Auxiliar o desenvolvimento de jogos |O ChatBot Ludum irá auxiliar o usuário de maneira prática a desenvolver jogos desde a dificuldade inicial até a mais avançada|
-| Conexão com o Jupyter | O Ludum possibilitará com que o usuário mande trechos de código para serem compilados de maneira instantânea dentro do chat |
+| Conexão com uma ferramenta externa | O Ludum possibilitará com que o usuário mande trechos de código para serem compilados de maneira instantânea dentro do chat |
 | Configuração de ambiente | O ChatBot irá auxiliar a antes do desenvolvimento que o ambiente seja configurado de maneira adequada |
+| Sanar duvidas | O Ludum permitira que as duvidas do usuário sejam sanadas por meio de um FAQ, indicando links e matérias utéis |
 
 # 5. Recursos do Produto
 
@@ -167,7 +169,8 @@ O ChatBot Ludum é capaz de:
 
 Realizar a integração entre bot, usuário e Jupyter.
 Ensinar noções básicas de Python e como trabalhar com a biblioteca Pygame.
-Dar dicas de como configurar o ambiente de desenvolvimento e aplicações úteis ao desenvolvimento para leigos.
+Dar dicas de como configurar o ambiente de desenvolvimento.
+Recomendar links e materiais úteis.
 Realizar o desenvolvimento de jogos de diferentes níveis de dificuldade de desenvolvimento.
 
 # 6. Restrições
@@ -192,7 +195,7 @@ Para maior eficiência, a aplicação será mobile, sendo executada por meio da 
 
 ## 8.1 Requisitos do Sistema
 
-Esta aplicação deverá ser acessada através de dispositivos que possuem a aplicação Telegram em que o sistema operacional é variável de acordo com o dispositivo de utilização, podendo ser: Android, iOS, Windows, Linux, Chrome OS…
+Esta aplicação deverá ser acessada através de dispositivos que possuem a aplicação Telegram em que o sistema operacional é variável de acordo com o dispositivo de utilização, podendo ser: Android, iOS, Windows, Linux, Chrome OS.
 
 ## 8.2 Requisitos de implementação
 
