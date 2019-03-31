@@ -17,7 +17,7 @@ Seção para tarefas (tasks) para issues mais complexas.
 - [ ] Tarefa X
 - [ ] Alguma outra tarefa
 
-**Estimativa de Duração** : X pontos (X horas)
+**Estimativa de Duração** : X pontos
 
 ### Comentários
 Alguma informação necessária para melhor compreensão.
