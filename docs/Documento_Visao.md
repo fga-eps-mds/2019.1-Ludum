@@ -74,7 +74,7 @@ https://botlino.github.io/docs/doc-visao
 ## 3.1 Demográficos de Mercado
 
 <p align = "justify">Os principais envolvidos neste projeto serão as equipes de desenvolvimento (MDS), gestores (EPS) e monitores, sendo que esses não necessariamente irão ser usuários do aplicativo.
-O público-alvo do projeto, que irá interagir com o Ludum, são alunos da FGA, sejam eles de graduação ou pós-graduação.
+O público-alvo do projeto, que irá interagir com o Ludum, são pessoas interessadas em programação e desenvolvimento de jogos, sejam eles de graduação ou pós-graduação.
 Os principais artefatos que o Ludum propõe é a maior interatividade e facilidade para o desenvolvimento de pessoas não ligadas a software dentro da Universidade de Brasília.</p>
 
 ## 3.2 Resumo dos envolvidos
@@ -160,7 +160,7 @@ Os principais artefatos que o Ludum propõe é a maior interatividade e facilida
 |:------------------------:|:-------------------:|
 | Auxiliar o desenvolvimento de jogos |O ChatBot Ludum irá auxiliar o usuário de maneira prática a desenvolver jogos desde a dificuldade inicial até a mais avançada|
 | Conexão com uma ferramenta externa | O Ludum poderá acessar uma ferramenta externa para buscar informações sobre a biblioteca PyGame |
-| Configuração de ambiente | O ChatBot irá auxiliar a antes do desenvolvimento que o ambiente seja configurado de maneira adequada |
+| Configuração de ambiente | O ChatBot irá auxiliar o usuário, antes do desenvolvimento, a configurar o ambiente. |
 | Sanar duvidas | O Ludum permitira que as duvidas do usuário sejam sanadas por meio de um FAQ, indicando links e materiais utéis |
 
 # 5. Recursos do Produto
