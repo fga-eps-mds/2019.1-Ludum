@@ -9,9 +9,9 @@
 
 ## Padrão Arquitetural:
 
-Nosso projeto deve conter microsserviços, com isso a utilziação de APIs.
+Nosso projeto deve conter microsserviços, com isso a utilização de APIs.
 
-O padrão arquitetetural que será utilziado é o Broker, sua arquitetura lida muito bem com sistemas distribuidos, assim como microsserviços.  
+O padrão arquitetural que será utilizado é o Broker, sua arquitetura lida muito bem com sistemas distribuídos, assim como microsserviços.  
 
 Links que podem ajudar:
 
