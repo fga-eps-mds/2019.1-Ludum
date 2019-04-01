@@ -7,19 +7,20 @@
 | 29/03/19 | 0.5 | <p align="justify">Formatação em markdown e revisão</p> | Wictor Girardi |
 | 30/03/19 | 0.6 | <p align="justify">Revisão e mudanças</p> | Lucas Ganda, Wictor Girardi, João Pedro Correia |
 | 31/03/19 | 0.7 | <p align="justify">Revisão do documento</p> | Wictor Girardi |
+| 01/04/19 | 0.8 | <p align="justify">Formatação do documento</p> | Lucas Ganda, João de Assis |
 
 # 1. Introdução
 
-Esta introdução fornece uma visão geral de todo o documento de visão. Ela inclui o propósito, o escopo, as definições, os acrônimos, as abreviações, as referências e a visão geral de todo o documento.
+<p align = "justify">Esta introdução fornece uma visão geral de todo o documento de visão. Ela inclui o propósito, o escopo, as definições, os acrônimos, as abreviações, as referências e a visão geral de todo o documento.</p>
 
 ## 1.1 Propósito
 
-Este documento tem como objetivo definir os requisitos, necessidades e os recursos necessários, especificamente os de alto nível, para que o investidor possa compreender e tenha o completo entendimento do projeto Ludum.
+<p align = "justify">Este documento tem como objetivo definir os requisitos, necessidades e os recursos necessários, especificamente os de alto nível, para que o investidor possa compreender e tenha o completo entendimento do projeto Ludum.</p>
 
 ## 1.2 Escopo
 
-O ChatBot Ludum é um projeto realizado para as disciplinas Métodos de Desenvolvimento de Software (MDS) e Engenharia de Produto de Software (EPS), do curso de Engenharia de Software da Faculdade UnB Gama (FGA) da Universidade de Brasília (UnB).
-O projeto, a ser realizado pela equipe 8, composta por alunos das duas disciplinas, possui como objetivo auxiliar os interessados em progamações e desenvolvimento de jogos em dúvidas que eles tenham em relação ao desenvolvimento de jogos utilizando a linguagem em ascensão Python. Isso envolve obter dicas, guias da linguagem, tutoriais ao desenvolvimento de games, ferramentas necessárias e integração a uma ferramenta externa. A partir da interação com o ChatBot, o usuário poderá requisitar destes serviços, ajudas, informes relacionados à linguagem Python e sua biblioteca Pygame.
+<p align = "justify">O ChatBot Ludum é um projeto realizado para as disciplinas Métodos de Desenvolvimento de Software (MDS) e Engenharia de Produto de Software (EPS), do curso de Engenharia de Software da Faculdade UnB Gama (FGA) da Universidade de Brasília (UnB).
+O projeto, a ser realizado pela equipe 8, composta por alunos das duas disciplinas, possui como objetivo auxiliar os interessados em progamações e desenvolvimento de jogos em dúvidas que eles tenham em relação ao desenvolvimento de jogos utilizando a linguagem em ascensão Python. Isso envolve obter dicas, guias da linguagem, tutoriais ao desenvolvimento de games, ferramentas necessárias e integração a uma ferramenta externa. A partir da interação com o ChatBot, o usuário poderá requisitar destes serviços, ajudas, informes relacionados à linguagem Python e sua biblioteca Pygame.</p>
 
 ## 1.3 Definições, acrônimos e abreviações
 
@@ -41,13 +42,13 @@ https://botlino.github.io/docs/doc-visao
 
 ## 1.5 Visão geral
 
-Este documento descreve os detalhes sobre as características do software Ludum, especificando os problemas que estimularam a criação dessa solução em software. O documento se divide de maneira a separar as especificações e descrever as mesmas.
+<p align = "justify">Este documento descreve os detalhes sobre as características do software Ludum, especificando os problemas que estimularam a criação dessa solução em software. O documento se divide de maneira a separar as especificações e descrever as mesmas.</p>
 
 # 2.  Posicionando
 
 ## 2.1 Oportunidade de Negócios
 
-Hoje em dia, muitas pessoas se interessam em aprender a desenvolver jogos e como Python é considerada uma linguagem de programação de fácil aprendizado, muitas vezes é escolhida por iniciantes como porta de entrada e como a biblioteca Pygame é uma das principais bibliotecas utilizadas para o desenvolvimento de jogos em Python, também é muito escolhida ao se iniciar.
+<p align = "justify">Hoje em dia, muitas pessoas se interessam em aprender a desenvolver jogos e como Python é considerada uma linguagem de programação de fácil aprendizado, muitas vezes é escolhida por iniciantes como porta de entrada e como a biblioteca Pygame é uma das principais bibliotecas utilizadas para o desenvolvimento de jogos em Python, também é muito escolhida ao se iniciar.</p>
 
 ## 2.2 Descrição do Problema
 
@@ -72,9 +73,9 @@ Hoje em dia, muitas pessoas se interessam em aprender a desenvolver jogos e como
 
 ## 3.1 Demográficos de Mercado
 
-Os principais envolvidos neste projeto serão as equipes de desenvolvimento (MDS), gestores (EPS) e monitores, sendo que esses não necessariamente irão ser usuários do aplicativo.
+<p align = "justify">Os principais envolvidos neste projeto serão as equipes de desenvolvimento (MDS), gestores (EPS) e monitores, sendo que esses não necessariamente irão ser usuários do aplicativo.
 O público-alvo do projeto, que irá interagir com o Ludum, são alunos da FGA, sejam eles de graduação ou pós-graduação.
-Os principais artefatos que o Ludum propõe é a maior interatividade e facilidade para o desenvolvimento de pessoas não ligadas a software dentro da Universidade de Brasília.
+Os principais artefatos que o Ludum propõe é a maior interatividade e facilidade para o desenvolvimento de pessoas não ligadas a software dentro da Universidade de Brasília.</p>
 
 ## 3.2 Resumo dos envolvidos
 
@@ -92,7 +93,7 @@ Os principais artefatos que o Ludum propõe é a maior interatividade e facilida
 
 ## 3.4 Principais Necessidades dos Usuários e dos Envolvidos
 
-Os usuários realizarão a interação com o Ludum por meio do Telegram, serviço de mensagens instantâneas, para receberem instruções sobre o Pygame, além de poderem consultar sempre que tiverem dúvidas ou desejarem maiores esclarecimentos a respeito do desenvolvimento com Pygame.
+<p align = "justify">Os usuários realizarão a interação com o Ludum por meio do Telegram, serviço de mensagens instantâneas, para receberem instruções sobre o Pygame, além de poderem consultar sempre que tiverem dúvidas ou desejarem maiores esclarecimentos a respeito do desenvolvimento com Pygame.</p>
 
 ## 3.5 Perfis das Partes Interessadas
 
@@ -145,13 +146,13 @@ Os usuários realizarão a interação com o Ludum por meio do Telegram, serviç
 
 ## 3.8 Alternativas e Concorrência  
 
-Não existem.
+<p align = "justify">Não existem.</p>
 
 # 4. Visão Geral do Produto
 
 ## 4.1 Perspectiva do Produto  
 
- O ChatBot Ludum tem como objetivo auxiliar e tornar o desenvolvimento de jogos na tecnologia Python uma atividade mais prazerosa, onde o usuário será guiado desde o nível básico da linguagem até o nível avançado, onde será possível a criação de jogos mais complexos, isso tudo aliado ao auxílio para configuração do ambiente de trabalhos e de suas ferramentas necessárias.
+<p align = "justify">O ChatBot Ludum tem como objetivo auxiliar e tornar o desenvolvimento de jogos na tecnologia Python uma atividade mais prazerosa, onde o usuário será guiado desde o nível básico da linguagem até o nível avançado, onde será possível a criação de jogos mais complexos, isso tudo aliado ao auxílio para configuração do ambiente de trabalhos e de suas ferramentas necessárias.</p>
 
 ## 4.2 Resumo das Capacidades
 
@@ -166,40 +167,40 @@ Não existem.
 
 O ChatBot Ludum é capaz de:
 
-Realizar a integração entre bot, usuário e ferramenta externa.
+<p align = "justify">Realizar a integração entre bot, usuário e ferramenta externa.
 Ensinar noções básicas de Python e como trabalhar com a biblioteca Pygame.
 Dar dicas de como configurar o ambiente de desenvolvimento.
 Recomendar links e materiais úteis.
-Realizar o desenvolvimento de jogos de diferentes níveis de dificuldade de desenvolvimento.
+Realizar o desenvolvimento de jogos de diferentes níveis de dificuldade de desenvolvimento.</p>
 
 # 6. Restrições
 
 ## 6.1 Restrições de implementação
 
-O ChatBot deverá ser implementado na linguagem Python utilizando a arquitetura de microsserviços.
+<p align = "justify">O ChatBot deverá ser implementado na linguagem Python utilizando a arquitetura de microsserviços.</p>
 
 ## 6.2 Restrições externas
 
-Dentre as restrições externas, as que mais irão influenciar são a inexperiência com a linguagem e frameworks, além de possíveis transtornos entre a equipe de desenvolvimento.
+<p align = "justify">Dentre as restrições externas, as que mais irão influenciar são a inexperiência com a linguagem e frameworks, além de possíveis transtornos entre a equipe de desenvolvimento.</p>
 
 ## 6.3 Restrições de confiabilidade
 
-O sistema deverá ter cobertura de testes - mínimo de 90%.
+<p align = "justify">O sistema deverá ter cobertura de testes - mínimo de 90%.</p>
 
 # 7. Faixas de Qualidade
 
-Para maior eficiência, será utilizado por meio da aplicação Telegram, para uma forma segura e rápida de gerenciamento de dados e informações.
+<p align = "justify">Para maior eficiência, será utilizado por meio da aplicação Telegram, para uma forma segura e rápida de gerenciamento de dados e informações.</p>
 
 # 8. Requisitos do produto
 
 ## 8.1 Requisitos do Sistema
 
-Esta aplicação deverá ser acessada através de dispositivos que possuem a aplicação Telegram em que o sistema operacional é variável de acordo com o dispositivo de utilização, podendo ser: Android, iOS, Windows, Linux, Chrome OS.
+<p align = "justify">Esta aplicação deverá ser acessada através de dispositivos que possuem a aplicação Telegram em que o sistema operacional é variável de acordo com o dispositivo de utilização, podendo ser: Android, iOS, Windows, Linux, Chrome OS.</p>
 
 ## 8.2 Requisitos de implementação
 
- Para maior eficiência, o Ludum será desenvolvido para ser utilizado em uma das maiores plataformas de comunicação Telegram, onde a implementação de funcionalidades se mostra viável.
+<p align = "justify">Para maior eficiência, o Ludum será desenvolvido para ser utilizado em uma das maiores plataformas de comunicação Telegram, onde a implementação de funcionalidades se mostra viável.</p>
 
 ## 8.3 Requisitos de design
 
-A composição deste software será feita de maneira a tornar sua utilização autoexplicativa e fácil, para acesso em tempo real, ou seja, atendendo todas as especificações de boas práticas referentes à experiência de usuário.
+<p align = "justify">A composição deste software será feita de maneira a tornar sua utilização autoexplicativa e fácil, para acesso em tempo real, ou seja, atendendo todas as especificações de boas práticas referentes à experiência de usuário.</p>
