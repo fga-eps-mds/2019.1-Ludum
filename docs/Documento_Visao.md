@@ -8,6 +8,7 @@
 | 30/03/19 | 0.6 | <p align="justify">Revisão e mudanças</p> | Lucas Ganda, Wictor Girardi, João Pedro Correia |
 | 31/03/19 | 0.7 | <p align="justify">Revisão do documento</p> | Wictor Girardi |
 | 01/04/19 | 0.8 | <p align="justify">Formatação do documento</p> | Lucas Ganda, João de Assis |
+| 01/04/19 | 0.9 | <p align="justify">Pequenas correções no documento</p> | Lucas Ganda, João de Assis |
 
 # 1. Introdução
 
