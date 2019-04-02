@@ -8,6 +8,7 @@
 - [Documento de Visão](/documento-de-visao.md)
 - [Documento de Arquitetura](/documento-de-arquitetura.md)
 - [Tutorial Git](/tutorial-git.md)
+- [Roadmap dos Papéis](/roadmap-dos-papeis.md)
 ## Sobre o projeto
 - [Como contribuir?](/contribuindo.md)
 - [Membros da equipe](membros.md)
