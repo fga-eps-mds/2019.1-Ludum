@@ -5,6 +5,7 @@
 - [Personalidade do Ludum](/personalidade-ludum.md)
 - [Backlog](/backlog.md)
 - [NFR](/nfr.md)
+- [Canvas](/canvas.md)
 - [Documento de Visão](/documento-de-visao.md)
 - [Documento de Arquitetura](/documento-de-arquitetura.md)
 - [Tutorial Git](/tutorial-git.md)

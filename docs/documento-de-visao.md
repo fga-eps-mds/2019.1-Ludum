@@ -1,5 +1,6 @@
+# Histórico de Versão
 
-| Data | Versão | Descrição | Autor |
+ **Data** | **Versão** | **Descrição** | **Autor(es)**
 |:----:|:------:|:---------:|:-----:|
 | 27/03/19 | 0.1 | <p align="justify">Abertura do Documento de Visão</p> | MDS (Todos) |
 | 28/04/19 | 0.3 | <p align="justify">Construção do Documento de Visão</p> | MDS (Todos) |
