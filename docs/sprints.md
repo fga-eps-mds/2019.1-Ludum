@@ -8,4 +8,10 @@
 ## <i>Sprint</i> 1
 
 - [Planejamento](/sprint1-planejamento.md)
-- [Resultado](/sprint1-resultado.md) 
+- [Resultado](/sprint1-resultado.md)
+
+## <i>Sprint</i> 2
+
+- [Planejamento](/sprint2-planejamento.md)
+- [Resultado](/sprint2-resultado.md) 
+

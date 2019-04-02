@@ -3,6 +3,7 @@
  **Data** | **Versão** | **Descrição** | **Autor(es)**
 ---|---|---|---
 01/04/2019| 0.1| Criação do Backlog| Gabriela, Guilherme e Lucas Lermen
+01/04/2019| 0.2| Pontuação e definição de novas histórias| Toda equipe
 
 
 # **Backlog do Produto**
