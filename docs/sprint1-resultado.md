@@ -8,24 +8,25 @@
 
 Tarefas | Status
 --|--
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+| T07 | Concluída |
+| T08 | Concluída |
+| T09 | Concluída |
+| T10 | Concluída |
+| T11 | Concluída |
+| T12 | Concluída |
+| T13 | Concluída |
+| T14 | Concluída |
+| T15 | Concluída |
+| T16 | Concluída |
+| T17 | Concluída |
 
 ### 1.2 _Burndown_
 
-Inserir Burndown Sprint 1
+![](./imagens/burndown-sprint1.png)
 
 ### 1.3 _Velocity_
 
-Inserir Velocity Sprint 1
+![](./imagens/velocity-sprint1.png)
 
 ### 1.4 Retrospectiva
 
@@ -44,10 +45,25 @@ Inserir Velocity Sprint 1
 
 ### 1.5 Quadro de Conhecimento
 
-Inserir Quadro de Conhecimento Sprint 0
+##### Quadro de conhecimento inicial
+
+![](./imagens/quadroconhecimento-sprint0)
+
+##### Quadro de conhecimento final
+
+![](./imagens/quadroconhecimento-sprint1.png)
+
 
 ## 2. Análise do _Scrum Master_
 
+<p align = "justify">A presente <i>sprint</i> era de extremo risco devido à sua alta pontuação(56 pontos) e à elaboração de documentos chave para o projeto.
 
+<p align = "justify">Durante a <i>sprint</i>, reuniões diárias ocorreram via <i>Slack</i>, contando com a presença de praticamente todos os membros das equipes na maior parte delas. Essas reuniões serviram para evidenciar o cumprimento das funções delegadas. Serviram também para organizar a equipe, já que um dos membros ficou incapacitado a maior parte da semana devido em decorrência de um problema de saúde.
+
+<p align = "justify">O <i>Burndown</i> da <i>sprint</i> evidenciou que as entregas foram realizadas nos últimos dias, o que ocorreu por causa do grande número de tarefas programadas.
+
+<p align = "justify">O quadro de conhecimento demonstra que houveram melhoras no aspecto relacionado ao Git às práticas ágeis. Esses dois pontos foram os mais abordados nessa <i>sprint</i>.
+
+<p align = "justify">Apesar dos empecilhos, todas as tarefas planejadas foram entregues, evidenciando um grande esforço e comprometimento da equipe.
 
 

@@ -43,15 +43,15 @@
 
 |Tarefas|Pontos|
 |--|:--:|
-| Criar documento de visão | 8 |
-| Elaborar RichPicture| 3 |
-| Elaborar NFR| 8 |
-| Definir personalidade do Bot| 3 |
-| Criar Termo de Abertura do Projeto | 8 |
-| Criar EAP | 5 |
-| Iniciar documento Arquitetura | 8 |
-| Criar o Canvas| 3 |
-| Definir Backlog| 8 |
-| Criar o RoadMap dos papéis| 1 |
-| Documentar <i>sprint</i>| 1 |
+| T07 - Criar documento de visão | 8 |
+| T08 - Elaborar RichPicture| 3 |
+| T09 - Elaborar NFR| 8 |
+| T10 - Definir personalidade do Bot| 3 |
+| T11 - Criar Termo de Abertura do Projeto | 8 |
+| T12 - Criar EAP | 5 |
+| T13 - Iniciar documento Arquitetura | 8 |
+| T14 - Criar o Canvas| 3 |
+| T15 - Definir Backlog| 8 |
+| T16 - Criar o RoadMap dos papéis| 1 |
+| T17 - Documentar <i>sprint</i>| 1 |
 

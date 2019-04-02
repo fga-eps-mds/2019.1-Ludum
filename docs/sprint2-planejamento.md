@@ -32,7 +32,7 @@
 
 ## 2. Planejamento das Histórias
 
-<p align = "justify"> Texto </p>
+<p align = "justify"> O planejamento das histórias foi feito de acordo com as tarefas completadas na <i>sprint</i> anterior. Porém, devido a grande carga de trabalhos em cima dos integrantes, a <i>sprint</i> terá baixa pontuação</p>
 
 
 ## 3. Tarefas da _Sprint_
