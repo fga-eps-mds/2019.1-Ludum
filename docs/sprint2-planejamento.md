@@ -6,7 +6,7 @@
 
 **Duração**: Uma semana
 
-**Pontos Planejados**: 39
+**Pontos Planejados**: 40
 -------
 
 [1. Papéis](#1-papéis)
@@ -32,15 +32,15 @@
 
 ## 2. Planejamento das Histórias
 
-<p align = "justify"> O planejamento das histórias foi feito de acordo com as tarefas completadas na <i>sprint</i> anterior. Porém, devido a grande carga de trabalhos em cima dos integrantes, a <i>sprint</i> terá baixa pontuação</p>
+<p align = "justify"> O planejamento das histórias foi feito de acordo com as tarefas completadas na <i>sprint</i> anterior. Porém, devido a grande carga de trabalhos em cima dos integrantes, a <i>sprint</i> terá menor pontuação e essa será melhor dividida entre as equipes</p>
 
 
 ## 3. Tarefas da _Sprint_
 
 ### 3.1. Planejadas
 
-Tarefas|Pontos
---|:--:
+|Tarefas|Pontos|
+|--|:--:|
 | Configurar Docker | 8 |
 | Realizar Protótipo de Alta fidelidade | 5 |
 | Fazer definição metodológica | 3 |
@@ -48,5 +48,5 @@ Tarefas|Pontos
 | Estudar microserviços | 5 |
 | Aprimorar documento de arquitetura| 8 |
 | Criar Burndown dos riscos | 5 |
-
+| Documentar <i>sprint</i> | 1 |
 
