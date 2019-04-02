@@ -1,15 +1,15 @@
 # Histórico de Versão
 
  **Data** | **Versão** | **Descrição** | **Autor(es)**
-|:----:|:------:|:---------:|:-----:|
-| 27/03/19 | 0.1 | <p align="justify">Abertura do Documento de Visão</p> | MDS (Todos) |
-| 28/04/19 | 0.3 | <p align="justify">Construção do Documento de Visão</p> | MDS (Todos) |
-| 28/03/19 | 0.4 | <p align="justify">Construção do Documento de Visão</p> | Wictor Girardi, João de Assis |
-| 29/03/19 | 0.5 | <p align="justify">Formatação em markdown e revisão</p> | Wictor Girardi |
-| 30/03/19 | 0.6 | <p align="justify">Revisão e mudanças</p> | Lucas Ganda, Wictor Girardi, João Pedro Correia |
-| 31/03/19 | 0.7 | <p align="justify">Revisão do documento</p> | Wictor Girardi |
-| 01/04/19 | 0.8 | <p align="justify">Formatação do documento</p> | Lucas Ganda, João de Assis |
-| 01/04/19 | 0.9 | <p align="justify">Pequenas correções no documento</p> | Lucas Ganda, João de Assis |
+:----:|:------:|:---------:|:-----:
+ 27/03/19 | 0.1 | <p align="justify">Abertura do Documento de Visão</p> | MDS (Todos) 
+ 28/04/19 | 0.3 | <p align="justify">Construção do Documento de Visão</p> | MDS (Todos) 
+ 28/03/19 | 0.4 | <p align="justify">Construção do Documento de Visão</p> | Wictor Girardi, João de Assis 
+ 29/03/19 | 0.5 | <p align="justify">Formatação em markdown e revisão</p> | Wictor Girardi 
+ 30/03/19 | 0.6 | <p align="justify">Revisão e mudanças</p> | Lucas Ganda, Wictor Girardi, João Pedro Correia 
+ 31/03/19 | 0.7 | <p align="justify">Revisão do documento</p> | Wictor Girardi 
+ 01/04/19 | 0.8 | <p align="justify">Formatação do documento</p> | Lucas Ganda, João de Assis 
+ 01/04/19 | 0.9 | <p align="justify">Pequenas correções no documento</p> | Lucas Ganda, João de Assis 
 
 # 1. Introdução
 
