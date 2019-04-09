@@ -6,8 +6,8 @@
 
 **Pontos Concluídos:** 56
 
-Tarefas | Status
---|--
+| Tarefas | Status |
+|--|--|
 | T07 | Concluída |
 | T08 | Concluída |
 | T09 | Concluída |

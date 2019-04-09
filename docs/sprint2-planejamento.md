@@ -9,13 +9,13 @@
 **Pontos Planejados**: 40
 -------
 
-[1. Papéis](#1-papéis)
+[1. Papéis](#_1-papéis)
 
-[2. Planejamento das Histórias](#2-planejamento-das-historias)
+[2. Planejamento das Histórias](#_2-planejamento-das-historias)
 
-[3. Tarefas da _Sprint_](#3-tarefas-da-sprint)  
+[3. Tarefas da _Sprint_](#_3-tarefas-da-sprint)  
 
-  * [3.1. Planejadas](#31-planejadas)
+  * [3.1. Planejadas](#_31-planejadas)
 
 -------
 
@@ -41,12 +41,12 @@
 
 |Tarefas|Pontos|
 |--|:--:|
-| Configurar Docker | 8 |
-| Realizar Protótipo de Alta fidelidade | 5 |
-| Fazer definição metodológica | 3 |
-| Definição da identidade visual | 5 |
-| Estudar microserviços | 5 |
-| Aprimorar documento de arquitetura| 8 |
-| Criar Burndown dos riscos | 5 |
-| Documentar <i>sprint</i> | 1 |
+| T19 - Configurar Docker | 8 |
+| T20 - Realizar Protótipo de Alta fidelidade | 5 |
+| T21 - Fazer definição metodológica | 3 |
+| T22 - Definição da identidade visual | 5 |
+| S04 - Estudar microserviços | 5 |
+| T23 - Aprimorar documento de arquitetura| 8 |
+| T24 - Criar Burndown dos riscos | 5 |
+| T18 - Documentar <i>sprint</i> | 1 |
 

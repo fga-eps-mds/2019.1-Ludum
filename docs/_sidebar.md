@@ -4,6 +4,8 @@
 - [Estrutura Analítica do Projeto (EAP)](/EAP.md)
 - [Descrição da metodologia](/descricao-metodologia.md)
 - [Personalidade do Ludum](/personalidade-ludum.md)
+- [Rich Picture](/rich-picture.md)
+- [Brainstorm](/brainstorm.md)
 - [Backlog](/backlog.md)
 - [NFR](/nfr.md)
 - [Canvas](/canvas.md)
