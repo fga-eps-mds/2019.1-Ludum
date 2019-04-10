@@ -13,6 +13,7 @@
 - [Documento de Arquitetura](/documento-de-arquitetura.md)
 - [Tutorial Git](/tutorial-git.md)
 - [Roadmap dos Papéis](/roadmap-dos-papeis.md)
+- [Folha de Estilo](/folha-de-estilo.md)
 ## Sobre o projeto
 - [Como contribuir?](/contribuindo.md)
 - [Membros da equipe](membros.md)
