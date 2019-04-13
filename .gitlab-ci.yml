@@ -5,7 +5,7 @@ stages:
   - build
   
 variables:
-  LUDUM_LATEST_IMAGE: $CI_REGISTRY_IMAGE/ludum:latest
+  LUDUM_LATEST_IMAGE: $CI_REGISTRY_IMAGE/ludum
 
 test:
   image: ejplatform/python:alpine
