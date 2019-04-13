@@ -3,6 +3,7 @@ image: python:3.6-slim
 stages:
   - test
   - build
+  - build-dev
   
 variables:
   LUDUM_LATEST_IMAGE: $CI_REGISTRY_IMAGE/ludum:latest
