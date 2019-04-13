@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+    ludum:
+        build: .
+        ports:
+            - 8080:8080
+        tty: true
+        volumes:
+            - .:/2019.1-Ludum

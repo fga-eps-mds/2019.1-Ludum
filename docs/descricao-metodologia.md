@@ -51,7 +51,7 @@
 - <p align="justify">Programação em pares: Programação realizada em duplas onde, normalmente, o integrante com mais domínio sobre determinada área é colocado em um pareamento com outro que possua um menor conhecimento;
 - <p align="justify">Refatoração e Padronização: Utilização de folha de estilo para padronização do código, bem como refatorações constantes para melhoria do mesmo.
 
-# 5. Documento base
+## 5. Documento base
 
 <p align="justify">Esse documento foi baseado na descrição de metodologigia do projeto <a href=https://github.com/2018-2-Desenho/CabecaVoleiJoelhoPe/wiki/Descri%C3%A7%C3%A3o-da-metodologia> Cabeça Vôlei Joelho e Pé</a>.
 
