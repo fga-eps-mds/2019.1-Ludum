@@ -7,27 +7,9 @@ stages:
 variables:
   LUDUM_LATEST_IMAGE: $CI_REGISTRY_IMAGE/ludum:latest
 
-.cache: &cache
-  cache:
-    key: "$CI_BUILD_REF_NAME"
-    paths:
-      - venv/
-      - .pip
-
-.prepare_tests_dependencies: &tests_dependencies
-  before_script:
-    - python -V
-    - pip install virtualenv
-    - virtualenv venv
-    - source venv/bin/activate
-    - mkdir -p .pip
-    - pip --cache-dir=.pip install -r requirements.txt
-    - echo $CI_PROJECT_DIR 
-
 test:
+  image: ejplatform/python:alpine
   stage: test
-  <<: *cache
-  <<: *tests_dependencies
   script:
     - flake8 
 
