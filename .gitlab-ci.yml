@@ -26,7 +26,6 @@ build:
     - docker push $LUDUM_LATEST_IMAGE
   only:
     - /master/
-  environment: production
 
 build-dev:
   stage: build
