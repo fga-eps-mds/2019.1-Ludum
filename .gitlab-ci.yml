@@ -31,13 +31,6 @@ test:
   script:
     - flake8 
 
-test cache:
-  stage: test_again
-  <<: *cache
-  script:
-    - source venv/bin/activate
-    - flake8 --exclude venv beatiful_python.py
-
 build:
   stage: build
   image: docker:latest
