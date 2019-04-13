@@ -1,0 +1,66 @@
+image: python:3.6-slim
+
+stages:
+  - test
+  - build
+  
+variables:
+  LUDUM_LATEST_IMAGE: $CI_REGISTRY_IMAGE/ludum:latest
+
+.cache: &cache
+  cache:
+    key: "$CI_BUILD_REF_NAME"
+    paths:
+      - venv/
+      - .pip
+
+.prepare_tests_dependencies: &tests_dependencies
+  before_script:
+    - python -V
+    - pip install virtualenv
+    - virtualenv venv
+    - source venv/bin/activate
+    - mkdir -p .pip
+    - pip --cache-dir=.pip install -r requirements.txt
+    - echo $CI_PROJECT_DIR 
+
+test:
+  stage: test
+  <<: *cache
+  <<: *tests_dependencies
+  script:
+    - flake8 
+
+test cache:
+  stage: test_again
+  <<: *cache
+  script:
+    - source venv/bin/activate
+    - flake8 --exclude venv beatiful_python.py
+
+build:
+  stage: build
+  image: docker:latest
+  services:
+    - docker:dind
+  script:
+    - docker login -u $DOCKER_USER -p $DOCKER_PASS
+
+    - docker build -f Dockerfile -t $LUDUM_LATEST_IMAGE .
+    - docker push $LUDUM_LATEST_IMAGE
+  only:
+    - /master/
+  environment: production
+
+build-dev:
+  stage: build
+  image: docker:latest
+  services:
+    - docker:dind
+  script:
+    - docker login -u $DOCKER_USER -p $DOCKER_PASS
+
+    - docker build -f Dockerfile -t $LUDUM_LATEST_IMAGE .
+    - docker push $LUDUM_LATEST_IMAGE
+  only:
+    - /development/
