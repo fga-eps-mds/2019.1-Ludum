@@ -3,7 +3,6 @@ image: python:3.6-slim
 stages:
   - test
   - build
-  - build-dev
   
 variables:
   LUDUM_LATEST_IMAGE: $CI_REGISTRY_IMAGE/ludum:latest
@@ -35,7 +34,7 @@ build-dev:
   script:
     - docker login -u $DOCKER_USER -p $DOCKER_PASS
 
-    - docker build -f Dockerfile -t $LUDUM_LATEST_IMAGE .
-    - docker push $LUDUM_LATEST_IMAGE
+    - docker build -f Dockerfile -t $LUDUM_LATEST_IMAGE:dev .
+    - docker push $LUDUM_LATEST_IMAGE:dev
   only:
     - /development/
