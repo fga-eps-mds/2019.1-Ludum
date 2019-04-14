@@ -25,7 +25,7 @@
 <html>
 <ul>
 <li> FAQ: <i>frequently asked questions</i></li>
-<li> MDS: Método de D</li>
+<li> MDS: Método de Desenvolvimento de Software</li>
 <li> API: <i>Application Programming Interface </i></li>
 <li> DB: Banco de Dados, <i>DataBase</i> </li>
 
@@ -69,7 +69,7 @@ Estrutura do documento:
 
 <p align="justify">&emsp;&emsp; A existência de um diálogo é de grande importância pro contexto do bot, que por possuir características de <i>Machine Learning</i> e <i> Artificial Intelligence</i>  consegue melhorar suas conversas, para sempre manter o diálogo correto e apropriado com o usuário.</p>
 
-<p  align="justify">&emsp;&emsp;O Rasa Core é um dos componentes importantes dentro da arquitetura do Bot, em associação ao Rasa Core, existe outro componente tecnológico atrelado ao ChatBot: <i>Rasa NLU</i>, que trabalha com o processamento natural de linguagem e, a partir dela, o desenvolvedor abre portas relacionadas ao processamento de texto que o permitem criar um ambiente de comunicação mais interativo e humano, podendo assim criar uma comunicação mais fluída e dinâmica com o usuário.</p>
+<p  align="justify">&emsp;&emsp;O Rasa Core é um dos componentes importantes dentro da arquitetura do Bot. Em associação a ele. Existe outro componente tecnológico atrelado ao ChatBot: <i>Rasa NLU</i>, que trabalha com o processamento natural de linguagem e, a partir dela, o desenvolvedor abre portas relacionadas ao processamento de texto que o permitem criar um ambiente de comunicação mais interativo e humano, podendo assim criar uma comunicação mais fluída e dinâmica com o usuário.</p>
 
 <p align="justify">&emsp;&emsp;A utilização da tecnologia no desenvolvimento de um ChatBot permite a implementação de uma comunicação mais humanizada, permitindo assim uma maior interatividade com o usuário. Com o tempo, a interação com o usuário permitirá ao programa um treinamento dele mesmo para melhor se comunicar com o exterior. Este é o principal objetivo da utilização do <i>Rasa NLU</i> para o processamento de linguagem do projeto em questão.</p>
 <p  align="justify">&emsp;&emsp;Algumas dos principais benefícios da tecnologia são:</p>
@@ -103,6 +103,7 @@ Estrutura do documento:
 <html>
 <ul>
 <li> Aplicativo Telegram para interação </li>
+<li>API StackExchange</li>
 </ul>
 </html>
 <p align="justify">&emsp;&emsp;Além de tais serviços, também existe a integração de um painel para a análise de dados relativos às métricas associadas no Backlog de produto.</p>
@@ -114,7 +115,7 @@ Estrutura do documento:
 <p  align="justify">&emsp;&emsp;<i>Telegram Messenger</i> é um aplicativo de comunicação e bate-papo serviço de mensagens instantâneas baseadas em nuvens. O aplicativo dá liberdade para seus usuários desenvolvedores implementarem diferentes funcionalidades e <i>bots</i>, a partir de sua API.</p>
 
 
-<p  align="justify">&emsp;&emsp;A <i>API</i> dessa plataforma será as pontes de comunicação com o usuário. A partir da implementação e integração do código-fonte com o <i>Rasa NLU</i>, o Telegram irá interagir com o usuário, recebendo suas mensagens e respondendo apropriadamente.</p>
+<p  align="justify">&emsp;&emsp;A <i>API</i> dessa plataforma será a ponte de comunicação com o usuário. A partir da implementação e integração do código-fonte com o <i>Rasa NLU</i>, o Telegram irá interagir com o usuário, recebendo suas mensagens e respondendo apropriadamente.</p>
 
 ### 2.2.2 Python Telegram Bot 
 <p align=”justify”>&emsp;&emsp;<i>Bots</i> do Telegram são contas simples, controladas e operadas por software que faz uso de algumas tecnologias como a inteligência artificial e <i>machine learning</i> para desenvolver e executar suas funcionalidades, como por exemplo, ensinar, pesquisar, conectar, integrar com outras plataformas e ambientes ou até mesmo passar informações para a Internet de acordo com sua programação.</p>
@@ -150,13 +151,13 @@ Estrutura do documento:
 * Captação de dados do Banco de Dados <i>MongoDB</i> - Ludum MDB 
 * Organizar e listar as perguntas mais frequentes- Ludum FAQ
 * Desenvolvimento da IA e personalidade do bot <i>Rasa </i>
-* <i>Webcrawler</i> do StackOverflow - <i>WebCrawler SO</i>
+* <i>API do StackExchange</i> - StackOverflow<i></i>
 
-&emsp;&emsp;Além disso, temos o core do projeto, que apesar da relevância, uma suposta falha não afeta o funcionamento dos demais serviços existes. O Ludum, tem a capacidade de fazer, atualmente, uma integração com o mensageiro Telegram, buscando realizar uma comunicação de forma mais natural e entendível, fazendo uso das tecnologias de inteligência artificial para compreensão de linguagem natural e integrando com demais serviços que fornecem informações para o Bot tratar adequadamente.
+&emsp;&emsp;Na verdade, caso o core do sistema falha, todos os outros serviços serão afetados. São criados microsserviços justamente para caso de algum falhar, não afetar um outro. O Ludum, tem a capacidade de fazer, atualmente, uma integração com o mensageiro Telegram, buscando realizar uma comunicação de forma mais natural e entendível, fazendo uso das tecnologias de inteligência artificial para compreensão de linguagem natural e integrando com demais serviços que fornecem informações para o Bot tratar adequadamente.
 </p>
 
 
-<p align="justify">&emsp;&emsp;A respeito da estrutura geral do banco associado ao WebCrawler SO, temos a seguinte diagramação:</p>
+<p align="justify">&emsp;&emsp;A respeito da estrutura geral do banco associado individualmente a cada microsserviço</p>
 
 ### 2.3.1  Ludum FAQ
 
@@ -191,8 +192,9 @@ Estrutura do documento:
 <ul>
 
 <li> Disponibilizar um fluxo de conversa com o usuário a fim de atender/suprir as dúvidas em relação à procedimentos voltados ao desenvolvimento de jogos em Python. </li>
-<li> Fornecer aos usuários links e dicas de como configurar seu ambiente </li>
-<li>Fornecer ao usuário uma maneira de executar seus códigos em uma ferramenta externa.</li>
+<li> Fornecer aos usuários links e dicas de como configurar seu ambiente. </li>
+<li>O Ludum deverá ensinar ao usuário a criar jogos em diferentes níveis de dificuldades. </li>
+
 
 </ul>
 </html>
