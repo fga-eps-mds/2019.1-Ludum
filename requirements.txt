@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 python==3.7
 requests==0.11.1
+=======
+flake8==3.7.7
+>>>>>>> ed5e31ae8d995c8567a19d7312a1bdae067be015
