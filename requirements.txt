@@ -1,1 +1,4 @@
+python==3.7
+requests==0.11.1
 flake8==3.7.7
+
