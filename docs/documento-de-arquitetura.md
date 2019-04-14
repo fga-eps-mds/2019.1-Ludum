@@ -153,7 +153,7 @@ Estrutura do documento:
 * Desenvolvimento da IA e personalidade do bot <i>Rasa </i>
 * <i>API do StackExchange</i> - StackOverflow<i></i>
 
-&emsp;&emsp;Na verdade, caso o core do sistema falha, todos os outros serviços serão afetados. São criados microsserviços justamente para caso de algum falhar, não afetar um outro. O Ludum, tem a capacidade de fazer, atualmente, uma integração com o mensageiro Telegram, buscando realizar uma comunicação de forma mais natural e entendível, fazendo uso das tecnologias de inteligência artificial para compreensão de linguagem natural e integrando com demais serviços que fornecem informações para o Bot tratar adequadamente.
+&emsp;&emsp;Além disso, temos o core do projeto, que apesar da relevância, uma suposta falha não afeta o funcionamento dos demais serviços existes. O Ludum, tem a capacidade de fazer, atualmente, uma integração com o mensageiro Telegram, buscando realizar uma comunicação de forma mais natural e entendível, fazendo uso das tecnologias de inteligência artificial para compreensão de linguagem natural e integrando com demais serviços que fornecem informações para o Bot tratar adequadamente.
 </p>
 
 
