@@ -11,33 +11,33 @@ fh.setFormatter(formatter)
 logger.addHandler(fh)
 
 # Criar o bot
-token = open('tolken.txt', 'r').read()
+token = open('token.txt', 'r').read()
 ludumBot = telebot.TeleBot(token)
 
 # Texto de inicio
 
 inicio_string = []
 inicio_string.append("Olá, eu sou o Ludum! :D\n" +
-                     "Vou te mostrar tudo que sei sobre"
-                     "desenvolvimento de jogos em Python!\n" +
+                     "Vou te mostrar tudo que sei sobre "
+                     " desenvolvimento de jogos em Python!\n" +
                      "Mas antes, jovem padawan, devo te fazer uma pergunta:"
-                     "Você já conhece minhas funcionalidades?")
+                     " Você já conhece minhas funcionalidades?")
 
 menu_string = []
-menu_string.append("1)Tutorial: Vamos construir um jogo juntos!" +
-                   "Vou te ensinar sobre o desenvolvimento de jogos"
+menu_string.append("1) Tutorial: Vamos construir um jogo juntos!" +
+                   " Vou te ensinar sobre o desenvolvimento de jogos"
                    "em Python desde as partes mais básicas" +
-                   "e quando você perceber já estará"
-                   "jogando seu próprio jogo!\n" +
-                   "2)Ambiente: "
+                   " e quando você perceber já estará"
+                   " jogando seu próprio jogo!\n" +
+                   "2) Ambiente: "
                    "Irei te auxiliar a preparar todo"
-                   "seu ambiente de desenvolvimento"
+                   " seu ambiente de desenvolvimento"
                    "com os programas adequados.\n" +
-                   "3)FAQ: Tentarei sanar todas as duvidas"
-                   "que você pode vir a ter.\n" +
-                   "4)Materiais e links: "
+                   "3) FAQ: Tentarei sanar todas as duvidas"
+                   " que você pode vir a ter.\n" +
+                   "4) Materiais e links: "
                    "Tentarei te enviar links e materiais que"
-                   "possam ser utéis para você.\n" +
+                   " possam ser utéis para você.\n" +
                    "Começar com o que, devemos?")
 
 
