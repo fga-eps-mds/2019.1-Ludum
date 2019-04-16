@@ -11,6 +11,7 @@
 - [Tutorial Git](/tutorial-git.md)
 - [Roadmap dos Papéis](/roadmap-dos-papeis.md)
 - [Folha de Estilo](/folha-de-estilo.md)
+- [Git Flow](/git-flow.md)
 ## Elicitação
 - [Brainstorm](/brainstorm.md)
 - [Rich Picture](/rich-picture.md)
