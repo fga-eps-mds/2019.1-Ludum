@@ -8,6 +8,7 @@ RUN pip install rasa_nlu[tensorflow]
 
 RUN pip install pymongo
 RUN pip install requests
+RUN pip install flake8
 
 RUN mkdir /2019.1-Ludum
 

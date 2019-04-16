@@ -1,20 +1,5 @@
-# Histórico de Versão
-
- **Data** | **Versão** | **Descrição** | **Autor(es)**
----|---|---|---
-01/04/2019| 0.1| Criação da versão 1 do Backlog| Gabriela, Guilherme e Lucas Lermen
-01/04/2019| 0.2| Pontuação e definição de novas histórias - Versão 1| Toda equipe
-11/04/2019| 0.3| Adicionando nova história e criando versão 2| Gabriela Moraes
-
-## Sumário
-
-1. [Versão 2](#_1-versão-2)
-2. [Versão 1](#_2-versão-1)
-
-
 # **Backlog do Produto**
-
-## 1. **Versão 2**
+## **Versão 1**
 ### **Épico Sobre o Ludum**
 
 #### Feature 01 - Apresentar o Ludum e seu objetivo
@@ -80,9 +65,5 @@ TS07| <p align="justify">Eu, como desenvolvedor, desejo pesquisar a dúvida do u
 :---:|:---|:---:|:---:
 TS08| <p align="justify">Eu, como desenvolvedor, desejo criar um jogo de baixa complexidade para elaborar o tutorial</p>| Média| 13
 TS09| <p align="justify">Eu, como desenvolvedor, desejo criar um jogo de complexidade um pouco mais alta para elaborar o tutorial</p>| Média| 13
-US13| <p align="justify">Eu, como usuário, desejo selecionar a complexidade do jogo em que receberei auxílio</p>| Média | 2 
-US14| <p align="justify">Eu, como usuário, desejo aprender a criar um jogo de baixa complexidade</p>| Baixa| 13
-US15| <p align="justify">Eu, como usuário, desejo aprender a criar um jogo de complexidade um pouco mais alta</p>| Baixa| 13
-
-## 2. **Versão 1**
-- [Versão 1 do Backlog](/backlog-versao1.md)
+US13| <p align="justify">Eu, como usuário, desejo aprender a criar um jogo de baixa complexidade</p>| Baixa| 13
+US14| <p align="justify">Eu, como usuário, desejo aprender a criar um jogo de complexidade um pouco mais alta</p>| Baixa| 13
