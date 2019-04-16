@@ -11,7 +11,7 @@
 
 [1. Papéis](#_1-papéis)
 
-[2. Planejamento das Histórias](#_2-planejamento-das-historias)
+[2. Planejamento das tarefas](#_2-planejamento-das-tarefas)
 
 [3. Tarefas da _Sprint_](#_3-tarefas-da-sprint)  
 
@@ -30,7 +30,7 @@
 **Arquiteto de Software**: Lucas Penido
 
 
-## 2. Planejamento das Histórias
+## 2. Planejamento das tarefas
 
 <p align = "justify"> O planejamento das histórias foi feito de acordo com as tarefas completadas na <i>sprint</i> anterior. Porém, devido a grande carga de trabalhos em cima dos integrantes, a <i>sprint</i> terá menor pontuação e essa será melhor dividida entre as equipes</p>
 
