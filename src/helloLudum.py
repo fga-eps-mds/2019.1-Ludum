@@ -4,7 +4,7 @@ import logging
 # log settings
 logger = logging.getLogger('log')
 logger.setLevel(logging.INFO)
-fh = logging.FileHandler('someTestBot.log')
+fh = logging.FileHandler('ludumLog.log')
 fh.setLevel(logging.DEBUG)
 formatter = logging.Formatter("%(asctime)s | %(levelname)-7s | %(message)s")
 fh.setFormatter(formatter)
