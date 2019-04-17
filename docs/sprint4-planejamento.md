@@ -48,8 +48,8 @@
 | US05 - Eu, como usuário, desejo compreender mais sobre o tópico de resolução de dúvidas  | 5 |
 | US06 - Eu, como usuário, desejo compreender sobre a funcionalidade de auxílio no desenvolvimento jogos | 5 |
 | US07 - Eu, como usuário, desejo que o Ludum pergunte sobre o meu ambiente de desenvolvimento | 5 |
-| Finalizar documento de arquitetura | 8 |
-| Atualizar README| 3 |
-| Criar Manual Identidade Visual(MIV)| 3 |
-| Documentar Sprint | 1 |
+| T30 - Documentar Sprint | 1 |
+| T31 - Criar Manual da Identidade Visual(MIV) | 3 |
+| T32 - Adequar repositório às recomendações da comunidade| 3 |
+| T33- Finalizar documento de arquitetura | 8 |
 
