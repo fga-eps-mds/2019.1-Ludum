@@ -1,4 +1,5 @@
-## Documentos
+## _**Documentos**_
+
 - [<i>Sprints</i>](/sprints.md)
 - [Termo de Abertura do Projeto](/termo-de-abertura-do-projeto.md)
 - [Estrutura Analítica do Projeto (EAP)](/EAP.md)
@@ -10,13 +11,14 @@
 - [Documento de Arquitetura](/documento-de-arquitetura.md)
 - [Tutorial Git](/tutorial-git.md)
 - [Folha de Estilo](/folha-de-estilo.md)
-## Elicitação
+- [Git Flow](/git-flow.md)
+## _**Elicitação**_  
 - [Brainstorm](/brainstorm.md)
 - [Rich Picture](/rich-picture.md)
 - [NFR](/nfr.md)
-## RoadMaps
+## _**RoadMaps**_ 
 - [Roadmap dos Papéis](/roadmap-dos-papeis.md)
 - [Roadmap do Produto](/roadmap-produto.md)
-## Sobre o projeto
+## _**Sobre o projeto**_
 - [Como contribuir?](/contribuindo.md)
 - [Membros da equipe](membros.md)
