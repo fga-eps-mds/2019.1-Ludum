@@ -2,3 +2,4 @@ token.txt
 someTestBot.log
 runtime.txt
 .DS_Store
+/.vscode
