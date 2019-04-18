@@ -6,7 +6,7 @@
 
 **Duração**: Uma semana
 
-**Pontos Planejados**: 40
+**Pontos Planejados**: 45
 
 -------
 
@@ -43,6 +43,7 @@
 
 |Tarefas|Pontos|
 |-|:--:|
+| TS01 - Eu, como desenvolvedor, desejo modelar o banco de dados.| 5 |
 | US03 - Eu, como usuário, desejo ver informações acerca do tutorial de instalação do PyGame| 5 |
 | US04 - Eu, como usuário, desejo saber mais a disponibilização de materiais | 5 |
 | US05 - Eu, como usuário, desejo compreender mais sobre o tópico de resolução de dúvidas  | 5 |
