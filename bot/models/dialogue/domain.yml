@@ -35,24 +35,24 @@ slots: {}
 templates:
   utter_cumprimentar:
   - text: "Olá, eu sou o Ludum! :D\n 
-           Vou te mostrar tudo que sei sobre
+           Vou te mostrar tudo que sei sobre 
            desenvolvimento de jogos em Python!\n 
            Mas antes, jovem padawan, devo te fazer uma pergunta:
            Você já conhece minhas funcionalidades?\n
-           1)Tutorial: Vamos construir um jogo juntos!
+           1) Tutorial: Vamos construir um jogo juntos! 
            Vou te ensinar sobre o desenvolvimento de jogos
            em Python desde as partes mais básicas 
            e quando você perceber já estará
            jogando seu próprio jogo!\n 
-           2)Ambiente: 
+           2) Ambiente: 
            Irei te auxiliar a preparar todo
            seu ambiente de desenvolvimento
            com os programas adequados.\n 
-           3)FAQ: Tentarei sanar todas as duvidas
+           3) FAQ: Tentarei sanar todas as duvidas
            que você pode vir a ter.\n 
-           4)Materiais e links: 
+           4) Materiais e links: 
            Tentarei te enviar links e materiais que
-           possam ser utéis para você.\n 
+           possam ser utéis para você.\n  
            Começar com o que, devemos?"
   utter_default:
   - text: "Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender\

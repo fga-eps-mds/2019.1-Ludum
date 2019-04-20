@@ -1,10 +1,59 @@
 version: '3'
 
 services:
-    ludum:
-        build: .
-        ports:
-            - 8080:8080
-        tty: true
-        volumes:
-            - .:/2019.1-Ludum
+  mongo:
+    image: mongo:3.2
+    restart: unless-stopped
+    volumes:
+      - ./data/db:/data/db
+    command: mongod --smallfiles --oplogSize 128
+
+  # ================================= Bot =====================================
+  bot:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    restart: unless-stopped
+    environment:
+      - MAX_TYPING_TIME=8
+      - MIN_TYPING_TIME=1
+      - WORDS_PER_SECOND_TYPING=10
+      # Should be set to 'production' or 'beta' or 'dev'
+      - ENVIRONMENT_NAME=localhost
+      # Last commit hash using this command: git rev-parse HEAD
+      - BOT_VERSION=last-commit-hash
+
+    ports:
+      - 5005:5005
+      - 5002:5002
+    depends_on:
+      - actions
+    volumes:
+      - ./bot:/bot
+      - ./scripts:/scripts
+
+  actions:
+    build:
+      context: .
+      dockerfile: ./docker/actions.Dockerfile
+    ports:
+      - 5050:5050
+    volumes:
+      - ./bot/actions:/bot/actions
+      - ./bot/Makefile:/bot/Makefile
+    command: sh -c "make run-actions"
+
+  # ============================ Telegram Ludum =================================
+  telegram_bot:
+      build:
+        context: .
+        dockerfile: ./docker/Dockerfile
+      ports:
+        - 5001:5001
+      depends_on:
+        - actions
+      volumes: 
+        - ./bot:/bot
+        - ./scripts:/scripts
+      command: sh -c "make run-telegram"
+      
