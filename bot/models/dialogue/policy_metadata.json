@@ -1,0 +1,44 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": []
+    },
+    "utter_despedir": {
+      "slots": []
+    },
+    "utter_time": {
+      "slots": []
+    },
+    "utter_tudo_bem": {
+      "slots": []
+    },
+    "utter_default": {
+      "slots": []
+    },
+    "action_test": {
+      "slots": []
+    },
+    "utter_star_wars": {
+      "slots": []
+    },
+    "utter_cumprimentar": {
+      "slots": []
+    }
+  },
+  "python": "3.6.8",
+  "max_histories": [
+    null,
+    null,
+    2
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy"
+  ],
+  "trained_at": "20190420-212203",
+  "rasa_core": "0.13.1",
+  "tensorflow": "1.12.2",
+  "sklearn": "0.20.3"
+}

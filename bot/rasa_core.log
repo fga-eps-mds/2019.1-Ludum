@@ -1,0 +1,492 @@
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Available web server routes: 
+static                                             GET, HEAD, OPTIONS             /static/[filename]
+custom_webhook_CmdlineInput.health                 GET, HEAD, OPTIONS             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                POST, OPTIONS                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'oi' with intent '{'name': 'cumprimentar', 'confidence': 0.9017601609230042}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+
+Current tracker state [{}, {'intent_cumprimentar': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '8'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_cumprimentar' with prob 1.00.
+Action 'utter_cumprimentar' ended with events '[]'
+Bot utterance 'BotUttered(text: Oi, eu sou um bot, um assistente virtual!
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_cumprimentar': 1.0, 'prev_action_listen': 1.0}, {'intent_cumprimentar': 1.0, 'prev_utter_cumprimentar': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'tudo bem?' with intent '{'name': 'tudo_bem', 'confidence': 0.9280351400375366}' and entities '[]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+
+Current tracker state [{'intent_cumprimentar': 1.0, 'prev_utter_cumprimentar': 1.0}, {'prev_action_listen': 1.0, 'intent_tudo_bem': 1.0}]
+There is a memorised next action '10'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_tudo_bem' with prob 1.00.
+Action 'utter_tudo_bem' ended with events '[]'
+Bot utterance 'BotUttered(text: Tudo bem, obrigada! Em que posso te ajudar?
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_action_listen': 1.0, 'intent_tudo_bem': 1.0}, {'prev_utter_tudo_bem': 1.0, 'intent_tudo_bem': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'vai se fuder' with intent '{'name': 'cumprimentar', 'confidence': 0.6709365248680115}' and entities '[]'
+Logged UserUtterance - tracker now has 10 events
+Current slot values: 
+
+Current tracker state [{'prev_utter_tudo_bem': 1.0, 'intent_tudo_bem': 1.0}, {'intent_cumprimentar': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '8'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_cumprimentar' with prob 1.00.
+Action 'utter_cumprimentar' ended with events '[]'
+Bot utterance 'BotUttered(text: Oi, eu sou um bot, um assistente virtual!
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_cumprimentar': 1.0, 'prev_action_listen': 1.0}, {'intent_cumprimentar': 1.0, 'prev_utter_cumprimentar': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Available web server routes: 
+static                                             GET, HEAD, OPTIONS             /static/[filename]
+custom_webhook_CmdlineInput.health                 GET, HEAD, OPTIONS             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                POST, OPTIONS                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'oi' with intent '{'name': 'cumprimentar', 'confidence': 0.9017601609230042}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+
+Current tracker state [{}, {'prev_action_listen': 1.0, 'intent_cumprimentar': 1.0}]
+There is a memorised next action '8'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_cumprimentar' with prob 1.00.
+Action 'utter_cumprimentar' ended with events '[]'
+Bot utterance 'BotUttered(text: Oi, eu sou um bot, um assistente virtual!
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_action_listen': 1.0, 'intent_cumprimentar': 1.0}, {'prev_utter_cumprimentar': 1.0, 'intent_cumprimentar': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Available web server routes: 
+static                                             HEAD, GET, OPTIONS             /static/[filename]
+custom_webhook_CmdlineInput.health                 HEAD, GET, OPTIONS             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                POST, OPTIONS                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'oi' with intent '{'name': 'cumprimentar', 'confidence': 0.9017601609230042}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+
+Current tracker state [{}, {'prev_action_listen': 1.0, 'intent_cumprimentar': 1.0}]
+There is a memorised next action '8'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_cumprimentar' with prob 1.00.
+Action 'utter_cumprimentar' ended with events '[]'
+Bot utterance 'BotUttered(text: Oi, eu sou um bot, um assistente virtual!
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_action_listen': 1.0, 'intent_cumprimentar': 1.0}, {'prev_utter_cumprimentar': 1.0, 'intent_cumprimentar': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'tudo bem' with intent '{'name': 'tudo_bem', 'confidence': 0.9280351400375366}' and entities '[]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+
+Current tracker state [{'prev_utter_cumprimentar': 1.0, 'intent_cumprimentar': 1.0}, {'prev_action_listen': 1.0, 'intent_tudo_bem': 1.0}]
+There is a memorised next action '10'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_tudo_bem' with prob 1.00.
+Action 'utter_tudo_bem' ended with events '[]'
+Bot utterance 'BotUttered(text: Tudo bem, obrigada! Em que posso te ajudar?
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_action_listen': 1.0, 'intent_tudo_bem': 1.0}, {'prev_utter_tudo_bem': 1.0, 'intent_tudo_bem': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'nada' with intent '{'name': 'linguagens', 'confidence': 0.795387864112854}' and entities '[]'
+Logged UserUtterance - tracker now has 10 events
+Current slot values: 
+
+Current tracker state [{'prev_utter_tudo_bem': 1.0, 'intent_tudo_bem': 1.0}, {'prev_action_listen': 1.0, 'intent_linguagens': 1.0}]
+There is a memorised next action '16'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_linguagens' with prob 1.00.
+Action 'utter_linguagens' ended with events '[]'
+Bot utterance 'BotUttered(text: E isso lá é linguagem de programação!? kkk
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_action_listen': 1.0, 'intent_linguagens': 1.0}, {'prev_utter_linguagens': 1.0, 'intent_linguagens': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Available web server routes: 
+static                                             HEAD, GET, OPTIONS             /static/[filename]
+custom_webhook_CmdlineInput.health                 HEAD, GET, OPTIONS             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                POST, OPTIONS                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'oi' with intent '{'name': 'cumprimentar', 'confidence': 0.9017601609230042}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+
+Current tracker state [{}, {'prev_action_listen': 1.0, 'intent_cumprimentar': 1.0}]
+There is a memorised next action '8'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_cumprimentar' with prob 1.00.
+Action 'utter_cumprimentar' ended with events '[]'
+Bot utterance 'BotUttered(text: Oi, eu sou um bot, um assistente virtual!
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_action_listen': 1.0, 'intent_cumprimentar': 1.0}, {'prev_utter_cumprimentar': 1.0, 'intent_cumprimentar': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'tudo bem' with intent '{'name': 'tudo_bem', 'confidence': 0.9280351400375366}' and entities '[]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+
+Current tracker state [{'prev_utter_cumprimentar': 1.0, 'intent_cumprimentar': 1.0}, {'intent_tudo_bem': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '10'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_tudo_bem' with prob 1.00.
+Action 'utter_tudo_bem' ended with events '[]'
+Bot utterance 'BotUttered(text: Tudo bem, obrigada! Em que posso te ajudar?
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_tudo_bem': 1.0, 'prev_action_listen': 1.0}, {'intent_tudo_bem': 1.0, 'prev_utter_tudo_bem': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Available web server routes: 
+static                                             GET, OPTIONS, HEAD             /static/[filename]
+custom_webhook_CmdlineInput.health                 GET, OPTIONS, HEAD             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                POST, OPTIONS                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Available web server routes: 
+static                                             GET, OPTIONS, HEAD             /static/[filename]
+custom_webhook_CmdlineInput.health                 GET, OPTIONS, HEAD             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                POST, OPTIONS                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'oi' with intent '{'name': 'cumprimentar', 'confidence': 0.9017601609230042}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+
+Current tracker state [{}, {'intent_cumprimentar': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '8'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_cumprimentar' with prob 1.00.
+Action 'utter_cumprimentar' ended with events '[]'
+Bot utterance 'BotUttered(text: Oi, eu sou um bot, um assistente virtual!
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_cumprimentar': 1.0, 'prev_action_listen': 1.0}, {'intent_cumprimentar': 1.0, 'prev_utter_cumprimentar': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Available web server routes: 
+static                                             HEAD, OPTIONS, GET             /static/[filename]
+custom_webhook_CmdlineInput.health                 HEAD, OPTIONS, GET             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                OPTIONS, POST                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'oi' with intent '{'name': 'cumprimentar', 'confidence': 0.9017601609230042}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+
+Current tracker state [{}, {'intent_cumprimentar': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '8'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_cumprimentar' with prob 1.00.
+Action 'utter_cumprimentar' ended with events '[]'
+Bot utterance 'BotUttered(text: Oi, eu sou um bot, um assistente virtual!
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_cumprimentar': 1.0, 'prev_action_listen': 1.0}, {'intent_cumprimentar': 1.0, 'prev_utter_cumprimentar': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Available web server routes: 
+static                                             HEAD, OPTIONS, GET             /static/[filename]
+custom_webhook_CmdlineInput.health                 HEAD, OPTIONS, GET             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                POST, OPTIONS                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'oi' with intent '{'name': 'cumprimentar', 'confidence': 0.9017601609230042}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+
+Current tracker state [{}, {'prev_action_listen': 1.0, 'intent_cumprimentar': 1.0}]
+There is a memorised next action '8'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_cumprimentar' with prob 1.00.
+Action 'utter_cumprimentar' ended with events '[]'
+Bot utterance 'BotUttered(text: Oi, eu sou um bot, um assistente virtual!
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_action_listen': 1.0, 'intent_cumprimentar': 1.0}, {'prev_utter_cumprimentar': 1.0, 'intent_cumprimentar': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Available web server routes: 
+static                                             HEAD, GET, OPTIONS             /static/[filename]
+custom_webhook_CmdlineInput.health                 HEAD, GET, OPTIONS             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                POST, OPTIONS                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'oi' with intent '{'name': 'cumprimentar', 'confidence': 0.9017601609230042}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+
+Current tracker state [{}, {'intent_cumprimentar': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '8'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_cumprimentar' with prob 1.00.
+Action 'utter_cumprimentar' ended with events '[]'
+Bot utterance 'BotUttered(text: Oi, eu sou um bot, um assistente virtual!
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_cumprimentar': 1.0, 'prev_action_listen': 1.0}, {'intent_cumprimentar': 1.0, 'prev_utter_cumprimentar': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'tudo bem' with intent '{'name': 'tudo_bem', 'confidence': 0.9280351400375366}' and entities '[]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+
+Current tracker state [{'intent_cumprimentar': 1.0, 'prev_utter_cumprimentar': 1.0}, {'intent_tudo_bem': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '10'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_tudo_bem' with prob 1.00.
+Action 'utter_tudo_bem' ended with events '[]'
+Bot utterance 'BotUttered(text: Tudo bem, obrigada! Em que posso te ajudar?
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_tudo_bem': 1.0, 'prev_action_listen': 1.0}, {'intent_tudo_bem': 1.0, 'prev_utter_tudo_bem': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'gesd' with intent '{'name': None, 'confidence': 0.0}' and entities '[]'
+Logged UserUtterance - tracker now has 10 events
+Current slot values: 
+
+NLU confidence 0.0 is lower than NLU threshold 0.6. 
+Current tracker state [{'intent_tudo_bem': 1.0, 'prev_utter_tudo_bem': 1.0}, {'prev_action_listen': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_FallbackPolicy
+Predicted next action 'action_default_fallback' with prob 1.00.
+Action 'action_default_fallback' ended with events '['UserUtteranceReverted()']'
+Bot utterance 'BotUttered(text: Hummmm... Não sei se entendi. Pode escrever de outra forma?
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_tudo_bem': 1.0, 'prev_action_listen': 1.0}, {'intent_tudo_bem': 1.0, 'prev_utter_tudo_bem': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Available web server routes: 
+static                                             OPTIONS, GET, HEAD             /static/[filename]
+custom_webhook_CmdlineInput.health                 OPTIONS, GET, HEAD             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                OPTIONS, POST                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'oi' with intent '{'name': 'cumprimentar', 'confidence': 0.9017601609230042}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+
+Current tracker state [{}, {'prev_action_listen': 1.0, 'intent_cumprimentar': 1.0}]
+There is a memorised next action '8'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_cumprimentar' with prob 1.00.
+Action 'utter_cumprimentar' ended with events '[]'
+Bot utterance 'BotUttered(text: Oi, eu sou um bot, um assistente virtual!
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_action_listen': 1.0, 'intent_cumprimentar': 1.0}, {'prev_utter_cumprimentar': 1.0, 'intent_cumprimentar': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Available web server routes: 
+static                                             GET, HEAD, OPTIONS             /static/[filename]
+custom_webhook_CmdlineInput.health                 GET, HEAD, OPTIONS             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                OPTIONS, POST                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'oi' with intent '{'name': 'cumprimentar', 'confidence': 0.9017601609230042}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+
+Current tracker state [{}, {'intent_cumprimentar': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '8'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_cumprimentar' with prob 1.00.
+Action 'utter_cumprimentar' ended with events '[]'
+Bot utterance 'BotUttered(text: Oi, eu sou um bot, um assistente virtual!
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_cumprimentar': 1.0, 'prev_action_listen': 1.0}, {'intent_cumprimentar': 1.0, 'prev_utter_cumprimentar': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Webhook Setup Successful
+Rasa Core server is up and running on http://localhost:5001
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Webhook Setup Successful
+Rasa Core server is up and running on http://localhost:5001
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Webhook Setup Successful
+Rasa Core server is up and running on http://localhost:5001
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Webhook Setup Successful
+Rasa Core server is up and running on http://localhost:5001
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Webhook Setup Successful
+Rasa Core server is up and running on http://localhost:5001
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Webhook Setup Successful
+Rasa Core server is up and running on http://localhost:5001
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Webhook Setup Successful
+Rasa Core server is up and running on http://localhost:5001
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Webhook Setup Successful
+Rasa Core server is up and running on http://localhost:5001
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Webhook Setup Successful
+Rasa Core server is up and running on http://localhost:5001
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Webhook Setup Successful
+Rasa Core server is up and running on http://localhost:5001
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Webhook Setup Successful
+Rasa Core server is up and running on http://localhost:5001
+Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=5.0)",)': /bot892768743:AAEFQVhtSEUlYAGDlNkD0OnEv6Wi5j_127c/getMe
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt

@@ -1,0 +1,81 @@
+%YAML 1.1
+---
+actions:
+- utter_default
+- utter_cumprimentar
+- utter_despedir
+- utter_tudo_bem
+- utter_time
+- utter_star_wars
+- action_test
+config:
+  store_entities_as_slots: true
+entities:
+- time
+- starwars
+forms: []
+intents:
+- cumprimentar:
+    use_entities: true
+- despedir:
+    use_entities: true
+- out_of_scope:
+    use_entities: true
+- negar:
+    use_entities: true
+- tudo_bem:
+    use_entities: true
+- time:
+    use_entities: true
+- star_wars:
+    use_entities: true
+- action_test:
+    use_entities: true
+slots: {}
+templates:
+  utter_cumprimentar:
+  - text: "Olá, eu sou o Ludum! :D\n 
+           Vou te mostrar tudo que sei sobre
+           desenvolvimento de jogos em Python!\n 
+           Mas antes, jovem padawan, devo te fazer uma pergunta:
+           Você já conhece minhas funcionalidades?\n
+           1)Tutorial: Vamos construir um jogo juntos!
+           Vou te ensinar sobre o desenvolvimento de jogos
+           em Python desde as partes mais básicas 
+           e quando você perceber já estará
+           jogando seu próprio jogo!\n 
+           2)Ambiente: 
+           Irei te auxiliar a preparar todo
+           seu ambiente de desenvolvimento
+           com os programas adequados.\n 
+           3)FAQ: Tentarei sanar todas as duvidas
+           que você pode vir a ter.\n 
+           4)Materiais e links: 
+           Tentarei te enviar links e materiais que
+           possam ser utéis para você.\n 
+           Começar com o que, devemos?"
+  utter_default:
+  - text: "Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender\
+      \ direito\nVocê pode perguntar de novo de outro jeito?\n"
+  - text: "Hummmm... Não sei se entendi. Pode escrever de outra forma?\n"
+  - text: "Acho que não te entendi, você pode me perguntar de novo usando outras palavras?\n"
+  - text: "Vamos tentar mais uma vez? Eu não consegui te entender direito, me pergunta\
+      \ de outro jeito?\n"
+  utter_despedir:
+  - text: "Foi um prazer te ajudar!\nSempre que tiver alguma dúvida, volte aqui!\n\
+      Até logo!\n"
+  - text: "Foi um prazer te ajudar!\nSempre que precisar, volte aqui!\nAté a próxima!\n"
+  - text: "Foi um prazer te ajudar!\nQuando surgir alguma dúvida, volte aqui!\nAté\
+      \ mais!\n"
+  utter_star_wars:
+  - text: "O medo é o caminho para o lado negro.\n"
+  - text: "O medo leva à raiva, a raiva leva ao ódio e o ódio leva ao sofrimento.\n"
+  - text: "Que a Força esteja com você!\n"
+  - text: "Grande guerreiro? Guerra não faz grande ninguém.\n"
+  - text: "Lembre-se sempre, o seu foco determina a sua realidade.\n"
+  - text: "Muito a aprender você ainda tem.\n"
+  utter_time:
+  - text: "Flamengo, sem sombra de dúvida\n"
+  - text: "Melhor time do mundo disparado, Flamengooo!!!!\n"
+  utter_tudo_bem:
+  - text: "Tudo bem, obrigada! Em que posso te ajudar?\n"
