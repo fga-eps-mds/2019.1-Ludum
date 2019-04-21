@@ -2,7 +2,8 @@ version: '3'
 
 services:
 
-  rasa:
+  ludum:
+    image: guilhermesiqueira/ludum:latest
     build:
       context: .
       dockerfile: ./Dockerfile

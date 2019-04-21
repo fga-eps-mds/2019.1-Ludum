@@ -7,11 +7,16 @@ ADD ./docker/actions.requirements.txt /tmp/
 RUN pip install --upgrade pip && \
     pip install -r /tmp/actions.requirements.txt
 
-ADD ./rasa/actions/actions.py /rasa/actions/actions.py
-ADD ./rasa/Makefile /rasa/Makefile
+# ADD ./rasa/actions/actions.py /rasa/actions/actions.py
+# ADD ./rasa/Makefile /rasa/Makefile
 
-WORKDIR rasa/
+RUN mkdir /2019.1-Ludum
 
+ADD . /2019.1-Ludum
+
+WORKDIR /2019.1-Ludum/rasa
+
+# WORKDIR rasa/
 EXPOSE 5055
 HEALTHCHECK --interval=300s --timeout=60s --retries=5 \
   CMD curl -f http://0.0.0.0:5055/health || exit 1
