@@ -14,7 +14,7 @@ RUN pip install pymongo
 
 ADD . /2019.1-Ludum
 
-WORKDIR /bot
+WORKDIR /rasa
 
 ENV TRAINING_EPOCHS=20                     \
     MAX_TYPING_TIME=10                     \

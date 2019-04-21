@@ -2,8 +2,7 @@ version: '3'
 
 services:
 
-  # ================================= Bot =====================================
-  bot:
+  rasa:
     build:
       context: .
       dockerfile: ./Dockerfile
@@ -23,7 +22,7 @@ services:
     depends_on:
       - actions
     volumes:
-      - ./bot:/bot
+      - ./rasa:/rasa
 
   actions:
     build:
@@ -32,11 +31,10 @@ services:
     ports:
       - 5050:5050
     volumes:
-      - ./bot/actions:/bot/actions
-      - ./bot/Makefile:/bot/Makefile
+      - ./rasa/actions:/rasa/actions
+      - ./rasa/Makefile:/rasa/Makefile
     command: sh -c "make run-actions"
 
-  # ============================ Telegram Ludum =================================
   telegram_bot:
       build:
         context: .
@@ -46,6 +44,6 @@ services:
       depends_on:
         - actions
       volumes: 
-        - ./bot:/bot
+        - ./rasa:/rasa
       command: sh -c "make run-telegram"
       
