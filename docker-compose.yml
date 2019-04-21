@@ -1,18 +1,12 @@
 version: '3'
 
 services:
-  mongo:
-    image: mongo:3.2
-    restart: unless-stopped
-    volumes:
-      - ./data/db:/data/db
-    command: mongod --smallfiles --oplogSize 128
 
   # ================================= Bot =====================================
   bot:
     build:
       context: .
-      dockerfile: ./docker/Dockerfile
+      dockerfile: ./Dockerfile
     restart: unless-stopped
     environment:
       - MAX_TYPING_TIME=8
@@ -30,7 +24,6 @@ services:
       - actions
     volumes:
       - ./bot:/bot
-      - ./scripts:/scripts
 
   actions:
     build:
@@ -47,13 +40,12 @@ services:
   telegram_bot:
       build:
         context: .
-        dockerfile: ./docker/Dockerfile
+        dockerfile: ./Dockerfile
       ports:
         - 5001:5001
       depends_on:
         - actions
       volumes: 
         - ./bot:/bot
-        - ./scripts:/scripts
       command: sh -c "make run-telegram"
       
