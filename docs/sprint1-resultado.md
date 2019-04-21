@@ -54,7 +54,7 @@
 ![](./imagens/quadroconhecimento-sprint1.png)
 
 
-## 2. Análise do _Scrum Master_
+## 2. Análise do _Tech Leader_
 
 <p align = "justify">A presente <i>sprint</i> era de extremo risco devido à sua alta pontuação(56 pontos) e à elaboração de documentos chave para o projeto.
 

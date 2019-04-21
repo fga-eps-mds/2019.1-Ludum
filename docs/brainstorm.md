@@ -4,6 +4,6 @@
 ---|---|---|---
 26/03/2019 | 0.1 | Reunião de brainstorm | Todos (EPS)
 
-# Canvas do Projeto
+# Brainstorm do Projeto
 
 ![](./imagens/brainstorm.jpg)

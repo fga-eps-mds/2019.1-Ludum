@@ -51,7 +51,7 @@
 
 ![](./imagens/quadroconhecimento-sprint2.png)
 
-## 2. Análise do _Scrum Master_
+## 2. Análise do _Tech Leader_
 
 <p align = "justify">A presente <i>sprint</i> foi pontuada em 40 pontos e desses foram entregues 27.
 

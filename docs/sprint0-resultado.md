@@ -45,7 +45,7 @@
 
 ![](./imagens/quadroconhecimento-sprint0)
 
-## 2. Análise do _Scrum Master_
+## 2. Análise do _Tech Leader_
 
 <p align = "justify">Devido ao fato de ser uma primeira experiência da equipe de MDS relacionada às práticas ágeis, alguns rituais ficaram comprometidos. Porém, durante a <i>sprint</i> os membros foram se acostumando e a adaptação à esses rituaisprints ocorreu naturalmente.
 

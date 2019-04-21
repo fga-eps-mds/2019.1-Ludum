@@ -13,7 +13,7 @@
 
 [1. Papéis](#_1-papéis)
 
-[2. Planejamento das Histórias](#_2-planejamento-das-historias)
+[2. Planejamento das tarefas](#_2-planejamento-das-tarefas)
 
 [3. Tarefas da _Sprint_](#_3-tarefas-da-sprint)  
 
@@ -32,7 +32,7 @@
 **Arquiteto de Software**: Lucas Penido
 
 
-## 2. Planejamento
+## 2. Planejamento das tarefas
 
 <p align = "justify"> O planejamento das histórias foi feito de acordo com as necessidades iniciais do projeto. Isso resultou em histórias relacionadas à organização das equipes e treinamentos acerca de assuntos necessários ao projeto, como na criação de <i>Spikes</i> para que a equipe de MDS pudesse ter uma introdução ao GitHub e às práticas ágeis.</p>
 

@@ -13,7 +13,7 @@
 
 [1. Papéis](#_1-papéis)
 
-[2. Planejamento das Histórias](#_2-planejamento-das-historias)
+[2. Planejamento das tarefas](#_2-planejamento-das-tarefas)
 
 [3. Tarefas da _Sprint_](#_3-tarefas-da-sprint)  
 
@@ -31,7 +31,7 @@
 
 **Arquiteto de Software**: Lucas Penido
 
-## 2. Planejamento
+## 2. Planejamento das tarefas
 
 <p align = "justify"> O planejamento das histórias foi feito de acordo com a definição do escopo do projeto realizada na <i>sprint</i> anterior. Isso resultou em tarefas relacionadas à criação de documentos para melhor compreensão acerca desse projeto, bem como algumas já visando às tecnologias que serão posteriormente usadas. </p>
 <p align = "justify">À definição do escopo abriu um grande número de possibilidades, o que acabou por resultar em uma  <i>sprint</i> com uma pontuação elevada, causando o risco da impossibilidade da conclusão de algumas tarefas.</p>
