@@ -48,8 +48,8 @@ build-action:
   script:
     - docker login -u $DOCKER_USER -p $DOCKER_PASS
 
-    - docker build -f action.Dockerfile -t $LUDUM-ACTION_LATEST_IMAGE .
-    - docker push $LUDUM-ACTION_LATEST_IMAGE:latest
+    - docker build -f action.Dockerfile -t $LUDUM_ACTION_LATEST_IMAGE .
+    - docker push $LUDUM_ACTION_LATEST_IMAGE:latest
   only:
     - /master/
 
@@ -61,7 +61,7 @@ build-action-dev:
   script:
     - docker login -u $DOCKER_USER -p $DOCKER_PASS
 
-    - docker build -f action.Dockerfile -t $LUDUM-ACTION_LATEST_IMAGE .
-    - docker push $LUDUM-ACTION_LATEST_IMAGE:dev
+    - docker build -f action.Dockerfile -t $LUDUM_ACTION_LATEST_IMAGE .
+    - docker push $LUDUM_ACTION_LATEST_IMAGE:dev
   only:
     - /development/
