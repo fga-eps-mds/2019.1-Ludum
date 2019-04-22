@@ -12,9 +12,9 @@
 * tudo_bem
     - utter_tudo_bem
 
-## materiais
-* informacao_materiais
-    - utter_informacao_materiais
+## tutorial
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
 
 ## fallback
 * out_of_scope

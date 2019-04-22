@@ -4,7 +4,7 @@ intents:
   - out_of_scope
   - negar
   - tudo_bem
-  - informacao_materiais
+  - informacao_desenvolvimento
   - time
   - star_wars
 
@@ -53,11 +53,16 @@ templates:
     - text: |
           Tudo bem, obrigada! Em que posso te ajudar?
 
-  utter_informacao_materiais:
+  utter_informacao_desenvolvimento:
     - text: |
-          Olá, jovem Padawan! :D
-          Vou te mostrar tudo que sei sobre desenvolvimento de jogos em Python com links de materiais úteis que podem melhorar seu conhecimento para te ajudar a se tornar um verdadeiro Mestre na criação de jogos com PyGame.
-          Mas antes, jovem padawan, devo te fazer uma pergunta::Você prefere videos explicativos ou textos?
+          Muito bom, jovem Padawan!!
+          Vou te mostrar o tutorial de como desenvolver e criar seu jogo em Python com diferentes dificuldades.
+          Quando perceber você já ser um Meister dos jogos!
+          Porém, antes de começar devo te fazer uma pergunta.
+          Você quer começar por qual dificuldade?
+          Fácil
+          Médio
+          Dificil
 
   utter_time:
     - text: |
@@ -90,7 +95,7 @@ actions:
   - utter_cumprimentar
   - utter_despedir
   - utter_tudo_bem
-  - utter_informacao_materiais
+  - utter_informacao_desenvolvimento
   - utter_time
   - utter_star_wars
   - action_test

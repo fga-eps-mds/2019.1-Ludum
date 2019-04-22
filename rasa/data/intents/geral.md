@@ -23,22 +23,17 @@
 - obrigado
 - obj
 
-## intent:informacao_materiais
-- link
-- material
-- materiais
-- quero materiais
-- quero links
-- me envie materiais
-- me envie links
-- quais links você pode me mandar?
-- quais materiais você pode me mandar?
-- voce pode me enviar links?
-- voce pode me enviar materiais?
-- quais materiais voce tem?
-- quais links voce tem?
-- links uteis
-- materiais uteis
+## intent:informacao_desenvolvimento
+- tutorial
+- tutorial jogos
+- tutorial jogo
+- quero construir um jogo
+- me mostre o tutorial
+- me ensine a fazer um jogo
+- como fazer um jogo?
+- quero fazer um jogo
+- como fazer um jogo em python?
+- quero fazer um jogo em python
 
 ## intent:cumprimentar
 - oi, tudo bem

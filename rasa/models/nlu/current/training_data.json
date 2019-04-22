@@ -86,64 +86,44 @@
         "text": "obj"
       },
       {
-        "intent": "informacao_materiais",
-        "text": "link"
+        "intent": "informacao_desenvolvimento",
+        "text": "tutorial"
       },
       {
-        "intent": "informacao_materiais",
-        "text": "material"
+        "intent": "informacao_desenvolvimento",
+        "text": "tutorial jogos"
       },
       {
-        "intent": "informacao_materiais",
-        "text": "materiais"
+        "intent": "informacao_desenvolvimento",
+        "text": "tutorial jogo"
       },
       {
-        "intent": "informacao_materiais",
-        "text": "quero materiais"
+        "intent": "informacao_desenvolvimento",
+        "text": "quero construir um jogo"
       },
       {
-        "intent": "informacao_materiais",
-        "text": "quero links"
+        "intent": "informacao_desenvolvimento",
+        "text": "me mostre o tutorial"
       },
       {
-        "intent": "informacao_materiais",
-        "text": "me envie materiais"
+        "intent": "informacao_desenvolvimento",
+        "text": "me ensine a fazer um jogo"
       },
       {
-        "intent": "informacao_materiais",
-        "text": "me envie links"
+        "intent": "informacao_desenvolvimento",
+        "text": "como fazer um jogo?"
       },
       {
-        "intent": "informacao_materiais",
-        "text": "quais links você pode me mandar?"
+        "intent": "informacao_desenvolvimento",
+        "text": "quero fazer um jogo"
       },
       {
-        "intent": "informacao_materiais",
-        "text": "quais materiais você pode me mandar?"
+        "intent": "informacao_desenvolvimento",
+        "text": "como fazer um jogo em python?"
       },
       {
-        "intent": "informacao_materiais",
-        "text": "voce pode me enviar links?"
-      },
-      {
-        "intent": "informacao_materiais",
-        "text": "voce pode me enviar materiais?"
-      },
-      {
-        "intent": "informacao_materiais",
-        "text": "quais materiais voce tem?"
-      },
-      {
-        "intent": "informacao_materiais",
-        "text": "quais links voce tem?"
-      },
-      {
-        "intent": "informacao_materiais",
-        "text": "links uteis"
-      },
-      {
-        "intent": "informacao_materiais",
-        "text": "materiais uteis"
+        "intent": "informacao_desenvolvimento",
+        "text": "quero fazer um jogo em python"
       },
       {
         "intent": "cumprimentar",
