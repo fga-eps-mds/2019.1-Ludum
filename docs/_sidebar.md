@@ -12,6 +12,7 @@
 - [Tutorial Git](/tutorial-git.md)
 - [Folha de Estilo](/folha-de-estilo.md)
 - [Git Flow](/git-flow.md)
+- [Manual da Identidade Visual](/miv.md)
 ## _**Elicitação**_  
 - [Brainstorm](/brainstorm.md)
 - [Rich Picture](/rich-picture.md)
