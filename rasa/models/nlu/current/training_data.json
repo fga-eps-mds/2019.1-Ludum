@@ -267,18 +267,6 @@
       },
       {
         "intent": "cumprimentar",
-        "text": "posso falar com voce"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "pode me tirar uma duvida"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "gostaria de tirar uma duvida"
-      },
-      {
-        "intent": "cumprimentar",
         "text": "to bem"
       },
       {
@@ -328,10 +316,6 @@
       {
         "intent": "cumprimentar",
         "text": "ola boa tarde"
-      },
-      {
-        "intent": "negar",
-        "text": "não sei onde a minha pergunta se encaixa"
       },
       {
         "intent": "negar",
@@ -392,10 +376,6 @@
       {
         "intent": "negar",
         "text": "falei errado"
-      },
-      {
-        "intent": "negar",
-        "text": "duvida"
       },
       {
         "intent": "negar",

@@ -30,9 +30,6 @@
 - como vao as coisas
 - com licenca
 - tudo bom
-- posso falar com voce
-- pode me tirar uma duvida
-- gostaria de tirar uma duvida
 - to bem
 - tranquilo
 - estou bem
@@ -48,7 +45,6 @@
 - ola boa tarde
 
 ## intent:negar
-- não sei onde a minha pergunta se encaixa
 - nao quero saber mais
 - quero falar sobre outra coisa
 - não quero saber de mais nada
@@ -64,7 +60,6 @@
 - não quero
 - escolhi errado
 - falei errado
-- duvida
 - ainda não sei
 - nenhum
 
