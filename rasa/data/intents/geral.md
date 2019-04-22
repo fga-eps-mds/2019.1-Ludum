@@ -1,5 +1,4 @@
 ## intent:out_of_scope
-- Você fala sobre o meio ambiente?
 - Qual a origem do mundo?
 - Você tem signo?
 - Vc gosta de carnaval?
@@ -79,3 +78,22 @@
 - Tudo bem e você
 - como vc esta
 - como vai
+
+## intent:informacao_ambiente
+- ambiente
+- me ajude a configurar o ambiente
+- o que preciso para começar
+- me ajude a instalar o python
+- qual versao do python
+- qual ide eu deveria usar
+- como instalar a pygame
+- em qual sistema eu deveria estar
+
+## intent:informacao_ambiente_sistema
+- macos
+- sistema
+- qual sistema devo usar
+- windows
+- linux
+- mac
+

@@ -20,6 +20,13 @@
 * negar
     - utter_despedir
 
+## informacao ambiente 
+* informacao_ambiente
+    - utter_informacao_ambiente 
+
+## informacao ambiente-sistema
+* informacao_ambiente_sistema
+    - utter_informacao_ambiente_sistema
 
 
 ## path 1

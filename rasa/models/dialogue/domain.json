@@ -3,6 +3,8 @@
     "intent_action_test",
     "intent_cumprimentar",
     "intent_despedir",
+    "intent_informacao_ambiente",
+    "intent_informacao_ambiente_sistema",
     "intent_negar",
     "intent_out_of_scope",
     "intent_star_wars",
@@ -21,6 +23,8 @@
     "prev_utter_cumprimentar",
     "prev_utter_despedir",
     "prev_utter_tudo_bem",
+    "prev_utter_informacao_ambiente",
+    "prev_utter_informacao_ambiente_sistema",
     "prev_utter_time",
     "prev_utter_star_wars",
     "prev_action_test"
