@@ -1,10 +1,50 @@
 version: '3'
 
 services:
-    ludum:
-        build: .
-        ports:
-            - 8080:8080
-        tty: true
-        volumes:
-            - .:/2019.1-Ludum
+
+  ludum:
+    image: guilhermesiqueira/ludum:latest
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    restart: unless-stopped
+    environment:
+      - MAX_TYPING_TIME=8
+      - MIN_TYPING_TIME=1
+      - WORDS_PER_SECOND_TYPING=10
+      # Should be set to 'production' or 'beta' or 'dev'
+      - ENVIRONMENT_NAME=localhost
+      # Last commit hash using this command: git rev-parse HEAD
+      - BOT_VERSION=last-commit-hash
+
+    ports:
+      - 5005:5005
+      - 5002:5002
+    depends_on:
+      - actions
+    volumes:
+      - ./rasa:/rasa
+
+  actions:
+    build:
+      context: .
+      dockerfile: ./docker/actions.Dockerfile
+    ports:
+      - 5050:5050
+    volumes:
+      - ./rasa/actions:/rasa/actions
+      - ./rasa/Makefile:/rasa/Makefile
+    command: sh -c "make run-actions"
+
+  telegram_bot:
+      build:
+        context: .
+        dockerfile: ./Dockerfile
+      ports:
+        - 5001:5001
+      depends_on:
+        - actions
+      volumes: 
+        - ./rasa:/rasa
+      command: sh -c "make run-telegram"
+      
