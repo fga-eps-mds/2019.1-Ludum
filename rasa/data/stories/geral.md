@@ -21,6 +21,9 @@
     - utter_despedir
 
 
+## informacao duvidas
+* informacao_duvidas
+    - utter_informacao_duvidas
 
 ## path 1
 * cumprimentar

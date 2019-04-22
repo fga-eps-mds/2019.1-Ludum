@@ -68,6 +68,19 @@
 - ainda não sei
 - nenhum
 
+## intent:informacao_duvidas
+- Como voce pode responder uma duvida?
+- Voce consegue me tirar uma duvida?
+- Como você pode responder minha pergunta?
+- Me tira uma duvida?
+- Como posso te fazer uma pergunta?
+- Você pode responder minhas questões?
+- Você consegue responder minha pergunta?
+- Você consegue tirar minha duvida?
+- Duvida
+- Tenho uma duvida
+
+
 ## intent:tudo_bem
 - Tudo bem
 - Como vocês estao

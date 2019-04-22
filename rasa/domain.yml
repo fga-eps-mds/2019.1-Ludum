@@ -4,7 +4,7 @@ intents:
   - out_of_scope
   - negar
   - tudo_bem
-
+  - informacao_duvidas
   - time
   - star_wars
 
@@ -78,13 +78,22 @@ templates:
 
     - text: |
         Muito a aprender você ainda tem.
+  utter_informacao_duvidas: 
+    - text: |
+        Você pode me perguntar tudo que quiser saber sobre o desenvolvimento de jogos em pygame! 
+        As vezes eu posso até não saber sua resposta, mas posso pesquisar no StackOverflow por uma resposta adequada!
+    - text: |
+        Te respondo o que você precisar saber sobre pygame! Mas assim como todo mestre é um eterno aprendiz, eu também não sei de tudo.
+        Mas posso pesquisar no StackOverflow e procurar a resposta mais indicada
+    - text: |
+        Oque deseja saber, jovem padawan? Se eu não souber a resposta posso pesquisar pra você.  
 
 actions:
   - utter_default
   - utter_cumprimentar
   - utter_despedir
   - utter_tudo_bem
-
+  - utter_informacao_duvidas
   - utter_time
   - utter_star_wars
   - action_test
