@@ -4,7 +4,7 @@ intents:
   - out_of_scope
   - negar
   - tudo_bem
-
+  - informacao_materiais
   - time
   - star_wars
 
@@ -53,6 +53,12 @@ templates:
     - text: |
           Tudo bem, obrigada! Em que posso te ajudar?
 
+  utter_informacao_materiais:
+    - text: |
+          Olá, jovem Padawan! :D
+          Vou te mostrar tudo que sei sobre desenvolvimento de jogos em Python com links de materiais úteis que podem melhorar seu conhecimento para te ajudar a se tornar um verdadeiro Mestre na criação de jogos com PyGame.
+          Mas antes, jovem padawan, devo te fazer uma pergunta::Você prefere videos explicativos ou textos?
+
   utter_time:
     - text: |
         Flamengo, sem sombra de dúvida
@@ -84,7 +90,7 @@ actions:
   - utter_cumprimentar
   - utter_despedir
   - utter_tudo_bem
-
+  - utter_informacao_materiais
   - utter_time
   - utter_star_wars
   - action_test

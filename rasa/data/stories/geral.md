@@ -12,6 +12,10 @@
 * tudo_bem
     - utter_tudo_bem
 
+## materiais
+* informacao_materiais
+    - utter_informacao_materiais
+
 ## fallback
 * out_of_scope
     - utter_default
@@ -30,3 +34,4 @@
 ## path 2
 * cumprimentar
         - utter_cumprimentar
+

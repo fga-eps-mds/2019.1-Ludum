@@ -5,6 +5,7 @@ actions:
 - utter_cumprimentar
 - utter_despedir
 - utter_tudo_bem
+- utter_informacao_materiais
 - utter_time
 - utter_star_wars
 - action_test
@@ -24,6 +25,8 @@ intents:
 - negar:
     use_entities: true
 - tudo_bem:
+    use_entities: true
+- informacao_materiais:
     use_entities: true
 - time:
     use_entities: true
@@ -48,6 +51,12 @@ templates:
   - text: "Foi um prazer te ajudar!\nSempre que precisar, volte aqui!\nAté a próxima!\n"
   - text: "Foi um prazer te ajudar!\nQuando surgir alguma dúvida, volte aqui!\nAté\
       \ mais!\n"
+  utter_informacao_materiais:
+  - text: "Olá, jovem Padawan! :D\nVou te mostrar tudo que sei sobre desenvolvimento\
+      \ de jogos em Python com links de materiais úteis que podem melhorar seu conhecimento\
+      \ para te ajudar a se tornar um verdadeiro Mestre na criação de jogos com PyGame.\n\
+      Mas antes, jovem padawan, devo te fazer uma pergunta::Você prefere videos explicativos\
+      \ ou textos?\n"
   utter_star_wars:
   - text: "O medo é o caminho para o lado negro.\n"
   - text: "O medo leva à raiva, a raiva leva ao ódio e o ódio leva ao sofrimento.\n"

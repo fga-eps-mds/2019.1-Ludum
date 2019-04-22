@@ -23,6 +23,23 @@
 - obrigado
 - obj
 
+## intent:informacao_materiais
+- link
+- material
+- materiais
+- quero materiais
+- quero links
+- me envie materiais
+- me envie links
+- quais links você pode me mandar?
+- quais materiais você pode me mandar?
+- voce pode me enviar links?
+- voce pode me enviar materiais?
+- quais materiais voce tem?
+- quais links voce tem?
+- links uteis
+- materiais uteis
+
 ## intent:cumprimentar
 - oi, tudo bem
 - como vai
