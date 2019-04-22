@@ -48,7 +48,7 @@ build-action:
   script:
     - docker login -u $DOCKER_USER -p $DOCKER_PASS
 
-    - docker build -f action.Dockerfile -t $LUDUM-_CTION_LATEST_IMAGE .
+    - docker build -f docker/action.Dockerfile -t $LUDUM-_CTION_LATEST_IMAGE .
     - docker push $LUDUM_ACTION_LATEST_IMAGE:latest
   only:
     - /master/
