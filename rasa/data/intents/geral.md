@@ -85,7 +85,6 @@
 - bom dia flor do dia
 - Tudo bem e você
 - como vc esta
-<<<<<<< HEAD
 - como vai
 
 ## intent:informacao_ambiente
@@ -106,6 +105,4 @@
 - linux
 - mac
 
-=======
 - como vai
->>>>>>> 17bd7c70ed7e2de17c2794b7a5a0d5b6865fed71
