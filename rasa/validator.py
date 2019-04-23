@@ -7,10 +7,6 @@ from os.path import isfile, join
 import argparse
 
 logger = logging.getLogger(__name__)
-<<<<<<< HEAD
-
-=======
->>>>>>> d7acd5ed2c3e4e76485fc4119dd9a3f0c682bd86
 parser = argparse.ArgumentParser()
 
 
