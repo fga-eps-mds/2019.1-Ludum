@@ -20,7 +20,6 @@ def train_dialogue(domain_file,
                                               'validation_split': 0.2, })
 
 
-
 if __name__ == "__main__":
     validate = Validator('domain.yml', 'data/intents', 'data/stories/')
     validate.run_verifications()
