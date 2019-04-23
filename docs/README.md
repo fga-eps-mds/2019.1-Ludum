@@ -1,3 +1,53 @@
-# Ludum
+<p align="center"> <img src="imagens/Ludum_LogoFinal(sem_fundo).png" width="auto" height="400" /> 
+<br>    
+<a href="https://www.gnu.org/licenses/gpl-3.0.pt-br.html"><img src="https://img.shields.io/badge/licence-GPL3-green.svg"/></a> <a href="CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg"></a> </p>
 
-> Projeto das disciplinas de Engenharia de Produto de Software e Método de Desenvolvimento de Software.
+# Ludum - O assistente virtual sobre o PyGame
+
+## Sobre
+<p align="justify">O Ludum é um chatbot que propõe-se a auxiliar em diversos aspectos as pessoas que desejam desenvolver jogos utilizando a biblioteca PyGame.</p>
+
+## Principais funcionalidades
+* **Sobre o Ludum** - o Ludum explicará tudo que ele pode fazer;
+* **Resolução de dúvidas** - o Ludum mostrará as perguntas frequentes relacionadas à PyGame e caso o usuário não encontre ele pesquisará no Stack Overflow;
+* **Configurar ambiente** - o Ludum ensinará como configurar o ambiente;
+* **Recomendação de materiais e links** - o Ludum irá recomendar materiais e links que contribuam ao aprendizado do usuário;
+* **Auxílio na criação de jogos** - o Ludum ensinará como desenvolver jogos com complexidades variadas utilizando a PyGame.
+
+## Tecnologias
+* **Python3** - Linguagem de programação utilizada para codificar o core do bot;
+* **Rasa** - Tecnologia de Inteligência Artificial para o ChatBot;
+* **Flask** -
+* **NodeJS** -
+* **MongoDB** - Banco de dados não relacional utilizado no projeto;
+* **Docker** - Ferramenta para criação e administração de ambientes isolados;
+* **GitLab CI** - Ferramenta responsável pelo integração contínua e deploy contínuo.
+
+## Documentação
+Os arquivos da documentação do projeto estão localizados na pasta `docs` e para visualizá-los basta acessar o nosso GitHub Pages disponível em https://fga-eps-mds.github.io/2019.1-Ludum/#/
+
+## Quero ajudar! Como contribuir?
+<p align="justify"> O guia com todos os passos para contribuir ao Ludum se encontra <a href="https://github.com/fga-eps-mds/2019.1-Ludum/blob/development/CONTRIBUTING.md">aqui</a>.</p>
+
+## Como configurar
+
+## Como instalar
+
+## Como executar o Ludum
+
+## Contribuidores
+### Equipe
+**Nome**|**Papel**| **GitHub**
+:--:|:--:|:--:
+Gabriela Chaves de Moraes| Product Manager| [gabrielademoraes](https://github.com/gabrielademoraes)
+Guilherme Siqueira| DevOps| [guilhermesiqueira](https://github.com/guilhermesiqueira)
+Lucas Lermen| Tech Leader| [LucasLermen](https://github.com/LucasLermen)
+Lucas Penido| Arquiteto de Software| [LucasPenido](https://github.com/LucasPenido)
+Lucas Ganda| Desenvolvedor| [lucasgandac](https://github.com/lucasgandac)
+João de Asssis| Desenvolvedor| [jonjon667](https://github.com/jonjon667)
+João Pedro Correia| Desenvolvedor| [jprcorreia](https://github.com/jprcorreia)
+Thallys Silva Braz| Desenvolvedor| [thallysbraz](https://github.com/thallysbraz)
+Wictor Bastos Girardi| Desenvolvedor| [Wictorgirardi](https://github.com/Wictorgirardi)
+
+## Licença
+<p align="justify"> Esse projeto utiliza a licença GPLv3.0. Para mais informações <a href="https://github.com/fga-eps-mds/2019.1-Ludum/blob/master/LICENSE">clique aqui</a></p>
