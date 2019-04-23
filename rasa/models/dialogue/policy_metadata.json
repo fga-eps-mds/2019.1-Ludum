@@ -3,6 +3,12 @@
     "action_listen": {
       "slots": []
     },
+    "utter_informacao_ambiente": {
+      "slots": []
+    },
+    "action_test": {
+      "slots": []
+    },
     "utter_despedir": {
       "slots": []
     },
@@ -12,7 +18,7 @@
     "utter_informacao_duvidas": {
       "slots": []
     },
-    "action_test": {
+    "utter_informacao_ambiente_sistema": {
       "slots": []
     },
     "utter_cumprimentar": {
@@ -40,7 +46,7 @@
     "rasa_core.policies.fallback.FallbackPolicy",
     "rasa_core.policies.memoization.MemoizationPolicy"
   ],
-  "trained_at": "20190422-125307",
+  "trained_at": "20190422-202743",
   "rasa_core": "0.13.1",
   "tensorflow": "1.12.2",
   "sklearn": "0.20.3"

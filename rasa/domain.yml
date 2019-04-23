@@ -4,6 +4,9 @@ intents:
   - out_of_scope
   - negar
   - tudo_bem
+  - informacao_ambiente
+  - informacao_ambiente_sistema
+
   - informacao_duvidas
   - time
   - star_wars
@@ -31,8 +34,29 @@ templates:
 
   utter_cumprimentar:
     - text: |
-          Oi, eu sou um bot, um assistente virtual!
-
+        Olá, eu sou o Ludum! :D
+         Vou te mostrar tudo que sei sobre 
+         desenvolvimento de jogos em Python!
+         Mas antes, jovem padawan, devo te fazer uma pergunta,
+         Você já conhece minhas funcionalidades?
+         1) Tutorial - 
+         Vamos construir um jogo juntos!
+         Vou te ensinar sobre o desenvolvimento de jogos
+         em Python desde as partes mais básicas
+         e quando você perceber já estará
+         jogando seu próprio jogo!
+         2) Ambiente - 
+         Irei te auxiliar a preparar todo
+         seu ambiente de desenvolvimento
+         com os programas adequados.
+         3) FAQ -  
+         Tentarei sanar todas as duvidas
+         que você pode vir a ter.
+         4) Materiais e links - 
+         Tentarei te enviar links e materiais que
+         possam ser utéis para você.
+         Começar com o que, devemos?
+ 
   utter_despedir:
     - text: |
           Foi um prazer te ajudar!
@@ -51,11 +75,11 @@ templates:
 
   utter_tudo_bem:
     - text: |
-          Tudo bem, obrigada! Em que posso te ajudar?
+          Tudo bem, obrigado! Em que posso te ajudar?
 
   utter_time:
     - text: |
-        Flamengo, sem sombra de dúvida
+        Flamengo, campeão do carioca de 2019 em cima do vasquinho
 
     - text: |
         Melhor time do mundo disparado, Flamengooo!!!!
@@ -88,11 +112,26 @@ templates:
     - text: |
         Oque deseja saber, jovem padawan? Se eu não souber a resposta posso pesquisar pra você.  
 
+  utter_informacao_ambiente_sistema: 
+    - text: |
+        Eu recomento que você use o Linux ou o MacOS, por questões de compabilidade alguns programas
+        que iremos usar funcionam melhor nesses sistemas! Jamais use Windows :)
+
+  utter_informacao_ambiente: 
+    - text: |
+        Para executar o que vamos aprender aqui preciso que você instale algumas coisas antes! 
+        *Para instalar o Python de versão 3.6 no seu computador use o comando $ sudo apt-get install python3.6
+        *Para instalar a IDE VSCODE acesse o site https://code.visualstudio.com/download, é gratuíta!
+        *Para instalar a biblioteca mais importante para nós aqui instale a PyGame com o seguinte comando python3 -m pip install -U pygame --user
+ 
 actions:
   - utter_default
   - utter_cumprimentar
   - utter_despedir
   - utter_tudo_bem
+  - utter_informacao_ambiente
+  - utter_informacao_ambiente_sistema
+
   - utter_informacao_duvidas
   - utter_time
   - utter_star_wars
