@@ -22,6 +22,18 @@
 - obrigado
 - obj
 
+## intent:informacao_desenvolvimento
+- tutorial
+- tutorial jogos
+- tutorial jogo
+- quero construir um jogo
+- me mostre o tutorial
+- me ensine a fazer um jogo
+- como fazer um jogo?
+- quero fazer um jogo
+- como fazer um jogo em python?
+- quero fazer um jogo em python
+
 ## intent:cumprimentar
 - oi, tudo bem
 - como vai

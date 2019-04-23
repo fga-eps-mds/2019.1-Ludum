@@ -4,6 +4,7 @@ intents:
   - out_of_scope
   - negar
   - tudo_bem
+  - informacao_desenvolvimento
   - informacao_ambiente
   - informacao_ambiente_sistema
 
@@ -77,6 +78,17 @@ templates:
     - text: |
           Tudo bem, obrigado! Em que posso te ajudar?
 
+  utter_informacao_desenvolvimento:
+    - text: |
+          Muito bom, jovem Padawan!!
+          Vou te mostrar o tutorial de como desenvolver e criar seu jogo em Python com diferentes dificuldades.
+          Quando perceber você já ser um Meister dos jogos!
+          Porém, antes de começar devo te fazer uma pergunta.
+          Você quer começar por qual dificuldade?
+          Fácil
+          Médio
+          Dificil
+
   utter_time:
     - text: |
         Flamengo, campeão do carioca de 2019 em cima do vasquinho
@@ -129,6 +141,7 @@ actions:
   - utter_cumprimentar
   - utter_despedir
   - utter_tudo_bem
+  - utter_informacao_desenvolvimento
   - utter_informacao_ambiente
   - utter_informacao_ambiente_sistema
 

@@ -5,6 +5,7 @@ actions:
 - utter_cumprimentar
 - utter_despedir
 - utter_tudo_bem
+- utter_informacao_desenvolvimento
 - utter_informacao_ambiente
 - utter_informacao_ambiente_sistema
 - utter_informacao_duvidas
@@ -28,6 +29,7 @@ intents:
     use_entities: true
 - tudo_bem:
     use_entities: true
+- informacao_desenvolvimento:
 - informacao_ambiente:
     use_entities: true
 - informacao_ambiente_sistema:
@@ -65,6 +67,11 @@ templates:
   - text: "Foi um prazer te ajudar!\nSempre que precisar, volte aqui!\nAté a próxima!\n"
   - text: "Foi um prazer te ajudar!\nQuando surgir alguma dúvida, volte aqui!\nAté\
       \ mais!\n"
+  utter_informacao_desenvolvimento:
+  - text: "Muito bom, jovem Padawan!!\nVou te mostrar o tutorial de como desenvolver\
+      \ e criar seu jogo em Python com diferentes dificuldades.\nQuando perceber você\
+      \ já ser um Meister dos jogos!\nPorém, antes de começar devo te fazer uma pergunta.\n\
+      Você quer começar por qual dificuldade?\nFácil\nMédio\nDificil\n"
   utter_informacao_ambiente:
   - text: "Para executar o que vamos aprender aqui preciso que você instale algumas\
       \ coisas antes! \n*Para instalar o Python de versão 3.6 no seu computador use\

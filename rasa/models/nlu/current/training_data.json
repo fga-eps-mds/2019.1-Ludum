@@ -242,6 +242,46 @@
         "text": "obj"
       },
       {
+        "intent": "informacao_desenvolvimento",
+        "text": "tutorial"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "tutorial jogos"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "tutorial jogo"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "quero construir um jogo"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "me mostre o tutorial"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "me ensine a fazer um jogo"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "como fazer um jogo?"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "quero fazer um jogo"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "como fazer um jogo em python?"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "quero fazer um jogo em python"
+      },
+      {
         "intent": "cumprimentar",
         "text": "oi, tudo bem"
       },
@@ -438,8 +478,19 @@
         "text": "como ta"
       },
       {
-        "intent": "tudo_bem",
-        "text": "joia"
+        "text": "joia",
+        "intent": "star_wars",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "guerra nas estrelas",
+            "entity": "starwars"
+          }
+        ]
+      },
+      {"text": "guerra nas estrelas",
+        "intent": "tudo_bem"
       },
       {
         "intent": "tudo_bem",
