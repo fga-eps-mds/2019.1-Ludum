@@ -1,5 +1,4 @@
 ## intent:out_of_scope
-- Você fala sobre o meio ambiente?
 - Qual a origem do mundo?
 - Você tem signo?
 - Vc gosta de carnaval?
@@ -42,9 +41,6 @@
 - como vao as coisas
 - com licenca
 - tudo bom
-- posso falar com voce
-- pode me tirar uma duvida
-- gostaria de tirar uma duvida
 - to bem
 - tranquilo
 - estou bem
@@ -60,7 +56,6 @@
 - ola boa tarde
 
 ## intent:negar
-- não sei onde a minha pergunta se encaixa
 - nao quero saber mais
 - quero falar sobre outra coisa
 - não quero saber de mais nada
@@ -76,9 +71,21 @@
 - não quero
 - escolhi errado
 - falei errado
-- duvida
 - ainda não sei
 - nenhum
+
+## intent:informacao_duvidas
+- Como voce pode responder uma duvida?
+- Voce consegue me tirar uma duvida?
+- Como você pode responder minha pergunta?
+- Me tira uma duvida?
+- Como posso te fazer uma pergunta?
+- Você pode responder minhas questões?
+- Você consegue responder minha pergunta?
+- Você consegue tirar minha duvida?
+- Duvida
+- Tenho uma duvida
+
 
 ## intent:tudo_bem
 - Tudo bem
@@ -90,4 +97,24 @@
 - bom dia flor do dia
 - Tudo bem e você
 - como vc esta
+- como vai
+
+## intent:informacao_ambiente
+- ambiente
+- me ajude a configurar o ambiente
+- o que preciso para começar
+- me ajude a instalar o python
+- qual versao do python
+- qual ide eu deveria usar
+- como instalar a pygame
+- em qual sistema eu deveria estar
+
+## intent:informacao_ambiente_sistema
+- macos
+- sistema
+- qual sistema devo usar
+- windows
+- linux
+- mac
+
 - como vai

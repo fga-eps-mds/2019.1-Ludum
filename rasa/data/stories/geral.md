@@ -24,7 +24,17 @@
 * negar
     - utter_despedir
 
+## informacao ambiente 
+* informacao_ambiente
+    - utter_informacao_ambiente 
 
+## informacao ambiente-sistema
+* informacao_ambiente_sistema
+    - utter_informacao_ambiente_sistema
+
+## informacao duvidas
+* informacao_duvidas
+    - utter_informacao_duvidas
 
 ## path 1
 * cumprimentar
@@ -34,4 +44,3 @@
 ## path 2
 * cumprimentar
         - utter_cumprimentar
-

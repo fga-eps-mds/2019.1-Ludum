@@ -6,6 +6,9 @@ actions:
 - utter_despedir
 - utter_tudo_bem
 - utter_informacao_desenvolvimento
+- utter_informacao_ambiente
+- utter_informacao_ambiente_sistema
+- utter_informacao_duvidas
 - utter_time
 - utter_star_wars
 - action_test
@@ -27,6 +30,10 @@ intents:
 - tudo_bem:
     use_entities: true
 - informacao_desenvolvimento:
+- informacao_ambiente:
+    use_entities: true
+- informacao_ambiente_sistema:
+- informacao_duvidas:
     use_entities: true
 - time:
     use_entities: true
@@ -37,7 +44,16 @@ intents:
 slots: {}
 templates:
   utter_cumprimentar:
-  - text: "Oi, eu sou um bot, um assistente virtual!\n"
+  - text: "Olá, eu sou o Ludum! :D\n Vou te mostrar tudo que sei sobre \n desenvolvimento\
+      \ de jogos em Python!\n Mas antes, jovem padawan, devo te fazer uma pergunta,\n\
+      \ Você já conhece minhas funcionalidades?\n 1) Tutorial - \n Vamos construir\
+      \ um jogo juntos!\n Vou te ensinar sobre o desenvolvimento de jogos\n em Python\
+      \ desde as partes mais básicas\n e quando você perceber já estará\n jogando\
+      \ seu próprio jogo!\n 2) Ambiente - \n Irei te auxiliar a preparar todo\n seu\
+      \ ambiente de desenvolvimento\n com os programas adequados.\n 3) FAQ -  \n Tentarei\
+      \ sanar todas as duvidas\n que você pode vir a ter.\n 4) Materiais e links -\
+      \ \n Tentarei te enviar links e materiais que\n possam ser utéis para você.\n\
+      \ Começar com o que, devemos?\n"
   utter_default:
   - text: "Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender\
       \ direito\nVocê pode perguntar de novo de outro jeito?\n"
@@ -56,6 +72,26 @@ templates:
       \ e criar seu jogo em Python com diferentes dificuldades.\nQuando perceber você\
       \ já ser um Meister dos jogos!\nPorém, antes de começar devo te fazer uma pergunta.\n\
       Você quer começar por qual dificuldade?\nFácil\nMédio\nDificil\n"
+  utter_informacao_ambiente:
+  - text: "Para executar o que vamos aprender aqui preciso que você instale algumas\
+      \ coisas antes! \n*Para instalar o Python de versão 3.6 no seu computador use\
+      \ o comando $ sudo apt-get install python3.6\n*Para instalar a IDE VSCODE acesse\
+      \ o site https://code.visualstudio.com/download, é gratuíta!\n*Para instalar\
+      \ a biblioteca mais importante para nós aqui instale a PyGame com o seguinte\
+      \ comando python3 -m pip install -U pygame --user\n"
+  utter_informacao_ambiente_sistema:
+  - text: "Eu recomento que você use o Linux ou o MacOS, por questões de compabilidade\
+      \ alguns programas\nque iremos usar funcionam melhor nesses sistemas! Jamais\
+      \ use Windows :)\n"
+  utter_informacao_duvidas:
+  - text: "Você pode me perguntar tudo que quiser saber sobre o desenvolvimento de\
+      \ jogos em pygame! \nAs vezes eu posso até não saber sua resposta, mas posso\
+      \ pesquisar no StackOverflow por uma resposta adequada!\n"
+  - text: "Te respondo o que você precisar saber sobre pygame! Mas assim como todo\
+      \ mestre é um eterno aprendiz, eu também não sei de tudo.\nMas posso pesquisar\
+      \ no StackOverflow e procurar a resposta mais indicada\n"
+  - text: "Oque deseja saber, jovem padawan? Se eu não souber a resposta posso pesquisar\
+      \ pra você.  \n"
   utter_star_wars:
   - text: "O medo é o caminho para o lado negro.\n"
   - text: "O medo leva à raiva, a raiva leva ao ódio e o ódio leva ao sofrimento.\n"
@@ -64,7 +100,7 @@ templates:
   - text: "Lembre-se sempre, o seu foco determina a sua realidade.\n"
   - text: "Muito a aprender você ainda tem.\n"
   utter_time:
-  - text: "Flamengo, sem sombra de dúvida\n"
+  - text: "Flamengo, campeão do carioca de 2019 em cima do vasquinho\n"
   - text: "Melhor time do mundo disparado, Flamengooo!!!!\n"
   utter_tudo_bem:
-  - text: "Tudo bem, obrigada! Em que posso te ajudar?\n"
+  - text: "Tudo bem, obrigado! Em que posso te ajudar?\n"

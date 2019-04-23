@@ -7,15 +7,16 @@
       "slots": []
     },
     "utter_tudo_bem": {
-      "slots": []
-    },
-    "utter_time": {
+    "utter_informacao_ambiente": {
       "slots": []
     },
     "utter_despedir": {
       "slots": []
     },
-    "utter_default": {
+    "utter_informacao_duvidas": {
+      "slots": []
+    },
+    "utter_informacao_ambiente_sistema": {
       "slots": []
     },
     "utter_cumprimentar": {
@@ -25,6 +26,10 @@
       "slots": []
     },
     "utter_star_wars": {
+    "utter_time": {
+      "slots": []
+    },
+    "utter_default": {
       "slots": []
     }
   },
