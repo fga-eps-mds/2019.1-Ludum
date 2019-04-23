@@ -7,6 +7,7 @@ actions:
 - utter_tudo_bem
 - utter_informacao_ambiente
 - utter_informacao_ambiente_sistema
+- utter_informacao_duvidas
 - utter_time
 - utter_star_wars
 - action_test
@@ -30,6 +31,7 @@ intents:
 - informacao_ambiente:
     use_entities: true
 - informacao_ambiente_sistema:
+- informacao_duvidas:
     use_entities: true
 - time:
     use_entities: true
@@ -74,6 +76,15 @@ templates:
   - text: "Eu recomento que você use o Linux ou o MacOS, por questões de compabilidade\
       \ alguns programas\nque iremos usar funcionam melhor nesses sistemas! Jamais\
       \ use Windows :)\n"
+  utter_informacao_duvidas:
+  - text: "Você pode me perguntar tudo que quiser saber sobre o desenvolvimento de\
+      \ jogos em pygame! \nAs vezes eu posso até não saber sua resposta, mas posso\
+      \ pesquisar no StackOverflow por uma resposta adequada!\n"
+  - text: "Te respondo o que você precisar saber sobre pygame! Mas assim como todo\
+      \ mestre é um eterno aprendiz, eu também não sei de tudo.\nMas posso pesquisar\
+      \ no StackOverflow e procurar a resposta mais indicada\n"
+  - text: "Oque deseja saber, jovem padawan? Se eu não souber a resposta posso pesquisar\
+      \ pra você.  \n"
   utter_star_wars:
   - text: "O medo é o caminho para o lado negro.\n"
   - text: "O medo leva à raiva, a raiva leva ao ódio e o ódio leva ao sofrimento.\n"

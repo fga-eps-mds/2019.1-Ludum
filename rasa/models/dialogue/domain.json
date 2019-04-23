@@ -5,6 +5,7 @@
     "intent_despedir",
     "intent_informacao_ambiente",
     "intent_informacao_ambiente_sistema",
+    "intent_informacao_duvidas",
     "intent_negar",
     "intent_out_of_scope",
     "intent_star_wars",
@@ -25,6 +26,7 @@
     "prev_utter_tudo_bem",
     "prev_utter_informacao_ambiente",
     "prev_utter_informacao_ambiente_sistema",
+    "prev_utter_informacao_duvidas",
     "prev_utter_time",
     "prev_utter_star_wars",
     "prev_action_test"

@@ -84,8 +84,8 @@ class Validator:
             if not stories_path.endswith('/'):
                 stories_path += '/'
 
-            stories_files = [f for f in listdir(stories_path)
-                             if isfile(join(stories_path, f))]
+            stories_files = [f for f in listdir(stories_path) if
+                             isfile(join(stories_path, f))]
             for file in stories_files:
                 self.stories.append(stories_path + file)
 
@@ -130,7 +130,6 @@ class Validator:
             elif line.strip().endswith(':'):
                 break
 
-        # Adds intents in intent files to another list
         for intent in self.intents:
             f = open(intent, 'r')
             intent_lines = f.readlines()
@@ -202,8 +201,8 @@ class Validator:
         for intent in self.valid_intents:
             found = self.search(stories_intents, intent)
             if not found:
-                logger.warning('The intent ' + intent +
-                               ' is not being used in any story')
+                logger.warning('The intent ' +
+                               intent + ' is not being used in any story')
 
     def verify_utters(self):
         file = open(self.domain, 'r')
@@ -289,8 +288,8 @@ class Validator:
         for utter in self.valid_utters:
             found = self.search(stories_utters, utter)
             if not found:
-                logger.warning('The utter ' + utter +
-                               ' is not being used in any story')
+                logger.warning('The utter ' + utter + ' is not being used in' +
+                               'any story')
 
     def run_verifications(self):
         self.verify_domain()

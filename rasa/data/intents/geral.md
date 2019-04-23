@@ -29,9 +29,6 @@
 - como vao as coisas
 - com licenca
 - tudo bom
-- posso falar com voce
-- pode me tirar uma duvida
-- gostaria de tirar uma duvida
 - to bem
 - tranquilo
 - estou bem
@@ -47,7 +44,6 @@
 - ola boa tarde
 
 ## intent:negar
-- não sei onde a minha pergunta se encaixa
 - nao quero saber mais
 - quero falar sobre outra coisa
 - não quero saber de mais nada
@@ -63,9 +59,21 @@
 - não quero
 - escolhi errado
 - falei errado
-- duvida
 - ainda não sei
 - nenhum
+
+## intent:informacao_duvidas
+- Como voce pode responder uma duvida?
+- Voce consegue me tirar uma duvida?
+- Como você pode responder minha pergunta?
+- Me tira uma duvida?
+- Como posso te fazer uma pergunta?
+- Você pode responder minhas questões?
+- Você consegue responder minha pergunta?
+- Você consegue tirar minha duvida?
+- Duvida
+- Tenho uma duvida
+
 
 ## intent:tudo_bem
 - Tudo bem
@@ -77,6 +85,7 @@
 - bom dia flor do dia
 - Tudo bem e você
 - como vc esta
+<<<<<<< HEAD
 - como vai
 
 ## intent:informacao_ambiente
@@ -97,3 +106,6 @@
 - linux
 - mac
 
+=======
+- como vai
+>>>>>>> 17bd7c70ed7e2de17c2794b7a5a0d5b6865fed71

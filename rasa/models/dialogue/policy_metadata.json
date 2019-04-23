@@ -12,22 +12,25 @@
     "utter_despedir": {
       "slots": []
     },
-    "utter_time": {
-      "slots": []
-    },
-    "utter_cumprimentar": {
-      "slots": []
-    },
     "utter_tudo_bem": {
       "slots": []
     },
-    "utter_default": {
+    "utter_informacao_duvidas": {
       "slots": []
     },
     "utter_informacao_ambiente_sistema": {
       "slots": []
     },
+    "utter_cumprimentar": {
+      "slots": []
+    },
     "utter_star_wars": {
+      "slots": []
+    },
+    "utter_time": {
+      "slots": []
+    },
+    "utter_default": {
       "slots": []
     }
   },

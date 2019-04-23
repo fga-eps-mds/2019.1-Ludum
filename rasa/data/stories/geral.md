@@ -28,6 +28,9 @@
 * informacao_ambiente_sistema
     - utter_informacao_ambiente_sistema
 
+## informacao duvidas
+* informacao_duvidas
+    - utter_informacao_duvidas
 
 ## path 1
 * cumprimentar
