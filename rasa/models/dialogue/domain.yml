@@ -11,6 +11,7 @@ actions:
 - utter_time
 - utter_star_wars
 - action_test
+- utter_informacao
 config:
   store_entities_as_slots: true
 entities:
@@ -31,6 +32,8 @@ intents:
 - informacao_ambiente:
     use_entities: true
 - informacao_duvidas:
+    use_entities: true
+- informacao:
     use_entities: true
 - time:
     use_entities: true
@@ -64,9 +67,11 @@ templates:
   - text: "Foi um prazer te ajudar!\nSempre que precisar, volte aqui!\nAté a próxima!\n"
   - text: "Foi um prazer te ajudar!\nQuando surgir alguma dúvida, volte aqui!\nAté\
       \ mais!\n"
+  utter_informacao:
+  - text: "Sobre quais tópicos você tem dúvida?\n"
   utter_informacao_ambiente:
   - text: "Certo, você precisa de ajuda pra configurar o ambiente? \nPosso te mostrar\
-      \ como instalar todas as ferramentas necessárias para o seu aprendizado.\"\n"
+      \ como instalar todas as ferramentas necessárias para o seu aprendizado.\n"
   utter_informacao_desenvolvimento:
   - text: "Muito bom, jovem Padawan!!\nVou te mostrar o tutorial de como desenvolver\
       \ e criar seu jogo em Python com diferentes dificuldades.\nQuando perceber você\

@@ -6,6 +6,7 @@ intents:
   - informacao_desenvolvimento
   - informacao_ambiente
   - informacao_duvidas
+  - informacao
   - time
   - star_wars
   - action_test
@@ -123,7 +124,12 @@ templates:
   utter_informacao_ambiente: 
     - text: |
         Certo, você precisa de ajuda pra configurar o ambiente? 
-        Posso te mostrar como instalar todas as ferramentas necessárias para o seu aprendizado."
+        Posso te mostrar como instalar todas as ferramentas necessárias para o seu aprendizado.
+  
+  utter_informacao:
+    - text: |
+        Sobre quais tópicos você tem dúvida?
+
  
 actions:
   - utter_default
@@ -136,3 +142,4 @@ actions:
   - utter_time
   - utter_star_wars
   - action_test
+  - utter_informacao

@@ -46,10 +46,7 @@
 - Me tira uma duvida?
 - Como posso te fazer uma pergunta?
 - Você pode responder minhas questões?
-- Você consegue responder minha pergunta?
-- Você consegue tirar minha duvida?
 - Duvida
-- Tenho uma duvida
 
 
 ## intent:tudo_bem
@@ -63,3 +60,8 @@
 - voce pode me ajudar a configurar o ambiente
 - como funciona a configuracao de ambiente
 - o que preciso para começar
+
+## intent:informacao
+- Tenho uma pergunta
+- Tenho uma duvida
+- Duvida

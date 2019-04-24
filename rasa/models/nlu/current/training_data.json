@@ -311,19 +311,7 @@
       },
       {
         "intent": "informacao_duvidas",
-        "text": "Você consegue responder minha pergunta?"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Você consegue tirar minha duvida?"
-      },
-      {
-        "intent": "informacao_duvidas",
         "text": "Duvida"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Tenho uma duvida"
       },
       {
         "intent": "tudo_bem",
@@ -356,6 +344,18 @@
       {
         "intent": "informacao_ambiente",
         "text": "o que preciso para começar"
+      },
+      {
+        "intent": "informacao",
+        "text": "Tenho uma pergunta"
+      },
+      {
+        "intent": "informacao",
+        "text": "Tenho uma duvida"
+      },
+      {
+        "intent": "informacao",
+        "text": "Duvida"
       }
     ],
     "regex_features": [],
