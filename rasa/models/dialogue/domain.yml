@@ -65,12 +65,8 @@ templates:
   - text: "Foi um prazer te ajudar!\nQuando surgir alguma dúvida, volte aqui!\nAté\
       \ mais!\n"
   utter_informacao_ambiente:
-  - text: "Para executar o que vamos aprender aqui preciso que você instale algumas\
-      \ coisas antes! \n*Para instalar o Python de versão 3.6 no seu computador use\
-      \ o comando $ sudo apt-get install python3.6\n*Para instalar a IDE VSCODE acesse\
-      \ o site https://code.visualstudio.com/download, é gratuíta!\n*Para instalar\
-      \ a biblioteca mais importante para nós aqui instale a PyGame com o seguinte\
-      \ comando python3 -m pip install -U pygame --user\n"
+  - text: "Certo, você precisa de ajuda pra configurar o ambiente? \nPosso te mostrar\
+      \ como instalar todas as ferramentas necessárias para o seu aprendizado.\"\n"
   utter_informacao_desenvolvimento:
   - text: "Muito bom, jovem Padawan!!\nVou te mostrar o tutorial de como desenvolver\
       \ e criar seu jogo em Python com diferentes dificuldades.\nQuando perceber você\

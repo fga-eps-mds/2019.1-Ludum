@@ -63,6 +63,3 @@
 - voce pode me ajudar a configurar o ambiente
 - como funciona a configuracao de ambiente
 - o que preciso para começar
-
-
-- como vai

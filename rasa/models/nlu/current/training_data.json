@@ -2,30 +2,6 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "intent": "action_test",
-        "text": "test custom action"
-      },
-      {
-        "intent": "action_test",
-        "text": "custom action"
-      },
-      {
-        "intent": "action_test",
-        "text": "actions"
-      },
-      {
-        "intent": "action_test",
-        "text": "custom actions"
-      },
-      {
-        "intent": "action_test",
-        "text": "action"
-      },
-      {
-        "intent": "action_test",
-        "text": "test action"
-      },
-      {
         "intent": "time",
         "text": "qual o melhor time do brasil"
       },
@@ -156,6 +132,30 @@
           }
         ],
         "text": "guerra nas estrelas"
+      },
+      {
+        "intent": "action_test",
+        "text": "test custom action"
+      },
+      {
+        "intent": "action_test",
+        "text": "custom action"
+      },
+      {
+        "intent": "action_test",
+        "text": "actions"
+      },
+      {
+        "intent": "action_test",
+        "text": "custom actions"
+      },
+      {
+        "intent": "action_test",
+        "text": "action"
+      },
+      {
+        "intent": "action_test",
+        "text": "test action"
       },
       {
         "intent": "out_of_scope",
@@ -356,10 +356,6 @@
       {
         "intent": "informacao_ambiente",
         "text": "o que preciso para começar"
-      },
-      {
-        "intent": "informacao_ambiente",
-        "text": "como vai"
       }
     ],
     "regex_features": [],

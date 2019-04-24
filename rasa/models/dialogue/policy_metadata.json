@@ -9,7 +9,7 @@
     "utter_tudo_bem": {
       "slots": []
     },
-    "utter_star_wars": {
+    "action_test": {
       "slots": []
     },
     "utter_despedir": {
@@ -21,13 +21,13 @@
     "utter_informacao_duvidas": {
       "slots": []
     },
-    "action_test": {
+    "utter_time": {
       "slots": []
     },
     "utter_default": {
       "slots": []
     },
-    "utter_time": {
+    "utter_star_wars": {
       "slots": []
     },
     "utter_cumprimentar": {
@@ -46,7 +46,7 @@
     "rasa_core.policies.fallback.FallbackPolicy",
     "rasa_core.policies.memoization.MemoizationPolicy"
   ],
-  "trained_at": "20190424-001713",
+  "trained_at": "20190424-131431",
   "rasa_core": "0.13.1",
   "tensorflow": "1.12.2",
   "sklearn": "0.20.3"
