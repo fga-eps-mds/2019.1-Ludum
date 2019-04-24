@@ -3,34 +3,37 @@
     "action_listen": {
       "slots": []
     },
-    "action_test": {
+    "utter_despedir": {
       "slots": []
     },
     "utter_cumprimentar": {
       "slots": []
     },
-    "utter_informacao_ambiente": {
-      "slots": []
-    },
-    "utter_informacao_duvidas": {
-      "slots": []
-    },
-    "utter_star_wars": {
-      "slots": []
-    },
-    "utter_informacao_desenvolvimento": {
-      "slots": []
-    },
     "utter_default": {
-      "slots": []
-    },
-    "utter_time": {
       "slots": []
     },
     "utter_tudo_bem": {
       "slots": []
     },
-    "utter_despedir": {
+    "utter_informacao_duvidas": {
+      "slots": []
+    },
+    "utter_informacao_desenvolvimento": {
+      "slots": []
+    },
+    "action_test": {
+      "slots": []
+    },
+    "utter_time": {
+      "slots": []
+    },
+    "utter_informacao_ambiente": {
+      "slots": []
+    },
+    "utter_star_wars": {
+      "slots": []
+    },
+    "utter_informacao_materiais": {
       "slots": []
     }
   },
@@ -46,7 +49,7 @@
     "rasa_core.policies.fallback.FallbackPolicy",
     "rasa_core.policies.memoization.MemoizationPolicy"
   ],
-  "trained_at": "20190424-175046",
+  "trained_at": "20190424-191242",
   "rasa_core": "0.13.1",
   "tensorflow": "1.12.2",
   "sklearn": "0.20.3"

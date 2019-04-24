@@ -4,6 +4,7 @@ intents:
   - out_of_scope
   - tudo_bem
   - informacao_desenvolvimento
+  - informacao_materiais
   - informacao_ambiente
   - informacao_duvidas
   - informacao
@@ -86,6 +87,12 @@ templates:
           Médio
           Dificil
 
+  utter_informacao_materiais:
+    - text: |
+          Olá, jovem Padawan! :D
+          Vou te mostrar tudo que sei sobre desenvolvimento de jogos em Python com links de materiais úteis que podem melhorar seu conhecimento para te ajudar a se tornar um verdadeiro Mestre na criação de jogos com PyGame.
+          Mas antes, jovem padawan, devo te fazer uma pergunta::Você prefere videos explicativos ou textos?
+
   utter_time:
     - text: |
         Flamengo, campeão do carioca de 2019 em cima do vasquinho
@@ -137,6 +144,7 @@ actions:
   - utter_despedir
   - utter_tudo_bem
   - utter_informacao_desenvolvimento
+  - utter_informacao_materiais
   - utter_informacao_ambiente
   - utter_informacao_duvidas
   - utter_time

@@ -17,6 +17,10 @@
 * out_of_scope
     - utter_default
 
+## materiais
+* informacao_materiais
+    - utter_informacao_materiais
+    
 ## informacao ambiente 
 * informacao_ambiente
     - utter_informacao_ambiente 
