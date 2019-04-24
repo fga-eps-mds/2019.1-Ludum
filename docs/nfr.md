@@ -15,7 +15,7 @@ ___
 
 ## 1. Introdução
 
-<p align="justify">Trata-se de um framework conceitual para condução da Engenharia de Requisitos orientada aos requisitos não funcionais, com uma extensão que apoia suposições para avaliação de satisfação das metas-flexíveis.
+<p align="justify">Trata-se de um framework conceitual para condução da Engenharia de Requisitos orientada aos requisitos não funcionais, com uma extensão que apoia suposições para avaliação de satisfação das metas-flexíveis.[1]
 
 ## 2. NFRs
 
