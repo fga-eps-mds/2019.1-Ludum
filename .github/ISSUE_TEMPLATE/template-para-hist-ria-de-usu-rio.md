@@ -26,4 +26,4 @@ Seção para tarefas (tasks) para issues mais complexas.
 ### Comentários
 Alguma informação necessária para melhor compreensão.
 
-**Estimativa de Duração** : X pontos
+**Estimativa de Esforço** : X pontos
