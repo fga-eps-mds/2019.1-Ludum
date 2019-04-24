@@ -5,3 +5,7 @@
 - custom actions
 - action
 - test action
+
+## intent:action_question
+- Quero fazer uma pergunta ao Stack Overflow
+- Stack Overflow

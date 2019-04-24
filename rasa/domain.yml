@@ -13,6 +13,7 @@ intents:
   - star_wars
 
   - action_test
+  - action_question
 
 entities:
   - time
@@ -149,3 +150,5 @@ actions:
   - utter_time
   - utter_star_wars
   - action_test
+  - action_question
+  - extra.actions.ActionQuestion
