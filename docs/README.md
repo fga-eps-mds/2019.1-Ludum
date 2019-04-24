@@ -27,7 +27,7 @@
 Os arquivos da documentação do projeto estão localizados na pasta `docs` e para visualizá-los basta acessar o nosso GitHub Pages disponível em https://fga-eps-mds.github.io/2019.1-Ludum/#/
 
 ## Quero ajudar! Como contribuir?
-<p align="justify"> O guia com todos os passos para contribuir ao Ludum se encontra <a href="https://github.com/fga-eps-mds/2019.1-Ludum/blob/development/CONTRIBUTING.md">aqui</a>.</p>
+<p align="justify"> Sua ajuda é muito bem vinda! O guia com todos os passos para contribuir ao Ludum se encontra <a href="https://github.com/fga-eps-mds/2019.1-Ludum/blob/development/CONTRIBUTING.md">aqui</a> e não esqueça de seguir nosso código de conduta, para conferir basta clicar <a href="https://github.com/fga-eps-mds/2019.1-Ludum/blob/master/CODE_OF_CONDUCT.md">aqui</a>.</p>
 
 ## Como configurar
 
