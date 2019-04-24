@@ -5,7 +5,6 @@ intents:
   - tudo_bem
   - informacao_desenvolvimento
   - informacao_ambiente
-  - informacao_ambiente_sistema
 
   - informacao_duvidas
   - time
@@ -123,11 +122,6 @@ templates:
     - text: |
         Oque deseja saber, jovem padawan? Se eu não souber a resposta posso pesquisar pra você.  
 
-  utter_informacao_ambiente_sistema: 
-    - text: |
-        Eu recomento que você use o Linux ou o MacOS, por questões de compabilidade alguns programas
-        que iremos usar funcionam melhor nesses sistemas! Jamais use Windows :)
-
   utter_informacao_ambiente: 
     - text: |
         Para executar o que vamos aprender aqui preciso que você instale algumas coisas antes! 
@@ -142,7 +136,6 @@ actions:
   - utter_tudo_bem
   - utter_informacao_desenvolvimento
   - utter_informacao_ambiente
-  - utter_informacao_ambiente_sistema
 
   - utter_informacao_duvidas
   - utter_time

@@ -20,17 +20,9 @@
 * out_of_scope
     - utter_default
 
-## negar sem contexto
-* negar
-    - utter_despedir
-
 ## informacao ambiente 
 * informacao_ambiente
     - utter_informacao_ambiente 
-
-## informacao ambiente-sistema
-* informacao_ambiente_sistema
-    - utter_informacao_ambiente_sistema
 
 ## informacao duvidas
 * informacao_duvidas

@@ -91,7 +91,7 @@
             "entity": "starwars"
           }
         ],
-        "text": "me manda um conselho jedi"
+        "text": "me manda um concelho jedi"
       },
       {
         "intent": "star_wars",
@@ -115,7 +115,7 @@
             "entity": "starwars"
           }
         ],
-        "text": "conselhos jedi"
+        "text": "concelhos jedi"
       },
       {
         "intent": "star_wars",
@@ -143,7 +143,7 @@
             "entity": "starwars"
           }
         ],
-        "text": "conselhos do yoda"
+        "text": "concelhos do yoda"
       },
       {
         "intent": "star_wars",
@@ -356,7 +356,11 @@
       {
         "intent": "informacao_ambiente",
         "text": "o que preciso para começar"
-      } 
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "como vai"
+      }
     ],
     "regex_features": [],
     "lookup_tables": [],
