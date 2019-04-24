@@ -2,7 +2,6 @@ intents:
   - cumprimentar
   - despedir
   - out_of_scope
-  - negar
   - tudo_bem
   - informacao_desenvolvimento
   - informacao_ambiente
