@@ -34,6 +34,28 @@ Os arquivos da documentação do projeto estão localizados na pasta `docs` e pa
 ## Como instalar
 
 ## Como executar o Ludum
+1. Abra um terminal dentro do repositório clonado do Ludum
+2. Digite no terminal:
+```bash
+docker-compose run --rm ludum make train
+```
+para treinar o bot e instalar dependências necessárias. Deixe este terminal aberto!
+3. Após, baixe o [ngrok](https://ngrok.com/download) e abra um outro terminal dentro do diretório em que se encontra o ngrok
+4. Neste terminal, digite:
+```bash
+./ngrok http 5001
+```
+5. Copie o webhook fornecido e cole na linha relativa a webhook_url, no arquivo credentials.yml, localizado em rasa/credentials.yml;
+6. Copie o token e cole em access_token também dentro do credentials.yml;
+7. No terminal que foi aberto no passo 2, agora digite:
+```bash
+docker-compose up telegram_bot
+```
+para rodar o bot no Telegram.Após isso, o bot já está online e pronto pra ser testado no Telegram.
+Caso queria rodar o bot na linha de comando, digite:
+```bash
+docker-compose run --rm ludum make run-console
+```
 
 ## Contribuidores
 ### Equipe
