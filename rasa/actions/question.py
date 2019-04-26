@@ -15,4 +15,7 @@ class ActionQuestion(Action):
             }
             dispatcher.utter_response(data)
         except ValueError:
+            dispatcher.utter_message(
+                "Tive um problema ao buscar a pergunta para você."
+            )
             dispatcher.utter_message(ValueError)

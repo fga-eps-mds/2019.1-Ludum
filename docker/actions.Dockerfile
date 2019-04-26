@@ -7,6 +7,7 @@ ADD ./docker/actions.requirements.txt /tmp/
 RUN pip install --upgrade pip && \
     pip install -r /tmp/actions.requirements.txt
 RUN pip install flake8
+RUN pip install requests
 
 RUN mkdir /2019.1-Ludum
 
