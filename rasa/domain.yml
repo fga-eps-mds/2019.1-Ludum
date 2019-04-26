@@ -2,16 +2,14 @@ intents:
   - cumprimentar
   - despedir
   - out_of_scope
-  - negar
   - tudo_bem
   - informacao_desenvolvimento
+  - informacao_materiais
   - informacao_ambiente
-  - informacao_ambiente_sistema
-
   - informacao_duvidas
+  - informacao
   - time
   - star_wars
-
   - action_test
 
 entities:
@@ -89,6 +87,12 @@ templates:
           Médio
           Dificil
 
+  utter_informacao_materiais:
+    - text: |
+          Olá, jovem Padawan! :D
+          Vou te mostrar tudo que sei sobre desenvolvimento de jogos em Python com links de materiais úteis que podem melhorar seu conhecimento para te ajudar a se tornar um verdadeiro Mestre na criação de jogos com PyGame.
+          Mas antes, jovem padawan, devo te fazer uma pergunta::Você prefere videos explicativos ou textos?
+
   utter_time:
     - text: |
         Flamengo, campeão do carioca de 2019 em cima do vasquinho
@@ -124,17 +128,15 @@ templates:
     - text: |
         Oque deseja saber, jovem padawan? Se eu não souber a resposta posso pesquisar pra você.  
 
-  utter_informacao_ambiente_sistema: 
-    - text: |
-        Eu recomento que você use o Linux ou o MacOS, por questões de compabilidade alguns programas
-        que iremos usar funcionam melhor nesses sistemas! Jamais use Windows :)
-
   utter_informacao_ambiente: 
     - text: |
-        Para executar o que vamos aprender aqui preciso que você instale algumas coisas antes! 
-        *Para instalar o Python de versão 3.6 no seu computador use o comando $ sudo apt-get install python3.6
-        *Para instalar a IDE VSCODE acesse o site https://code.visualstudio.com/download, é gratuíta!
-        *Para instalar a biblioteca mais importante para nós aqui instale a PyGame com o seguinte comando python3 -m pip install -U pygame --user
+        Certo, você precisa de ajuda pra configurar o ambiente? 
+        Posso te mostrar como instalar todas as ferramentas necessárias para o seu aprendizado.
+  
+  utter_informacao:
+    - text: |
+        Sobre quais tópicos você tem dúvida?
+
  
 actions:
   - utter_default
@@ -142,10 +144,10 @@ actions:
   - utter_despedir
   - utter_tudo_bem
   - utter_informacao_desenvolvimento
+  - utter_informacao_materiais
   - utter_informacao_ambiente
-  - utter_informacao_ambiente_sistema
-
   - utter_informacao_duvidas
   - utter_time
   - utter_star_wars
   - action_test
+  - utter_informacao

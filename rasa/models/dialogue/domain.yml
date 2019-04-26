@@ -6,12 +6,13 @@ actions:
 - utter_despedir
 - utter_tudo_bem
 - utter_informacao_desenvolvimento
+- utter_informacao_materiais
 - utter_informacao_ambiente
-- utter_informacao_ambiente_sistema
 - utter_informacao_duvidas
 - utter_time
 - utter_star_wars
 - action_test
+- utter_informacao
 config:
   store_entities_as_slots: true
 entities:
@@ -25,17 +26,24 @@ intents:
     use_entities: true
 - out_of_scope:
     use_entities: true
-- negar:
-    use_entities: true
 - tudo_bem:
     use_entities: true
 - informacao_desenvolvimento:
     use_entities: true
+<<<<<<< HEAD
 - informacao_ambiente:
     use_entities: true
 - informacao_ambiente_sistema:
     use_entities: true
+=======
+- informacao_materiais:
+    use_entities: true
+- informacao_ambiente:
+    use_entities: true
+>>>>>>> b0772bc8bd536e7a907ffdf58c02e84c1aef1e26
 - informacao_duvidas:
+    use_entities: true
+- informacao:
     use_entities: true
 - time:
     use_entities: true
@@ -69,6 +77,7 @@ templates:
   - text: "Foi um prazer te ajudar!\nSempre que precisar, volte aqui!\nAté a próxima!\n"
   - text: "Foi um prazer te ajudar!\nQuando surgir alguma dúvida, volte aqui!\nAté\
       \ mais!\n"
+<<<<<<< HEAD
   utter_informacao_ambiente:
   - text: "Para executar o que vamos aprender aqui preciso que você instale algumas\
       \ coisas antes! \n*Você ja possui o python3 instalado em sua máquina?\n \
@@ -77,6 +86,13 @@ templates:
   - text: "Eu recomento que você use o Linux ou o MacOS, por questões de compabilidade\
       \ alguns programas\nque iremos usar funcionam melhor nesses sistemas! Jamais\
       \ use Windows :)\n"
+=======
+  utter_informacao:
+  - text: "Sobre quais tópicos você tem dúvida?\n"
+  utter_informacao_ambiente:
+  - text: "Certo, você precisa de ajuda pra configurar o ambiente? \nPosso te mostrar\
+      \ como instalar todas as ferramentas necessárias para o seu aprendizado.\n"
+>>>>>>> b0772bc8bd536e7a907ffdf58c02e84c1aef1e26
   utter_informacao_desenvolvimento:
   - text: "Muito bom, jovem Padawan!!\nVou te mostrar o tutorial de como desenvolver\
       \ e criar seu jogo em Python com diferentes dificuldades.\nQuando perceber você\
@@ -91,6 +107,12 @@ templates:
       \ no StackOverflow e procurar a resposta mais indicada\n"
   - text: "Oque deseja saber, jovem padawan? Se eu não souber a resposta posso pesquisar\
       \ pra você.  \n"
+  utter_informacao_materiais:
+  - text: "Olá, jovem Padawan! :D\nVou te mostrar tudo que sei sobre desenvolvimento\
+      \ de jogos em Python com links de materiais úteis que podem melhorar seu conhecimento\
+      \ para te ajudar a se tornar um verdadeiro Mestre na criação de jogos com PyGame.\n\
+      Mas antes, jovem padawan, devo te fazer uma pergunta::Você prefere videos explicativos\
+      \ ou textos?\n"
   utter_star_wars:
   - text: "O medo é o caminho para o lado negro.\n"
   - text: "O medo leva à raiva, a raiva leva ao ódio e o ódio leva ao sofrimento.\n"
