@@ -3,6 +3,7 @@
 - [<i>Sprints</i>](/sprints.md)
 - [Termo de Abertura do Projeto](/termo-de-abertura-do-projeto.md)
 - [Estrutura Analítica do Projeto (EAP)](/EAP.md)
+- [Plano de comunicação](/plano-comunicacao.md)
 - [Descrição da metodologia](/descricao-metodologia.md)
 - [Personalidade do Ludum](/personalidade-ludum.md)
 - [Backlog](/backlog.md)

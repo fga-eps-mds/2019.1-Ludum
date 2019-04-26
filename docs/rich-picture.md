@@ -1,7 +1,3 @@
-## Alteração no escopo
-
-<p align="justify">O presente documento foi confeccionado baseado no escopo inicial e durante o desenvolvimento foram realizadas alterações desse escopo. Para verificá-las <a href="https://github.com/2018-2-Desenho/CabecaVoleiJoelhoPe/wiki/Justificativa">clique aqui</a></p>
-
 ## Histórico de revisão
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
@@ -10,9 +6,9 @@
 
 ## Sumário
 
-1. [Introdução](#1-introdução)
-2. [RichPictures](#2-richpictures)
-3. [Referências](#3-referências)
+1. [Introdução](#_1-introdução)
+2. [RichPictures](#_2-richpictures)
+3. [Referências](#_3-referências)
 
 ## 1. Introdução
 <p align="justify">Trata-se de uma modelagem cuja notação permite analisar problemas e expressar ideias. Pode auxiliar na identificação: de processos de negócio e seus requisitos; de atores envolvidos nos processos de negócio e suas responsabilidades; dos relacionamentos entre processos e atores, e de potenciais problemas e conflitos. [1]</p>
