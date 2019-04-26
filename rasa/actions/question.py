@@ -7,15 +7,11 @@ class ActionQuestion(Action):
         return "action_question"
 
     def run(self, dispatcher, tracker, domain):
-        dispatcher.utter_message('Estou pesquisando todas as perguntas pesquisadas para você, amiguinhx!')
+        dispatcher.utter_message('Pesquisando perguntas pesquisadas para você')
         try:
-            requests.get(
-                f'https://ludum-duvidas.herokuapp.com/api/duvidas',
-                timeout=3
-            )
+            requests.get('https://ludum-duvidas.herokuapp.com/api/duvidas')
             data = {
-                'text': 'Essas são as perguntas que eu consegui recuperar para você:',
-                'text': f'https://ludum-duvidas.herokuapp.com/api/duvidas'
+                'text': 'https://ludum-duvidas.herokuapp.com/api/duvidas'
             }
             dispatcher.utter_response(data)
         except ValueError:

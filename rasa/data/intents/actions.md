@@ -9,3 +9,6 @@
 ## intent:action_question
 - Quero fazer uma pergunta ao Stack Overflow
 - Stack Overflow
+- stack overflow
+- stack
+- overflow
