@@ -25,6 +25,20 @@
 * informacao_ambiente
     - utter_informacao_ambiente 
 
+## negar
+* negar
+    - utter_cumprimentar
+
+## confirmar
+* confirmar
+    - utter_cumprimentar
+
+## path_teste
+* informacao_ambiente
+    - utter_informacao_ambiente
+* negar
+    - utter_despedir
+
 ## informacao duvidas
 * informacao_duvidas
     - utter_informacao_duvidas
@@ -56,3 +70,17 @@
 ## path 2
 * cumprimentar
         - utter_cumprimentar
+
+
+## tutorial ambiente 1
+* informacao_ambiente
+    - utter_informacao_ambiente
+* confirmar
+    - utter_confirmar_ambiente1
+
+## tutorial ambiente 2
+
+* informacao_ambiente
+    - utter_informacao_ambiente
+* negar
+    - utter_negar_ambiente1

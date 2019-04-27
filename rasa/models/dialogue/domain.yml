@@ -13,6 +13,8 @@ actions:
 - utter_star_wars
 - action_test
 - utter_informacao
+- utter_confirmar_ambiente1
+- utter_negar_ambiente1
 config:
   store_entities_as_slots: true
 entities:
@@ -30,20 +32,17 @@ intents:
     use_entities: true
 - informacao_desenvolvimento:
     use_entities: true
-<<<<<<< HEAD
-- informacao_ambiente:
-    use_entities: true
-- informacao_ambiente_sistema:
-    use_entities: true
-=======
 - informacao_materiais:
     use_entities: true
 - informacao_ambiente:
     use_entities: true
->>>>>>> b0772bc8bd536e7a907ffdf58c02e84c1aef1e26
+- confirmar:
+    use_entities: true
 - informacao_duvidas:
     use_entities: true
 - informacao:
+    use_entities: true
+- negar:
     use_entities: true
 - time:
     use_entities: true
@@ -53,6 +52,9 @@ intents:
     use_entities: true
 slots: {}
 templates:
+  utter_confirmar_ambiente1:
+  - text: "Ótimo, todo nosso tutorial será feito usando o pygame, então bom que tenha\
+      \ aí instalado\n"
   utter_cumprimentar:
   - text: "Olá, eu sou o Ludum! :D\n Vou te mostrar tudo que sei sobre \n desenvolvimento\
       \ de jogos em Python!\n Mas antes, jovem padawan, devo te fazer uma pergunta,\n\
@@ -77,22 +79,11 @@ templates:
   - text: "Foi um prazer te ajudar!\nSempre que precisar, volte aqui!\nAté a próxima!\n"
   - text: "Foi um prazer te ajudar!\nQuando surgir alguma dúvida, volte aqui!\nAté\
       \ mais!\n"
-<<<<<<< HEAD
-  utter_informacao_ambiente:
-  - text: "Para executar o que vamos aprender aqui preciso que você instale algumas\
-      \ coisas antes! \n*Você ja possui o python3 instalado em sua máquina?\n \
-      \ *Você ja possui a PyGame instalada em sua máquina?\n"
-  utter_informacao_ambiente_sistema:
-  - text: "Eu recomento que você use o Linux ou o MacOS, por questões de compabilidade\
-      \ alguns programas\nque iremos usar funcionam melhor nesses sistemas! Jamais\
-      \ use Windows :)\n"
-=======
   utter_informacao:
   - text: "Sobre quais tópicos você tem dúvida?\n"
   utter_informacao_ambiente:
   - text: "Certo, você precisa de ajuda pra configurar o ambiente? \nPosso te mostrar\
       \ como instalar todas as ferramentas necessárias para o seu aprendizado.\n"
->>>>>>> b0772bc8bd536e7a907ffdf58c02e84c1aef1e26
   utter_informacao_desenvolvimento:
   - text: "Muito bom, jovem Padawan!!\nVou te mostrar o tutorial de como desenvolver\
       \ e criar seu jogo em Python com diferentes dificuldades.\nQuando perceber você\
@@ -113,6 +104,9 @@ templates:
       \ para te ajudar a se tornar um verdadeiro Mestre na criação de jogos com PyGame.\n\
       Mas antes, jovem padawan, devo te fazer uma pergunta::Você prefere videos explicativos\
       \ ou textos?\n"
+  utter_negar_ambiente1:
+  - text: "Para realizarmos nossos tutorias você precisara instalar o pygame, mas\
+      \ sem problema, aqui estão alguns links pra te ajudar\n"
   utter_star_wars:
   - text: "O medo é o caminho para o lado negro.\n"
   - text: "O medo leva à raiva, a raiva leva ao ódio e o ódio leva ao sofrimento.\n"

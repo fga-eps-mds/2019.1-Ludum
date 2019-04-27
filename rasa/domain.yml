@@ -6,8 +6,10 @@ intents:
   - informacao_desenvolvimento
   - informacao_materiais
   - informacao_ambiente
+  - confirmar
   - informacao_duvidas
   - informacao
+  - negar
   - time
   - star_wars
   - action_test
@@ -118,6 +120,13 @@ templates:
 
     - text: |
         Muito a aprender você ainda tem.
+  utter_confirmar_ambiente1:
+  - text: |
+        Ótimo, todo nosso tutorial será feito usando o pygame, então bom que tenha aí instalado
+  utter_negar_ambiente1:
+  - text: |
+        Para realizarmos nossos tutorias você precisara instalar o pygame, mas sem problema, aqui estão alguns links pra te ajudar
+
   utter_informacao_duvidas: 
     - text: |
         Você pode me perguntar tudo que quiser saber sobre o desenvolvimento de jogos em pygame! 
@@ -151,3 +160,5 @@ actions:
   - utter_star_wars
   - action_test
   - utter_informacao
+  - utter_confirmar_ambiente1
+  - utter_negar_ambiente1

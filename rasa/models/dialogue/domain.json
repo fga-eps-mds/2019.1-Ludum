@@ -1,6 +1,7 @@
 {
   "states": [
     "intent_action_test",
+    "intent_confirmar",
     "intent_cumprimentar",
     "intent_despedir",
     "intent_informacao",
@@ -8,6 +9,7 @@
     "intent_informacao_desenvolvimento",
     "intent_informacao_duvidas",
     "intent_informacao_materiais",
+    "intent_negar",
     "intent_out_of_scope",
     "intent_star_wars",
     "intent_time",
@@ -32,6 +34,8 @@
     "prev_utter_time",
     "prev_utter_star_wars",
     "prev_action_test",
-    "prev_utter_informacao"
+    "prev_utter_informacao",
+    "prev_utter_confirmar_ambiente1",
+    "prev_utter_negar_ambiente1"
   ]
 }

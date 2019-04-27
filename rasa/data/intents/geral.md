@@ -64,6 +64,11 @@
 - Você pode responder minhas questões?
 - Duvida
 
+## intent:negar
+- nao
+
+## intent:confirmar
+- sim
 
 ## intent:tudo_bem
 - Tudo bem
