@@ -1,16 +1,26 @@
-FROM python:3.6
+FROM python:3.6-slim
 
-RUN pip install rasa_core
-RUN pip install rasa_nlu[spacy] && \
-    python -m spacy download pt
+RUN apt update && apt install -y git gcc make curl
 
-RUN pip install rasa_nlu[tensorflow]
+RUN python -m pip install --upgrade pip
 
-RUN pip install pymongo
-RUN pip install requests
+ADD ./bot.requirements.txt /tmp
+
+RUN pip install --upgrade pip && pip install -r /tmp/bot.requirements.txt
+RUN python -c "import nltk; nltk.download('stopwords');"
 RUN pip install flake8
 RUN pip install pyTelegramBotAPI
-
-RUN mkdir /2019.1-Ludum
+RUN pip install pymongo
+RUN pip install requests
 
 ADD . /2019.1-Ludum
+
+WORKDIR /rasa
+
+ENV TRAINING_EPOCHS=20                     \
+    MAX_TYPING_TIME=10                     \
+    MIN_TYPING_TIME=1                      \
+    WORDS_PER_SECOND_TYPING=5              \
+    ENVIRONMENT_NAME=localhost             \
+    BOT_VERSION=last-commit-hash           \
+    ENABLE_ANALYTICS=False                 

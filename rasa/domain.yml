@@ -1,0 +1,154 @@
+intents:
+  - cumprimentar
+  - despedir
+  - out_of_scope
+  - negar
+  - tudo_bem
+  - informacao_desenvolvimento
+  - informacao_ambiente
+  - informacao_ambiente_sistema
+
+  - informacao_duvidas
+  - time
+  - star_wars
+
+  - action_test
+  - action_question
+
+entities:
+  - time
+  - starwars
+
+templates:
+  utter_default:
+    - text: |
+        Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender direito
+        Você pode perguntar de novo de outro jeito?
+
+    - text: |
+        Hummmm... Não sei se entendi. Pode escrever de outra forma?
+
+    - text: |
+        Acho que não te entendi, você pode me perguntar de novo usando outras palavras?
+
+    - text: |
+        Vamos tentar mais uma vez? Eu não consegui te entender direito, me pergunta de outro jeito?
+
+  utter_cumprimentar:
+    - text: |
+        Olá, eu sou o Ludum! :D
+         Vou te mostrar tudo que sei sobre 
+         desenvolvimento de jogos em Python!
+         Mas antes, jovem padawan, devo te fazer uma pergunta,
+         Você já conhece minhas funcionalidades?
+         1) Tutorial - 
+         Vamos construir um jogo juntos!
+         Vou te ensinar sobre o desenvolvimento de jogos
+         em Python desde as partes mais básicas
+         e quando você perceber já estará
+         jogando seu próprio jogo!
+         2) Ambiente - 
+         Irei te auxiliar a preparar todo
+         seu ambiente de desenvolvimento
+         com os programas adequados.
+         3) FAQ -  
+         Tentarei sanar todas as duvidas
+         que você pode vir a ter.
+         4) Materiais e links - 
+         Tentarei te enviar links e materiais que
+         possam ser utéis para você.
+         Começar com o que, devemos?
+ 
+  utter_despedir:
+    - text: |
+          Foi um prazer te ajudar!
+          Sempre que tiver alguma dúvida, volte aqui!
+          Até logo!
+
+    - text: |
+          Foi um prazer te ajudar!
+          Sempre que precisar, volte aqui!
+          Até a próxima!
+
+    - text: |
+          Foi um prazer te ajudar!
+          Quando surgir alguma dúvida, volte aqui!
+          Até mais!
+
+  utter_tudo_bem:
+    - text: |
+          Tudo bem, obrigado! Em que posso te ajudar?
+
+  utter_informacao_desenvolvimento:
+    - text: |
+          Muito bom, jovem Padawan!!
+          Vou te mostrar o tutorial de como desenvolver e criar seu jogo em Python com diferentes dificuldades.
+          Quando perceber você já ser um Meister dos jogos!
+          Porém, antes de começar devo te fazer uma pergunta.
+          Você quer começar por qual dificuldade?
+          Fácil
+          Médio
+          Dificil
+
+  utter_time:
+    - text: |
+        Flamengo, campeão do carioca de 2019 em cima do vasquinho
+
+    - text: |
+        Melhor time do mundo disparado, Flamengooo!!!!
+
+  utter_star_wars:
+    - text: |
+        O medo é o caminho para o lado negro.
+
+    - text: |
+        O medo leva à raiva, a raiva leva ao ódio e o ódio leva ao sofrimento.
+
+    - text: |
+        Que a Força esteja com você!
+
+    - text: |
+        Grande guerreiro? Guerra não faz grande ninguém.
+
+    - text: |
+        Lembre-se sempre, o seu foco determina a sua realidade.
+
+    - text: |
+        Muito a aprender você ainda tem.
+  utter_informacao_duvidas: 
+    - text: |
+        Você pode me perguntar tudo que quiser saber sobre o desenvolvimento de jogos em pygame! 
+        As vezes eu posso até não saber sua resposta, mas posso pesquisar no StackOverflow por uma resposta adequada!
+    - text: |
+        Te respondo o que você precisar saber sobre pygame! Mas assim como todo mestre é um eterno aprendiz, eu também não sei de tudo.
+        Mas posso pesquisar no StackOverflow e procurar a resposta mais indicada
+    - text: |
+        Oque deseja saber, jovem padawan? Se eu não souber a resposta posso pesquisar pra você.  
+
+  utter_informacao_ambiente_sistema: 
+    - text: |
+        Eu recomento que você use o Linux ou o MacOS, por questões de compabilidade alguns programas
+        que iremos usar funcionam melhor nesses sistemas! Jamais use Windows :)
+
+  utter_informacao_ambiente: 
+    - text: |
+        Para executar o que vamos aprender aqui preciso que você instale algumas coisas antes! 
+        *Para instalar o Python de versão 3.6 no seu computador use o comando $ sudo apt-get install python3.6
+        *Para instalar a IDE VSCODE acesse o site https://code.visualstudio.com/download, é gratuíta!
+        *Para instalar a biblioteca mais importante para nós aqui instale a PyGame com o seguinte comando python3 -m pip install -U pygame --user
+ 
+actions:
+  - utter_default
+  - utter_cumprimentar
+  - utter_despedir
+  - utter_tudo_bem
+  - utter_informacao_desenvolvimento
+  - utter_informacao_ambiente
+  - utter_informacao_ambiente_sistema
+
+  - utter_informacao_duvidas
+  - utter_time
+  - utter_star_wars
+  - action_test
+  - action_question
+  - extra.actions.ActionQuestion
