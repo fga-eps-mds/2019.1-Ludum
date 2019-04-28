@@ -224,3 +224,6 @@ Estrutura do documento:
 
 ## 4.3 Diagrama de Relações
 ![diagrama de relacoes](./imagens/diagrama-de-relacoes.png)
+
+## 4.4 Modelagem do Banco de Dados do Microsserviço De Resolução de Dúvidas
+![modelagem banco](./imagens/ModelagemBancoMicrosservicoDuvidas.png)
