@@ -5,6 +5,7 @@
 - [Estrutura Analítica do Projeto (EAP)](/EAP.md)
 - [Plano de comunicação](/plano-comunicacao.md)
 - [Descrição da metodologia](/descricao-metodologia.md)
+- [Definição de Pronto](/definicao-pronto.md)
 - [Personalidade do Ludum](/personalidade-ludum.md)
 - [Backlog](/backlog.md)
 - [Canvas](/canvas.md)

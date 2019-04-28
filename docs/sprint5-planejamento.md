@@ -45,13 +45,15 @@
 
 |Tarefas|Pontos|
 |-|:--:|
-| T33- Finalizar documento de arquitetura | 8 |
+| T33 - Finalizar documento de arquitetura | 8 |
 | US07 - Eu, como usuário, desejo que o Ludum pergunte sobre o meu ambiente de desenvolvimento | 5 |
-| Refatorar documentos | 3 |
-| Eu, como desenvolvedor, desejo refinar a comunicação do Ludum para torna-lá mais fluída | 5 |
-| Eu, como desenvolvedor, desejo criar um microsserviço que realize a comunicação com o core do Ludum | 5 |
-| Eu, como desenvolvedor, desejo comunicar o microsserviço de perguntas e respostas com o StackOverflow | 8 |
-| Documentar Sprint | 1 |
+| T34 - Ajustar documentos | 3 |
+| T36 - Eu, como desenvolvedor, desejo refinar a comunicação do Ludum para torna-lá mais fluída | 5 |
+| TS06 - Eu, como desenvolvedor, desejo criar um microsserviço que realize a comunicação com o core do Ludum | 5 |
+| TS07 - Eu, como desenvolvedor, desejo comunicar o microsserviço de perguntas e respostas com o StackOverflow | 8 |
+| T35 - Documentar Sprint | 1 |
+| TS17 - Eu, como desenvolvedor, desejo modelar o banco de dados do microsserviço de conexão com o StackOverflow. | 3 |
+| TS18 - Eu, como desenvolvedor, desejo implementar o banco de dados do microsserviço de conexão com StackOverflow. | 5 |
 
 ## 4. Pareamentos
 
