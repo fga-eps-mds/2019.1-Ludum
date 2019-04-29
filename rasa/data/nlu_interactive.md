@@ -1,0 +1,45 @@
+## intent:confirmar
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+
+## intent:cumprimentar
+- ola
+- ola
+- ola
+
+## intent:informacao_ambiente
+- ambiente
+
+## intent:negar
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao

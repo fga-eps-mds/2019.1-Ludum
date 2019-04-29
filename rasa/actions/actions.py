@@ -21,9 +21,13 @@ class ActionAmbiente(Action):
         tutorial = 0
         while(tutorial<3):
             if(tutorial==0):
-                disptacher.utter_message("Você já tem o python 3.6")
-                if(interpreter.parse(dispatcher.tracker.latest_message.text) == interpreter.parse("Sim")):
-                    dispatcher.utter_message("UHuuu")
-                    tutorial+=1
-                else:
-                    disptacher.utter_message("Aff")
+                try: 
+                    disptacher.utter_message("Você já tem o python 3.6")
+                    FollowupAction("action_listen")
+                    if(interpreter.parse(dispatcher.tracker.latest_message.text) == interpreter.parse("Sim")):
+                        dispatcher.utter_message("UHuuu")
+                        tutorial+=1
+                    else:
+                        disptacher.utter_message("Aff")
+                except ValueError:
+                    dispatcher.utter_message(ValueError)

@@ -158,6 +158,10 @@
         "text": "test action"
       },
       {
+        "intent": "action_test",
+        "text": "ambiente_action"
+      },
+      {
         "intent": "out_of_scope",
         "text": "Qual a origem do mundo?"
       },
@@ -378,8 +382,16 @@
         "text": "nao"
       },
       {
+        "intent": "negar",
+        "text": "não"
+      },
+      {
         "intent": "confirmar",
         "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "claro"
       },
       {
         "intent": "tudo_bem",

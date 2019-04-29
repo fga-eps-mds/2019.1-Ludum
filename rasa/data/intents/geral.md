@@ -66,9 +66,11 @@
 
 ## intent:negar
 - nao
+- não
 
 ## intent:confirmar
 - sim
+- claro
 
 ## intent:tudo_bem
 - Tudo bem

@@ -1,35 +1,42 @@
 %YAML 1.1
 ---
 actions:
-- utter_default
-- utter_cumprimentar
-- utter_despedir
-- utter_tudo_bem
 - utter_informacao_desenvolvimento
+- utter_perguntar_ambiente2
+- action_ambiente
+- utter_confirmar_ambiente1
+- utter_negar_ambiente2
+- utter_informacao_duvidas
+- utter_negar_ambiente1
+- utter_default
+- utter_confirmar_ambiente3
+- utter_tudo_bem
+- utter_perguntar_ambiente3
+- utter_confirmar_ambiente2
+- utter_negar_ambiente3
+- utter_star_wars
+- utter_sem_nada
+- utter_cumprimentar
+- utter_time
+- utter_informacao
 - utter_informacao_materiais
 - utter_informacao_ambiente
-- utter_informacao_duvidas
-- utter_time
-- utter_sem_nada
-- utter_star_wars
 - action_test
-- utter_informacao
-- utter_confirmar_ambiente1
-- utter_negar_ambiente1
-- utter_perguntar_ambiente2
-- utter_confirmar_ambiente2
-- utter_negar_ambiente2
-- utter_perguntar_ambiente3
-- utter_confirmar_ambiente3
-- utter_negar_ambiente3
+- utter_despedir
 config:
   store_entities_as_slots: true
 entities:
-- time
 - starwars
+- time
 forms: []
 intents:
 - cumprimentar:
+    use_entities: true
+- confirmar:
+    use_entities: true
+- informacao_ambiente:
+    use_entities: true
+- negar:
     use_entities: true
 - despedir:
     use_entities: true
@@ -41,15 +48,9 @@ intents:
     use_entities: true
 - informacao_materiais:
     use_entities: true
-- informacao_ambiente:
-    use_entities: true
-- confirmar:
-    use_entities: true
 - informacao_duvidas:
     use_entities: true
 - informacao:
-    use_entities: true
-- negar:
     use_entities: true
 - time:
     use_entities: true
@@ -61,7 +62,7 @@ slots: {}
 templates:
   utter_confirmar_ambiente1:
   - text: "Ótimo, todo nosso tutorial será feito usando o python 3.6, então bom que\
-      \ tenha\\\n\\ aí instalado\\\n"
+      \ tenha\n aí instalado\n"
   utter_confirmar_ambiente2:
   - text: "Ótimo, o VSCode será muito útil para nós!\n"
   utter_confirmar_ambiente3:
@@ -93,8 +94,9 @@ templates:
   utter_informacao:
   - text: "Sobre quais tópicos você tem dúvida?\n"
   utter_informacao_ambiente:
-  - text: "Certo, vou te perguntar se você já tem algumas das nossas \"joias do infinito\" que serão necessárias ao
-        desenvolvimento, para começar-mos, você já possui o Python instalado em seu computador?"
+  - text: "Certo, vou te perguntar se você já tem algumas das nossas \"joias do infinito\"\
+      \ que serão necessárias ao\ndesenvolvimento, para começar-mos, você já possui\
+      \ o Python instalado em seu computador?\n"
   utter_informacao_desenvolvimento:
   - text: "Muito bom, jovem Padawan!!\nVou te mostrar o tutorial de como desenvolver\
       \ e criar seu jogo em Python com diferentes dificuldades.\nQuando perceber você\
@@ -113,12 +115,12 @@ templates:
   - text: "Olá, jovem Padawan! :D\nVou te mostrar tudo que sei sobre desenvolvimento\
       \ de jogos em Python com links de materiais úteis que podem melhorar seu conhecimento\
       \ para te ajudar a se tornar um verdadeiro Mestre na criação de jogos com PyGame.\n\
-      Mas antes, jovem padawan, devo te fazer uma pergunta::Você prefere videos explicativos\
+      Mas antes, jovem padawan, devo te fazer uma pergunta:: Você prefere videos explicativos\
       \ ou textos?\n"
   utter_negar_ambiente1:
-  - text: "Para realizarmos nossos tutorias você precisara instalar o python 3.6,\
-      \ mas\\\n\\ sem problema, para instala-lo no linux você deve abrir o terminal\
-      \ e usar o comando $sudo apt-get install python3.6\n"
+  - text: "Para realizarmos nossos tutoriais você precisara instalar o python 3.6,\
+      \ mas\nsem problema, para instala-lo no Linux você deve abrir o terminal e usar\
+      \ o comando $sudo apt-get install python3.6\n"
   utter_negar_ambiente2:
   - text: "Assim como todo Jedi possui seu sabre de luz, precisamos das ferramentas\
       \ necessárias e o VScode é uma delas\\n \\\n  \\ Para instalar o VSCODE acesse\

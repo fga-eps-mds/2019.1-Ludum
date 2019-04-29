@@ -32,19 +32,6 @@
 * informacao_ambiente
     - utter_informacao_ambiente 
 
-## negar
-* negar
-    - utter_cumprimentar
-
-## confirmar
-* confirmar
-    - utter_cumprimentar
-
-## path_teste
-* informacao_ambiente
-    - utter_informacao_ambiente
-* negar
-    - utter_despedir
 
 ## informacao duvidas
 * informacao_duvidas
