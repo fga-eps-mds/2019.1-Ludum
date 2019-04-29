@@ -36,6 +36,12 @@
     "prev_action_test",
     "prev_utter_informacao",
     "prev_utter_confirmar_ambiente1",
-    "prev_utter_negar_ambiente1"
+    "prev_utter_negar_ambiente1",
+    "prev_utter_perguntar_ambiente2",
+    "prev_utter_confirmar_ambiente2",
+    "prev_utter_negar_ambiente2",
+    "prev_utter_perguntar_ambiente3",
+    "prev_utter_confirmar_ambiente3",
+    "prev_utter_negar_ambiente3"
   ]
 }
