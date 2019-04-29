@@ -79,7 +79,6 @@
     - utter_confirmar_ambiente1
 
 ## tutorial ambiente 2
-
 * informacao_ambiente
     - utter_informacao_ambiente
 * negar
