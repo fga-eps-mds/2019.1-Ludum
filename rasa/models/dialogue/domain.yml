@@ -10,9 +10,9 @@ actions:
 - utter_informacao_ambiente
 - utter_informacao_duvidas
 - utter_time
+- utter_sem_nada
 - utter_star_wars
 - action_test
-- action_ambiente
 - utter_informacao
 - utter_confirmar_ambiente1
 - utter_negar_ambiente1
@@ -93,8 +93,8 @@ templates:
   utter_informacao:
   - text: "Sobre quais tópicos você tem dúvida?\n"
   utter_informacao_ambiente:
-  - text: "Certo, você precisa de ajuda pra configurar o ambiente? \nPosso te mostrar\
-      \ como instalar todas as ferramentas necessárias para o seu aprendizado.\n"
+  - text: "Certo, vou te perguntar se você já tem algumas das nossas \"joias do infinito\" que serão necessárias ao
+        desenvolvimento, para começar-mos, você já possui o Python instalado em seu computador?"
   utter_informacao_desenvolvimento:
   - text: "Muito bom, jovem Padawan!!\nVou te mostrar o tutorial de como desenvolver\
       \ e criar seu jogo em Python com diferentes dificuldades.\nQuando perceber você\
@@ -131,6 +131,8 @@ templates:
   utter_perguntar_ambiente3:
   - text: "Para fazermos nossos belissimos jogos precisaremos da biblioteca Pygame.\
       \ Você já tem ela instalada?\n"
+  utter_sem_nada:
+  - text: -text
   utter_star_wars:
   - text: "O medo é o caminho para o lado negro.\n"
   - text: "O medo leva à raiva, a raiva leva ao ódio e o ódio leva ao sofrimento.\n"

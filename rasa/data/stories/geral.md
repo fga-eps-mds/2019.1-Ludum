@@ -2,6 +2,13 @@
 * despedir
     - utter_despedir
 
+## Pergunta sem resposta 
+* confirmar
+    - utter_sem_nada
+
+## Pergunta sem resposta 2 
+* negar 
+    - utter_sem_nada
 
 ## Oi Tudo Bem Story 1
 * cumprimentar
@@ -162,5 +169,3 @@
     - utter_perguntar_ambiente3
 * confirmar     
     - utter_confirmar_ambiente3
-
-
