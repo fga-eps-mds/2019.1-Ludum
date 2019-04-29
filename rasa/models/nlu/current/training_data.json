@@ -54,6 +54,10 @@
         "text": "flw vlw"
       },
       {
+        "intent": "despedir",
+        "text": "xau"
+      },
+      {
         "intent": "informacao_desenvolvimento",
         "text": "tutorial"
       },
@@ -112,6 +116,10 @@
       {
         "intent": "cumprimentar",
         "text": "olá"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "ola"
       },
       {
         "intent": "cumprimentar",
@@ -190,6 +198,10 @@
         "text": "materiais uteis"
       },
       {
+        "intent": "informacao_materiais",
+        "text": "materiais e links"
+      },
+      {
         "intent": "informacao_duvidas",
         "text": "Como voce pode responder uma duvida?"
       },
@@ -216,6 +228,18 @@
       {
         "intent": "informacao_duvidas",
         "text": "Duvida"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "Tenho uma duvida"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "FAQ"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "faq"
       },
       {
         "intent": "tudo_bem",
@@ -255,11 +279,7 @@
       },
       {
         "intent": "informacao",
-        "text": "Tenho uma duvida"
-      },
-      {
-        "intent": "informacao",
-        "text": "Duvida"
+        "text": "Como você pode me ajudar?"
       },
       {
         "intent": "action_test",

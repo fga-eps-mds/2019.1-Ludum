@@ -49,7 +49,7 @@
     "rasa_core.policies.fallback.FallbackPolicy",
     "rasa_core.policies.memoization.MemoizationPolicy"
   ],
-  "trained_at": "20190424-191242",
+  "trained_at": "20190429-043249",
   "rasa_core": "0.13.1",
   "tensorflow": "1.12.2",
   "sklearn": "0.20.3"

@@ -79,7 +79,8 @@ templates:
   - text: "Muito bom, jovem Padawan!!\nVou te mostrar o tutorial de como desenvolver\
       \ e criar seu jogo em Python com diferentes dificuldades.\nQuando perceber você\
       \ já ser um Meister dos jogos!\nPorém, antes de começar devo te fazer uma pergunta.\n\
-      Você quer começar por qual dificuldade?\nFácil\nMédio\nDificil\n"
+      Você quer começar por qual dificuldade?\nFácil\nMédio\nDificil\nTutoriais da\
+      \ Comunidade\n"
   utter_informacao_duvidas:
   - text: "Você pode me perguntar tudo que quiser saber sobre o desenvolvimento de\
       \ jogos em pygame! \nAs vezes eu posso até não saber sua resposta, mas posso\
@@ -93,7 +94,7 @@ templates:
   - text: "Olá, jovem Padawan! :D\nVou te mostrar tudo que sei sobre desenvolvimento\
       \ de jogos em Python com links de materiais úteis que podem melhorar seu conhecimento\
       \ para te ajudar a se tornar um verdadeiro Mestre na criação de jogos com PyGame.\n\
-      Mas antes, jovem padawan, devo te fazer uma pergunta::Você prefere videos explicativos\
+      Mas antes, jovem padawan, devo te fazer uma pergunta:Você prefere videos explicativos\
       \ ou textos?\n"
   utter_star_wars:
   - text: "O medo é o caminho para o lado negro.\n"

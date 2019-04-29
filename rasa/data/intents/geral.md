@@ -14,6 +14,7 @@
 - até breve
 - falou, valeu
 - flw vlw
+- xau
 
 ## intent:informacao_desenvolvimento
 - tutorial
@@ -33,6 +34,7 @@
 - boa tarde
 - boa noite
 - olá
+- ola
 - oie
 - oiee
 - opa tudo bem
@@ -54,6 +56,7 @@
 - quais links voce tem?
 - links uteis
 - materiais uteis
+- materiais e links
 
 ## intent:informacao_duvidas
 - Como voce pode responder uma duvida?
@@ -63,7 +66,9 @@
 - Como posso te fazer uma pergunta?
 - Você pode responder minhas questões?
 - Duvida
-
+- Tenho uma duvida
+- FAQ
+- faq
 
 ## intent:tudo_bem
 - Tudo bem
@@ -79,5 +84,4 @@
 
 ## intent:informacao
 - Tenho uma pergunta
-- Tenho uma duvida
-- Duvida
+- Como você pode me ajudar?
