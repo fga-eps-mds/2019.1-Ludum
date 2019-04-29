@@ -77,9 +77,90 @@
     - utter_informacao_ambiente
 * confirmar
     - utter_confirmar_ambiente1
-
+    - utter_perguntar_ambiente2
+* confirmar
+    - utter_confirmar_ambiente2
+    - utter_perguntar_ambiente3
+* confirmar
+    - utter_confirmar_ambiente3
 ## tutorial ambiente 2
-* informacao_ambiente
-    - utter_informacao_ambiente
+* confirmar
+    - utter_confirmar_ambiente1
+    - utter_perguntar_ambiente2
+* negar
+    - utter_negar_ambiente2
+    - utter_confirmar_ambiente2
+    - utter_perguntar_ambiente3
+* confirmar
+    - utter_confirmar_ambiente3
+## tutorial ambiente 3
+* confirmar
+    - utter_confirmar_ambiente1
+    - utter_perguntar_ambiente2
+* negar
+    - utter_negar_ambiente2
+    - utter_confirmar_ambiente2
+    - utter_perguntar_ambiente3
+* negar
+    - utter_negar_ambiente3      
+    - utter_confirmar_ambiente3
+
+## tutorial ambiente 4
+* confirmar
+    - utter_confirmar_ambiente1
+    - utter_perguntar_ambiente2
+* confirmar
+    - utter_confirmar_ambiente2
+    - utter_perguntar_ambiente3
+* negar
+    - utter_negar_ambiente3      
+    - utter_confirmar_ambiente3
+
+## tutorial ambiente 5
 * negar
     - utter_negar_ambiente1
+    - utter_confirmar_ambiente1
+    - utter_perguntar_ambiente2
+* negar
+    - utter_negar_ambiente2
+    - utter_confirmar_ambiente2
+    - utter_perguntar_ambiente3
+* negar
+    - utter_negar_ambiente3      
+    - utter_confirmar_ambiente3
+## tutorial ambiente 6
+* negar
+    - utter_negar_ambiente1
+    - utter_confirmar_ambiente1
+    - utter_perguntar_ambiente2
+* confirmar
+    - utter_confirmar_ambiente2
+    - utter_perguntar_ambiente3
+* negar
+    - utter_negar_ambiente3      
+    - utter_confirmar_ambiente3
+
+## tutorial ambiente 7
+* negar
+    - utter_negar_ambiente1
+    - utter_confirmar_ambiente1
+    - utter_perguntar_ambiente2
+* negar
+    - utter_negar_ambiente2
+    - utter_confirmar_ambiente2
+    - utter_perguntar_ambiente3
+* confirmar  
+    - utter_confirmar_ambiente3
+
+## tutorial ambiente 8
+* negar
+    - utter_negar_ambiente1
+    - utter_confirmar_ambiente1
+    - utter_perguntar_ambiente2
+* confirmar
+    - utter_confirmar_ambiente2
+    - utter_perguntar_ambiente3
+* confirmar     
+    - utter_confirmar_ambiente3
+
+
