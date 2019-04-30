@@ -16,15 +16,16 @@ logger = logging.getLogger(__name__)
 
 
 def run_ludum_online_training(interpreter,
-                          domain_file="domain.yml",
-                          training_data_file='data/stories.md'):
-    action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")						  
+                              domain_file="domain.yml",
+                              training_data_file='data/stories.md'):
+    action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")
     agent = Agent(domain_file,
-                  policies=[MemoizationPolicy(max_history=2), KerasPolicy(max_history=3, epochs=3, batch_size=50)],
-                  interpreter=interpreter,
-				  action_endpoint=action_endpoint)
-    				  
-    data = agent.load_data(training_data_file)			   
+                  policies=[MemoizationPolicy(max_history=2),
+                            KerasPolicy(max_history=3,
+                            epochs=3, batch_size=50)],
+                  interpreter=interpreter, action_endpoint=action_endpoint)
+
+    data = agent.load_data(training_data_file)
     agent.train(data)
     interactive.run_interactive_learning(agent, training_data_file)
     return agent
