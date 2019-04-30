@@ -8,6 +8,7 @@
 | 07/04/2019 | 0.4   | Modificação da parte 2 do documento | João Pedro, Wictor Girardi, João de Assis e Lucas Ganda |
 | 11/04/2019 | 0.5   | Modificação sessão Introdução | Thallys |
 | 12/04/2019 | 0.6   | Correção de estrutura e escrita| Thallys |
+| 21/04/2019 | 0.7   | Adicionando diagrama de relações | Gabriela de Moraes, Guilherme Siqueira, Lucas Lermen, Lucas Penido |
 
 
 # 1. Introdução  
@@ -220,3 +221,9 @@ Estrutura do documento:
 </html>
 
 <br>
+
+## 4.3 Diagrama de Relações
+![diagrama de relacoes](./imagens/diagrama-de-relacoes.png)
+
+## 4.4 Modelagem do Banco de Dados do Microsserviço De Resolução de Dúvidas
+![modelagem banco](./imagens/ModelagemBancoMicrosservicoDuvidas.png)

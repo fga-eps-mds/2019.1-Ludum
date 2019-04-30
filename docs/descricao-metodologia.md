@@ -33,9 +33,9 @@
 
 ## 3. KANBAN
 
-<p align="justify">Kanban é uma palavra japonesa (lógico) e seu significado literal é “cartão” ou “sinalização”. É um método para a implantação de mudanças que não prescreve papéis ou práticas específicas. Em vez disso, oferece uma série de princípios que buscam melhorar o desempenho e reduzir desperdício, eliminando atividades que não agregam valor para a equipe.
+<p align="justify">Kanban é uma palavra japonesa (lógico) e seu significado literal é “cartão” ou “sinalização”. É um método para a implantação de mudanças que não prescreve papéis ou práticas específicas. Em vez disso, oferece uma série de princípios que buscam melhorar o desempenho e reduzir desperdício, eliminando atividades que não agregam valor para a equipe.[3]
 
-<p align="justify">O Kanban está relacionado com o conceito de Pull Systems (sistemas de produção puxados), a grande maioria das indústrias utilizavam o conceito de Push Systems (sistemas de produção empurrada). Um sistema de produção empurrada se caracteriza por iniciar a produção antes de ocorrer uma real demanda, ou seja, o processo recebe uma ordem de produção e executa, empurrando o resultado da operação atual para a operação seguinte. Um sistema de produção puxado se caracteriza por iniciar a produção quando um item é vendido, gerando demanda para a fabricação de outro, assim cada operação do processo é alimentada pela demanda da etapa anterior.
+<p align="justify">O Kanban está relacionado com o conceito de Pull Systems (sistemas de produção puxados), a grande maioria das indústrias utilizavam o conceito de Push Systems (sistemas de produção empurrada). Um sistema de produção empurrada se caracteriza por iniciar a produção antes de ocorrer uma real demanda, ou seja, o processo recebe uma ordem de produção e executa, empurrando o resultado da operação atual para a operação seguinte. Um sistema de produção puxado se caracteriza por iniciar a produção quando um item é vendido, gerando demanda para a fabricação de outro, assim cada operação do processo é alimentada pela demanda da etapa anterior.[3]
 
 ### 3.1. Recursos utilizados
 
@@ -45,7 +45,7 @@
 
 <p align="justify">O XP, ou Extreme Programming, é uma metodologia de desenvolvimento de software que tem como objetivo principal levar ao extremo boas práticas de programação e boas práticas para o desenvolvimento de software no geral. O XP é uma metodologia baseada em valores, que definem uma maneira harmoniosa de trabalho na equipe de desenvolvimento.[4]
 
-<p align="justify">O foco desta metodologia é no desenvolvimento incremental e iterativo de sistemas orientados à objetos nos quais os requisitos são instáveis e/ou incertos e que possua uma equipe pequena.
+<p align="justify">O foco desta metodologia é no desenvolvimento incremental e iterativo de sistemas orientados à objetos nos quais os requisitos são instáveis e/ou incertos e que possua uma equipe pequena. [4]
 
 ### 4.1. Recursos utilizados
 - <p align="justify">Programação em pares: Programação realizada em duplas onde, normalmente, o integrante com mais domínio sobre determinada área é colocado em um pareamento com outro que possua um menor conhecimento;
@@ -53,7 +53,7 @@
 
 ## 5. Documento base
 
-<p align="justify">Esse documento foi baseado na descrição de metodologigia do projeto <a href=https://github.com/2018-2-Desenho/CabecaVoleiJoelhoPe/wiki/Descri%C3%A7%C3%A3o-da-metodologia> Cabeça Vôlei Joelho e Pé</a>.
+<p align="justify">Esse documento foi baseado na descrição de metodologia do projeto <a href=https://github.com/2018-2-Desenho/CabecaVoleiJoelhoPe/wiki/Descri%C3%A7%C3%A3o-da-metodologia> Cabeça Vôlei Joelho e Pé</a>.
 
 ## 6. Referências
 
