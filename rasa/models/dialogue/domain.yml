@@ -1,28 +1,28 @@
 %YAML 1.1
 ---
 actions:
-- utter_informacao_desenvolvimento
-- utter_perguntar_ambiente2
-- action_ambiente
-- utter_confirmar_ambiente1
-- utter_negar_ambiente2
-- utter_informacao_duvidas
-- utter_negar_ambiente1
-- utter_default
-- utter_confirmar_ambiente3
-- utter_tudo_bem
-- utter_perguntar_ambiente3
-- utter_confirmar_ambiente2
-- utter_negar_ambiente3
-- utter_star_wars
-- utter_sem_nada
-- utter_cumprimentar
-- utter_time
-- utter_informacao
-- utter_informacao_materiais
-- utter_informacao_ambiente
 - action_test
+- utter_confirmar_ambiente2
+- utter_confirmar_ambiente1
+- utter_star_wars
+- utter_informacao
+- utter_sem_nada
+- utter_perguntar_ambiente3
+- utter_informacao_materiais
+- utter_negar_ambiente3
+- utter_confirmar_ambiente3
+- utter_informacao_duvidas
+- utter_perguntar_ambiente2
+- utter_tudo_bem
+- utter_informacao_ambiente
+- utter_time
+- utter_negar_ambiente1
+- action_ambiente
+- utter_negar_ambiente2
+- utter_informacao_desenvolvimento
 - utter_despedir
+- utter_default
+- utter_cumprimentar
 config:
   store_entities_as_slots: true
 entities:
@@ -30,27 +30,27 @@ entities:
 - time
 forms: []
 intents:
+- informacao_ambiente:
+    use_entities: true
+- out_of_scope:
+    use_entities: true
+- informacao_duvidas:
+    use_entities: true
+- informacao_materiais:
+    use_entities: true
+- informacao:
+    use_entities: true
 - cumprimentar:
     use_entities: true
 - confirmar:
-    use_entities: true
-- informacao_ambiente:
     use_entities: true
 - negar:
     use_entities: true
 - despedir:
     use_entities: true
-- out_of_scope:
-    use_entities: true
 - tudo_bem:
     use_entities: true
 - informacao_desenvolvimento:
-    use_entities: true
-- informacao_materiais:
-    use_entities: true
-- informacao_duvidas:
-    use_entities: true
-- informacao:
     use_entities: true
 - time:
     use_entities: true
@@ -134,7 +134,7 @@ templates:
   - text: "Para fazermos nossos belissimos jogos precisaremos da biblioteca Pygame.\
       \ Você já tem ela instalada?\n"
   utter_sem_nada:
-  - text: -text
+  - text: Mas eu nem te perguntei nada
   utter_star_wars:
   - text: "O medo é o caminho para o lado negro.\n"
   - text: "O medo leva à raiva, a raiva leva ao ódio e o ódio leva ao sofrimento.\n"

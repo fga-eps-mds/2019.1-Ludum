@@ -156,3 +156,9 @@
     - utter_perguntar_ambiente3
 * confirmar     
     - utter_confirmar_ambiente3
+## Generated Story -5536704352028321519
+* confirmar
+    - utter_sem_nada
+* confirmar
+    - utter_sem_nada
+

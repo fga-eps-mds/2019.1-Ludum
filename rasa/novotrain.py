@@ -15,7 +15,7 @@ from rasa_core.utils import EndpointConfig
 logger = logging.getLogger(__name__)
 
 
-def run_weather_online(interpreter,
+def run_ludum_online_training(interpreter,
                           domain_file="domain.yml",
                           training_data_file='data/stories.md'):
     action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")						  
@@ -33,4 +33,4 @@ def run_weather_online(interpreter,
 if __name__ == '__main__':
     logging.basicConfig(level="INFO")
     nlu_interpreter = RasaNLUInterpreter('./models/nlu/current')
-    run_weather_online(nlu_interpreter)
+    run_ludum_online_training(nlu_interpreter)

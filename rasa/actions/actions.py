@@ -12,7 +12,7 @@ class ActionTest(Action):
         except ValueError:
             dispatcher.utter_message(ValueError)
 
-class ActionAmbiente(Action):
+"""class ActionAmbiente(Action):
     def name(self):
         return "action_ambiente"
 
@@ -30,4 +30,4 @@ class ActionAmbiente(Action):
                     else:
                         disptacher.utter_message("Aff")
                 except ValueError:
-                    dispatcher.utter_message(ValueError)
+                    dispatcher.utter_message(ValueError)"""

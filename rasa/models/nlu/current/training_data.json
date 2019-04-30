@@ -162,20 +162,140 @@
         "text": "ambiente_action"
       },
       {
-        "intent": "out_of_scope",
-        "text": "Qual a origem do mundo?"
+        "intent": "confirmar",
+        "text": "sim"
       },
       {
-        "intent": "out_of_scope",
-        "text": "Você tem signo?"
+        "intent": "confirmar",
+        "text": "claro"
       },
       {
-        "intent": "out_of_scope",
-        "text": "Vc gosta de carnaval?"
+        "intent": "confirmar",
+        "text": "Sim"
       },
       {
-        "intent": "out_of_scope",
-        "text": "batatinha quando nasce"
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "oi, tudo bem"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "bom dia"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "boa tarde"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "boa noite"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "olá"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "oie"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "oiee"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "opa tudo bem"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "ola boa tarde"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "ola"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "ola"
       },
       {
         "intent": "despedir",
@@ -212,6 +332,62 @@
       {
         "intent": "despedir",
         "text": "flw vlw"
+      },
+      {
+        "intent": "informacao",
+        "text": "Tenho uma pergunta"
+      },
+      {
+        "intent": "informacao",
+        "text": "Tenho uma duvida"
+      },
+      {
+        "intent": "informacao",
+        "text": "Duvida"
+      },
+      {
+        "intent": "informacao",
+        "text": "voce pode me tirar uma duvida?"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "como voce pode me ajudar a configurar o ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "voce pode me ajudar a configurar o ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "como funciona a configuracao de ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "o que preciso para começar"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "configurar ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "ambiente"
       },
       {
         "intent": "informacao_desenvolvimento",
@@ -254,40 +430,36 @@
         "text": "quero fazer um jogo em python"
       },
       {
-        "intent": "cumprimentar",
-        "text": "oi, tudo bem"
+        "intent": "informacao_duvidas",
+        "text": "Como voce pode responder uma duvida?"
       },
       {
-        "intent": "cumprimentar",
-        "text": "bom dia"
+        "intent": "informacao_duvidas",
+        "text": "Voce consegue me tirar uma duvida?"
       },
       {
-        "intent": "cumprimentar",
-        "text": "boa tarde"
+        "intent": "informacao_duvidas",
+        "text": "Como você pode responder minha pergunta?"
       },
       {
-        "intent": "cumprimentar",
-        "text": "boa noite"
+        "intent": "informacao_duvidas",
+        "text": "Me tira uma duvida?"
       },
       {
-        "intent": "cumprimentar",
-        "text": "olá"
+        "intent": "informacao_duvidas",
+        "text": "Como posso te fazer uma pergunta?"
       },
       {
-        "intent": "cumprimentar",
-        "text": "oie"
+        "intent": "informacao_duvidas",
+        "text": "Você pode responder minhas questões?"
       },
       {
-        "intent": "cumprimentar",
-        "text": "oiee"
+        "intent": "informacao_duvidas",
+        "text": "Duvida"
       },
       {
-        "intent": "cumprimentar",
-        "text": "opa tudo bem"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "ola boa tarde"
+        "intent": "informacao_duvidas",
+        "text": "como posso tirar uma duvida?"
       },
       {
         "intent": "informacao_materiais",
@@ -350,32 +522,8 @@
         "text": "materiais uteis"
       },
       {
-        "intent": "informacao_duvidas",
-        "text": "Como voce pode responder uma duvida?"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Voce consegue me tirar uma duvida?"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Como você pode responder minha pergunta?"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Me tira uma duvida?"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Como posso te fazer uma pergunta?"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Você pode responder minhas questões?"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Duvida"
+        "intent": "informacao_materiais",
+        "text": "me manda link"
       },
       {
         "intent": "negar",
@@ -386,12 +534,112 @@
         "text": "não"
       },
       {
-        "intent": "confirmar",
-        "text": "sim"
+        "intent": "negar",
+        "text": "nao"
       },
       {
-        "intent": "confirmar",
-        "text": "claro"
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Qual a origem do mundo?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Você tem signo?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Vc gosta de carnaval?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "batatinha quando nasce"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "nai"
       },
       {
         "intent": "tudo_bem",
@@ -404,38 +652,6 @@
       {
         "intent": "tudo_bem",
         "text": "como vc ta"
-      },
-      {
-        "intent": "informacao_ambiente",
-        "text": "ambiente"
-      },
-      {
-        "intent": "informacao_ambiente",
-        "text": "como voce pode me ajudar a configurar o ambiente"
-      },
-      {
-        "intent": "informacao_ambiente",
-        "text": "voce pode me ajudar a configurar o ambiente"
-      },
-      {
-        "intent": "informacao_ambiente",
-        "text": "como funciona a configuracao de ambiente"
-      },
-      {
-        "intent": "informacao_ambiente",
-        "text": "o que preciso para começar"
-      },
-      {
-        "intent": "informacao",
-        "text": "Tenho uma pergunta"
-      },
-      {
-        "intent": "informacao",
-        "text": "Tenho uma duvida"
-      },
-      {
-        "intent": "informacao",
-        "text": "Duvida"
       }
     ],
     "regex_features": [],
