@@ -2,9 +2,6 @@
 * despedir
     - utter_despedir
 
-## Oi Tudo Bem Story
-* tudo_bem
-    - utter_tudo_bem
 
 ## Oi Tudo Bem Story 1
 * cumprimentar
@@ -20,21 +17,36 @@
 * out_of_scope
     - utter_default
 
-## negar sem contexto
-* negar
-    - utter_despedir
-
+## materiais
+* informacao_materiais
+    - utter_informacao_materiais
+    
 ## informacao ambiente 
 * informacao_ambiente
     - utter_informacao_ambiente 
 
-## informacao ambiente-sistema
-* informacao_ambiente_sistema
-    - utter_informacao_ambiente_sistema
-
 ## informacao duvidas
 * informacao_duvidas
     - utter_informacao_duvidas
+
+## path informacao>duvidas
+* informacao
+    - utter_informacao
+* informacao_duvidas
+    - utter_informacao_duvidas
+
+## path informacao>ambiente
+* informacao
+    - utter_informacao
+* informacao_ambiente
+    - utter_informacao_ambiente
+
+## path informacao>desenvolvimento
+* informacao
+    - utter_informacao
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+
 
 ## path 1
 * cumprimentar
