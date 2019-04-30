@@ -1,5 +1,5 @@
 <img src="imagens/Ludum_LogoFinal(sem_fundo).png" width="auto" height="450" /> 
 <!-- # Ludum -->
-> Projeto das disciplinas de Engenharia de Produto de Software e Método de Desenvolvimento de Software.
+> O assistente virtual sobre a PyGame!
 
 [GitHub](https://github.com/fga-eps-mds/2019.1-Ludum)

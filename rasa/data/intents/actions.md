@@ -5,4 +5,10 @@
 - custom actions
 - action
 - test action
-- ambiente_action
+
+## intent:action_question
+- Quero fazer uma pergunta ao Stack Overflow
+- Stack Overflow
+- stack overflow
+- stack
+- overflow

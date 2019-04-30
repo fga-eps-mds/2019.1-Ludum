@@ -95,13 +95,14 @@ templates:
   - text: "Sobre quais tópicos você tem dúvida?\n"
   utter_informacao_ambiente:
   - text: "Certo, vou te perguntar se você já tem algumas das nossas \"joias do infinito\"\
-      \ que serão necessárias ao\ndesenvolvimento, para começar-mos, você já possui\
+      \ que serão necessárias ao\ndesenvolvimento, para começarmos, você já possui\
       \ o Python instalado em seu computador?\n"
   utter_informacao_desenvolvimento:
   - text: "Muito bom, jovem Padawan!!\nVou te mostrar o tutorial de como desenvolver\
       \ e criar seu jogo em Python com diferentes dificuldades.\nQuando perceber você\
       \ já ser um Meister dos jogos!\nPorém, antes de começar devo te fazer uma pergunta.\n\
-      Você quer começar por qual dificuldade?\nFácil\nMédio\nDificil\n"
+      Você quer começar por qual dificuldade?\nFácil\nMédio\nDificil\nTutoriais da\
+      \ Comunidade\n"
   utter_informacao_duvidas:
   - text: "Você pode me perguntar tudo que quiser saber sobre o desenvolvimento de\
       \ jogos em pygame! \nAs vezes eu posso até não saber sua resposta, mas posso\
@@ -115,7 +116,7 @@ templates:
   - text: "Olá, jovem Padawan! :D\nVou te mostrar tudo que sei sobre desenvolvimento\
       \ de jogos em Python com links de materiais úteis que podem melhorar seu conhecimento\
       \ para te ajudar a se tornar um verdadeiro Mestre na criação de jogos com PyGame.\n\
-      Mas antes, jovem padawan, devo te fazer uma pergunta:: Você prefere videos explicativos\
+      Mas antes, jovem padawan, devo te fazer uma pergunta:Você prefere videos explicativos\
       \ ou textos?\n"
   utter_negar_ambiente1:
   - text: "Para realizarmos nossos tutoriais você precisara instalar o python 3.6,\
@@ -123,7 +124,8 @@ templates:
       \ o comando $sudo apt-get install python3.6\n"
   utter_negar_ambiente2:
   - text: "Assim como todo Jedi possui seu sabre de luz, precisamos das ferramentas\
-      \ necessárias e o VScode é uma delas\\n \\\n  \\ Para instalar o VSCODE acesse\
+      \ necessárias e o VScode é uma delas\n  \
+      \ Para instalar o VSCODE acesse\
       \ o site https://code.visualstudio.com/download, é tudo de graça!\n"
   utter_negar_ambiente3:
   - text: "Para instalar a biblioteca mais importante para nós aqui instale a PyGame\

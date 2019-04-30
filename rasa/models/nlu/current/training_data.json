@@ -119,7 +119,7 @@
             "entity": "starwars"
           }
         ],
-        "text": "concelhos do yoda"
+        "text": "conselhos do yoda"
       },
       {
         "intent": "star_wars",
@@ -390,6 +390,10 @@
         "text": "ambiente"
       },
       {
+        "intent": "despedir",
+        "text": "xau"
+      },
+      {
         "intent": "informacao_desenvolvimento",
         "text": "tutorial"
       },
@@ -448,6 +452,14 @@
       {
         "intent": "informacao_duvidas",
         "text": "Como posso te fazer uma pergunta?"
+      },
+      {
+        "intent": "cumprimentar",
+      "text": "ola"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "oie"
       },
       {
         "intent": "informacao_duvidas",
@@ -530,6 +542,50 @@
         "text": "nao"
       },
       {
+        "intent": "informacao_duvidas",
+        "text": "Como voce pode responder uma duvida?"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "Voce consegue me tirar uma duvida?"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "Como você pode responder minha pergunta?"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "Me tira uma duvida?"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "Como posso te fazer uma pergunta?"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "Você pode responder minhas questões?"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "Duvida"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "Tenho uma duvida"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "FAQ"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "faq"
+      },
+      {
+        "intent": "tudo_bem",
+        "text": "Tudo bem"
+      },
+      {
         "intent": "negar",
         "text": "não"
       },
@@ -562,12 +618,8 @@
         "text": "nao"
       },
       {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
+        "intent": "informacao",
+        "text": "Como você pode me ajudar?"
       },
       {
         "intent": "negar",

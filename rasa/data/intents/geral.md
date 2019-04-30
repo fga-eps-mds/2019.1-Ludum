@@ -51,6 +51,7 @@
 - até breve
 - falou, valeu
 - flw vlw
+- xau
 
 ## intent:informacao
 - Tenho uma pergunta
@@ -147,7 +148,6 @@
 - Você tem signo?
 - Vc gosta de carnaval?
 - batatinha quando nasce
-- nai
 
 ## intent:tudo_bem
 - Tudo bem

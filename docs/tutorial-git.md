@@ -1,6 +1,7 @@
 # Tutorial de como contribuir utilizando o Git
 
 **Importante:** este tutorial utiliza linhas de comando no terminal do Linux/macOS ou prompt de comando do Windows. Há alternativas de interfaces gráficas para utilização git, mas não serão abordadas nesse tutorial.
+
 1) Para clonar o repositório, utilize o seguinte comando no terminal do Linux/macOS ou prompt de comando do Windows dentro de uma pasta de sua preferência
 ```bash
 git clone https://github.com/fga-eps-mds/2019.1-Ludum.git

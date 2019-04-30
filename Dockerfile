@@ -11,6 +11,7 @@ RUN python -c "import nltk; nltk.download('stopwords');"
 RUN pip install flake8
 RUN pip install pyTelegramBotAPI
 RUN pip install pymongo
+RUN pip install requests
 
 ADD . /2019.1-Ludum
 

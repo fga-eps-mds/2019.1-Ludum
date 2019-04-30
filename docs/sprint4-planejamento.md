@@ -18,6 +18,8 @@
 
   * [3.1. Planejadas](#_31-planejadas)
 
+[4. Pareamentos](#_4-pareamentos_)  
+
 -------
 
 ## 1. Papéis
@@ -53,4 +55,8 @@
 | T31 - Criar Manual da Identidade Visual(MIV) | 3 |
 | T32 - Adequar repositório às recomendações da comunidade| 3 |
 | T33- Finalizar documento de arquitetura | 8 |
+
+## 4. Pareamentos
+
+![](./imagens/quadropareamento-sprint4.png)
 

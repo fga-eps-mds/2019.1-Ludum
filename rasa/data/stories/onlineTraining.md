@@ -66,8 +66,6 @@
     - utter_cumprimentar
 * negar
     - utter_sem_nada
-* out_of_scope
-    - action_default_fallback
 * negar
     - utter_sem_nada
 * confirmar
