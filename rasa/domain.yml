@@ -45,7 +45,7 @@ intents:
 - action_question
 templates:
   utter_confirmar_ambiente1:
-  - text: "Ótimo, todo nosso tutorial será feito usando o python 3.6, então bom que\
+  - text: "Ótimo, todo nosso tutorial será feito usando o Python 3.6, então bom que\
       \ tenha\n aí instalado\n"
   utter_confirmar_ambiente2:
   - text: "Ótimo, o VSCode será muito útil para nós!\n"
@@ -80,7 +80,7 @@ templates:
   utter_informacao_ambiente:
   - text: "Certo, vou te perguntar se você já tem algumas das nossas \"joias do infinito\"\
       \ que serão necessárias ao\ndesenvolvimento, para começarmos, você já possui\
-      \ o Python instalado em seu computador?\n"
+      \ o Python 3.6 instalado em seu computador?\n"
   utter_informacao_desenvolvimento:
   - text: "Muito bom, jovem Padawan!!\nVou te mostrar o tutorial de como desenvolver\
       \ e criar seu jogo em Python com diferentes dificuldades.\nQuando perceber você\
@@ -90,7 +90,7 @@ templates:
   - text: "Você pode me perguntar tudo que quiser saber sobre o desenvolvimento de\
       \ jogos em pygame! \nAs vezes eu posso até não saber sua resposta, mas posso\
       \ pesquisar no StackOverflow por uma resposta adequada!\n"
-  - text: "Te respondo o que você precisar saber sobre pygame! Mas assim como todo\
+  - text: "Te respondo o que você precisar saber sobre Pygame! Mas assim como todo\
       \ mestre é um eterno aprendiz, eu também não sei de tudo.\nMas posso pesquisar\
       \ no StackOverflow e procurar a resposta mais indicada\n"
   - text: "Oque deseja saber, jovem padawan? Se eu não souber a resposta posso pesquisar\
@@ -102,9 +102,9 @@ templates:
       Mas antes, jovem padawan, devo te fazer uma pergunta: Você prefere videos explicativos\
       \ ou textos?\n"
   utter_negar_ambiente1:
-  - text: "Para realizarmos nossos tutoriais você precisara instalar o python 3.6,\
+  - text: "Para realizarmos nossos tutoriais você precisara instalar o Python 3.6,\
       \ mas\nsem problema, para instala-lo no Linux você deve abrir o terminal e usar\
-      \ o comando $sudo apt-get install python3.6\n"
+      \ o comando $sudo apt-get install Python3.6\n"
   utter_negar_ambiente2:
   - text: "Assim como todo Jedi possui seu sabre de luz, precisamos das ferramentas\
       \ necessárias e o VScode é uma delas\n
