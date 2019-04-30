@@ -1,28 +1,29 @@
 %YAML 1.1
 ---
 actions:
-- action_test
-- utter_confirmar_ambiente2
-- utter_confirmar_ambiente1
-- utter_star_wars
-- utter_informacao
-- utter_sem_nada
-- utter_perguntar_ambiente3
-- utter_informacao_materiais
-- utter_negar_ambiente3
-- utter_confirmar_ambiente3
-- utter_informacao_duvidas
-- utter_perguntar_ambiente2
-- utter_tudo_bem
-- utter_informacao_ambiente
-- utter_time
-- utter_negar_ambiente1
-- action_ambiente
 - utter_negar_ambiente2
+- utter_time
+- utter_negar_ambiente3
+- utter_perguntar_ambiente3
+- utter_informacao_ambiente
 - utter_informacao_desenvolvimento
+- utter_confirmar_ambiente3
+- utter_sem_nada
 - utter_despedir
-- utter_default
+- utter_perguntar_ambiente2
+- utter_confirmar_ambiente1
 - utter_cumprimentar
+- utter_default
+- utter_confirmar_ambiente2
+- utter_informacao_materiais
+- utter_informacao_duvidas
+- action_test
+- action_question
+- extra.actions.ActionQuest
+- utter_informacao
+- utter_star_wars
+- utter_tudo_bem
+- utter_negar_ambiente1
 config:
   store_entities_as_slots: true
 entities:
@@ -30,27 +31,27 @@ entities:
 - time
 forms: []
 intents:
-- informacao_ambiente:
-    use_entities: true
-- out_of_scope:
-    use_entities: true
-- informacao_duvidas:
-    use_entities: true
-- informacao_materiais:
-    use_entities: true
-- informacao:
-    use_entities: true
-- cumprimentar:
-    use_entities: true
 - confirmar:
+    use_entities: true
+- informacao_ambiente:
     use_entities: true
 - negar:
     use_entities: true
+- cumprimentar:
+    use_entities: true
 - despedir:
+    use_entities: true
+- out_of_scope:
     use_entities: true
 - tudo_bem:
     use_entities: true
 - informacao_desenvolvimento:
+    use_entities: true
+- informacao_materiais:
+    use_entities: true
+- informacao_duvidas:
+    use_entities: true
+- informacao:
     use_entities: true
 - time:
     use_entities: true
@@ -58,13 +59,15 @@ intents:
     use_entities: true
 - action_test:
     use_entities: true
+- action_question:
+    use_entities: true
 slots: {}
 templates:
   utter_confirmar_ambiente1:
-  - text: "Ótimo, todo nosso tutorial será feito usando o Python 3.6, então bom que\
-      \ tenha\n aí instalado\n"
+  - text: "Ótimo, todo nosso tutorial será feito usando o Python 3.6, então é bom que\
+      \ você o tenha aí instalado\n"
   utter_confirmar_ambiente2:
-  - text: "Ótimo, o VSCode será muito útil para nós!\n"
+  - text: "Ótimo, o Visual Studio Code será muito útil para nós!\n"
   utter_confirmar_ambiente3:
   - text: "Tudo certo então, estamos prontos para começar a diversão!\n"
   utter_cumprimentar:
@@ -94,20 +97,19 @@ templates:
   utter_informacao:
   - text: "Sobre quais tópicos você tem dúvida?\n"
   utter_informacao_ambiente:
-  - text: "Certo, vou te perguntar se você já tem algumas das nossas \"joias do infinito\"\
-      \ que serão necessárias ao\ndesenvolvimento, para começarmos, você já possui\
+  - text: "Certo, irei lhe perguntar se você possui algumas das nossas \"joias do infinito\"\
+      \ que serão necessárias ao desenvolvimento, para começarmos, você já possui\
       \ o Python 3.6 instalado em seu computador?\n"
   utter_informacao_desenvolvimento:
   - text: "Muito bom, jovem Padawan!!\nVou te mostrar o tutorial de como desenvolver\
       \ e criar seu jogo em Python com diferentes dificuldades.\nQuando perceber você\
       \ já ser um Meister dos jogos!\nPorém, antes de começar devo te fazer uma pergunta.\n\
-      Você quer começar por qual dificuldade?\nFácil\nMédio\nDificil\nTutoriais da\
-      \ Comunidade\n"
+      Você quer começar por qual dificuldade?\nFácil\nMédio\nDificil\n"
   utter_informacao_duvidas:
   - text: "Você pode me perguntar tudo que quiser saber sobre o desenvolvimento de\
       \ jogos em pygame! \nAs vezes eu posso até não saber sua resposta, mas posso\
       \ pesquisar no StackOverflow por uma resposta adequada!\n"
-  - text: "Te respondo o que você precisar saber sobre pygame! Mas assim como todo\
+  - text: "Te respondo o que você precisar saber sobre Pygame! Mas assim como todo\
       \ mestre é um eterno aprendiz, eu também não sei de tudo.\nMas posso pesquisar\
       \ no StackOverflow e procurar a resposta mais indicada\n"
   - text: "Oque deseja saber, jovem padawan? Se eu não souber a resposta posso pesquisar\
@@ -116,22 +118,22 @@ templates:
   - text: "Olá, jovem Padawan! :D\nVou te mostrar tudo que sei sobre desenvolvimento\
       \ de jogos em Python com links de materiais úteis que podem melhorar seu conhecimento\
       \ para te ajudar a se tornar um verdadeiro Mestre na criação de jogos com PyGame.\n\
-      Mas antes, jovem padawan, devo te fazer uma pergunta:Você prefere videos explicativos\
+      Mas antes, jovem padawan, devo te fazer uma pergunta: Você prefere videos explicativos\
       \ ou textos?\n"
   utter_negar_ambiente1:
   - text: "Para realizarmos nossos tutoriais você precisara instalar o Python 3.6,\
-      \ mas\nsem problema, para instala-lo no Linux você deve abrir o terminal e usar\
-      \ o comando $sudo apt-get install python3.6\n"
+      \ mas sem problema, para instala-lo no Linux você deve abrir o terminal e usar\
+      \ o comando: $sudo apt-get install Python3.6\n
+      \ caso você esteja usando o MacOS use o comando: brew install python3\n\""
   utter_negar_ambiente2:
   - text: "Assim como todo Jedi possui seu sabre de luz, precisamos das ferramentas\
-      \ necessárias e o VScode é uma delas\n  \
-      \ Para instalar o VSCODE acesse\
-      \ o site https://code.visualstudio.com/download, é tudo de graça!\n"
+      \ necessárias e o Visual Studio Code é uma delas\n  Para instalá-lo acesse o site\
+      \ https://code.visualstudio.com/download, é tudo de graça!\n"
   utter_negar_ambiente3:
   - text: "Para instalar a biblioteca mais importante para nós aqui instale a PyGame\
       \ com o seguinte comando python3 -m pip install -U pygame --user\n"
   utter_perguntar_ambiente2:
-  - text: "Você possui o editor de texto VSCode instalado?\n"
+  - text: "Você possui o editor de texto Visual Studio Code instalado?\n"
   utter_perguntar_ambiente3:
   - text: "Para fazermos nossos belissimos jogos precisaremos da biblioteca Pygame.\
       \ Você já tem ela instalada?\n"
