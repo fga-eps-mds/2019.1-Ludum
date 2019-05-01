@@ -24,6 +24,7 @@ actions:
 - utter_star_wars
 - utter_tudo_bem
 - utter_negar_ambiente1
+- utter_contribuicao
 config:
   store_entities_as_slots: true
 entities:
@@ -60,6 +61,8 @@ intents:
 - action_test:
     use_entities: true
 - action_question:
+    use_entities: true
+- contribuicao:
     use_entities: true
 slots: {}
 templates:
@@ -151,3 +154,11 @@ templates:
   - text: "Melhor time do mundo disparado, Flamengooo!!!!\n"
   utter_tudo_bem:
   - text: "Tudo bem, obrigado! Em que posso te ajudar?\n"
+  utter-contribuicao:
+  - text: "Quer se tornar um Jedi?! Nos ajude contribuindo no nosso repositório que a força estará com você.\
+   \ O guia com todos os passos para contribuir ao Ludum se encontra aqui\
+   \ https://github.com/fga-eps-mds/2019.1-Ludum/blob/development/CONTRIBUTING.md\
+   \ e não esqueça de seguir nosso código de conduta,\
+   \  para conferir basta clicar aqui\
+   \  https://github.com/fga-eps-mds/2019.1-Ludum/blob/master/CODE_OF_CONDUCT.md\n"
+
