@@ -1,6 +1,6 @@
 <p align="center"> <img src="imagens/Ludum_LogoFinal(sem_fundo).png" width="auto" height="400" /> 
 <br>    
-<a href="https://www.gnu.org/licenses/gpl-3.0.pt-br.html"><img src="https://img.shields.io/badge/licence-GPL3-green.svg"/></a> <a href="CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg"></a> </p>
+<a href="https://www.gnu.org/licenses/gpl-3.0.pt-br.html"><img src="https://img.shields.io/badge/licence-GPL3-green.svg"/></a> <a href="CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg"></a> <img src="https://img.shields.io/github/issues-closed-raw/fga-eps-mds/2019.1-Ludum.svg"/> </p>
 
 # Ludum - O assistente virtual sobre o PyGame
 
@@ -12,6 +12,7 @@
 * **Resolução de dúvidas** - o Ludum mostrará as perguntas frequentes relacionadas à PyGame e caso o usuário não encontre ele pesquisará no Stack Overflow;
 * **Configurar ambiente** - o Ludum ensinará como configurar o ambiente;
 * **Recomendação de materiais e links** - o Ludum irá recomendar materiais e links que contribuam ao aprendizado do usuário;
+* **Contribuição pela Comunidade** - A comunidade usuária pode contribuir ao Ludum com materiais e links, além de tutoriais de jogos utilizando a PyGame;
 * **Auxílio na criação de jogos** - o Ludum ensinará como desenvolver jogos com complexidades variadas utilizando a PyGame.
 
 ## Tecnologias
