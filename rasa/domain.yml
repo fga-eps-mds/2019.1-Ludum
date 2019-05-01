@@ -107,7 +107,7 @@ templates:
   - text: "Para realizarmos nossos tutoriais você precisara instalar o Python 3.6,\
       \ mas sem problema, para instala-lo no Linux você deve abrir o terminal e usar\
       \ o comando: $sudo apt-get install Python3.6\n\
-      \ caso você esteja usando o MacOS use o comand: brew install python3\n\
+      \ caso você esteja usando o MacOS use o comand: brew install python3\n\""
   utter_negar_ambiente2:
   - text: "Assim como todo Jedi possui seu sabre de luz, precisamos das ferramentas\
       \ necessárias e o Visual Studio Code é uma delas\n
@@ -135,7 +135,7 @@ templates:
   - text: "Melhor time do mundo disparado, Flamengooo!!!!\n"
   utter_tudo_bem:
   - text: "Tudo bem, obrigado! Em que posso te ajudar?\n"
-  utter-contribuicao:
+  utter_contribuicao:
   - text: "Quer se tornar um Jedi?! Nos ajude contribuindo no nosso repositório que a força estará com você.\
    \ O guia com todos os passos para contribuir ao Ludum se encontra aqui\
    \ https://github.com/fga-eps-mds/2019.1-Ludum/blob/development/CONTRIBUTING.md\

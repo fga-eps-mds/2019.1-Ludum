@@ -67,12 +67,18 @@ intents:
 slots: {}
 templates:
   utter_confirmar_ambiente1:
-  - text: "Ótimo, todo nosso tutorial será feito usando o Python 3.6, então é bom que\
-      \ você o tenha aí instalado\n"
+  - text: "Ótimo, todo nosso tutorial será feito usando o Python 3.6, então é bom\
+      \ que você o tenha aí instalado\n"
   utter_confirmar_ambiente2:
   - text: "Ótimo, o Visual Studio Code será muito útil para nós!\n"
   utter_confirmar_ambiente3:
   - text: "Tudo certo então, estamos prontos para começar a diversão!\n"
+  utter_contribuicao:
+  - text: "Quer se tornar um Jedi?! Nos ajude contribuindo no nosso repositório que\
+      \ a força estará com você. O guia com todos os passos para contribuir ao Ludum\
+      \ se encontra aqui https://github.com/fga-eps-mds/2019.1-Ludum/blob/development/CONTRIBUTING.md\
+      \ e não esqueça de seguir nosso código de conduta,  para conferir basta clicar\
+      \ aqui  https://github.com/fga-eps-mds/2019.1-Ludum/blob/master/CODE_OF_CONDUCT.md\n"
   utter_cumprimentar:
   - text: "Olá, eu sou o Ludum! :D\n Vou te mostrar tudo que sei sobre \n desenvolvimento\
       \ de jogos em Python!\n Mas antes, jovem padawan, devo te fazer uma pergunta,\n\
@@ -100,9 +106,9 @@ templates:
   utter_informacao:
   - text: "Sobre quais tópicos você tem dúvida?\n"
   utter_informacao_ambiente:
-  - text: "Certo, irei lhe perguntar se você possui algumas das nossas \"joias do infinito\"\
-      \ que serão necessárias ao desenvolvimento, para começarmos, você já possui\
-      \ o Python 3.6 instalado em seu computador?\n"
+  - text: "Certo, irei lhe perguntar se você possui algumas das nossas \"joias do\
+      \ infinito\" que serão necessárias ao desenvolvimento, para começarmos, você\
+      \ já possui o Python 3.6 instalado em seu computador?\n"
   utter_informacao_desenvolvimento:
   - text: "Muito bom, jovem Padawan!!\nVou te mostrar o tutorial de como desenvolver\
       \ e criar seu jogo em Python com diferentes dificuldades.\nQuando perceber você\
@@ -126,12 +132,12 @@ templates:
   utter_negar_ambiente1:
   - text: "Para realizarmos nossos tutoriais você precisara instalar o Python 3.6,\
       \ mas sem problema, para instala-lo no Linux você deve abrir o terminal e usar\
-      \ o comando: $sudo apt-get install Python3.6\n
-      \ caso você esteja usando o MacOS use o comando: brew install python3\n\""
+      \ o comando: $sudo apt-get install Python3.6\n caso você esteja usando o MacOS\
+      \ use o comand: brew install python3\n\""
   utter_negar_ambiente2:
   - text: "Assim como todo Jedi possui seu sabre de luz, precisamos das ferramentas\
-      \ necessárias e o Visual Studio Code é uma delas\n  Para instalá-lo acesse o site\
-      \ https://code.visualstudio.com/download, é tudo de graça!\n"
+      \ necessárias e o Visual Studio Code é uma delas\n  Para instalá-lo acesse o\
+      \ site https://code.visualstudio.com/download, é tudo de graça!\n"
   utter_negar_ambiente3:
   - text: "Para instalar a biblioteca mais importante para nós aqui instale a PyGame\
       \ com o seguinte comando python3 -m pip install -U pygame --user\n"
@@ -154,11 +160,3 @@ templates:
   - text: "Melhor time do mundo disparado, Flamengooo!!!!\n"
   utter_tudo_bem:
   - text: "Tudo bem, obrigado! Em que posso te ajudar?\n"
-  utter-contribuicao:
-  - text: "Quer se tornar um Jedi?! Nos ajude contribuindo no nosso repositório que a força estará com você.\
-   \ O guia com todos os passos para contribuir ao Ludum se encontra aqui\
-   \ https://github.com/fga-eps-mds/2019.1-Ludum/blob/development/CONTRIBUTING.md\
-   \ e não esqueça de seguir nosso código de conduta,\
-   \  para conferir basta clicar aqui\
-   \  https://github.com/fga-eps-mds/2019.1-Ludum/blob/master/CODE_OF_CONDUCT.md\n"
-

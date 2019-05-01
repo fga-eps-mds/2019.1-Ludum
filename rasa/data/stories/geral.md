@@ -162,3 +162,6 @@
 * confirmar
     - utter_sem_nada
 
+## Contribuicao
+* contribuicao
+    - utter_contribuicao
