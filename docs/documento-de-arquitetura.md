@@ -9,19 +9,20 @@
 | 11/04/2019 | 0.5   | Modificação sessão Introdução | Thallys |
 | 12/04/2019 | 0.6   | Correção de estrutura e escrita| Thallys |
 | 21/04/2019 | 0.7   | Adicionando diagrama de relações | Gabriela de Moraes, Guilherme Siqueira, Lucas Lermen, Lucas Penido |
-| 30/04/2019 | 0.8 | Refatorando Documento | Gabriela de Moraes, Lucas Lermen, Lucas Penido |
+| 30/04/2019 | 0.8 | Refatorando seções 1 e 2 | Gabriela de Moraes, Lucas Lermen, Lucas Penido |
 | 30/04/2019 | 0.9 | Adicionando Diagrama de funcionamento do Rasa | Thallys |
+| 31/04/2019 | 1.0 | Refatorando seções 3, 4, 6, 7, 8 | Gabriela de Moraes, Lucas Lermen |
 
 
 # 1. Introdução  
 
 ## 1.1 Finalidade  
 
-<p  align="justify">&emsp;&emsp;Este documento visa apresentar a arquitetura de software aplicada no desenvolvimento do ChatBot Ludum, garantindo uma facilidade na visualização dos requisitos e da estrutura para com os desenvolvedores. Ao esboçar uma visão ampla da arquitetura do ChatBot, é possível evidenciar seus aspectos do sistema em diversas técnicas.</p>
+<p  align="justify">Este documento visa apresentar a arquitetura de software aplicada no desenvolvimento do ChatBot Ludum, garantindo uma facilidade na visualização dos requisitos e da estrutura para com os desenvolvedores. Ao esboçar uma visão ampla da arquitetura do ChatBot, é possível evidenciar seus aspectos do sistema em diversas técnicas.</p>
 
 ## 1.2 Escopo
 
-<p  align="justify">&emsp;&emsp;O Ludum busca auxiliar pessoas que desejam aprender a desenvolver jogos em Python, por meio de fluxos de conversas e com auxilio de microsserviços para o realização de funcionalidades externas ao núcleo do Ludum. Este chatbot auxiliará na configuração do ambiente, no desenvolvimento de jogos com tutoriais e busca de dúvidas em ferramenta externa. </p>
+<p  align="justify">O Ludum busca auxiliar pessoas que desejam aprender a desenvolver jogos em Python, por meio de fluxos de conversas e com auxilio de microsserviços para o realização de funcionalidades externas ao núcleo do Ludum. Este chatbot auxiliará na configuração do ambiente, no desenvolvimento de jogos com tutoriais e busca de dúvidas em ferramenta externa. </p>
 
 ## 1.3 Definições, Acrônimos e Abreviações
 
@@ -30,14 +31,16 @@
 <li> FAQ: <i>Frequently Asked Questions</i></li>
 <li> MDS: Método de Desenvolvimento de Software</li>
 <li> API: <i>Application Programming Interface </i></li>
-<li> DB: Banco de Dados, <i>DataBase</i> </li>
+<li> DB ou BD: Banco de Dados, <i>DataBase</i> </li>
+<li> MS: Microsserviço </li>
+<li> MLT: Materiais, Links e Tutoriais </li>
 
 </ul>
 </html>
 
 ## 1.4 Visão Geral
 
-<p  align="justify">&emsp;&emsp;Documento cujo objetivo, por meio de tópicos, é detalhar os requisitos e a arquitetura do ChatBot Ludum, visando de esclarecer dúvidas, facilitar o desenvolvimento e o entendimento de suas funções.</p>
+<p  align="justify">Documento cujo objetivo, por meio de tópicos, é detalhar os requisitos e a arquitetura do ChatBot Ludum, visando de esclarecer dúvidas, facilitar o desenvolvimento e o entendimento de suas funções.</p>
 
 Estrutura do documento:  
 
@@ -75,9 +78,9 @@ Estrutura do documento:
 
 ![diagrama de relacoes](./imagens/diagrama-de-relacoes.png)
 
-<p  align="justify">&emsp;&emsp;O Ludum utiliza como principal padrão arquitetural microsserviços que realizam conexões bidirecionais com o núcleo do chatbot. Cada um destes microsserviços funciona independente das demais partes do sistema.</p>
+<p  align="justify">O Ludum utiliza como principal padrão arquitetural microsserviços que realizam conexões bidirecionais com o núcleo do chatbot. Cada um destes microsserviços funciona independente das demais partes do sistema.</p>
 
-<p align="justify">&emsp;&emsp;Em uma visão geral, os serviços foram definidos como internos ou externos.</p>
+<p align="justify">Em uma visão geral, os serviços foram definidos como internos ou externos.</p>
 
 ### 2.1.1 Externos
 <html>
@@ -98,99 +101,98 @@ Estrutura do documento:
 </ul>
 </html>
 
-<p align="justify">&emsp;&emsp;O microsserviço de Disponibilização de Materiais, Links e Tutoriais, retorna os mesmos ao usuário quando solicitado por ele. Os materiais e links podem ser inseridos no banco de dados pelos desenvolvedores ou contribuições da comunidade através de um WebClient. Já os tutoriais são divididos em níveis de dificuldade (fácil, médio e difícil) ou em tutoriais da comunidade submetidos ao banco pelo mesmo WebClient.</p>
+<p align="justify">O microsserviço de Disponibilização de Materiais, Links e Tutoriais, retorna os mesmos ao usuário quando solicitado por ele. Os materiais e links podem ser inseridos no banco de dados pelos desenvolvedores ou contribuições da comunidade através de um WebClient. Já os tutoriais são divididos em níveis de dificuldade (fácil, médio e difícil) ou em tutoriais da comunidade submetidos ao banco pelo mesmo WebClient.</p>
 
-<p align="justify">&emsp;&emsp;O microsserviço de Pesquisar de Dúvidas funciona da seguinte maneira: Quando o usuário solicita este serviço lhe é apresentada uma série de perguntas e respostas, as quais foram cadastradas pelos desenvolvedores da aplicação. Caso a dúvida feita pelo usuário não for encontrada na lista de perguntas, o usuário tem a opção de digitá-la para que seja buscada no site do StackOverflow por meio da API do StackExchange. Após a pesquisa ser realizada, os cinco primeiros resultados serão apresentados para o usuário e salvos no banco de dados do microsserviço.</p>
+<p align="justify">O microsserviço de Pesquisar de Dúvidas funciona da seguinte maneira: Quando o usuário solicita este serviço lhe é apresentada uma série de perguntas e respostas, as quais foram cadastradas pelos desenvolvedores da aplicação. Caso a dúvida feita pelo usuário não for encontrada na lista de perguntas, o usuário tem a opção de digitá-la para que seja buscada no site do StackOverflow por meio da API do StackExchange. Após a pesquisa ser realizada, os cinco primeiros resultados serão apresentados para o usuário e salvos no banco de dados do microsserviço.</p>
 
-<p align="justify">&emsp;&emsp;Já o microsserviço de Notificações via email enviará uma notificação aos usuários que tiverem seu email cadastrado no banco de dados do Núcleo da aplicação, cada vez que um material, link ou tutorial for cadastrado.
+<p align="justify">Já o microsserviço de Notificações via email enviará uma notificação aos usuários que tiverem seu email cadastrado no banco de dados do Núcleo da aplicação, cada vez que um material, link ou tutorial for cadastrado.
 
 
 ## 2.2 Tecnologias
 
 ### 2.2.1 API Telegram Messenger
 
-<p  align="justify">&emsp;&emsp;<i>Telegram Messenger</i> é um aplicativo de comunicação baseado em nuvem. O qual oferece a possibilidade para seus usuários desenvolvedores criarem <i>bots</i> a partir de sua API.</p>
+<p  align="justify"><i>Telegram Messenger</i> é um aplicativo de comunicação baseado em nuvem. O qual oferece a possibilidade para seus usuários desenvolvedores criarem <i>bots</i> a partir de sua API.</p>
 
-<p  align="justify">&emsp;&emsp;Essa <i>API</i> será a ponte de comunicação com o usuário. O código fonte será implementado e o Ludum irá interagir com o usuário de acordo com o que foi definido neste código fonte.</p>
+<p  align="justify">Essa <i>API</i> será a ponte de comunicação com o usuário. O código fonte será implementado e o Ludum irá interagir com o usuário de acordo com o que foi definido neste código fonte.</p>
 
 ### 2.2.2 MongoDB
 
-<p  align="justify">&emsp;&emsp;O MongoDB é um banco de dados NoSQL, <i>open-source</i>, sem esquemas e orientado à documentos JSON.</p>
+<p  align="justify">O MongoDB é um banco de dados NoSQL, <i>open-source</i>, sem esquemas e orientado à documentos JSON.</p>
 
-<p  align="justify">&emsp;&emsp;Esta tecnologia será utilizada para criação de banco de dados que se conectarão aos microsserviços de Pesquisar Dúvida e de Materiais e Links, além do Núcleo do ChatBot. Cada um destes elementos terá um banco de dados próprios.</p>
+<p  align="justify">Esta tecnologia será utilizada para criação de banco de dados que se conectarão aos microsserviços de Pesquisar Dúvida e de Materiais e Links, além do Núcleo do ChatBot. Cada um destes elementos terá um banco de dados próprios.</p>
 
 ### 2.2.3 Rasa
 
-<p  align="justify">&emsp;&emsp;O Rasa é um conjunto de ferramentas <i>open-sources</i> de <i>Machine Learning</i> para os desenvolvedores criarem chatbots e assistentes contextuais baseados em texto e voz. </p>
+<p  align="justify">O Rasa é um conjunto de ferramentas <i>open-sources</i> de <i>Machine Learning</i> para os desenvolvedores criarem chatbots e assistentes contextuais baseados em texto e voz. </p>
 
 ### 2.2.4 Rasa Core
 
-<p  align="justify">&emsp;&emsp;Um framework de chatbot com gerenciamento de diálogo baseado em <i>Machine Learning</i>.</p>
+<p  align="justify">Um framework de chatbot com gerenciamento de diálogo baseado em <i>Machine Learning</i>.</p>
 
 ### 2.2.5 Rasa NLU
 
-<p  align="justify">&emsp;&emsp;Uma biblioteca para compreensão de linguagem natural com intenção de classificação e extração de entidade. </p>
+<p  align="justify">Uma biblioteca para compreensão de linguagem natural com intenção de classificação e extração de entidade. </p>
 
 ### 2.2.6 Stack Exchange API
 
-<p  align="justify">&emsp;&emsp;API utilizada para conexão com o StackOverflow, onde será realizado buscas de dúvidas pertinentes ao usuário. </p>
+<p  align="justify">API utilizada para conexão com o StackOverflow, onde será realizado buscas de dúvidas pertinentes ao usuário. </p>
 
 
 # 3. Metas e Restrições de Arquitetura
 
-<p align="justify">&emsp;&emsp;As restrições de arquitetura do projeto são:</p>
+<p align="justify">As restrições de arquitetura do projeto são:</p>
 
 <html>
 <ul>
 
-<li> Utilização de um Banco de Dados <i>MongoDB</i> de versão 4.0.8 para cada serviço interno e para ser utilizado a partir do Python será utilizado PyMongo na versão 3.7.2  </li>
-<li> Utilização da ferramenta Docker para a virtualização dos ambientes de forma prática e adequada </i>
-<li> Conexão com a internet necessária. </li>
-
-</ul>
-</html>
-
-<p align="justify">&emsp;&emsp;As metas do projeto são:</p>
-
-<html>
-<ul>
-
-<li> Disponibilizar um fluxo de conversa com o usuário a fim de atender/suprir as dúvidas em relação à procedimentos voltados ao desenvolvimento de jogos em Python. </li>
-<li> Fornecer aos usuários links e dicas de como configurar seu ambiente. </li>
-<li>O Ludum deverá ensinar ao usuário a criar jogos em diferentes níveis de dificuldades. </li>
-
+<li> O núcleo do Ludum deve ser desenvolvido em Pyhton 3.6 </i>
+<li> Uso do Docker para desenvolvimento em ambientes isolados; </li>
+<li> Telegram necessário para consversar com o Ludum; </i>
+<li> Conexão com a internet necessária; </li>
+<li>As conversas com o Ludum são feitas em português, porém o microserviço de pesquisa de dúvidas no StackOverFlow meramente retorna resultados em língua inglesa. </li>
+<li> O Ludum deve ser desenvolvido em aproximadamente 4 meses; </li>
 
 </ul>
 </html>
 
 # 4. Visão Lógica
 
-## 4.1 Visão Lógica Geral
-<p align="justify">&emsp;&emsp;Esta seção descreve as partes significativas do ponto de vista da arquitetura do modelo de design. Além disso, para cada pacote significativo, descreve suas responsabilidades, bem como algumas operações e atributos de grande importância.</p>
+## 4.1 Visão Geral
 
+<p align="justify">Como citado anteriormente, a arquitetura do Ludum é baseada no uso de microsserviços que se conectam com o núcleo da aplicação. Assim sendo, pode ser representada por meio de um diagrama de pacotes onde cada microsserviço e o núcleo são representados por esses pacotes e, por sua vez, são compostos por outros pacotes significativos para seu correto funcionamento.</p>
 
-## 4.2 Diagrama de Pacotes
+## 4.2 Pacotes Significativos do Ponto de Vista da Arquitetura
 
-<p  align="justify">    Neste tópico se encontram a descrição de alguns pacotes utilizados bem como suas explicações e utilidades.</p>
+![](./imagens/diagrama-pacotes.png)
 
-<html>
-<ul>
-
-<li> O pacote <i>2019.1-Ludum</i> é o pacote principal do projeto e conterá todos os outros sub-pacotes e documentos existentes no projeto. </li>
-<li> No pacote <i>docs</i>, serão apresentados os documentos necessários para a compreensão do projeto, bem como pacote <i>policies</i>. </li>
-<li> No pacote <i>Policies</i> estão contidas as políticas de boas práticas de programação e uso da plataforma <i>GitHub</i>. </li>
-
-</ul>
-</html>
-
-<br>
-
-## 4.4 Modelagem do Banco de Dados do Microsserviço De Resolução de Dúvidas
-![modelagem banco](./imagens/ModelagemBancoMicrosservicoDuvidas.png)
 
 # 5. Visão de Implantação
+
+
 # 6. Visão de Implementação
 ## 6.1 Visão Geral
-## 6.2 Camadas
-# 7. Visão de Dados       
+<p align="justify"> Cada microsserviço funciona independente das outras partes do sistema, tópico que foi abordado na representação da arquitetura. Destarte, cada serviço da aplicação possui particulariadades arquiteturais que virão a ser destrinchadas nos tópicos a seguir.</p>
+
+## 6.2 Microsserviço Pesquisar dúvidas
+
+## 6.3 Núcleo
+
+![](./imagens/diagrama-rasa.jpg)
+
+# 7. Visão de Dados  
+
+## 7.1 Visão geral
+<p align="justify"> Com exceção do microsserviço de notificações, todos os outros, incluindo o núcleo do Ludum, possuem bancos de dados para armazenar os dados necessários para o funcionamento do serviço em questão. Nós tópicos a seguir serão apresentados os modelos de dados de cada um desses serviços</p>
+
+## 7.2 BD do microsserviço Perguntas
+![modelagem banco](./imagens/ModelagemBancoMicrosservicoDuvidas.png)
+
 # 8. Tamanho e Desempenho
+
+<p align="justify"> Haja visto que o Ludum é um ChatBot para o telegram, seu tamanho tende a seguir um padrão para esses tipos de aplicação. Não obstante, o mesmo se utiliza de microsserviços que acarretam em um aumento significativo de sua robustez.</p>
+<p align="justify"> No tocante ao desempenho, a arquitetura de microsserviços, por sua grande autonomia das partes, previne que o desempenho do sistema como um todo fique comprometido no caso de falha em um de seus serviços. Porém, o desempenho do Ludum, também é condicionado por questões que envolvem os serviços externos, como por exemplo falhas nas APIs do Gmail e do StackOverFlow, bem como problemas relacionados ao próprio Telegram.</p>
+
+# 9. Referências
+
+>JUNIOR, Luiz Fernando Duarte. MongoDB para iniciantes em NoSQL. [S. l.], 28 set. 2017. Disponível em: https://imasters.com.br/banco-de-dados/mongodb-para-iniciantes-em-nosql. Acesso em: 30 abr. 2019.
