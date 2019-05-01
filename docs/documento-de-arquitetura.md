@@ -9,23 +9,25 @@
 | 11/04/2019 | 0.5   | Modificação sessão Introdução | Thallys |
 | 12/04/2019 | 0.6   | Correção de estrutura e escrita| Thallys |
 | 21/04/2019 | 0.7   | Adicionando diagrama de relações | Gabriela de Moraes, Guilherme Siqueira, Lucas Lermen, Lucas Penido |
+| 30/04/2019 | 0.8 | Refatorando Documento | Gabriela de Moraes, Lucas Lermen, Lucas Penido |
+| 30/04/2019 | 0.9 | Adicionando Diagrama de funcionamento do Rasa | Thallys |
 
 
 # 1. Introdução  
 
 ## 1.1 Finalidade  
 
-<p  align="justify">&emsp;&emsp;Este documento visa apresentar a arquitetura de software aplicada no desenvolvimento do ChatBot Ludum, garantindo uma facilidade na visualização dos requisitos e da estrutura para com os desenvolvedores. Ao esboçar uma visão ampla da arquitetura do ChatBot, é possível evidenciar seus aspectos do sistema em diversas técnicas. Sendo assim, nesse documento buscaremos transparecer as decisões arquiteturais que foram tomadas em relação ao Bot Ludum.</p>
+<p  align="justify">&emsp;&emsp;Este documento visa apresentar a arquitetura de software aplicada no desenvolvimento do ChatBot Ludum, garantindo uma facilidade na visualização dos requisitos e da estrutura para com os desenvolvedores. Ao esboçar uma visão ampla da arquitetura do ChatBot, é possível evidenciar seus aspectos do sistema em diversas técnicas.</p>
 
 ## 1.2 Escopo
 
-<p  align="justify">&emsp;&emsp;O Ludum tem como principal objetivo auxiliar pessoas que desejam aprender a desenvolver jogos em Python, a partir da utilização de tecnologias de fluxo de conversa e de bancos de dados para o registro de usuário. E também servirá como uma ferramenta de auxílio a esse público, podendo ajudar desde a configuração do ambiente, auxílio no desenvolvimento de jogos com tutoriais e uso do código fornecido em ferramentas externas. </p>
+<p  align="justify">&emsp;&emsp;O Ludum busca auxiliar pessoas que desejam aprender a desenvolver jogos em Python, por meio de fluxos de conversas e com auxilio de microsserviços para o realização de funcionalidades externas ao núcleo do Ludum. Este chatbot auxiliará na configuração do ambiente, no desenvolvimento de jogos com tutoriais e busca de dúvidas em ferramenta externa. </p>
 
 ## 1.3 Definições, Acrônimos e Abreviações
 
 <html>
 <ul>
-<li> FAQ: <i>frequently asked questions</i></li>
+<li> FAQ: <i>Frequently Asked Questions</i></li>
 <li> MDS: Método de Desenvolvimento de Software</li>
 <li> API: <i>Application Programming Interface </i></li>
 <li> DB: Banco de Dados, <i>DataBase</i> </li>
@@ -35,7 +37,7 @@
 
 ## 1.4 Visão Geral
 
-<p  align="justify">&emsp;&emsp;Documento, cujo objetivo, por meio de tópicos busca detalhar os requisitos e a arquitetura do ChatBot Ludum. Com o objetivo de esclarecer dúvidas, facilitar o desenvolvimento e o entendimento de suas funções.</p>
+<p  align="justify">&emsp;&emsp;Documento cujo objetivo, por meio de tópicos, é detalhar os requisitos e a arquitetura do ChatBot Ludum, visando de esclarecer dúvidas, facilitar o desenvolvimento e o entendimento de suas funções.</p>
 
 Estrutura do documento:  
 
@@ -46,6 +48,12 @@ Estrutura do documento:
 <li> Representação da Arquitetura; </li>
 <li> Metas e Restrições de Arquitetura; </li>
 <li> Visão lógica;   </li>
+<li> Visão de Implantação </li>
+<li> Visão de Implementação </li>
+<li> Visão Geral </li>
+<li> Camadas </li>
+<li> Visão de Dados </li>       
+<li> Tamanho e Desempenho </li>
 
 </ul>
 </html>
@@ -65,113 +73,68 @@ Estrutura do documento:
 
 ## 2.1 Diagrama de Relações
 
+![diagrama de relacoes](./imagens/diagrama-de-relacoes.png)
 
-<p  align="justify">&emsp;&emsp;O projeto foi moldado e pensado para uma arquitetura híbrida, incluindo Microsserviços com elementos da arquitetura de repositórios, representando os serviços que serão mostrados adiante.</p>
+<p  align="justify">&emsp;&emsp;O Ludum utiliza como principal padrão arquitetural microsserviços que realizam conexões bidirecionais com o núcleo do chatbot. Cada um destes microsserviços funciona independente das demais partes do sistema.</p>
 
-<p align="justify">&emsp;&emsp; A existência de um diálogo é de grande importância pro contexto do bot, que por possuir características de <i>Machine Learning</i> e <i> Artificial Intelligence</i>  consegue melhorar suas conversas, para sempre manter o diálogo correto e apropriado com o usuário.</p>
+<p align="justify">&emsp;&emsp;Em uma visão geral, os serviços foram definidos como internos ou externos.</p>
 
-<p  align="justify">&emsp;&emsp;O Rasa Core é um dos componentes importantes dentro da arquitetura do Bot. Em associação a ele. Existe outro componente tecnológico atrelado ao ChatBot: <i>Rasa NLU</i>, que trabalha com o processamento natural de linguagem e, a partir dela, o desenvolvedor abre portas relacionadas ao processamento de texto que o permitem criar um ambiente de comunicação mais interativo e humano, podendo assim criar uma comunicação mais fluída e dinâmica com o usuário.</p>
-
-<p align="justify">&emsp;&emsp;A utilização da tecnologia no desenvolvimento de um ChatBot permite a implementação de uma comunicação mais humanizada, permitindo assim uma maior interatividade com o usuário. Com o tempo, a interação com o usuário permitirá ao programa um treinamento dele mesmo para melhor se comunicar com o exterior. Este é o principal objetivo da utilização do <i>Rasa NLU</i> para o processamento de linguagem do projeto em questão.</p>
-<p  align="justify">&emsp;&emsp;Algumas dos principais benefícios da tecnologia são:</p>
-
-<html>
-<ul>
-
-<li>  Manuseio de conversação com <i>deep learning</i> para auto-evolução </li>
-<li>  <i>Open source</i> e customizável para o panorama do projeto; </li>
-<li>  <i>Machine learning</i> integrado para melhores resultados. </li>
-
-
-</ul>
-</html>
-
-<p  align="justify">&emsp;&emsp;A tecnologia irá se comunicar com outras com o intuito de captar e processar informações do exterior, de acordo com as necessidades do usuário.</p>
-
-<p align="justify">&emsp;&emsp;Na parte de arquitetura de microsserviços, foram definidos como, serviços internos (serviços a serem implementados), e serviços externos (serviço a ser utilizado pelo usuário).</p>
-
-### 2.1.1 Serviços Internos
-
-<html>
-<ul>
-<li>  Captação de dados do Banco de Dados <i>MongoDB</i> - Ludum MDB; </li>
-<li>  Organizar e listar as perguntas mais frequentes- Ludum FAQ </li>
-<li>  Desenvolvimento da IA e personalidade do bot - <i>Rasa </i> </li>
-</ul>
-</html>
-
-### 2.1.2 Serviços Externos
+### 2.1.1 Externos
 <html>
 <ul>
 <li> Aplicativo Telegram para interação </li>
-<li>API StackExchange</li>
+<li> API StackExchange para conectar com o StackOverflow</li>
+<li> API do Gmail</li>
 </ul>
 </html>
-<p align="justify">&emsp;&emsp;Além de tais serviços, também existe a integração de um painel para a análise de dados relativos às métricas associadas no Backlog de produto.</p>
+
+### 2.1.2 Internos
+
+<html>
+<ul>
+<li>  Disponibilizar materiais, links e tutoriais </li>
+<li>  Pesquisar Dúvidas </li>
+<li>  Notificações via email sobre novos materiais, links e tutoriais </li>
+</ul>
+</html>
+
+<p align="justify">&emsp;&emsp;O microsserviço de Disponibilização de Materiais, Links e Tutoriais, retorna os mesmos ao usuário quando solicitado por ele. Os materiais e links podem ser inseridos no banco de dados pelos desenvolvedores ou contribuições da comunidade através de um WebClient. Já os tutoriais são divididos em níveis de dificuldade (fácil, médio e difícil) ou em tutoriais da comunidade submetidos ao banco pelo mesmo WebClient.</p>
+
+<p align="justify">&emsp;&emsp;O microsserviço de Pesquisar de Dúvidas funciona da seguinte maneira: Quando o usuário solicita este serviço lhe é apresentada uma série de perguntas e respostas, as quais foram cadastradas pelos desenvolvedores da aplicação. Caso a dúvida feita pelo usuário não for encontrada na lista de perguntas, o usuário tem a opção de digitá-la para que seja buscada no site do StackOverflow por meio da API do StackExchange. Após a pesquisa ser realizada, os cinco primeiros resultados serão apresentados para o usuário e salvos no banco de dados do microsserviço.</p>
+
+<p align="justify">&emsp;&emsp;Já o microsserviço de Notificações via email enviará uma notificação aos usuários que tiverem seu email cadastrado no banco de dados do Núcleo da aplicação, cada vez que um material, link ou tutorial for cadastrado.
+
 
 ## 2.2 Tecnologias
 
 ### 2.2.1 API Telegram Messenger
 
-<p  align="justify">&emsp;&emsp;<i>Telegram Messenger</i> é um aplicativo de comunicação e bate-papo serviço de mensagens instantâneas baseadas em nuvens. O aplicativo dá liberdade para seus usuários desenvolvedores implementarem diferentes funcionalidades e <i>bots</i>, a partir de sua API.</p>
+<p  align="justify">&emsp;&emsp;<i>Telegram Messenger</i> é um aplicativo de comunicação baseado em nuvem. O qual oferece a possibilidade para seus usuários desenvolvedores criarem <i>bots</i> a partir de sua API.</p>
 
+<p  align="justify">&emsp;&emsp;Essa <i>API</i> será a ponte de comunicação com o usuário. O código fonte será implementado e o Ludum irá interagir com o usuário de acordo com o que foi definido neste código fonte.</p>
 
-<p  align="justify">&emsp;&emsp;A <i>API</i> dessa plataforma será a ponte de comunicação com o usuário. A partir da implementação e integração do código-fonte com o <i>Rasa NLU</i>, o Telegram irá interagir com o usuário, recebendo suas mensagens e respondendo apropriadamente.</p>
+### 2.2.2 MongoDB
 
-### 2.2.2 Python Telegram Bot 
-<p align=”justify”>&emsp;&emsp;<i>Bots</i> do Telegram são contas simples, controladas e operadas por software que faz uso de algumas tecnologias como a inteligência artificial e <i>machine learning</i> para desenvolver e executar suas funcionalidades, como por exemplo, ensinar, pesquisar, conectar, integrar com outras plataformas e ambientes ou até mesmo passar informações para a Internet de acordo com sua programação.</p>
+<p  align="justify">&emsp;&emsp;O MongoDB é um banco de dados NoSQL, <i>open-source</i>, sem esquemas e orientado à documentos JSON.</p>
 
-### 2.2.3 MongoDB
+<p  align="justify">&emsp;&emsp;Esta tecnologia será utilizada para criação de banco de dados que se conectarão aos microsserviços de Pesquisar Dúvida e de Materiais e Links, além do Núcleo do ChatBot. Cada um destes elementos terá um banco de dados próprios.</p>
 
-<p  align="justify">&emsp;&emsp;A tecnologia MongoDB é um banco de dados <i>open-source</i> orientado a documentos. Classificado como NoSQL, a tecnologia utiliza documentos com padrão JSON.</p>
+### 2.2.3 Rasa
 
-<p  align="justify">&emsp;&emsp;Esta tecnologia se comunicará com o projeto de maneira que receberá os dados fornecidos pelas conversas e interações realizadas no ChatBot e as armazenará em um banco de dados, para posteriormente serem usadas na metrificação da utilização do ChatBot.</p>
+<p  align="justify">&emsp;&emsp;O Rasa é um conjunto de ferramentas <i>open-sources</i> de <i>Machine Learning</i> para os desenvolvedores criarem chatbots e assistentes contextuais baseados em texto e voz. </p>
 
-### 2.2.4 Rasa
+### 2.2.4 Rasa Core
 
-<p  align="justify">&emsp;&emsp;O Rasa é um conjunto de ferramentas de machine learning de código aberto para os desenvolvedores criarem chatbots e assistentes contextuais baseados em texto e voz. 
+<p  align="justify">&emsp;&emsp;Um framework de chatbot com gerenciamento de diálogo baseado em <i>Machine Learning</i>.</p>
 
-### 2.2.5 Rasa Core
+### 2.2.5 Rasa NLU
 
-<p  align="justify">&emsp;&emsp;Um framework de chatbot com gerenciamento de diálogo baseado em machine learning.
+<p  align="justify">&emsp;&emsp;Uma biblioteca para compreensão de linguagem natural com intenção de classificação e extração de entidade. </p>
 
-### 2.2.6 Rasa NLU
+### 2.2.6 Stack Exchange API
 
-<p  align="justify">&emsp;&emsp;Uma biblioteca para compreensão de linguagem natural com intenção de classificação e extração de entidade.
+<p  align="justify">&emsp;&emsp;API utilizada para conexão com o StackOverflow, onde será realizado buscas de dúvidas pertinentes ao usuário. </p>
 
-### 2.2.7 Stack Exchange API
-
-<p  align="justify">&emsp;&emsp;API utilizada para a funcionalidade de procurar e fazer perguntas no StackOverflow.
-
-### 2.3 Representação dos Serviços
-
-<p align="justify">&emsp;&emsp;Relacionado aos microsserviços propostos pela equipe, faz-se o uso de serviços internos desenvolvidos e os serviços externos, utilizados para atingir a finalidade do Ludum. </p>
-
-<p align="justify">&emsp;&emsp;Relacionado aos microsserviços propostos pela equipe, faz-se o uso de serviços internos desenvolvidos e os serviços externos, utilizados para atingir a finalidade do Ludum. Entre eles, temos:</p>
-
-* Captação de dados do Banco de Dados <i>MongoDB</i> - Ludum MDB 
-* Organizar e listar as perguntas mais frequentes- Ludum FAQ
-* Desenvolvimento da IA e personalidade do bot <i>Rasa </i>
-* <i>API do StackExchange</i> - StackOverflow<i></i>
-
-&emsp;&emsp;Além disso, temos o core do projeto, que apesar da relevância, uma suposta falha não afeta o funcionamento dos demais serviços existes. O Ludum, tem a capacidade de fazer, atualmente, uma integração com o mensageiro Telegram, buscando realizar uma comunicação de forma mais natural e entendível, fazendo uso das tecnologias de inteligência artificial para compreensão de linguagem natural e integrando com demais serviços que fornecem informações para o Bot tratar adequadamente.
-</p>
-
-
-<p align="justify">&emsp;&emsp;A respeito da estrutura geral do banco associado individualmente a cada microsserviço</p>
-
-### 2.3.1  Ludum FAQ
-
-<p align="justify">&emsp;&emsp;O serviço Ludum FAQ tem como objetivo registrar e organizar as perguntas mais frequentes. De forma básica, o sistema trabalha com o uso do <i>MongoDB</i>, banco de dados orientado a documentos, registrando as perguntas dos usuários e as organizando por frequência, para assim listá-las.</p>
-<p align="justify">&emsp;&emsp;O banco relacionado ao serviço tem uma estrutura mais simples, apenas contendo as informações das perguntas, recebendo um <i>id</i> para identificá-los individualmente, após a efetuação da pesquisa a pergunta receberá um acréscimo no número de buscas, e o banco se organizará de acordo com isso.</p>
-
-### 2.3.2 Ludum MDB
-
-<p align="justify">&emsp;&emsp;O Ludum MDB é um microsserviço especializado em trabalhar com a organização das respostas dadas ao usuário, pesquisando no banco a pergunta realizada e enviando ao usuário a resposta</p>
-
-### 2.3.3  Rasa
-
-<p align="justify">&emsp;&emsp;O uso do Rasa será um serviço focado para gerar frases respostas do bot de acordo com a entrada do usuário, o serviço será responsável por pegar a entrada do usuário, entender a intenção do que foi dito, achar as entidades e gerar a saída para o usuário  </p>
 
 # 3. Metas e Restrições de Arquitetura
 
@@ -222,8 +185,12 @@ Estrutura do documento:
 
 <br>
 
-## 4.3 Diagrama de Relações
-![diagrama de relacoes](./imagens/diagrama-de-relacoes.png)
-
 ## 4.4 Modelagem do Banco de Dados do Microsserviço De Resolução de Dúvidas
 ![modelagem banco](./imagens/ModelagemBancoMicrosservicoDuvidas.png)
+
+# 5. Visão de Implantação
+# 6. Visão de Implementação
+## 6.1 Visão Geral
+## 6.2 Camadas
+# 7. Visão de Dados       
+# 8. Tamanho e Desempenho
