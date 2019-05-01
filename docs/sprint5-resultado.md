@@ -57,7 +57,7 @@
 
 <p align = "justify">As reuniões diárias da equipe constataram esse fato, já que a equipe pode relatar que estava sempre realizando as tarefas do projeto. O <i>Burndown</i> É uma evidência disso também, já que a equipe conseguiu entregas contínuas durante a <i>sprint</i>.
 
-<p align = "justify">Porém, ocorreram definições importantes acerca da arquitetura, o que impossibilitou a sua conclusão, deixando assim uma dívida técnica da <i>sprint<i>.
+<p align = "justify">Porém, ocorreram definições importantes acerca da arquitetura, o que impossibilitou a sua conclusão, deixando assim uma dívida técnica da <i>sprint</i>.
 
 <p align = "justify"> Foi uma <i>sprint</i> produtiva, a qual deixa o caminho bem direcionado para a primeira Release.
 

@@ -8,10 +8,11 @@
 | 07/04/2019 | 0.4   | Modificação da parte 2 do documento | João Pedro, Wictor Girardi, João de Assis e Lucas Ganda |
 | 11/04/2019 | 0.5   | Modificação sessão Introdução | Thallys |
 | 12/04/2019 | 0.6   | Correção de estrutura e escrita| Thallys |
-| 21/04/2019 | 0.7   | Adicionando diagrama de relações | Gabriela de Moraes, Guilherme Siqueira, Lucas Lermen, Lucas Penido |
-| 30/04/2019 | 0.8 | Refatorando seções 1 e 2 | Gabriela de Moraes, Lucas Lermen, Lucas Penido |
+| 21/04/2019 | 0.7   | Adicionando diagrama de relações | Gabriela de Moraes, Guilherme Siqueira, Lucas Lermen e Lucas Penido |
+| 30/04/2019 | 0.8 | Refatorando seções 1 e 2 | Gabriela de Moraes, Lucas Lermen e Lucas Penido |
 | 30/04/2019 | 0.9 | Adicionando Diagrama de funcionamento do Rasa | Thallys |
-| 31/04/2019 | 1.0 | Refatorando seções 3, 4, 6, 7, 8 | Gabriela de Moraes, Lucas Lermen |
+| 31/04/2019 | 1.0 | Refatorando seções 3, 4, 6, 7, 8 | Gabriela de Moraes e Lucas Lermen |
+| 31/04/2019 | 1.1 | Refatorando diagramas | Gabriela de Moraes, Lucas Lermen, Lucas Penido e Guilherme Siqueira |
 
 
 # 1. Introdução  
@@ -71,12 +72,14 @@ Estrutura do documento:
 > RODRIGUES, Pedro; BLANCO, Matheus; BRAGA, Gabriel; FILIPE, Gabriel; AUGUSTO, Guilherme; DE SOUZA, Letícia. <b>Lino:</b> Documento de Arquitetura. Disponível em:
 <https://github.com/fga-eps-mds/2018.2-Lino/blob/master/docs/documento-de-arquitetura.md>.
 
+>JUNIOR, Luiz Fernando Duarte. MongoDB para iniciantes em NoSQL. [S. l.], 28 set. 2017. Disponível em: https://imasters.com.br/banco-de-dados/mongodb-para-iniciantes-em-nosql. Acesso em: 30 abr. 2019.
+
 
 # 2. Representação da Arquitetura
 
 ## 2.1 Diagrama de Relações
 
-![diagrama de relacoes](./imagens/diagrama-de-relacoes.png)
+![diagrama de relacoes](./imagens/diagrama-relacoes.png)
 
 <p  align="justify">O Ludum utiliza como principal padrão arquitetural microsserviços que realizam conexões bidirecionais com o núcleo do chatbot. Cada um destes microsserviços funciona independente das demais partes do sistema.</p>
 
@@ -95,17 +98,16 @@ Estrutura do documento:
 
 <html>
 <ul>
+
 <li>  Disponibilizar materiais, links e tutoriais </li>
 <li>  Pesquisar Dúvidas </li>
-<li>  Notificações via email sobre novos materiais, links e tutoriais </li>
+
 </ul>
 </html>
 
-<p align="justify">O microsserviço de Disponibilização de Materiais, Links e Tutoriais, retorna os mesmos ao usuário quando solicitado por ele. Os materiais e links podem ser inseridos no banco de dados pelos desenvolvedores ou contribuições da comunidade através de um WebClient. Já os tutoriais são divididos em níveis de dificuldade (fácil, médio e difícil) ou em tutoriais da comunidade submetidos ao banco pelo mesmo WebClient.</p>
+<p align="justify">O microsserviço de Disponibilização de Materiais, Links e Tutoriais, retorna os mesmos ao usuário quando solicitado por ele. Os materiais e links podem ser inseridos no banco de dados pelos desenvolvedores ou contribuições da comunidade através de um WebClient. Já os tutoriais são divididos em níveis de dificuldade (fácil, médio e difícil) ou em tutoriais da comunidade submetidos ao banco pelo mesmo WebClient. Além disso, será enviada uma notificação via e-mail aos usuários que tiverem seu e-mail cadastrado no banco de dados do Núcleo da aplicação, cada vez que um material, link ou tutorial for cadastrado.</p>
 
 <p align="justify">O microsserviço de Pesquisar de Dúvidas funciona da seguinte maneira: Quando o usuário solicita este serviço lhe é apresentada uma série de perguntas e respostas, as quais foram cadastradas pelos desenvolvedores da aplicação. Caso a dúvida feita pelo usuário não for encontrada na lista de perguntas, o usuário tem a opção de digitá-la para que seja buscada no site do StackOverflow por meio da API do StackExchange. Após a pesquisa ser realizada, os cinco primeiros resultados serão apresentados para o usuário e salvos no banco de dados do microsserviço.</p>
-
-<p align="justify">Já o microsserviço de Notificações via email enviará uma notificação aos usuários que tiverem seu email cadastrado no banco de dados do Núcleo da aplicação, cada vez que um material, link ou tutorial for cadastrado.
 
 
 ## 2.2 Tecnologias
@@ -169,6 +171,8 @@ Estrutura do documento:
 
 # 5. Visão de Implantação
 
+![](./imagens/diagrama-implantacao.png)
+
 
 # 6. Visão de Implementação
 ## 6.1 Visão Geral
@@ -183,7 +187,7 @@ Estrutura do documento:
 # 7. Visão de Dados  
 
 ## 7.1 Visão geral
-<p align="justify"> Com exceção do microsserviço de notificações, todos os outros, incluindo o núcleo do Ludum, possuem bancos de dados para armazenar os dados necessários para o funcionamento do serviço em questão. Nós tópicos a seguir serão apresentados os modelos de dados de cada um desses serviços</p>
+<p align="justify"> Os microsserviçoes e o núcleo do Ludum possuem bancos de dados para armazenar os dados necessários para o funcionamento do serviço em questão. Nós tópicos a seguir serão apresentados os modelos de dados de cada um desses serviços</p>
 
 ## 7.2 BD do microsserviço Perguntas
 ![modelagem banco](./imagens/ModelagemBancoMicrosservicoDuvidas.png)
@@ -192,7 +196,3 @@ Estrutura do documento:
 
 <p align="justify"> Haja visto que o Ludum é um ChatBot para o telegram, seu tamanho tende a seguir um padrão para esses tipos de aplicação. Não obstante, o mesmo se utiliza de microsserviços que acarretam em um aumento significativo de sua robustez.</p>
 <p align="justify"> No tocante ao desempenho, a arquitetura de microsserviços, por sua grande autonomia das partes, previne que o desempenho do sistema como um todo fique comprometido no caso de falha em um de seus serviços. Porém, o desempenho do Ludum, também é condicionado por questões que envolvem os serviços externos, como por exemplo falhas nas APIs do Gmail e do StackOverFlow, bem como problemas relacionados ao próprio Telegram.</p>
-
-# 9. Referências
-
->JUNIOR, Luiz Fernando Duarte. MongoDB para iniciantes em NoSQL. [S. l.], 28 set. 2017. Disponível em: https://imasters.com.br/banco-de-dados/mongodb-para-iniciantes-em-nosql. Acesso em: 30 abr. 2019.
