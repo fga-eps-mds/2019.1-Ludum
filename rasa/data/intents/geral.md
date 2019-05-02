@@ -153,3 +153,9 @@
 - Tudo bem
 - Como vocês estao
 - como vc ta
+
+## intent:contribuicao
+- contribuir
+- como contribuir 
+- o que preciso para contribuir 
+- como contribuir para o repositorio 

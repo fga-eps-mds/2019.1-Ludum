@@ -24,6 +24,7 @@ actions:
 - utter_star_wars
 - utter_tudo_bem
 - utter_negar_ambiente1
+- utter_contribuicao
 entities:
 - starwars
 - time
@@ -43,6 +44,7 @@ intents:
 - star_wars
 - action_test
 - action_question
+- contribuicao
 templates:
   utter_confirmar_ambiente1:
   - text: "Ótimo, todo nosso tutorial será feito usando o Python 3.6, então é bom que\
@@ -61,6 +63,8 @@ templates:
       \ ambiente de desenvolvimento\n com os programas adequados.\n 3) FAQ -  \n Tentarei\
       \ sanar todas as duvidas\n que você pode vir a ter.\n 4) Materiais e links -\
       \ \n Tentarei te enviar links e materiais que\n possam ser utéis para você.\n\
+      \ 5) Criação de tutoriais e envio de materiais -\n\
+      \ Envie seus melhores links e materiais e ajude os proximos padawans criando novos tutoriais\n\
       \ Começar com o que, devemos?\n"
   utter_default:
   - text: "Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender\
@@ -105,7 +109,7 @@ templates:
   - text: "Para realizarmos nossos tutoriais você precisara instalar o Python 3.6,\
       \ mas sem problema, para instala-lo no Linux você deve abrir o terminal e usar\
       \ o comando: $sudo apt-get install Python3.6\n\
-      \ caso você esteja usando o MacOS use o comand: brew install python3\n\
+      \ caso você esteja usando o MacOS use o comand: brew install python3\n\""
   utter_negar_ambiente2:
   - text: "Assim como todo Jedi possui seu sabre de luz, precisamos das ferramentas\
       \ necessárias e o Visual Studio Code é uma delas\n
@@ -133,4 +137,7 @@ templates:
   - text: "Melhor time do mundo disparado, Flamengooo!!!!\n"
   utter_tudo_bem:
   - text: "Tudo bem, obrigado! Em que posso te ajudar?\n"
-
+  utter_contribuicao:
+  - text: "Quer se tornar um Jedi?! Ajude contribuindo com os materiais e links que você ache bacana e a força estará com você.\n\
+   \ Você pode tambem criar tutoriais para ajudar os próximos aprendizes que estão por vir\n\
+   \ Para contribuir use o nosso WebClient(a ser criado)\n"
