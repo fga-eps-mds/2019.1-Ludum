@@ -19,8 +19,8 @@
 ## Tecnologias
 * **Python3** - Linguagem de programação utilizada para codificar o core do bot;
 * **Rasa** - Tecnologia de Inteligência Artificial para o ChatBot;
-* **Flask** -
-* **NodeJS** -
+* **Flask** - Flask é um pequeno framework web escrito em Python e baseado na biblioteca WSGI Werkzeug e na biblioteca de Jinja2;
+* **NodeJS** - Node.js é um interpretador de código JavaScript com o código aberto, focado em migrar o Javascript do lado do cliente para servidores;
 * **MongoDB** - Banco de dados não relacional utilizado no projeto;
 * **Docker** - Ferramenta para criação e administração de ambientes isolados;
 * **GitLab CI** - Ferramenta responsável pelo integração contínua e deploy contínuo.
@@ -30,10 +30,6 @@ Os arquivos da documentação do projeto estão localizados na pasta `docs` e pa
 
 ## Quero ajudar! Como contribuir?
 <p align="justify"> Sua ajuda é muito bem vinda! O guia com todos os passos para contribuir ao Ludum se encontra <a href="https://github.com/fga-eps-mds/2019.1-Ludum/blob/development/CONTRIBUTING.md">aqui</a> e não esqueça de seguir nosso código de conduta, para conferir basta clicar <a href="https://github.com/fga-eps-mds/2019.1-Ludum/blob/master/CODE_OF_CONDUCT.md">aqui</a>.</p>
-
-## Como configurar
-
-## Como instalar
 
 ## Como executar o Ludum
 1. Abra um terminal dentro do repositório clonado do Ludum
