@@ -63,6 +63,8 @@ templates:
       \ ambiente de desenvolvimento\n com os programas adequados.\n 3) FAQ -  \n Tentarei\
       \ sanar todas as duvidas\n que você pode vir a ter.\n 4) Materiais e links -\
       \ \n Tentarei te enviar links e materiais que\n possam ser utéis para você.\n\
+      \ 5) Criação de tutoriais e envio de materiais -\n\
+      \ Envie seus melhores links e materiais e ajude os proximos padawans criando novos tutoriais\n\
       \ Começar com o que, devemos?\n"
   utter_default:
   - text: "Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender\
@@ -136,10 +138,6 @@ templates:
   utter_tudo_bem:
   - text: "Tudo bem, obrigado! Em que posso te ajudar?\n"
   utter_contribuicao:
-  - text: "Quer se tornar um Jedi?! Nos ajude contribuindo no nosso repositório que a força estará com você.\
-   \ O guia com todos os passos para contribuir ao Ludum se encontra aqui\
-   \ https://github.com/fga-eps-mds/2019.1-Ludum/blob/development/CONTRIBUTING.md\
-   \ e não esqueça de seguir nosso código de conduta,\
-  \  para conferir basta clicar aqui\
-  \  https://github.com/fga-eps-mds/2019.1-Ludum/blob/master/CODE_OF_CONDUCT.md\n"
-
+  - text: "Quer se tornar um Jedi?! Ajude contribuindo com os materiais e links que você ache bacana e a força estará com você.\n\
+   \ Você pode tambem criar tutoriais para ajudar os próximos aprendizes que estão por vir\n\
+   \ Para contribuir use o nosso WebClient(a ser criado)\n"
