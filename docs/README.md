@@ -1,6 +1,8 @@
 <p align="center"> <img src="imagens/Ludum_LogoFinal(sem_fundo).png" width="auto" height="400" /> 
 <br>    
-<a href="https://www.gnu.org/licenses/gpl-3.0.pt-br.html"><img src="https://img.shields.io/badge/licence-GPL3-green.svg"/></a> <a href="CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg"></a> </p>
+<a href="https://www.gnu.org/licenses/gpl-3.0.pt-br.html"><img src="https://img.shields.io/badge/licence-GPL3-green.svg"/></a> <a href="CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg"></a> 
+<a href="https://gitlab.com/guilhermesiqueira/2019-1-Ludum/commits/development"><img alt="pipeline status" src="https://gitlab.com/guilhermesiqueira/2019-1-Ludum/badges/development/pipeline.svg" /></a>
+</p>
 
 # Ludum - O assistente virtual sobre o PyGame
 
