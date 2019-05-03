@@ -6,6 +6,7 @@
 <a href="https://gitlab.com/guilhermesiqueira/2019-1-Ludum/commits/development"><img alt="coverage report" src="https://gitlab.com/guilhermesiqueira/2019-1-Ludum/badges/development/coverage.svg" /></a>
 </p>
 
+
 # Ludum - O assistente virtual sobre o PyGame
 
 ## Sobre
@@ -16,6 +17,7 @@
 * **Resolução de dúvidas** - o Ludum mostrará as perguntas frequentes relacionadas à PyGame e caso o usuário não encontre ele pesquisará no Stack Overflow;
 * **Configurar ambiente** - o Ludum ensinará como configurar o ambiente;
 * **Recomendação de materiais e links** - o Ludum irá recomendar materiais e links que contribuam ao aprendizado do usuário;
+* **Contribuição pela Comunidade** - A comunidade usuária pode contribuir ao Ludum com materiais e links, além de tutoriais de jogos utilizando a PyGame;
 * **Auxílio na criação de jogos** - o Ludum ensinará como desenvolver jogos com complexidades variadas utilizando a PyGame.
 
 ## Tecnologias

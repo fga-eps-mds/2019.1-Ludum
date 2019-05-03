@@ -3,9 +3,10 @@
  **Data** | **Versão** | **Descrição** | **Autor(es)**
 ---|---|---|---
 24/03/2019| 0.1| Criação do Template| Gabriela Moraes
-28/03/2019| 0.2| Adição das sessões 1, 2, 3 e 4| Gabriela Moraes
-30/03/2019| 0.3| Adição das sessões 5, 6, 7, 12, 13 e 14| Gabriela Moraes
-30/03/2019| 0.4| Adição das sessões 8, 9, 10, 11| Gabriela, Guilherme e Lucas Lermen
+28/03/2019| 0.2| Adição das seções 1, 2, 3 e 4| Gabriela Moraes
+30/03/2019| 0.3| Adição das seções 5, 6, 7, 12, 13 e 14| Gabriela Moraes
+30/03/2019| 0.4| Adição das seções 8, 9, 10, 11| Gabriela, Guilherme e Lucas Lermen
+02/05/2019| 0.5| Atualização das seções 2, 3, 4, 10| Gabriela Moraes
 
 # Índice
 
@@ -44,19 +45,21 @@
 # 2. Justificativa do Projeto
 <p align="justify">Atualmente, existe uma vasta gama de cursos online e tutoriais em relação ao assunto em plataformas como  <a href="https://www.udemy.com/courses/search/?src=ukw&q=pygame">Udemy</a> e <a href="https://www.youtube.com/results?search_query=pygame">Youtube</a>, porém essa maneira de ensino possui uma série de desvantagens, entre elas, a comunicação ser impessoal, a interação com o aluno é limitada de um certo modo, por exemplo, a interlocução entre aluno/professor pode não ser instantânea, uma dúvida pode demorar a ser sanada, o aluno estuda sozinho, entre outros fatores que podem causar uma certa desmotivação. Além de que em alguns casos há custo para o aluno.</p>
 
-<p align="justify">O Ludum, por ser um chatbot, busca solucionar alguns desses aspectos, como passar ao aluno a sensação de uma interação mais pessoal, acompanhar o aluno durante os temas, tornar mais rápidos processos como solução de dúvidas e resolução de alguns problemas, facilitar o acesso a materiais úteis, sem custo e de fácil acesso. </p>
+<p align="justify">O Ludum, por ser um chatbot, busca solucionar alguns desses aspectos, como passar ao aluno a sensação de uma interação mais pessoal, acompanhar o aluno durante os temas, tornar mais rápidos processos como solução de dúvidas e resolução de alguns problemas, facilitar o acesso a materiais úteis, sem custo e de fácil disponibilização. </p>
 
 # 3. Objetivos do Projeto
-<p align="justify">Os objetivos do Ludum são facilitar o processo de instalação, disponibilizar links e materiais que complementem o estudo, tirar dúvidas e mostrar quais são as mais frequentes e ensinar a construir jogos de diferentes complexidades.</p>
+<p align="justify">Os objetivos do Ludum são facilitar o processo de configuração do ambiente, disponibilizar links e materiais que complementem o estudo, tirar dúvidas e mostrar quais são as mais frequentes, possibilitar que a sua comunidade contribua com materiais, links e tutoriais, além de notificar seus usuários quando algo referente ao conteúdo for adicionado e ensinar a construir jogos de diferentes complexidades.</p>
 
 # 4. Requisitos de Alto Nível
 - O Chatbot será desenvolvido para a plataforma Telegram;
-- O Chatbot deverá se comunicar com uma API;
+- O Chatbot deverá se comunicar com os microsserviços;
 - O Chatbot deverá conectar com algumas aplicações externas;
 - O Chatbot deve mostrar links e materiais úteis;
 - O Chatbot deve ajudar o aluno a instalar as ferramentas necessárias;
 - O Chatbot deve tirar dúvidas sobre o assunto;
-- O Chatbot deve ensinar a construir jogos do zero;
+- O Chatbot deve ensinar a construir jogos do zero.
+- O Chatbot deve permitir que a comunidade contribua com seu conteúdo;
+- O Chatbot deve notificar os seus usuários quando houver adição de conteúdo.
 
 # 5. Premissas
 - Os usuários possuem um dispostivo com o acesso ao Telegram;
@@ -102,7 +105,7 @@ Falha de comunicação | Mudar de estratégia de comunicação
 Data | Marco | Atividade
 ---| ---| ---
 18/03/2019| Início do projeto | Data de início da Sprint 0
-30/04/2019, 02/05/2019 e 03/05/2019| Release 1 (R1)| Primeira entrega de valor que demonstra viabilidade técnica do projeto
+03/05/2019| Release 1 (R1)| Primeira entrega de valor que demonstra viabilidade técnica do projeto
 25/06/2019, 27/06/2019 e 28/06/2019 | Release 2 (R2)| Entrega do produto final
 
 # 11. Resumo do Orçamento

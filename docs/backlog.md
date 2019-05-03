@@ -6,6 +6,7 @@
 01/04/2019| 0.2| Pontuação e definição de novas histórias - Versão 1| Toda equipe
 11/04/2019| 0.3| Adicionando nova história e criando versão 2| Gabriela Moraes
 24/04/2019| 0.4| Criando versão 3| Gabriela Moraes, Guilherme e Lucas Lermen
+02/05/2019| 0.5| Ajustes versão 3| Gabriela Moraes e Lucas Lermen
 
 ## Sumário
 
@@ -40,9 +41,9 @@ US16 | <p align="justify">Eu, como usuário, desejo compreender sobre a funciona
 **ID**|**Descrição**|**Prioridade**| **Pontos**
 :---:|:---|:---:|:---:
 US07 | <p align="justify">Eu, como usuário, desejo que o Ludum pergunte sobre o meu ambiente de desenvolvimento</p> | Muito Alta| 3
-TS01 | <p align="justify"> Eu, como desenvolvedor, desejo modelar o banco de dados do core da aplicação</p>|Muito Alta| 5
+TS01 | <p align="justify"> Eu, como desenvolvedor, desejo modelar o banco de dados do core da aplicação</p>| Muito Alta| 5
 TS02 | <p align="justify">Eu, como desenvolvedor, desejo implementar o banco de dados do core da aplicação </p>| Muito Alta | 8
-TS03 | <p align="justify">Eu, como desenvolvedor, desejo armazenar informações sobre o ambiente de desenvolvimento do usuário </p>| Alta | 5 
+TS03 | <p align="justify">Eu, como desenvolvedor, desejo armazenar informações sobre o ambiente de desenvolvimento do usuário </p>| Média | 5 
 
 #### Feature 04 - Ensinar a instalar as dependências do PyGame
 **ID**|**Descrição**|**Prioridade**| **Pontos**
@@ -55,28 +56,28 @@ US09| <p align="justify">Eu, como usuário, desejo que o Ludum guie passo a pass
 #### Feature 10 - Criar estrutura do Microsserviço de Materiais, Links e Tutoriais
 **ID**|**Descrição**|**Prioridade**| **Pontos**
 :---:|:---|:---:|:---:
-TS10 | <p align="justify"> Eu, como desenvolvedor, desejo modelar o banco de dados do microsserviço de materiais, links e tutoriais</p>|Muito Alta| 3
-TS11 | <p align="justify">Eu, como desenvolvedor, desejo implementar o banco de dados do microsserviço de materiais, links e tutoriais </p>| Muito Alta | 5
+TS10 | <p align="justify"> Eu, como desenvolvedor, desejo modelar o banco de dados do microsserviço de materiais, links e tutoriais</p>|Média| 3
+TS11 | <p align="justify">Eu, como desenvolvedor, desejo implementar o banco de dados do microsserviço de materiais, links e tutoriais </p>| Média | 5
 TS12| <p align="justify">Eu, como desenvolvedor, desejo criar a etapa de comunicação com o core do Ludum para o microsserviço de Materiais, Links e Tutoriais.</p>|Média| 5
-TS13 | <p align="justify"> Eu, como desenvolvedor, desejo criar interface do webclient onde será feita a contribuição e aprovação das mesmas</p>|Muito Alta| 13
+TS13 | <p align="justify"> Eu, como desenvolvedor, desejo criar interface do webclient onde será feita a contribuição e aprovação das mesmas</p>|Média| 13
 TS14| <p align="justify">Eu, como desenvolvedor, desejo conectar o Microsserviço de Materiais, Links e Tutoriais com o webclient.</p>|Média| 5
 
 #### Feature 11 - Contribuir/Gerenciar com o conteúdo do Ludum
 **ID**|**Descrição**|**Prioridade**| **Pontos**
 :---:|:---|:---:|:---:
-US17 | <p align="justify"> Eu, como usuário, desejo cadastrar um tutorial</p>|Muito Alta| 13
-US18 | <p align="justify"> Eu, como usuário, desejo cadastrar um link</p>|Muito Alta| 13
-US19 | <p align="justify"> Eu, como usuário, desejo cadastrar um material</p>|Muito Alta| 13
-TS15 | <p align="justify"> Eu, como desenvolvedor, desejo gerenciar o envio de materiais/links </p>|Muito Alta| 5
-TS16 | <p align="justify"> Eu, como desenvolvedor, desejo gerenciar o envio de tutoriais </p>|Muito Alta| 5
+US17 | <p align="justify"> Eu, como usuário, desejo cadastrar um tutorial</p>|Média| 13
+US18 | <p align="justify"> Eu, como usuário, desejo cadastrar um link</p>|Média| 13
+US19 | <p align="justify"> Eu, como usuário, desejo cadastrar um material</p>|Média| 13
+TS15 | <p align="justify"> Eu, como desenvolvedor, desejo gerenciar o envio de materiais/links </p>|Média| 5
+TS16 | <p align="justify"> Eu, como desenvolvedor, desejo gerenciar o envio de tutoriais </p>|Média| 5
 
 ### **Épico Recomendação de Materiais e Links**
 
 #### Feature 05 - Apresentar materiais
 **ID**|**Descrição**|**Prioridade**| **Pontos**
 :---:|:---|:---:|:---:
-TS04| <p align="justify">Eu, como desenvolvedor, desejo popular o banco com links e materiais interessantes</p>| Média| 3
-US10| <p align="justify">Eu, como usuário, desejo que o Ludum recomende materiais e links úteis que possam complementar meu estudo</p>| Média | 3
+TS04| <p align="justify">Eu, como desenvolvedor, desejo popular o banco com links e materiais interessantes</p>| Baixa| 3
+US10| <p align="justify">Eu, como usuário, desejo que o Ludum recomende materiais e links úteis que possam complementar meu estudo</p>| Baixa | 3
 
 ### **Épico Resolução de dúvidas**
 
@@ -85,15 +86,15 @@ US10| <p align="justify">Eu, como usuário, desejo que o Ludum recomende materia
 :---:|:---|:---:|:---:
 TS17 | <p align="justify"> Eu, como desenvolvedor, desejo modelar o banco de dados do microsserviço de conexão com o StackOverflow</p>|Muito Alta| 5
 TS18 | <p align="justify">Eu, como desenvolvedor, desejo implementar o banco de dados do microsserviço de conexão com o StackOverflow </p>| Muito Alta | 8
-TS06| <p align="justify">Eu, como desenvolvedor, desejo criar a etapa de comunicação com o core do Ludum para o microsserviço de Pesquisar Dúvidas.</p>|Média| 5
-TS07| <p align="justify">Eu, como desenvolvedor, desejo comunicar o microsserviço de perguntas e respostas com o StackOverflow.</p>|Média| 13
+TS06| <p align="justify">Eu, como desenvolvedor, desejo criar a etapa de comunicação com o core do Ludum para o microsserviço de Pesquisar Dúvidas.</p>|Muito Alta| 5
+TS07| <p align="justify">Eu, como desenvolvedor, desejo comunicar o microsserviço de perguntas e respostas com o StackOverflow.</p>|Muito Alta| 13
 
 #### Feature 07 - Apresentar FAQ
 **ID**|**Descrição**|**Prioridade**| **Pontos**
 :---:|:---|:---:|:---:
 TS05| <p align="justify">Eu, como desenvolvedor, desejo popular com as perguntas mais frequentes o banco do microsserviço de conexão com o StackOverflow.</p>|Alta| 3 
-US11| <p align="justify">Eu, como usuário, desejo visualizar as perguntas feitas com mais frequencia.</p>|Média| 3
-US12| <p align="justify">Eu, como usuário, desejo pesquisar minha dúvida caso ela não esteja presente no FAQ.</p>|Média| 5
+US11| <p align="justify">Eu, como usuário, desejo visualizar as perguntas feitas com mais frequencia.</p>|Alta| 3
+US12| <p align="justify">Eu, como usuário, desejo pesquisar minha dúvida caso ela não esteja presente no FAQ.</p>|Alta| 5
 
 ### **Épico Auxílio na criação de jogos**
 
@@ -103,8 +104,8 @@ US12| <p align="justify">Eu, como usuário, desejo pesquisar minha dúvida caso 
 TS08| <p align="justify">Eu, como desenvolvedor, desejo criar um jogo de baixa complexidade para elaborar o tutorial</p>| Média| 13
 TS09| <p align="justify">Eu, como desenvolvedor, desejo criar um jogo de complexidade um pouco mais alta para elaborar o tutorial</p>| Média| 13
 US13| <p align="justify">Eu, como usuário, desejo selecionar a complexidade do jogo em que receberei auxílio</p>| Média | 2 
-US14| <p align="justify">Eu, como usuário, desejo aprender a criar um jogo de baixa complexidade</p>| Baixa| 13
-US15| <p align="justify">Eu, como usuário, desejo aprender a criar um jogo de complexidade um pouco mais alta</p>| Baixa| 13
+US14| <p align="justify">Eu, como usuário, desejo aprender a criar um jogo de baixa complexidade</p>| Média | 13
+US15| <p align="justify">Eu, como usuário, desejo aprender a criar um jogo de complexidade um pouco mais alta</p>| Média| 13
 US20| <p align="justify">Eu, como usuário, desejo escolher um tutorial da comunidade</p>| Baixa| 2
 
 ### **Épico Notificar sobre adição de novos materiais/links e tutoriais**
@@ -112,10 +113,8 @@ US20| <p align="justify">Eu, como usuário, desejo escolher um tutorial da comun
 #### Feature 09 - Enviar email de notificação em relação à novidades para o usuário 
 **ID**|**Descrição**|**Prioridade**| **Pontos**
 :---:|:---|:---:|:---:
-TS19| <p align="justify">Eu, como desenvolvedor, desejo criar o microsserviço de Notificações </p>| -| 5
-TS20| <p align="justify">Eu, como desenvolvedor, desejo conectar o microsserviço de Noticações com o core do Ludum </p>| -| 5
-TS21| <p align="justify">Eu, como desenvolvedor, desejo conectar o microsserviço de Notificações com a API do Gmail </p>| -| 5
-US21| <p align="justify">Eu, como usuário, desejo receber um email informando sobre as novidades adicionadas </p>| -| 5
+TS19| <p align="justify">Eu, como desenvolvedor, desejo conectar a API do Gmail ao microsserviço de materiais, links e tutoriais </p>| Baixa | 5
+US21| <p align="justify">Eu, como usuário, desejo receber um email informando sobre as novidades adicionadas </p>| Baixa | 5
 
 ## 2. **Versão 2**
 - [Versão 2 do Backlog](/backlog-versao2.md)

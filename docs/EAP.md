@@ -4,10 +4,16 @@
 ---|:---:|---|---
 31/03/2019| 0.1| Criação da primeira versão da EAP| Gabriela, Guilherme e Lucas Lermen
 02/04/2019| 0.2| Segunda versão da EAP| Gabriela Moraes
+02/05/2019| 0.3| Terceira versão da EAP| Gabriela Moraes
 
 
 # Sobre a EAP
 <p align="justify">Segundo o PMBOK 5ª edição, a Estrutura Analítica do Projeto (EAP) é “O processo de subdivisão das entregas e do trabalho do projeto em componentes menores e mais facilmente gerenciáveis.” .</p>
+
+# Terceira Versão
+Autores: Gabriela Moraes.
+
+![](./imagens/EAP-V3.png)
 
 # Segunda Versão
 Autores: Gabriela Moraes.

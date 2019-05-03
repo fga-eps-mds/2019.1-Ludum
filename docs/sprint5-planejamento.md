@@ -6,7 +6,7 @@
 
 **Duração**: Uma semana
 
-**Pontos Planejados**: 35
+**Pontos Planejados**: 43
 
 -------
 
@@ -35,7 +35,7 @@
 
 ## 2. Planejamento das tarefas
 
-<p align = "justify"> As tarefas foram planejadas levando em consideração as complicações ocorridas na <i>sprint</i> passada, e o fato de a Release 1 do projeto estar se aproximando. Assim sendo, foram planejados 35 pontos(valor próximo ao velocity), divididos em tarefas cruciais para garantir a viabilidade técnica do projeto. </p>
+<p align = "justify"> As tarefas foram planejadas levando em consideração as complicações ocorridas na <i>sprint</i> passada, e o fato de a Release 1 do projeto estar se aproximando. Assim sendo, foram planejados 43 pontos(valor um pouco acima do velocity), divididos em tarefas cruciais para garantir a viabilidade técnica do projeto. </p>
 
 
 

@@ -25,7 +25,7 @@
 
 ### 1.3 _Velocity_
 
-![](./imagens/burndown-sprint4.png)
+![](./imagens/velocity-sprint4.png)
 
 ### 1.4 Retrospectiva
 

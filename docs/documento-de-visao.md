@@ -10,6 +10,7 @@
  31/03/19 | 0.7 | <p align="justify">Revisão do documento</p> | Wictor Girardi 
  01/04/19 | 0.8 | <p align="justify">Formatação do documento</p> | Lucas Ganda, João de Assis 
  01/04/19 | 0.9 | <p align="justify">Pequenas correções no documento</p> | Lucas Ganda, João de Assis 
+  02/05/19 | 1.0 | <p align="justify">Pequena refatoração do documento</p> | Gabriela Moraes
 
 # 1. Introdução
 
@@ -77,7 +78,7 @@ https://botlino.github.io/docs/doc-visao
 
 <p align = "justify">Os principais envolvidos neste projeto serão as equipes de desenvolvimento (MDS), gestores (EPS) e monitores, sendo que esses não necessariamente irão ser usuários do aplicativo.
 O público-alvo do projeto, que irá interagir com o Ludum, são pessoas interessadas em programação e desenvolvimento de jogos, sejam eles de graduação ou pós-graduação.
-Os principais artefatos que o Ludum propõe é a maior interatividade e facilidade para o desenvolvimento de pessoas não ligadas a software dentro da Universidade de Brasília.</p>
+A principal proposta do Ludum é o auxílio na aprendizagem da biblioteca PyGame de maneira fácil e interativa.</p>
 
 ## 3.2 Resumo dos envolvidos
 
@@ -170,10 +171,11 @@ Os principais artefatos que o Ludum propõe é a maior interatividade e facilida
 O ChatBot Ludum é capaz de:
 
 <p align = "justify">Realizar a integração entre bot, usuário e ferramenta externa.
-Ensinar noções básicas de Python e como trabalhar com a biblioteca Pygame.
+Ensinar como trabalhar com a biblioteca Pygame.
 Dar dicas de como configurar o ambiente de desenvolvimento.
 Recomendar links e materiais úteis.
-Realizar o desenvolvimento de jogos de diferentes níveis de dificuldade de desenvolvimento.</p>
+Auxiliar o desenvolvimento de jogos de diferentes níveis de dificuldade.
+Permitir contribuição de conteúdo pela comunidade. Notificar sobre adição de conteúdo.</p>
 
 # 6. Restrições
 
