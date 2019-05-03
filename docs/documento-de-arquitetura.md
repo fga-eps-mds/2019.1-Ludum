@@ -178,9 +178,7 @@ Estrutura do documento:
 ## 6.1 Visão Geral
 <p align="justify"> Cada microsserviço funciona independente das outras partes do sistema, tópico que foi abordado na representação da arquitetura. Destarte, cada serviço da aplicação possui particulariadades arquiteturais que virão a ser destrinchadas nos tópicos a seguir.</p>
 
-## 6.2 Microsserviço Pesquisar dúvidas
-
-## 6.3 Núcleo
+## 6.2 Núcleo
 
 ![](./imagens/diagrama-rasa.jpg)
 
