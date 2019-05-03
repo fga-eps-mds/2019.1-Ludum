@@ -25,6 +25,15 @@
 - sim
 - sim
 - sim
+- sim
+- sim
+- sim
+
+## intent:contribuicao
+- contribuir
+- como contribuir
+- o que preciso para contribuir
+- como contribuir para o repositorio
 
 ## intent:cumprimentar
 - oi, tudo bem
@@ -40,6 +49,10 @@
 - ola
 - oi
 - bom dia
+- /start
+- qual o seu nome?
+- quem é você?
+- oque você faz?
 
 ## intent:despedir
 - Tchau obrigado
@@ -71,6 +84,7 @@
 - ambiente
 - ambiente
 - ambiente
+- como configurar o meu ambiente?
 
 ## intent:informacao_desenvolvimento
 - tutorial
@@ -83,6 +97,7 @@
 - quero fazer um jogo
 - como fazer um jogo em python?
 - quero fazer um jogo em python
+- me ensine a fazer um jogo
 
 ## intent:informacao_duvidas
 - Como voce pode responder uma duvida?
@@ -93,6 +108,8 @@
 - Você pode responder minhas questões?
 - Duvida
 - como posso tirar uma duvida?
+- FAQ
+- FAQ
 
 ## intent:informacao_materiais
 - link
@@ -149,13 +166,12 @@
 - Vc gosta de carnaval?
 - batatinha quando nasce
 
+## intent:start
+- /start
+- /start
+- /start
+
 ## intent:tudo_bem
 - Tudo bem
 - Como vocês estao
 - como vc ta
-
-## intent:contribuicao
-- contribuir
-- como contribuir 
-- o que preciso para contribuir 
-- como contribuir para o repositorio 

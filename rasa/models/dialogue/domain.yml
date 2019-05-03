@@ -1,44 +1,50 @@
 %YAML 1.1
 ---
 actions:
-- utter_negar_ambiente2
-- utter_time
+- utter_perguntar_ambiente2
+- action_test
 - utter_negar_ambiente3
-- utter_perguntar_ambiente3
-- utter_informacao_ambiente
+- utter_despedir
+- utter_default
+- utter_sem_nada
+- utter_confirmar_ambiente1
+- utter_negar_ambiente1
+- utter_confirmar_ambiente2
+- utter_tudo_bem
+- utter_star_wars
+- utter_contribuicao
+- utter_cumprimentar
 - utter_informacao_desenvolvimento
 - utter_confirmar_ambiente3
-- utter_sem_nada
-- utter_despedir
-- utter_perguntar_ambiente2
-- utter_confirmar_ambiente1
-- utter_cumprimentar
-- utter_default
-- utter_confirmar_ambiente2
-- utter_informacao_materiais
-- utter_informacao_duvidas
-- action_test
-- action_question
-- extra.actions.ActionQuest
+- utter_perguntar_ambiente3
 - utter_informacao
-- utter_star_wars
-- utter_tudo_bem
-- utter_negar_ambiente1
-- utter_contribuicao
+- utter_informacao_ambiente
+- utter_time
+- utter_informacao_duvidas
+- utter_negar_ambiente2
+- extra.actions.ActionQuest
+- utter_informacao_materiais
+- action_question
 config:
   store_entities_as_slots: true
 entities:
-- starwars
 - time
+- starwars
 forms: []
 intents:
-- confirmar:
+- informacao_duvidas:
     use_entities: true
 - informacao_ambiente:
     use_entities: true
-- negar:
-    use_entities: true
 - cumprimentar:
+    use_entities: true
+- confirmar:
+    use_entities: true
+- start:
+    use_entities: true
+- informacao_desenvolvimento:
+    use_entities: true
+- negar:
     use_entities: true
 - despedir:
     use_entities: true
@@ -46,11 +52,7 @@ intents:
     use_entities: true
 - tudo_bem:
     use_entities: true
-- informacao_desenvolvimento:
-    use_entities: true
 - informacao_materiais:
-    use_entities: true
-- informacao_duvidas:
     use_entities: true
 - informacao:
     use_entities: true

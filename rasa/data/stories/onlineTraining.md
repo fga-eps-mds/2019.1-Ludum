@@ -145,3 +145,35 @@
 * negar
     - utter_sem_nada
 
+## Generated Story -3566123589572365818
+* start
+    - utter_cumprimentar
+* start
+    - utter_cumprimentar
+* cumprimentar
+    - utter_cumprimentar
+* start
+    - utter_cumprimentar
+* cumprimentar
+    - utter_cumprimentar
+* cumprimentar
+    - utter_cumprimentar
+* informacao_duvidas
+    - utter_informacao_duvidas
+* informacao_duvidas
+    - utter_informacao_duvidas
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* informacao_ambiente
+    - utter_informacao_ambiente
+* confirmar
+    - utter_confirmar_ambiente1
+    - utter_perguntar_ambiente2
+* confirmar
+    - utter_confirmar_ambiente2
+    - utter_perguntar_ambiente3
+* confirmar
+    - utter_confirmar_ambiente3
+* cumprimentar
+    - utter_cumprimentar
+

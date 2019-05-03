@@ -1,7 +1,6 @@
 
 ## intent:time
 - qual o melhor time do brasil
-- qual o seu time?
 - para qual time você torce?
 - que time vc torce?
 - quem vai ser o campeao brasileiro nesse ano
