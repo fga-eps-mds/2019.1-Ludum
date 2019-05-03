@@ -1,0 +1,93 @@
+## Generated Story 2620514997991969962
+* confirmar
+    - utter_sem_nada
+
+## Generated Story 7995113813708301576
+* cumprimentar
+    - utter_sem_nada
+* cumprimentar
+    - utter_cumprimentar
+* cumprimentar
+    - utter_cumprimentar
+
+## Generated Story 4193460569487063851
+* cumprimentar
+    - utter_cumprimentar
+* confirmar
+    - utter_sem_nada
+* negar
+    - utter_sem_nada
+* confirmar
+    - utter_sem_nada
+* confirmar
+    - utter_sem_nada
+* informacao_ambiente
+    - utter_informacao_ambiente
+* confirmar
+    - utter_confirmar_ambiente1
+    - utter_perguntar_ambiente2
+* confirmar
+    - utter_confirmar_ambiente2
+    - utter_perguntar_ambiente3
+* negar
+    - utter_negar_ambiente3
+    - utter_confirmar_ambiente3
+* cumprimentar
+    - utter_cumprimentar
+* cumprimentar
+    - utter_cumprimentar
+* confirmar
+    - utter_sem_nada
+* negar
+    - utter_sem_nada
+* confirmar
+    - utter_sem_nada
+* confirmar
+    - utter_sem_nada
+* confirmar
+    - utter_sem_nada
+* confirmar
+    - utter_sem_nada
+* confirmar
+    - utter_sem_nada
+* negar
+    - utter_sem_nada
+* negar
+    - utter_sem_nada
+* confirmar
+    - utter_sem_nada
+* negar
+    - utter_sem_nada
+* negar
+    - utter_sem_nada
+* negar
+    - utter_sem_nada
+* negar
+    - utter_sem_nada
+* negar
+    - utter_sem_nada
+* confirmar
+    - utter_sem_nada
+* confirmar
+    - utter_sem_nada
+* confirmar
+    - utter_sem_nada
+* confirmar
+    - utter_sem_nada
+* confirmar
+    - utter_sem_nada
+* confirmar
+    - utter_sem_nada
+* confirmar
+    - utter_sem_nada
+* confirmar
+    - utter_sem_nada
+* negar
+    - utter_sem_nada
+* confirmar
+    - utter_sem_nada
+* confirmar
+    - utter_sem_nada
+* confirmar
+    - utter_sem_nada
+

@@ -1,8 +1,45 @@
-## intent:out_of_scope
-- Qual a origem do mundo?
-- Você tem signo?
-- Vc gosta de carnaval?
-- batatinha quando nasce
+## intent:confirmar
+- sim
+- claro
+- Sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+
+## intent:cumprimentar
+- oi, tudo bem
+- bom dia
+- boa tarde
+- boa noite
+- olá
+- oie
+- oiee
+- opa tudo bem
+- ola boa tarde
+- ola
+- ola
+- oi
+- bom dia
 
 ## intent:despedir
 - Tchau obrigado
@@ -14,13 +51,26 @@
 - até breve
 - falou, valeu
 - flw vlw
-- blza
-- blz
-- valeu
-- de boa
-- obrigada
-- obrigado
-- obj
+- xau
+
+## intent:informacao
+- Tenho uma pergunta
+- Tenho uma duvida
+- Duvida
+- voce pode me tirar uma duvida?
+
+## intent:informacao_ambiente
+- ambiente
+- como voce pode me ajudar a configurar o ambiente
+- voce pode me ajudar a configurar o ambiente
+- como funciona a configuracao de ambiente
+- o que preciso para começar
+- configurar ambiente
+- ambiente
+- ambiente
+- ambiente
+- ambiente
+- ambiente
 
 ## intent:informacao_desenvolvimento
 - tutorial
@@ -34,46 +84,6 @@
 - como fazer um jogo em python?
 - quero fazer um jogo em python
 
-## intent:cumprimentar
-- oi, tudo bem
-- como vai
-- oi, como vai voce
-- como vao as coisas
-- com licenca
-- tudo bom
-- to bem
-- tranquilo
-- estou bem
-- estou otimo
-- muito bem
-- bom dia
-- boa tarde
-- boa noite
-- olá
-- oie
-- oiee
-- opa tudo bem
-- ola boa tarde
-
-## intent:negar
-- nao quero saber mais
-- quero falar sobre outra coisa
-- não quero saber de mais nada
-- nao era isso, me enganei
-- não quero falar sobre isso
-- ainda nao sei escolher um tópico
-- ainda não pensei sobre isso
-- nao sei do que quero falar
-- não sei do que quero conversar
-- nunca
-- nao
-- nao conheco
-- não quero
-- escolhi errado
-- falei errado
-- ainda não sei
-- nenhum
-
 ## intent:informacao_duvidas
 - Como voce pode responder uma duvida?
 - Voce consegue me tirar uma duvida?
@@ -81,40 +91,71 @@
 - Me tira uma duvida?
 - Como posso te fazer uma pergunta?
 - Você pode responder minhas questões?
-- Você consegue responder minha pergunta?
-- Você consegue tirar minha duvida?
 - Duvida
-- Tenho uma duvida
+- como posso tirar uma duvida?
 
+## intent:informacao_materiais
+- link
+- material
+- materiais
+- quero materiais
+- quero links
+- me envie materiais
+- me envie links
+- quais links você pode me mandar?
+- quais materiais você pode me mandar?
+- voce pode me enviar links?
+- voce pode me enviar materiais?
+- quais materiais voce tem?
+- quais links voce tem?
+- links uteis
+- materiais uteis
+- me manda link
+- manda link
+
+## intent:negar
+- nao
+- não
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+
+## intent:out_of_scope
+- Qual a origem do mundo?
+- Você tem signo?
+- Vc gosta de carnaval?
+- batatinha quando nasce
 
 ## intent:tudo_bem
 - Tudo bem
 - Como vocês estao
-- como ta
-- joia
-- joinha
-- tudo bom
-- bom dia flor do dia
-- Tudo bem e você
-- como vc esta
-- como vai
+- como vc ta
 
-## intent:informacao_ambiente
-- ambiente
-- me ajude a configurar o ambiente
-- o que preciso para começar
-- me ajude a instalar o python
-- qual versao do python
-- qual ide eu deveria usar
-- como instalar a pygame
-- em qual sistema eu deveria estar
-
-## intent:informacao_ambiente_sistema
-- macos
-- sistema
-- qual sistema devo usar
-- windows
-- linux
-- mac
-
-- como vai
+## intent:contribuicao
+- contribuir
+- como contribuir 
+- o que preciso para contribuir 
+- como contribuir para o repositorio 

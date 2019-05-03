@@ -119,7 +119,7 @@
             "entity": "starwars"
           }
         ],
-        "text": "concelhos do yoda"
+        "text": "conselhos do yoda"
       },
       {
         "intent": "star_wars",
@@ -158,24 +158,144 @@
         "text": "test action"
       },
       {
-        "intent": "out_of_scope",
-        "text": "Você fala sobre o meio ambiente?"
+        "intent": "action_test",
+        "text": "ambiente_action"
       },
       {
-        "intent": "out_of_scope",
-        "text": "Qual a origem do mundo?"
+        "intent": "confirmar",
+        "text": "sim"
       },
       {
-        "intent": "out_of_scope",
-        "text": "Você tem signo?"
+        "intent": "confirmar",
+        "text": "claro"
       },
       {
-        "intent": "out_of_scope",
-        "text": "Vc gosta de carnaval?"
+        "intent": "confirmar",
+        "text": "Sim"
       },
       {
-        "intent": "out_of_scope",
-        "text": "batatinha quando nasce"
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "oi, tudo bem"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "bom dia"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "boa tarde"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "boa noite"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "olá"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "oie"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "oiee"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "opa tudo bem"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "ola boa tarde"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "ola"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "ola"
       },
       {
         "intent": "despedir",
@@ -214,32 +334,64 @@
         "text": "flw vlw"
       },
       {
-        "intent": "despedir",
-        "text": "blza"
+        "intent": "informacao",
+        "text": "Tenho uma pergunta"
+      },
+      {
+        "intent": "informacao",
+        "text": "Tenho uma duvida"
+      },
+      {
+        "intent": "informacao",
+        "text": "Duvida"
+      },
+      {
+        "intent": "informacao",
+        "text": "voce pode me tirar uma duvida?"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "como voce pode me ajudar a configurar o ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "voce pode me ajudar a configurar o ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "como funciona a configuracao de ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "o que preciso para começar"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "configurar ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "ambiente"
       },
       {
         "intent": "despedir",
-        "text": "blz"
-      },
-      {
-        "intent": "despedir",
-        "text": "valeu"
-      },
-      {
-        "intent": "despedir",
-        "text": "de boa"
-      },
-      {
-        "intent": "despedir",
-        "text": "obrigada"
-      },
-      {
-        "intent": "despedir",
-        "text": "obrigado"
-      },
-      {
-        "intent": "despedir",
-        "text": "obj"
+        "text": "xau"
       },
       {
         "intent": "informacao_desenvolvimento",
@@ -282,148 +434,112 @@
         "text": "quero fazer um jogo em python"
       },
       {
-        "intent": "cumprimentar",
-        "text": "oi, tudo bem"
+        "intent": "informacao_duvidas",
+        "text": "Como voce pode responder uma duvida?"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "Voce consegue me tirar uma duvida?"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "Como você pode responder minha pergunta?"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "Me tira uma duvida?"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "Como posso te fazer uma pergunta?"
       },
       {
         "intent": "cumprimentar",
-        "text": "como vai"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "oi, como vai voce"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "como vao as coisas"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "com licenca"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "tudo bom"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "to bem"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "tranquilo"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "estou bem"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "estou otimo"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "muito bem"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "bom dia"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "boa tarde"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "boa noite"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "olá"
+      "text": "ola"
       },
       {
         "intent": "cumprimentar",
         "text": "oie"
       },
       {
-        "intent": "cumprimentar",
-        "text": "oiee"
+        "intent": "informacao_duvidas",
+        "text": "Você pode responder minhas questões?"
       },
       {
-        "intent": "cumprimentar",
-        "text": "opa tudo bem"
+        "intent": "informacao_duvidas",
+        "text": "Duvida"
       },
       {
-        "intent": "cumprimentar",
-        "text": "ola boa tarde"
+        "intent": "informacao_duvidas",
+        "text": "como posso tirar uma duvida?"
       },
       {
-        "intent": "negar",
-        "text": "nao quero saber mais"
+        "intent": "informacao_materiais",
+        "text": "link"
       },
       {
-        "intent": "negar",
-        "text": "quero falar sobre outra coisa"
+        "intent": "informacao_materiais",
+        "text": "material"
       },
       {
-        "intent": "negar",
-        "text": "não quero saber de mais nada"
+        "intent": "informacao_materiais",
+        "text": "materiais"
       },
       {
-        "intent": "negar",
-        "text": "nao era isso, me enganei"
+        "intent": "informacao_materiais",
+        "text": "quero materiais"
       },
       {
-        "intent": "negar",
-        "text": "não quero falar sobre isso"
+        "intent": "informacao_materiais",
+        "text": "quero links"
       },
       {
-        "intent": "negar",
-        "text": "ainda nao sei escolher um tópico"
+        "intent": "informacao_materiais",
+        "text": "me envie materiais"
       },
       {
-        "intent": "negar",
-        "text": "ainda não pensei sobre isso"
+        "intent": "informacao_materiais",
+        "text": "me envie links"
       },
       {
-        "intent": "negar",
-        "text": "nao sei do que quero falar"
+        "intent": "informacao_materiais",
+        "text": "quais links você pode me mandar?"
       },
       {
-        "intent": "negar",
-        "text": "não sei do que quero conversar"
+        "intent": "informacao_materiais",
+        "text": "quais materiais você pode me mandar?"
       },
       {
-        "intent": "negar",
-        "text": "nunca"
+        "intent": "informacao_materiais",
+        "text": "voce pode me enviar links?"
+      },
+      {
+        "intent": "informacao_materiais",
+        "text": "voce pode me enviar materiais?"
+      },
+      {
+        "intent": "informacao_materiais",
+        "text": "quais materiais voce tem?"
+      },
+      {
+        "intent": "informacao_materiais",
+        "text": "quais links voce tem?"
+      },
+      {
+        "intent": "informacao_materiais",
+        "text": "links uteis"
+      },
+      {
+        "intent": "informacao_materiais",
+        "text": "materiais uteis"
+      },
+      {
+        "intent": "informacao_materiais",
+        "text": "me manda link"
       },
       {
         "intent": "negar",
         "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao conheco"
-      },
-      {
-        "intent": "negar",
-        "text": "não quero"
-      },
-      {
-        "intent": "negar",
-        "text": "escolhi errado"
-      },
-      {
-        "intent": "negar",
-        "text": "falei errado"
-      },
-      {
-        "intent": "negar",
-        "text": "ainda não sei"
-      },
-      {
-        "intent": "negar",
-        "text": "nenhum"
       },
       {
         "intent": "informacao_duvidas",
@@ -451,19 +567,131 @@
       },
       {
         "intent": "informacao_duvidas",
-        "text": "Você consegue responder minha pergunta?"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Você consegue tirar minha duvida?"
-      },
-      {
-        "intent": "informacao_duvidas",
         "text": "Duvida"
       },
       {
         "intent": "informacao_duvidas",
         "text": "Tenho uma duvida"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "FAQ"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "faq"
+      },
+      {
+        "intent": "tudo_bem",
+        "text": "Tudo bem"
+      },
+      {
+        "intent": "negar",
+        "text": "não"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "informacao",
+        "text": "Como você pode me ajudar?"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Qual a origem do mundo?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Você tem signo?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Vc gosta de carnaval?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "batatinha quando nasce"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "nai"
       },
       {
         "intent": "tudo_bem",
@@ -475,46 +703,7 @@
       },
       {
         "intent": "tudo_bem",
-        "text": "como ta"
-      },
-      {
-        "text": "joia",
-        "intent": "star_wars",
-        "entities": [
-          {
-            "start": 0,
-            "end": 19,
-            "value": "guerra nas estrelas",
-            "entity": "starwars"
-          }
-        ]
-      },
-      {"text": "guerra nas estrelas",
-        "intent": "tudo_bem"
-      },
-      {
-        "intent": "tudo_bem",
-        "text": "joinha"
-      },
-      {
-        "intent": "tudo_bem",
-        "text": "tudo bom"
-      },
-      {
-        "intent": "tudo_bem",
-        "text": "bom dia flor do dia"
-      },
-      {
-        "intent": "tudo_bem",
-        "text": "Tudo bem e você"
-      },
-      {
-        "intent": "tudo_bem",
-        "text": "como vc esta"
-      },
-      {
-        "intent": "tudo_bem",
-        "text": "como vai"
+        "text": "como vc ta"
       }
     ],
     "regex_features": [],

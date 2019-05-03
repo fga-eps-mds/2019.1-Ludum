@@ -1,6 +1,11 @@
 <p align="center"> <img src="imagens/Ludum_LogoFinal(sem_fundo).png" width="auto" height="400" /> 
 <br>    
-<a href="https://www.gnu.org/licenses/gpl-3.0.pt-br.html"><img src="https://img.shields.io/badge/licence-GPL3-green.svg"/></a> <a href="CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg"></a> <img src="https://img.shields.io/github/issues-closed-raw/fga-eps-mds/2019.1-Ludum.svg"/> </p>
+<a href="https://www.gnu.org/licenses/gpl-3.0.pt-br.html"><img src="https://img.shields.io/badge/licence-GPL3-green.svg"/></a> <a href="CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg"></a> 
+<a href="https://gitlab.com/guilhermesiqueira/2019-1-Ludum/commits/development"><img alt="pipeline status" src="https://gitlab.com/guilhermesiqueira/2019-1-Ludum/badges/development/pipeline.svg" /></a>
+<a href="https://codeclimate.com/github/fga-eps-mds/2019.1-Ludum/maintainability"><img src="https://api.codeclimate.com/v1/badges/cb8e7c95b446f448d64f/maintainability" /></a>
+<a href="https://gitlab.com/guilhermesiqueira/2019-1-Ludum/commits/development"><img alt="coverage report" src="https://gitlab.com/guilhermesiqueira/2019-1-Ludum/badges/development/coverage.svg" /></a>
+</p>
+
 
 # Ludum - O assistente virtual sobre o PyGame
 
@@ -18,8 +23,8 @@
 ## Tecnologias
 * **Python3** - Linguagem de programação utilizada para codificar o core do bot;
 * **Rasa** - Tecnologia de Inteligência Artificial para o ChatBot;
-* **Flask** -
-* **NodeJS** -
+* **Flask** - Flask é um pequeno framework web escrito em Python e baseado na biblioteca WSGI Werkzeug e na biblioteca de Jinja2;
+* **NodeJS** - Node.js é um interpretador de código JavaScript com o código aberto, focado em migrar o Javascript do lado do cliente para servidores;
 * **MongoDB** - Banco de dados não relacional utilizado no projeto;
 * **Docker** - Ferramenta para criação e administração de ambientes isolados;
 * **GitLab CI** - Ferramenta responsável pelo integração contínua e deploy contínuo.
@@ -29,10 +34,6 @@ Os arquivos da documentação do projeto estão localizados na pasta `docs` e pa
 
 ## Quero ajudar! Como contribuir?
 <p align="justify"> Sua ajuda é muito bem vinda! O guia com todos os passos para contribuir ao Ludum se encontra <a href="https://github.com/fga-eps-mds/2019.1-Ludum/blob/development/CONTRIBUTING.md">aqui</a> e não esqueça de seguir nosso código de conduta, para conferir basta clicar <a href="https://github.com/fga-eps-mds/2019.1-Ludum/blob/master/CODE_OF_CONDUCT.md">aqui</a>.</p>
-
-## Como configurar
-
-## Como instalar
 
 ## Como executar o Ludum
 1. Abra um terminal dentro do repositório clonado do Ludum
