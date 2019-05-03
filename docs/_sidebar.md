@@ -13,6 +13,7 @@
 - [Brainstorm](/brainstorm.md)
 - [Rich Picture](/rich-picture.md)
 - [NFR](/nfr.md)
+- [Protótipo](/prototipo.md)
 - [Personalidade do Ludum](/personalidade-ludum.md)
 - [Manual da Identidade Visual](/miv.md)
 - [Documento de Visão](/documento-de-visao.md)
