@@ -13,11 +13,16 @@ class ActionTest(Action):
             dispatcher.utter_message('Pesquisando perguntas pesquisadas para você')
         except ValueError:
             dispatcher.utter_message(ValueError)
-        x =  '{ "name":"John", "age":30, "city":"New York"}'
-        y = json.loads(x)
+        x = {
+            "nome": "Siqueira",
+            "age": 21,
+            "adjetivo": "Lindão"
+            }
+        y = json.dumps(x)
         try:
-            ##data = json.load(requests.get('https://ludum-duvidas.herokuapp.com/api/duvidas'))
-            dispatcher.utter_message(y)
+            link = requests.get('https://ludum-duvidas.herokuapp.com/api/duvidas')
+            stack = json.loads(link.text)
+            dispatcher.utter_message(str(stack))
         except ValueError:
             dispatcher.utter_message(ValueError)
         return []
@@ -39,8 +44,9 @@ class ActionQuestion(Action):
             }
         y = json.dumps(x)
         try:
-            ##data = json.load(requests.get('https://ludum-duvidas.herokuapp.com/api/duvidas'))
-            dispatcher.utter_message(y)
+            link = requests.get('https://ludum-duvidas.herokuapp.com/api/duvidas')
+            stack = json.loads(link.text)
+            dispatcher.utter_message(stack)
         except ValueError:
             dispatcher.utter_message(ValueError)
         return []
