@@ -53,6 +53,8 @@
 - qual o seu nome?
 - quem é você?
 - oque você faz?
+- qual o seu nome?
+- Olá
 
 ## intent:despedir
 - Tchau obrigado
@@ -110,6 +112,10 @@
 - como posso tirar uma duvida?
 - FAQ
 - FAQ
+- faq
+- Faq
+- Como posso aprender?
+- Posso te fazer uma pergunta?
 
 ## intent:informacao_materiais
 - link
@@ -129,6 +135,7 @@
 - materiais uteis
 - me manda link
 - manda link
+- Me ensina algo
 
 ## intent:negar
 - nao
