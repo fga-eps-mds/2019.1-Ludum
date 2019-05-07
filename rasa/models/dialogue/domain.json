@@ -3,6 +3,7 @@
     "intent_action_question",
     "intent_action_test",
     "intent_confirmar",
+    "intent_contribuicao",
     "intent_cumprimentar",
     "intent_despedir",
     "intent_informacao",
@@ -46,6 +47,7 @@
     "prev_utter_informacao",
     "prev_utter_star_wars",
     "prev_utter_tudo_bem",
-    "prev_utter_negar_ambiente1"
+    "prev_utter_negar_ambiente1",
+    "prev_utter_contribuicao"
   ]
 }
