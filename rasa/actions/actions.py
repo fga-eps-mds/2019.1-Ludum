@@ -16,7 +16,7 @@ class ActionTest(Action):
         try:
             link = requests.get('https://ludum-duvidas.herokuapp.com/api/duvidas')
             stack = json.loads(link.text)
-            dispatcher.utter_message(str(stack))
+            dispatcher.utter_message(str(stack['data']))
         except ValueError:
             dispatcher.utter_message(ValueError)
         return []
@@ -34,7 +34,8 @@ class ActionQuestion(Action):
         try:
             link = requests.get('https://ludum-duvidas.herokuapp.com/api/duvidas')
             stack = json.loads(link.text)
-            dispatcher.utter_message(stack)
+            stackObjeto = json.dumps(stack)
+            dispatcher.utter_message(str(stack['data'][0]))
         except ValueError:
             dispatcher.utter_message(ValueError)
         return []
