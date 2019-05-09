@@ -81,15 +81,8 @@ templates:
   utter_cumprimentar:
   - text: "Olá, eu sou o Ludum! :D\n Vou te mostrar tudo que sei sobre \n desenvolvimento\
       \ de jogos em Python!\n Mas antes, jovem padawan, devo te fazer uma pergunta,\n\
-      \ Você já conhece minhas funcionalidades?\n 1) Tutorial - \n Vamos construir\
-      \ um jogo juntos!\n Vou te ensinar sobre o desenvolvimento de jogos\n em Python\
-      \ desde as partes mais básicas\n e quando você perceber já estará\n jogando\
-      \ seu próprio jogo!\n 2) Ambiente - \n Irei te auxiliar a preparar todo\n seu\
-      \ ambiente de desenvolvimento\n com os programas adequados.\n 3) FAQ -  \n Tentarei\
-      \ sanar todas as duvidas\n que você pode vir a ter.\n 4) Materiais e links -\
-      \ \n Tentarei te enviar links e materiais que\n possam ser utéis para você.\n\
-      \ 5) Criação de tutoriais e envio de materiais -\n Envie seus melhores links\
-      \ e materiais e ajude os proximos padawans criando novos tutoriais\n Começar\
+      \ Você já conhece minhas funcionalidades?\n - Tutorial \n - Ambiente \n - FAQ  \n - Materiais e links \n\
+      \ - Criação de tutoriais e envio de materiais \n Começar\
       \ com o que, devemos?\n"
   utter_default:
   - text: "Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender\
