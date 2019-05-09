@@ -10,16 +10,11 @@ class ActionTest(Action):
 
     def run(self, dispatcher, tracker, domain):
         try:
-            dispatcher.utter_message('Pesquisando perguntas pesquisadas para você')
-        except ValueError:
-            dispatcher.utter_message(ValueError)
-        try:
-            link = requests.get('https://ludum-duvidas.herokuapp.com/api/duvidas')
-            stack = json.loads(link.text)
-            dispatcher.utter_message(str(stack['data'][0]['answer'][0]['_id']))
+            dispatcher.utter_message('Mensagem enviada por uma custom action')
         except ValueError:
             dispatcher.utter_message(ValueError)
         return []
+
 
     
 class ActionQuestion(Action):
@@ -28,13 +23,18 @@ class ActionQuestion(Action):
 
     def run(self, dispatcher, tracker, domain):
         try:
-            dispatcher.utter_message('Pesquisando perguntas pesquisadas para você')
+            dispatcher.utter_message('"Espere jovem padawan, vou procurar uma resposta no StackOverflow para você"')
         except ValueError:
             dispatcher.utter_message(ValueError)
         try:
             link = requests.get('https://ludum-duvidas.herokuapp.com/api/duvidas')
             stack = json.loads(link.text)
-            dispatcher.utter_message(str(stack['data'][0]['answer'][0]['title']))
+            utterString = ''
+            for i in range (0, len (stack['data'][0]['answer'])):
+                utterString+= 'Resposta ' + str(i + 1) + '\n'
+                utterString+= 'Titulo: ' + str(stack['data'][0]['answer'][i]['title']) + '\n'
+                utterString+= 'Link: '  + str(stack['data'][0]['answer'][i]['link']) + '\n'
+            dispatcher.utter_message(utterString)
         except ValueError:
             dispatcher.utter_message(ValueError)
         return []
