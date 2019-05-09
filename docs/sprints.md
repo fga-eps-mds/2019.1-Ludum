@@ -33,4 +33,9 @@
 ## <i>Sprint</i> 6
 
 - [Planejamento](/sprint6-planejamento.md)
-- [Resultado](/sprint6-resultado.md) 
+- [Resultado](/sprint6-resultado.md)
+
+## <i>Sprint</i> 7
+
+- [Planejamento](/sprint7-planejamento.md)
+- [Resultado](/sprint7-resultado.md) 
