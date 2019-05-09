@@ -77,7 +77,7 @@ templates:
   - text: "Quer se tornar um Jedi?! Ajude contribuindo com os materiais e links que\
       \ você ache bacana e a força estará com você.\n Você pode tambem criar tutoriais\
       \ para ajudar os próximos aprendizes que estão por vir\n Para contribuir use\
-      \ o nosso WebClient(a ser criado)\n"
+      \ o nosso WebClient(a ser criado)\n(As contribuicoes ainda nao foram implementadas)"
   utter_cumprimentar:
   - text: "Olá, eu sou o Ludum! :D\n Vou te mostrar tudo que sei sobre \n desenvolvimento\
       \ de jogos em Python!\n Mas antes, jovem padawan, devo te fazer uma pergunta,\n\
@@ -98,7 +98,7 @@ templates:
   - text: "Foi um prazer te ajudar!\nQuando surgir alguma dúvida, volte aqui!\nAté\
       \ mais!\n"
   utter_informacao:
-  - text: "Sobre quais tópicos você tem dúvida?\n"
+  - text: "Sobre quais tópicos você tem dúvida?\n(A busca de informacao ainda nao foi implementada)"
   utter_informacao_ambiente:
   - text: "Certo, irei lhe perguntar se você possui algumas das nossas \"joias do\
       \ infinito\" que serão necessárias ao desenvolvimento, para começarmos, você\
@@ -107,7 +107,7 @@ templates:
   - text: "Muito bom, jovem Padawan!!\nVou te mostrar o tutorial de como desenvolver\
       \ e criar seu jogo em Python com diferentes dificuldades.\nQuando perceber você\
       \ já ser um Meister dos jogos!\nPorém, antes de começar devo te fazer uma pergunta.\n\
-      Você quer começar por qual dificuldade?\nFácil\nMédio\nDificil\n"
+      Você quer começar por qual dificuldade?\nFácil\nMédio\nDificil\n(Os tutoriais ainda nao foram implementados)"
   utter_informacao_duvidas:
   - text: "Você pode me perguntar tudo que quiser saber sobre o desenvolvimento de\
       \ jogos em pygame! \nAs vezes eu posso até não saber sua resposta, mas posso\
@@ -116,13 +116,13 @@ templates:
       \ mestre é um eterno aprendiz, eu também não sei de tudo.\nMas posso pesquisar\
       \ no StackOverflow e procurar a resposta mais indicada\n"
   - text: "Oque deseja saber, jovem padawan? Se eu não souber a resposta posso pesquisar\
-      \ pra você.  \n"
+      \ pra você.  \n(As duvidas ainda nao foram implementadas)"
   utter_informacao_materiais:
   - text: "Olá, jovem Padawan! :D\nVou te mostrar tudo que sei sobre desenvolvimento\
       \ de jogos em Python com links de materiais úteis que podem melhorar seu conhecimento\
       \ para te ajudar a se tornar um verdadeiro Mestre na criação de jogos com PyGame.\n\
       Mas antes, jovem padawan, devo te fazer uma pergunta: Você prefere videos explicativos\
-      \ ou textos?\n"
+      \ ou textos?\n(Os materiais ainda nao foram implementados)"
   utter_negar_ambiente1:
   - text: "Para realizarmos nossos tutoriais você precisara instalar o Python 3.6,\
       \ mas sem problema, para instala-lo no Linux você deve abrir o terminal e usar\
