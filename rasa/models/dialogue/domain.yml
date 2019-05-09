@@ -129,14 +129,15 @@ templates:
       \ o comando: $sudo apt-get install Python3.6\n caso você esteja usando o MacOS\
       \ use o comand: brew install python3\n\""
   utter_negar_ambiente2:
-  - text: "Assim como todo Jedi possui seu sabre de luz, precisamos das ferramentas\
-      \ necessárias e o Visual Studio Code é uma delas\n  Para instalá-lo acesse o\
+  - text: "Assim como todo Jedi possui seu sabre de luz, precisamos de algumas ferramentas\
+      \ e um editor de texto é uma delas\n\
+       Caso não possua nenhum instalado, recomendamos o Visual Studio Code\n  Para instalá-lo acesse o\
       \ site https://code.visualstudio.com/download, é tudo de graça!\n"
   utter_negar_ambiente3:
   - text: "Para instalar a biblioteca mais importante para nós aqui instale a PyGame\
       \ com o seguinte comando python3 -m pip install -U pygame --user\n"
   utter_perguntar_ambiente2:
-  - text: "Você possui o editor de texto Visual Studio Code instalado?\n"
+  - text: "Você possui algum editor de texto de sua preferência instalado?\n"
   utter_perguntar_ambiente3:
   - text: "Para fazermos nossos belissimos jogos precisaremos da biblioteca Pygame.\
       \ Você já tem ela instalada?\n"
