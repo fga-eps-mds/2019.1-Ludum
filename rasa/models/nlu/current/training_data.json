@@ -119,7 +119,7 @@
             "entity": "starwars"
           }
         ],
-        "text": "conselhos do yoda"
+        "text": "concelhos do yoda"
       },
       {
         "intent": "star_wars",
@@ -158,8 +158,24 @@
         "text": "test action"
       },
       {
-        "intent": "action_test",
-        "text": "ambiente_action"
+        "intent": "action_question",
+        "text": "Quero fazer uma pergunta ao Stack Overflow"
+      },
+      {
+        "intent": "action_question",
+        "text": "Stack Overflow"
+      },
+      {
+        "intent": "action_question",
+        "text": "stack overflow"
+      },
+      {
+        "intent": "action_question",
+        "text": "stack"
+      },
+      {
+        "intent": "action_question",
+        "text": "overflow"
       },
       {
         "intent": "confirmar",
@@ -172,6 +188,18 @@
       {
         "intent": "confirmar",
         "text": "Sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
       },
       {
         "intent": "confirmar",
@@ -298,6 +326,14 @@
         "text": "ola"
       },
       {
+        "intent": "cumprimentar",
+        "text": "oi"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "bom dia"
+      },
+      {
         "intent": "despedir",
         "text": "Tchau obrigado"
       },
@@ -332,6 +368,10 @@
       {
         "intent": "despedir",
         "text": "flw vlw"
+      },
+      {
+        "intent": "despedir",
+        "text": "xau"
       },
       {
         "intent": "informacao",
@@ -390,8 +430,8 @@
         "text": "ambiente"
       },
       {
-        "intent": "despedir",
-        "text": "xau"
+        "intent": "informacao_ambiente",
+        "text": "ambiente"
       },
       {
         "intent": "informacao_desenvolvimento",
@@ -452,14 +492,6 @@
       {
         "intent": "informacao_duvidas",
         "text": "Como posso te fazer uma pergunta?"
-      },
-      {
-        "intent": "cumprimentar",
-      "text": "ola"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "oie"
       },
       {
         "intent": "informacao_duvidas",
@@ -538,52 +570,12 @@
         "text": "me manda link"
       },
       {
+        "intent": "informacao_materiais",
+        "text": "manda link"
+      },
+      {
         "intent": "negar",
         "text": "nao"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Como voce pode responder uma duvida?"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Voce consegue me tirar uma duvida?"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Como você pode responder minha pergunta?"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Me tira uma duvida?"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Como posso te fazer uma pergunta?"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Você pode responder minhas questões?"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Duvida"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Tenho uma duvida"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "FAQ"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "faq"
-      },
-      {
-        "intent": "tudo_bem",
-        "text": "Tudo bem"
       },
       {
         "intent": "negar",
@@ -618,8 +610,28 @@
         "text": "nao"
       },
       {
-        "intent": "informacao",
-        "text": "Como você pode me ajudar?"
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
       },
       {
         "intent": "negar",
@@ -690,10 +702,6 @@
         "text": "batatinha quando nasce"
       },
       {
-        "intent": "out_of_scope",
-        "text": "nai"
-      },
-      {
         "intent": "tudo_bem",
         "text": "Tudo bem"
       },
@@ -704,6 +712,22 @@
       {
         "intent": "tudo_bem",
         "text": "como vc ta"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "contribuir"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como contribuir"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "o que preciso para contribuir"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como contribuir para o repositorio"
       }
     ],
     "regex_features": [],
