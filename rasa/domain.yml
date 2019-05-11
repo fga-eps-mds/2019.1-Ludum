@@ -50,7 +50,7 @@ templates:
   - text: "Ótimo, todo nosso tutorial será feito usando o Python 3.6, então é bom\
       \ que você o tenha aí instalado\n"
   utter_confirmar_ambiente2:
-  - text: "Ótimo, o Visual Studio Code será muito útil para nós!\n"
+  - text: "Ótimo, um editor de texto será muito util para nós podermos programar!\n"
   utter_confirmar_ambiente3:
   - text: "Tudo certo então, estamos prontos para começar a diversão!\n"
   utter_contribuicao:
