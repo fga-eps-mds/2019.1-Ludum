@@ -138,8 +138,8 @@ templates:
       \ o Visual Studio Code\n  Para instalá-lo acesse o site https://code.visualstudio.com/download,\
       \ é tudo de graça!\n"
   utter_negar_ambiente3:
-  - text: "Para instalar a biblioteca mais importante para nós aqui instale a PyGame\
-      \ com o seguinte comando python3 -m pip install -U pygame --user\n"
+  - text: "Para instalar a biblioteca PyGame, que será essencial para nós, entre\
+      \ no link https://www.pygame.org/wiki/GettingStarted e siga as instruções\n"
   utter_perguntar_ambiente2:
   - text: "Você possui algum editor de texto de sua preferência instalado?\n"
   utter_perguntar_ambiente3:

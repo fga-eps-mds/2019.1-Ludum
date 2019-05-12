@@ -188,4 +188,5 @@
 - medio
 - dificil
 - videos
+- videos-explicativos
 - textos
