@@ -124,10 +124,9 @@ templates:
       Mas antes, jovem padawan, devo te fazer uma pergunta: Você prefere videos explicativos\
       \ ou textos?\n"
   utter_negar_ambiente1:
-  - text: "Para realizarmos nossos tutoriais você precisara instalar o Python 3.6,\
-      \ mas sem problema, para instala-lo no Linux você deve abrir o terminal e usar\
-      \ o comando: $sudo apt-get install Python3.6\n caso você esteja usando o MacOS\
-      \ use o comand: brew install python3\n\""
+  - text: "Para realizarmos nossos tutoriais você precisará do Python 3.6,\
+      \ mas sem problema, para instalá-lo basta acessar este site\
+      \ https://www.python.org/downloads/ e instalar conforme seu sistema operacional\n"
   utter_negar_ambiente2:
   - text: "Assim como todo Jedi possui seu sabre de luz, precisamos de algumas ferramentas\
       \ e um editor de texto é uma delas\n\
