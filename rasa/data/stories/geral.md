@@ -30,6 +30,8 @@
 ## materiais
 * informacao_materiais
     - utter_informacao_materiais
+* nao_implementada
+    - utter_implementacao
     
 ## informacao ambiente 
 * informacao_ambiente
