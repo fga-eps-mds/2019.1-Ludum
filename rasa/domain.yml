@@ -25,6 +25,7 @@ actions:
 - utter_informacao
 - utter_confirmar_ambiente3
 - utter_informacao_materiais
+- utter_implementacao
 entities:
 - time
 - starwars
@@ -45,6 +46,7 @@ intents:
 - action_test
 - action_question
 - contribuicao
+- nao_implementada
 templates:
   utter_confirmar_ambiente1:
   - text: "Ótimo, todo nosso tutorial será feito usando o Python 3.6, então é bom\
@@ -134,3 +136,5 @@ templates:
   - text: "Melhor time do mundo disparado, Flamengooo!!!!\n"
   utter_tudo_bem:
   - text: "Tudo bem, obrigado! Em que posso te ajudar?\n"
+  utter_implementacao:
+  - text: "Esta funcionalidade ainda não foi implementada\n"

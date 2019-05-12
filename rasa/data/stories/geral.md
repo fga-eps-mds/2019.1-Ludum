@@ -19,6 +19,9 @@
 ## tutorial
 * informacao_desenvolvimento
     - utter_informacao_desenvolvimento
+* nao_implementada
+    - utter_implementacao
+
 
 ## fallback
 * out_of_scope

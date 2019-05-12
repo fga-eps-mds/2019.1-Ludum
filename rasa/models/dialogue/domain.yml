@@ -1,44 +1,49 @@
 %YAML 1.1
 ---
 actions:
-- utter_negar_ambiente2
-- utter_time
 - utter_negar_ambiente3
-- utter_perguntar_ambiente3
-- utter_informacao_ambiente
-- utter_informacao_desenvolvimento
-- utter_confirmar_ambiente3
-- utter_sem_nada
-- utter_despedir
-- utter_perguntar_ambiente2
-- utter_confirmar_ambiente1
-- utter_cumprimentar
 - utter_default
 - utter_confirmar_ambiente2
-- utter_informacao_materiais
-- utter_informacao_duvidas
+- utter_time
 - action_test
+- utter_negar_ambiente2
 - action_question
-- extra.actions.ActionQuest
-- utter_informacao
-- utter_star_wars
-- utter_tudo_bem
 - utter_negar_ambiente1
+- utter_sem_nada
+- utter_despedir
+- utter_confirmar_ambiente1
+- utter_perguntar_ambiente3
+- utter_informacao_ambiente
+- utter_informacao_duvidas
+- utter_informacao_desenvolvimento
+- utter_star_wars
+- utter_perguntar_ambiente2
+- extra.actions.ActionQuest
+- utter_cumprimentar
 - utter_contribuicao
+- utter_tudo_bem
+- utter_informacao
+- utter_confirmar_ambiente3
+- utter_informacao_materiais
+- utter_implementacao
 config:
   store_entities_as_slots: true
 entities:
-- starwars
 - time
+- starwars
 forms: []
 intents:
+- informacao_duvidas:
+    use_entities: true
+- cumprimentar:
+    use_entities: true
+- informacao_materiais:
+    use_entities: true
 - confirmar:
     use_entities: true
 - informacao_ambiente:
     use_entities: true
 - negar:
-    use_entities: true
-- cumprimentar:
     use_entities: true
 - despedir:
     use_entities: true
@@ -47,10 +52,6 @@ intents:
 - tudo_bem:
     use_entities: true
 - informacao_desenvolvimento:
-    use_entities: true
-- informacao_materiais:
-    use_entities: true
-- informacao_duvidas:
     use_entities: true
 - informacao:
     use_entities: true
@@ -63,6 +64,8 @@ intents:
 - action_question:
     use_entities: true
 - contribuicao:
+    use_entities: true
+- nao_implementada:
     use_entities: true
 slots: {}
 templates:
@@ -81,9 +84,9 @@ templates:
   utter_cumprimentar:
   - text: "Olá, eu sou o Ludum! :D\n Vou te mostrar tudo que sei sobre \n desenvolvimento\
       \ de jogos em Python!\n Mas antes, jovem padawan, devo te fazer uma pergunta,\n\
-      \ Você já conhece minhas funcionalidades?\n - Tutorial \n - Ambiente \n - FAQ  \n - Materiais e links \n\
-      \ - Criação de tutoriais e envio de materiais \n Começar\
-      \ com o que, devemos?\n"
+      \ Você já conhece minhas funcionalidades?\n - Tutorial \n - Ambiente \n - FAQ\
+      \  \n - Materiais e links \n - Criação de tutoriais e envio de materiais \n\
+      \ Começar com o que, devemos?\n"
   utter_default:
   - text: "Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender\
       \ direito\nVocê pode perguntar de novo de outro jeito?\n"
@@ -97,6 +100,8 @@ templates:
   - text: "Foi um prazer te ajudar!\nSempre que precisar, volte aqui!\nAté a próxima!\n"
   - text: "Foi um prazer te ajudar!\nQuando surgir alguma dúvida, volte aqui!\nAté\
       \ mais!\n"
+  utter_implementacao:
+  - text: "Esta funcionalidade ainda não foi implementada\n"
   utter_informacao:
   - text: "Sobre quais tópicos você tem dúvida?\n"
   utter_informacao_ambiente:
@@ -124,14 +129,14 @@ templates:
       Mas antes, jovem padawan, devo te fazer uma pergunta: Você prefere videos explicativos\
       \ ou textos?\n"
   utter_negar_ambiente1:
-  - text: "Para realizarmos nossos tutoriais você precisará do Python 3.6,\
-      \ mas sem problema, para instalá-lo basta acessar este site\
-      \ https://www.python.org/downloads/ e instalar conforme seu sistema operacional\n"
+  - text: "Para realizarmos nossos tutoriais você precisará do Python 3.6, mas sem\
+      \ problema, para instalá-lo basta acessar este site https://www.python.org/downloads/\
+      \ e instalar conforme seu sistema operacional\n"
   utter_negar_ambiente2:
   - text: "Assim como todo Jedi possui seu sabre de luz, precisamos de algumas ferramentas\
-      \ e um editor de texto é uma delas\n\
-       Caso não possua nenhum instalado, recomendamos o Visual Studio Code\n  Para instalá-lo acesse o\
-      \ site https://code.visualstudio.com/download, é tudo de graça!\n"
+      \ e um editor de texto é uma delas\nCaso não possua nenhum instalado, recomendamos\
+      \ o Visual Studio Code\n  Para instalá-lo acesse o site https://code.visualstudio.com/download,\
+      \ é tudo de graça!\n"
   utter_negar_ambiente3:
   - text: "Para instalar a biblioteca mais importante para nós aqui instale a PyGame\
       \ com o seguinte comando python3 -m pip install -U pygame --user\n"

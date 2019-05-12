@@ -182,3 +182,10 @@
 - Tudo bem
 - Como vocês estao
 - como vc ta
+
+## intent:nao_implementada
+- facil
+- medio
+- dificil
+- videos
+- textos
