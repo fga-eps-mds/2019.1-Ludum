@@ -79,7 +79,11 @@ Estrutura do documento:
 
 ## 2.1 Diagrama de Relações
 
+## Produto
 ![diagrama de relacoes](./imagens/diagrama-relacoes.png)
+
+## Projeto 
+![diagrama de relacoes](./imagens/diagrama-relacoes-projeto.png)
 
 <p  align="justify">O Ludum utiliza como principal padrão arquitetural microsserviços que realizam conexões bidirecionais com o núcleo do chatbot. Cada um destes microsserviços funciona independente das demais partes do sistema.</p>
 

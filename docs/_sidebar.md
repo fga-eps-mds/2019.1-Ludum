@@ -18,7 +18,10 @@
 - [Manual da Identidade Visual](/miv.md)
 - [Documento de Visão](/documento-de-visao.md)
 - [Documento de Arquitetura](/documento-de-arquitetura.md)
-- [Backlog](/backlog.md)
+
+## _**Backlog**_
+- [Backlog do Produto](/backlogProduto.md)
+- [Backlog do Projeto](/backlogProjeto.md)
 
 ## _**RoadMaps**_ 
 - [Roadmap dos Papéis](/roadmap-dos-papeis.md)
