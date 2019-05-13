@@ -185,8 +185,17 @@
 
 ## intent:nao_implementada
 - facil
+- Facil
 - medio
+- Medio
+- médio
+- Médio
 - dificil
+- Dificil
+- difícil
+- Difícil
 - videos
 - videos-explicativos
 - textos
+- fácil
+- Fácil
