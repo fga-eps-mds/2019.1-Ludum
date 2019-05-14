@@ -134,26 +134,26 @@ templates:
   utter_negar_ambiente1:
   - text: "Para realizarmos nossos tutoriais você precisará do Python 3.6, mas sem\
       \ problema, para instalá-lo basta acessar este site https://www.python.org/downloads/\
-      \ e instalar conforme seu sistema operacional\n"
+      \ e instalar conforme seu sistema operacional\nJá podemos seguir para o próximo passo ?\n"
   utter_negar_ambiente2:
   - text: "Assim como todo Jedi possui seu sabre de luz, precisamos de algumas ferramentas\
       \ e um editor de texto é uma delas\nCaso não possua nenhum instalado, recomendamos\
-      \ o Visual Studio Code\n  Para instalá-lo acesse o site https://code.visualstudio.com/download,\
-      \ é tudo de graça!\n"
+      \ o Visual Studio Code\n Para instalá-lo acesse o site https://code.visualstudio.com/download,\
+      \ é tudo de graça!\nJá podemos seguir para o próximo passo ?\n"
   utter_negar_ambiente3:
   - text: "Para instalar a biblioteca PyGame, que será essencial para nós, entre no\
-      \ link https://www.pygame.org/wiki/GettingStarted e siga as instruções\n"
+      \ link https://www.pygame.org/wiki/GettingStarted e siga as instruções\n Já podemos seguir para o próximo passo ?\n"
   utter_perguntar_ambiente2:
   - text: "Você possui algum editor de texto de sua preferência instalado?\n"
   utter_perguntar_ambiente3:
   - text: "Para fazermos nossos belissimos jogos precisaremos da biblioteca Pygame.\
       \ Você já tem ela instalada?\n"
   utter_proximopasso1:
-  - text: "proximopasso 1\n"
+  - text: "Caso tenha dificuldades na instalação, sugerimos que você acesse este link https://wiki.python.org/moin/BeginnersGuide/Download\n"
   utter_proximopasso2:
-  - text: "proximopasso 2\n"
+  - text: "Caso tenha dificuldades na instalação, sugerimos que você assista esse vídeo https://www.youtube.com/watch?v=tjN_e-CKTl4\n"
   utter_proximopasso3:
-  - text: "proximopasso 3\n"
+  - text: "Caso tenha dificuldades na instalação, sugerimos que você acesse este link https://www.simplifiedpython.net/pygame-tutorial-for-beginners/#Installing_PyGame\n"
   utter_sem_nada:
   - text: Mas eu nem te perguntei nada
   utter_star_wars:
