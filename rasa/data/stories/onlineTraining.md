@@ -19,18 +19,6 @@
     - utter_sem_nada
 * negar
     - utter_sem_nada
-* informacao_ambiente
-    - utter_informacao_ambiente
-* negar
-    - utter_negar_ambiente1
-    - utter_confirmar_ambiente1
-    - utter_perguntar_ambiente2
-* negar
-    - utter_negar_ambiente2
-    - utter_confirmar_ambiente2
-    - utter_perguntar_ambiente3
-* confirmar
-    - utter_confirmar_ambiente3
 * negar
     - utter_sem_nada
 * confirmar
@@ -47,17 +35,6 @@
     - utter_sem_nada
 * negar
     - utter_sem_nada
-* informacao_ambiente
-    - utter_informacao_ambiente
-* confirmar
-    - utter_confirmar_ambiente1
-    - utter_perguntar_ambiente2
-* negar
-    - utter_negar_ambiente2
-    - utter_confirmar_ambiente2
-    - utter_perguntar_ambiente3
-* confirmar
-    - utter_confirmar_ambiente3
 
 ## Generated Story -950891029774338412
 * negar
@@ -76,9 +53,6 @@
     - utter_sem_nada
 * informacao_ambiente
     - utter_informacao_ambiente
-* confirmar
-    - utter_confirmar_ambiente1
-    - utter_perguntar_ambiente2
 * cumprimentar
     - utter_cumprimentar
 * confirmar
@@ -87,35 +61,6 @@
     - utter_sem_nada
 * confirmar
     - utter_sem_nada
-* informacao_ambiente
-    - utter_informacao_ambiente
-* negar
-    - utter_negar_ambiente1
-    - utter_confirmar_ambiente1
-    - utter_perguntar_ambiente2
-* confirmar
-    - utter_confirmar_ambiente2
-    - utter_perguntar_ambiente3
-* confirmar
-    - utter_confirmar_ambiente3
-* informacao_duvidas
-    - utter_informacao_duvidas
-* informacao
-    - utter_informacao
-* informacao_materiais
-    - utter_informacao_materiais
-* confirmar
-    - utter_sem_nada
-* informacao_ambiente
-    - utter_informacao_ambiente
-* confirmar
-    - utter_confirmar_ambiente1
-    - utter_perguntar_ambiente2
-* confirmar
-    - utter_confirmar_ambiente2
-    - utter_perguntar_ambiente3
-* confirmar
-    - utter_confirmar_ambiente3
 
 ## Generated Story 7751453539430560342
 * cumprimentar
@@ -128,10 +73,87 @@
     - utter_sem_nada
 * informacao_materiais
     - utter_informacao_materiais
+* cumprimentar
+    - utter_cumprimentar
+* negar
+    - utter_sem_nada
+
+## Generated Story -3566123589572365818
+* start
+    - utter_cumprimentar
+* start
+    - utter_cumprimentar
+* cumprimentar
+    - utter_cumprimentar
+* start
+    - utter_cumprimentar
+* cumprimentar
+    - utter_cumprimentar
+* cumprimentar
+    - utter_cumprimentar
+* informacao_duvidas
+    - utter_informacao_duvidas
+* informacao_duvidas
+    - utter_informacao_duvidas
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* cumprimentar
+    - utter_cumprimentar
+
+## Generated Story -8891160507229021163
+* informacao_duvidas
+    - utter_informacao_duvidas
+* informacao_duvidas
+* cumprimentar
+    - utter_cumprimentar
+* cumprimentar
+    - utter_cumprimentar
+* informacao_materiais
+    - utter_informacao_materiais
+* informacao_duvidas
+    - utter_informacao_duvidas
+* informacao_duvidas
+    - utter_informacao_duvidas
+
+## Generated Story 118641687707841632
+* confirmar
+    - utter_sem_nada
 * informacao_ambiente
     - utter_informacao_ambiente
 * negar
     - utter_negar_ambiente1
+* negar
+    - utter_proximopasso1
+* negar
+    - utter_proximopasso1
+* negar
+    - utter_proximopasso1
+* confirmar
+    - utter_confirmar_ambiente1
+    - utter_perguntar_ambiente2
+* negar
+    - utter_negar_ambiente2
+* negar
+    - utter_proximopasso2
+* negar
+* confirmar
+    - utter_confirmar_ambiente2
+    - utter_perguntar_ambiente3
+* confirmar
+    - utter_implementacao
+
+## Generated Story 5382610376902122975
+* negar
+    - utter_sem_nada
+* confirmar
+    - utter_sem_nada
+* informacao_ambiente
+    - utter_informacao_ambiente
+* negar
+    - utter_negar_ambiente1
+* negar
+    - utter_proximopasso1
+* confirmar
     - utter_confirmar_ambiente1
     - utter_perguntar_ambiente2
 * confirmar
@@ -139,9 +161,11 @@
     - utter_perguntar_ambiente3
 * negar
     - utter_negar_ambiente3
-    - utter_confirmar_ambiente3
-* cumprimentar
-    - utter_cumprimentar
 * negar
-    - utter_sem_nada
+    - utter_proximopasso3
+* negar
+    - utter_proximopasso3
+* confirmar
+    - utter_confirmar_ambiente3
+    - utter_confirmar_ambiente3
 
