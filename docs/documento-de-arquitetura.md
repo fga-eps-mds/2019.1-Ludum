@@ -13,6 +13,7 @@
 | 30/04/2019 | 0.9 | Adicionando Diagrama de funcionamento do Rasa | Thallys |
 | 31/04/2019 | 1.0 | Refatorando seções 3, 4, 6, 7, 8 | Gabriela de Moraes e Lucas Lermen |
 | 31/04/2019 | 1.1 | Refatorando diagramas | Gabriela de Moraes, Lucas Lermen, Lucas Penido e Guilherme Siqueira |
+| 13/05/2019 | 1.2 | Adicionando diagrama de relações do projeto| Gabriela, Lucas Lermen e Guilherme |
 
 
 # 1. Introdução  

@@ -95,7 +95,7 @@ US12| <p align="justify">Eu, como usuário, desejo pesquisar minha dúvida no St
 **ID**|**Descrição**|**Prioridade**| **Pontos**
 :---:|:---|:---:|:---:
 US07| <p align="justify">Eu, como usuário, desejo que o Ludum pergunte sobre o meu ambiente de desenvolvimento.</p>| Muito Alta | 3 
-US21| <p align="justify">Eu, como usuário, desejo receber uma lista de recomendações em relação a ferramentas de desenvolvimento.</p>| Média| 3
+US24| <p align="justify">Eu, como usuário, desejo receber uma lista de recomendações em relação a ferramentas de desenvolvimento.</p>| Média| 3
 TS08| <p align="justify">Eu, como desenvolvedor, desejo criar um jogo de baixa complexidade para elaborar o tutorial</p>| Alta | 8
 TS09| <p align="justify">Eu, como desenvolvedor, desejo criar um jogo de complexidade um pouco mais alta para elaborar o tutorial</p>| Alta | 13
 US13| <p align="justify">Eu, como usuário, desejo selecionar a complexidade do jogo em que receberei auxílio</p>| Média | 2 
