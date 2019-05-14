@@ -101,7 +101,7 @@ templates:
     - title: "Materiais e links"
       payload: "Materiais"
     - title: "Envio de materiais"
-      payload: "envio"
+      payload: "contribuir"
   utter_default:
   - text: "Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender\
       \ direito\nVocê pode perguntar de novo de outro jeito?\n"
