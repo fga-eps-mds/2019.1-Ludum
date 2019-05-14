@@ -1,34 +1,34 @@
 %YAML 1.1
 ---
 actions:
-- utter_informacao_duvidas
-- utter_confirmar_ambiente3
 - utter_cumprimentar
-- utter_star_wars
-- utter_time
-- utter_informacao
-- utter_confirmar_ambiente2
-- utter_tudo_bem
-- utter_informacao_materiais
-- utter_contribuicao
-- utter_negar_ambiente1
-- utter_despedir
-- action_question
-- utter_perguntar_ambiente2
+- utter_confirmar_ambiente3
+- utter_confirmar_ambiente1
 - utter_perguntar_ambiente3
+- action_question
+- extra.actions.ActionQuest
+- utter_perguntar_ambiente2
 - action_test
 - utter_sem_nada
-- utter_negar_ambiente2
-- utter_default
-- extra.actions.ActionQuest
-- utter_confirmar_ambiente1
-- utter_informacao_ambiente
-- utter_negar_ambiente3
+- utter_confirmar_ambiente2
 - utter_informacao_desenvolvimento
+- utter_tudo_bem
+- utter_informacao_ambiente
+- utter_star_wars
+- utter_negar_ambiente1
+- utter_time
+- utter_informacao_materiais
+- utter_contribuicao
+- utter_informacao_duvidas
+- utter_negar_ambiente2
+- utter_negar_ambiente3
+- utter_despedir
+- utter_informacao
+- utter_default
 entities:
+- time
 - pergunta
 - starwars
-- time
 intents:
 - action_question
 - confirmar

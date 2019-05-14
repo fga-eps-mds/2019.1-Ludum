@@ -1,10 +1,16 @@
 ## intent:action_question
 - stack overflow [pygame](pergunta)
 - pesquisar no stack [python game](pergunta)
-- stack overflow pygame
+- stack overflow [pygame](pergunta)
 - stack overflow [python pygame](pergunta)
 - perguntar ao stack overflow [pygame pong](pergunta)
 - stack overflow [how to make a pygame object](pergunta)
+- pesquisar no stack overflow [pygame](pergunta)
+- stack overflow [python pong game](pergunta)
+- pesquisar no stack overflow [how to create a ball in pygame](pergunta)
+- pesquisar no stack overflow [como iniciar uma tela pygame](pergunta)
+- stack overflow [como iniciar um jogo pygame](pergunta)
+- stack overflow [pygame](pergunta)
 
 ## intent:confirmar
 - sim

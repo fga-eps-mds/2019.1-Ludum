@@ -203,6 +203,14 @@
       },
       {
         "intent": "action_question",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "pygame",
+            "entity": "pergunta"
+          }
+        ],
         "text": "stack overflow pygame"
       },
       {
@@ -240,6 +248,78 @@
           }
         ],
         "text": "stack overflow how to make a pygame object"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "pygame",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "pesquisar no stack overflow pygame"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 15,
+            "end": 31,
+            "value": "python pong game",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "stack overflow python pong game"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 28,
+            "end": 58,
+            "value": "how to create a ball in pygame",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "pesquisar no stack overflow how to create a ball in pygame"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 28,
+            "end": 56,
+            "value": "como iniciar uma tela pygame",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "pesquisar no stack overflow como iniciar uma tela pygame"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 15,
+            "end": 42,
+            "value": "como iniciar um jogo pygame",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "stack overflow como iniciar um jogo pygame"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "pygame",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "stack overflow pygame"
       },
       {
         "intent": "confirmar",

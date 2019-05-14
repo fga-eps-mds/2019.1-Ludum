@@ -165,3 +165,23 @@
     - slot{"pergunta": "how to make a pygame object"}
     - action_question
 
+## Generated Story 2545583305901818447
+* action_question{"pergunta": "pygame"}
+    - slot{"pergunta": "pygame"}
+    - action_question
+* action_question{"pergunta": "python pong game"}
+    - slot{"pergunta": "python pong game"}
+    - action_question
+* action_question{"pergunta": "how to create a ball in pygame"}
+    - slot{"pergunta": "how to create a ball in pygame"}
+    - action_question
+* action_question{"pergunta": "como iniciar uma tela pygame"}
+    - slot{"pergunta": "como iniciar uma tela pygame"}
+    - action_question
+* action_question{"pergunta": "como iniciar um jogo pygame"}
+    - slot{"pergunta": "como iniciar um jogo pygame"}
+    - action_question
+* action_question{"pergunta": "pygame"}
+    - slot{"pergunta": "pygame"}
+    - action_question
+
