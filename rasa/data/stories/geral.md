@@ -19,6 +19,9 @@
 ## tutorial
 * informacao_desenvolvimento
     - utter_informacao_desenvolvimento
+* nao_implementada
+    - utter_implementacao
+
 
 ## fallback
 * out_of_scope
@@ -27,6 +30,8 @@
 ## materiais
 * informacao_materiais
     - utter_informacao_materiais
+* nao_implementada
+    - utter_implementacao
     
 ## informacao ambiente 
 * informacao_ambiente
@@ -36,6 +41,7 @@
 ## informacao duvidas
 * informacao_duvidas
     - utter_informacao_duvidas
+    - utter_implementacao
 
 ## path informacao>duvidas
 * informacao
@@ -76,7 +82,8 @@
     - utter_confirmar_ambiente2
     - utter_perguntar_ambiente3
 * confirmar
-    - utter_confirmar_ambiente3
+    - utter_implementacao
+    
 ## tutorial ambiente 2
 * confirmar
     - utter_confirmar_ambiente1
@@ -86,7 +93,8 @@
     - utter_confirmar_ambiente2
     - utter_perguntar_ambiente3
 * confirmar
-    - utter_confirmar_ambiente3
+    - utter_implementacao
+
 ## tutorial ambiente 3
 * confirmar
     - utter_confirmar_ambiente1
@@ -96,8 +104,8 @@
     - utter_confirmar_ambiente2
     - utter_perguntar_ambiente3
 * negar
-    - utter_negar_ambiente3      
-    - utter_confirmar_ambiente3
+    - utter_negar_ambiente3
+    - utter_implementacao
 
 ## tutorial ambiente 4
 * confirmar
@@ -107,55 +115,53 @@
     - utter_confirmar_ambiente2
     - utter_perguntar_ambiente3
 * negar
-    - utter_negar_ambiente3      
-    - utter_confirmar_ambiente3
+    - utter_negar_ambiente3
+    - utter_implementacao
 
 ## tutorial ambiente 5
 * negar
     - utter_negar_ambiente1
-    - utter_confirmar_ambiente1
     - utter_perguntar_ambiente2
 * negar
     - utter_negar_ambiente2
     - utter_confirmar_ambiente2
     - utter_perguntar_ambiente3
 * negar
-    - utter_negar_ambiente3      
-    - utter_confirmar_ambiente3
+    - utter_negar_ambiente3
+    - utter_implementacao
+
 ## tutorial ambiente 6
 * negar
     - utter_negar_ambiente1
-    - utter_confirmar_ambiente1
     - utter_perguntar_ambiente2
 * confirmar
     - utter_confirmar_ambiente2
     - utter_perguntar_ambiente3
 * negar
-    - utter_negar_ambiente3      
-    - utter_confirmar_ambiente3
+    - utter_negar_ambiente3
+    - utter_implementacao
 
 ## tutorial ambiente 7
 * negar
     - utter_negar_ambiente1
-    - utter_confirmar_ambiente1
     - utter_perguntar_ambiente2
 * negar
     - utter_negar_ambiente2
     - utter_confirmar_ambiente2
     - utter_perguntar_ambiente3
-* confirmar  
-    - utter_confirmar_ambiente3
+* confirmar 
+    - utter_implementacao
 
 ## tutorial ambiente 8
 * negar
     - utter_negar_ambiente1
-    - utter_confirmar_ambiente1
     - utter_perguntar_ambiente2
 * confirmar
     - utter_confirmar_ambiente2
     - utter_perguntar_ambiente3
-* confirmar     
-    - utter_confirmar_ambiente3
+* confirmar
+    - utter_implementacao
+
 ## Generated Story -5536704352028321519
 * confirmar
     - utter_sem_nada
