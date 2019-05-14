@@ -90,7 +90,7 @@ templates:
       \ e criar seu jogo em Python com diferentes dificuldades.\nQuando perceber você\
       \ já ser um Meister dos jogos!\nPorém, antes de começar devo te fazer uma pergunta.\n\
       Você quer começar por qual dificuldade?\nFácil\nMédio\nDificil\n"
-      buttons:
+    buttons:
   - title: "Padawan(Iniciante)"
     payload: "Facil"
   - title: "Jedi(Intermediário)"
