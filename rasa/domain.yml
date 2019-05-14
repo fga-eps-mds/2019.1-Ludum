@@ -66,6 +66,7 @@ templates:
       \ 5) Criação de tutoriais e envio de materiais -\n\
       \ Envie seus melhores links e materiais e ajude os proximos padawans criando novos tutoriais\n\
       \ Começar com o que, devemos?\n"
+    
   utter_default:
   - text: "Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender\
       \ direito\nVocê pode perguntar de novo de outro jeito?\n"

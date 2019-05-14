@@ -91,6 +91,17 @@ templates:
       \ 5) Criação de tutoriais e envio de materiais -\n Envie seus melhores links\
       \ e materiais e ajude os proximos padawans criando novos tutoriais\n Começar\
       \ com o que, devemos?\n"
+    buttons:
+    - title: "Tutorial"
+      payload: "Tutorial"
+    - title: "Ambiente"
+      payload: "Ambiente"
+    - title: "FAQ"
+      payload: "FAQ"
+    - title: "Materiais e links"
+      payload: "Materiais"
+    - title: "Envio de materiais"
+      payload: "envio"
   utter_default:
   - text: "Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender\
       \ direito\nVocê pode perguntar de novo de outro jeito?\n"
