@@ -91,10 +91,10 @@ templates:
       \ já ser um Meister dos jogos!\nPorém, antes de começar devo te fazer uma pergunta.\n\
       Você quer começar por qual dificuldade?\nFácil\nMédio\nDificil\n"
     buttons:
-  - title: "Padawan(Iniciante)"
-    payload: "Facil"
-  - title: "Jedi(Intermediário)"
-    payload: "Medio"
+    - title: "Padawan(Iniciante)"
+      payload: "Facil"
+    - title: "Jedi(Intermediário)"
+      payload: "Medio"
 
   utter_informacao_duvidas:
   - text: "Você pode me perguntar tudo que quiser saber sobre o desenvolvimento de\
