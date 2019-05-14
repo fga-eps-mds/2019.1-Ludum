@@ -2,23 +2,11 @@
 from rasa_core_sdk import Action
 import json
 import requests
-
+from rasa_core_sdk.events import SlotSet
 
 class ActionTest(Action):
     def name(self):
         return "action_test"
-
-    def run(self, dispatcher, tracker, domain):
-        try:
-            dispatcher.utter_message('Mensagem enviada por uma custom action')
-        except ValueError:
-            dispatcher.utter_message(ValueError)
-        return []
-
-
-class ActionQuestion(Action):
-    def name(self):
-        return "action_question"
 
     def run(self, dispatcher, tracker, domain):
         api = 'https://ludum-duvidas.herokuapp.com/api/duvidas'
@@ -41,6 +29,20 @@ class ActionQuestion(Action):
                 utterString += str(stack['data'][0]['answer'][i]['link'])
                 utterString += '\n'
             dispatcher.utter_message(utterString)
+        except ValueError:
+            dispatcher.utter_message(ValueError)
+        return []
+
+
+
+class ActionQuestion(Action):
+    def name(self):
+        return "action_question"
+
+    def run(self, dispatcher, tracker, domain):
+        try :
+            pergunta = str(tracker.get_slot('pergunta'))
+            dispatcher.utter_message(pergunta)
         except ValueError:
             dispatcher.utter_message(ValueError)
         return []
