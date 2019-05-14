@@ -145,3 +145,23 @@
 * negar
     - utter_sem_nada
 
+## Generated Story -1774056051555267139
+* action_question{"pergunta": "pygame"}
+    - slot{"pergunta": "pygame"}
+    - action_question
+* action_question{"pergunta": "python game"}
+    - slot{"pergunta": "python game"}
+    - action_question
+
+
+## Generated Story 7250698570674514508
+* action_question{"pergunta": "python pygame"}
+    - slot{"pergunta": "python pygame"}
+    - action_question
+* action_question{"pergunta": "pygame pong"}
+    - slot{"pergunta": "pygame pong"}
+    - action_question
+* action_question{"pergunta": "how to make a pygame object"}
+    - slot{"pergunta": "how to make a pygame object"}
+    - action_question
+

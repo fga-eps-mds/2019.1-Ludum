@@ -178,6 +178,70 @@
         "text": "overflow"
       },
       {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "pygame",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "stack overflow pygame"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "value": "python game",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "pesquisar no stack python game"
+      },
+      {
+        "intent": "action_question",
+        "text": "stack overflow pygame"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 15,
+            "end": 28,
+            "value": "python pygame",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "stack overflow python pygame"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 28,
+            "end": 39,
+            "value": "pygame pong",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "perguntar ao stack overflow pygame pong"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 15,
+            "end": 42,
+            "value": "how to make a pygame object",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "stack overflow how to make a pygame object"
+      },
+      {
         "intent": "confirmar",
         "text": "sim"
       },
@@ -280,6 +344,22 @@
       {
         "intent": "confirmar",
         "text": "sim"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "contribuir"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como contribuir"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "o que preciso para contribuir"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como contribuir para o repositorio"
       },
       {
         "intent": "cumprimentar",
@@ -712,22 +792,6 @@
       {
         "intent": "tudo_bem",
         "text": "como vc ta"
-      },
-      {
-        "intent": "contribuicao",
-        "text": "contribuir"
-      },
-      {
-        "intent": "contribuicao",
-        "text": "como contribuir"
-      },
-      {
-        "intent": "contribuicao",
-        "text": "o que preciso para contribuir"
-      },
-      {
-        "intent": "contribuicao",
-        "text": "como contribuir para o repositorio"
       }
     ],
     "regex_features": [],

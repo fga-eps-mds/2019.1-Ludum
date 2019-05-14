@@ -1,3 +1,11 @@
+## intent:action_question
+- stack overflow [pygame](pergunta)
+- pesquisar no stack [python game](pergunta)
+- stack overflow pygame
+- stack overflow [python pygame](pergunta)
+- perguntar ao stack overflow [pygame pong](pergunta)
+- stack overflow [how to make a pygame object](pergunta)
+
 ## intent:confirmar
 - sim
 - claro
@@ -25,6 +33,12 @@
 - sim
 - sim
 - sim
+
+## intent:contribuicao
+- contribuir
+- como contribuir
+- o que preciso para contribuir
+- como contribuir para o repositorio
 
 ## intent:cumprimentar
 - oi, tudo bem
@@ -153,9 +167,3 @@
 - Tudo bem
 - Como vocês estao
 - como vc ta
-
-## intent:contribuicao
-- contribuir
-- como contribuir 
-- o que preciso para contribuir 
-- como contribuir para o repositorio 

@@ -1,37 +1,40 @@
 %YAML 1.1
 ---
 actions:
-- utter_negar_ambiente2
-- utter_time
-- utter_negar_ambiente3
-- utter_perguntar_ambiente3
-- utter_informacao_ambiente
-- utter_informacao_desenvolvimento
-- utter_confirmar_ambiente3
-- utter_sem_nada
-- utter_despedir
-- utter_perguntar_ambiente2
-- utter_confirmar_ambiente1
-- utter_cumprimentar
-- utter_default
-- utter_confirmar_ambiente2
-- utter_informacao_materiais
 - utter_informacao_duvidas
-- action_test
-- action_question
-- extra.actions.ActionQuest
-- utter_informacao
+- utter_confirmar_ambiente3
+- utter_cumprimentar
 - utter_star_wars
+- utter_time
+- utter_informacao
+- utter_confirmar_ambiente2
 - utter_tudo_bem
-- utter_negar_ambiente1
+- utter_informacao_materiais
 - utter_contribuicao
+- utter_negar_ambiente1
+- utter_despedir
+- action_question
+- utter_perguntar_ambiente2
+- utter_perguntar_ambiente3
+- action_test
+- utter_sem_nada
+- utter_negar_ambiente2
+- utter_default
+- extra.actions.ActionQuest
+- utter_confirmar_ambiente1
+- utter_informacao_ambiente
+- utter_negar_ambiente3
+- utter_informacao_desenvolvimento
 config:
   store_entities_as_slots: true
 entities:
+- pergunta
 - starwars
 - time
 forms: []
 intents:
+- action_question:
+    use_entities: true
 - confirmar:
     use_entities: true
 - informacao_ambiente:
@@ -60,11 +63,13 @@ intents:
     use_entities: true
 - action_test:
     use_entities: true
-- action_question:
-    use_entities: true
 - contribuicao:
     use_entities: true
-slots: {}
+slots:
+  pergunta:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
 templates:
   utter_confirmar_ambiente1:
   - text: "Ótimo, todo nosso tutorial será feito usando o Python 3.6, então é bom\

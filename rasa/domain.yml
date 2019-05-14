@@ -1,34 +1,36 @@
 %YAML 1.1
 ---
 actions:
-- utter_negar_ambiente2
-- utter_time
-- utter_negar_ambiente3
-- utter_perguntar_ambiente3
-- utter_informacao_ambiente
-- utter_informacao_desenvolvimento
-- utter_confirmar_ambiente3
-- utter_sem_nada
-- utter_despedir
-- utter_perguntar_ambiente2
-- utter_confirmar_ambiente1
-- utter_cumprimentar
-- utter_default
-- utter_confirmar_ambiente2
-- utter_informacao_materiais
 - utter_informacao_duvidas
-- action_test
-- action_question
-- extra.actions.ActionQuest
-- utter_informacao
+- utter_confirmar_ambiente3
+- utter_cumprimentar
 - utter_star_wars
+- utter_time
+- utter_informacao
+- utter_confirmar_ambiente2
 - utter_tudo_bem
-- utter_negar_ambiente1
+- utter_informacao_materiais
 - utter_contribuicao
+- utter_negar_ambiente1
+- utter_despedir
+- action_question
+- utter_perguntar_ambiente2
+- utter_perguntar_ambiente3
+- action_test
+- utter_sem_nada
+- utter_negar_ambiente2
+- utter_default
+- extra.actions.ActionQuest
+- utter_confirmar_ambiente1
+- utter_informacao_ambiente
+- utter_negar_ambiente3
+- utter_informacao_desenvolvimento
 entities:
+- pergunta
 - starwars
 - time
 intents:
+- action_question
 - confirmar
 - informacao_ambiente
 - negar
@@ -43,16 +45,23 @@ intents:
 - time
 - star_wars
 - action_test
-- action_question
 - contribuicao
+slots:
+  pergunta:
+    type: text
 templates:
   utter_confirmar_ambiente1:
-  - text: "Ótimo, todo nosso tutorial será feito usando o Python 3.6, então é bom que\
-      \ você o tenha aí instalado\n"
+  - text: "Ótimo, todo nosso tutorial será feito usando o Python 3.6, então é bom\
+      \ que você o tenha aí instalado\n"
   utter_confirmar_ambiente2:
   - text: "Ótimo, o Visual Studio Code será muito útil para nós!\n"
   utter_confirmar_ambiente3:
   - text: "Tudo certo então, estamos prontos para começar a diversão!\n"
+  utter_contribuicao:
+  - text: "Quer se tornar um Jedi?! Ajude contribuindo com os materiais e links que\
+      \ você ache bacana e a força estará com você.\n Você pode tambem criar tutoriais\
+      \ para ajudar os próximos aprendizes que estão por vir\n Para contribuir use\
+      \ o nosso WebClient(a ser criado)\n"
   utter_cumprimentar:
   - text: "Olá, eu sou o Ludum! :D\n Vou te mostrar tudo que sei sobre \n desenvolvimento\
       \ de jogos em Python!\n Mas antes, jovem padawan, devo te fazer uma pergunta,\n\
@@ -63,9 +72,9 @@ templates:
       \ ambiente de desenvolvimento\n com os programas adequados.\n 3) FAQ -  \n Tentarei\
       \ sanar todas as duvidas\n que você pode vir a ter.\n 4) Materiais e links -\
       \ \n Tentarei te enviar links e materiais que\n possam ser utéis para você.\n\
-      \ 5) Criação de tutoriais e envio de materiais -\n\
-      \ Envie seus melhores links e materiais e ajude os proximos padawans criando novos tutoriais\n\
-      \ Começar com o que, devemos?\n"
+      \ 5) Criação de tutoriais e envio de materiais -\n Envie seus melhores links\
+      \ e materiais e ajude os proximos padawans criando novos tutoriais\n Começar\
+      \ com o que, devemos?\n"
   utter_default:
   - text: "Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender\
       \ direito\nVocê pode perguntar de novo de outro jeito?\n"
@@ -82,9 +91,9 @@ templates:
   utter_informacao:
   - text: "Sobre quais tópicos você tem dúvida?\n"
   utter_informacao_ambiente:
-  - text: "Certo, irei lhe perguntar se você possui algumas das nossas \"joias do infinito\"\
-      \ que serão necessárias ao desenvolvimento, para começarmos, você já possui\
-      \ o Python 3.6 instalado em seu computador?\n"
+  - text: "Certo, irei lhe perguntar se você possui algumas das nossas \"joias do\
+      \ infinito\" que serão necessárias ao desenvolvimento, para começarmos, você\
+      \ já possui o Python 3.6 instalado em seu computador?\n"
   utter_informacao_desenvolvimento:
   - text: "Muito bom, jovem Padawan!!\nVou te mostrar o tutorial de como desenvolver\
       \ e criar seu jogo em Python com diferentes dificuldades.\nQuando perceber você\
@@ -108,13 +117,12 @@ templates:
   utter_negar_ambiente1:
   - text: "Para realizarmos nossos tutoriais você precisara instalar o Python 3.6,\
       \ mas sem problema, para instala-lo no Linux você deve abrir o terminal e usar\
-      \ o comando: $sudo apt-get install Python3.6\n\
-      \ caso você esteja usando o MacOS use o comand: brew install python3\n\""
+      \ o comando: $sudo apt-get install Python3.6\n caso você esteja usando o MacOS\
+      \ use o comand: brew install python3\n\""
   utter_negar_ambiente2:
   - text: "Assim como todo Jedi possui seu sabre de luz, precisamos das ferramentas\
-      \ necessárias e o Visual Studio Code é uma delas\n
-      \ Para instalá-lo acesse\
-      \ o site https://code.visualstudio.com/download, é tudo de graça!\n"
+      \ necessárias e o Visual Studio Code é uma delas\n  Para instalá-lo acesse o\
+      \ site https://code.visualstudio.com/download, é tudo de graça!\n"
   utter_negar_ambiente3:
   - text: "Para instalar a biblioteca mais importante para nós aqui instale a PyGame\
       \ com o seguinte comando python3 -m pip install -U pygame --user\n"
@@ -124,7 +132,7 @@ templates:
   - text: "Para fazermos nossos belissimos jogos precisaremos da biblioteca Pygame.\
       \ Você já tem ela instalada?\n"
   utter_sem_nada:
-  - text: "Mas eu nem te perguntei nada"
+  - text: Mas eu nem te perguntei nada
   utter_star_wars:
   - text: "O medo é o caminho para o lado negro.\n"
   - text: "O medo leva à raiva, a raiva leva ao ódio e o ódio leva ao sofrimento.\n"
@@ -137,7 +145,3 @@ templates:
   - text: "Melhor time do mundo disparado, Flamengooo!!!!\n"
   utter_tudo_bem:
   - text: "Tudo bem, obrigado! Em que posso te ajudar?\n"
-  utter_contribuicao:
-  - text: "Quer se tornar um Jedi?! Ajude contribuindo com os materiais e links que você ache bacana e a força estará com você.\n\
-   \ Você pode tambem criar tutoriais para ajudar os próximos aprendizes que estão por vir\n\
-   \ Para contribuir use o nosso WebClient(a ser criado)\n"
