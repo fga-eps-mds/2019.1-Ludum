@@ -121,7 +121,6 @@
 ## tutorial ambiente 5
 * negar
     - utter_negar_ambiente1
-    - utter_confirmar_ambiente1
     - utter_perguntar_ambiente2
 * negar
     - utter_negar_ambiente2
@@ -134,7 +133,6 @@
 ## tutorial ambiente 6
 * negar
     - utter_negar_ambiente1
-    - utter_confirmar_ambiente1
     - utter_perguntar_ambiente2
 * confirmar
     - utter_confirmar_ambiente2
@@ -146,7 +144,6 @@
 ## tutorial ambiente 7
 * negar
     - utter_negar_ambiente1
-    - utter_confirmar_ambiente1
     - utter_perguntar_ambiente2
 * negar
     - utter_negar_ambiente2
@@ -158,7 +155,6 @@
 ## tutorial ambiente 8
 * negar
     - utter_negar_ambiente1
-    - utter_confirmar_ambiente1
     - utter_perguntar_ambiente2
 * confirmar
     - utter_confirmar_ambiente2

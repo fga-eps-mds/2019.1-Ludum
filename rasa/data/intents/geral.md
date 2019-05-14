@@ -28,6 +28,20 @@
 - sim
 - sim
 - sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
 
 ## intent:contribuicao
 - contribuir
@@ -55,6 +69,7 @@
 - oque você faz?
 - qual o seu nome?
 - Olá
+- oi
 
 ## intent:despedir
 - Tchau obrigado
@@ -87,6 +102,10 @@
 - ambiente
 - ambiente
 - como configurar o meu ambiente?
+- como configurar o ambiente
+- como configurar o ambiente
+- como configurar o ambiente
+- como configurar o ambiente
 
 ## intent:informacao_desenvolvimento
 - tutorial
@@ -137,9 +156,48 @@
 - manda link
 - Me ensina algo
 
+## intent:nao_implementada
+- facil
+- Facil
+- medio
+- Medio
+- médio
+- Médio
+- dificil
+- Dificil
+- difícil
+- Difícil
+- videos
+- videos-explicativos
+- textos
+- fácil
+- Fácil
+
 ## intent:negar
 - nao
 - não
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
 - nao
 - nao
 - nao
@@ -182,20 +240,3 @@
 - Tudo bem
 - Como vocês estao
 - como vc ta
-
-## intent:nao_implementada
-- facil
-- Facil
-- medio
-- Medio
-- médio
-- Médio
-- dificil
-- Dificil
-- difícil
-- Difícil
-- videos
-- videos-explicativos
-- textos
-- fácil
-- Fácil
