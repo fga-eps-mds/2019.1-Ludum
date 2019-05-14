@@ -25,6 +25,29 @@
 - sim
 - sim
 - sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+
+## intent:contribuicao
+- contribuir
+- como contribuir
+- o que preciso para contribuir
+- como contribuir para o repositorio
 
 ## intent:cumprimentar
 - oi, tudo bem
@@ -40,6 +63,13 @@
 - ola
 - oi
 - bom dia
+- /start
+- qual o seu nome?
+- quem é você?
+- oque você faz?
+- qual o seu nome?
+- Olá
+- oi
 
 ## intent:despedir
 - Tchau obrigado
@@ -71,6 +101,11 @@
 - ambiente
 - ambiente
 - ambiente
+- como configurar o meu ambiente?
+- como configurar o ambiente
+- como configurar o ambiente
+- como configurar o ambiente
+- como configurar o ambiente
 
 ## intent:informacao_desenvolvimento
 - tutorial
@@ -83,6 +118,7 @@
 - quero fazer um jogo
 - como fazer um jogo em python?
 - quero fazer um jogo em python
+- me ensine a fazer um jogo
 
 ## intent:informacao_duvidas
 - Como voce pode responder uma duvida?
@@ -93,6 +129,12 @@
 - Você pode responder minhas questões?
 - Duvida
 - como posso tirar uma duvida?
+- FAQ
+- FAQ
+- faq
+- Faq
+- Como posso aprender?
+- Posso te fazer uma pergunta?
 
 ## intent:informacao_materiais
 - link
@@ -112,10 +154,50 @@
 - materiais uteis
 - me manda link
 - manda link
+- Me ensina algo
+
+## intent:nao_implementada
+- facil
+- Facil
+- medio
+- Medio
+- médio
+- Médio
+- dificil
+- Dificil
+- difícil
+- Difícil
+- videos
+- videos-explicativos
+- textos
+- fácil
+- Fácil
 
 ## intent:negar
 - nao
 - não
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
 - nao
 - nao
 - nao
@@ -149,13 +231,12 @@
 - Vc gosta de carnaval?
 - batatinha quando nasce
 
+## intent:start
+- /start
+- /start
+- /start
+
 ## intent:tudo_bem
 - Tudo bem
 - Como vocês estao
 - como vc ta
-
-## intent:contribuicao
-- contribuir
-- como contribuir 
-- o que preciso para contribuir 
-- como contribuir para o repositorio 

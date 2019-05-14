@@ -2,12 +2,52 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "intent": "time",
-        "text": "qual o melhor time do brasil"
+        "intent": "action_test",
+        "text": "test custom action"
+      },
+      {
+        "intent": "action_test",
+        "text": "custom action"
+      },
+      {
+        "intent": "action_test",
+        "text": "actions"
+      },
+      {
+        "intent": "action_test",
+        "text": "custom actions"
+      },
+      {
+        "intent": "action_test",
+        "text": "action"
+      },
+      {
+        "intent": "action_test",
+        "text": "test action"
+      },
+      {
+        "intent": "action_question",
+        "text": "Quero fazer uma pergunta ao Stack Overflow"
+      },
+      {
+        "intent": "action_question",
+        "text": "Stack Overflow"
+      },
+      {
+        "intent": "action_question",
+        "text": "stack overflow"
+      },
+      {
+        "intent": "action_question",
+        "text": "stack"
+      },
+      {
+        "intent": "action_question",
+        "text": "overflow"
       },
       {
         "intent": "time",
-        "text": "qual o seu time?"
+        "text": "qual o melhor time do brasil"
       },
       {
         "intent": "time",
@@ -134,50 +174,6 @@
         "text": "guerra nas estrelas"
       },
       {
-        "intent": "action_test",
-        "text": "test custom action"
-      },
-      {
-        "intent": "action_test",
-        "text": "custom action"
-      },
-      {
-        "intent": "action_test",
-        "text": "actions"
-      },
-      {
-        "intent": "action_test",
-        "text": "custom actions"
-      },
-      {
-        "intent": "action_test",
-        "text": "action"
-      },
-      {
-        "intent": "action_test",
-        "text": "test action"
-      },
-      {
-        "intent": "action_question",
-        "text": "Quero fazer uma pergunta ao Stack Overflow"
-      },
-      {
-        "intent": "action_question",
-        "text": "Stack Overflow"
-      },
-      {
-        "intent": "action_question",
-        "text": "stack overflow"
-      },
-      {
-        "intent": "action_question",
-        "text": "stack"
-      },
-      {
-        "intent": "action_question",
-        "text": "overflow"
-      },
-      {
         "intent": "confirmar",
         "text": "sim"
       },
@@ -282,6 +278,90 @@
         "text": "sim"
       },
       {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "contribuir"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como contribuir"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "o que preciso para contribuir"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como contribuir para o repositorio"
+      },
+      {
         "intent": "cumprimentar",
         "text": "oi, tudo bem"
       },
@@ -332,6 +412,34 @@
       {
         "intent": "cumprimentar",
         "text": "bom dia"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "/start"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "qual o seu nome?"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "quem é você?"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "oque você faz?"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "qual o seu nome?"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "Olá"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "oi"
       },
       {
         "intent": "despedir",
@@ -434,6 +542,26 @@
         "text": "ambiente"
       },
       {
+        "intent": "informacao_ambiente",
+        "text": "como configurar o meu ambiente?"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "como configurar o ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "como configurar o ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "como configurar o ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "como configurar o ambiente"
+      },
+      {
         "intent": "informacao_desenvolvimento",
         "text": "tutorial"
       },
@@ -474,6 +602,10 @@
         "text": "quero fazer um jogo em python"
       },
       {
+        "intent": "informacao_desenvolvimento",
+        "text": "me ensine a fazer um jogo"
+      },
+      {
         "intent": "informacao_duvidas",
         "text": "Como voce pode responder uma duvida?"
       },
@@ -504,6 +636,30 @@
       {
         "intent": "informacao_duvidas",
         "text": "como posso tirar uma duvida?"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "FAQ"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "FAQ"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "faq"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "Faq"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "Como posso aprender?"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "Posso te fazer uma pergunta?"
       },
       {
         "intent": "informacao_materiais",
@@ -574,117 +730,76 @@
         "text": "manda link"
       },
       {
+        "intent": "informacao_materiais",
+        "text": "Me ensina algo"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "facil"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "Facil"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "medio"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "Medio"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "médio"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "Médio"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "dificil"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "Dificil"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "difícil"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "Difícil"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "videos"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "videos-explicativos"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "textos"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "fácil"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "Fácil"
+      },
+      {
         "intent": "negar",
         "text": "nao"
       },
       {
         "intent": "negar",
         "text": "não"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
       {
         "intent": "out_of_scope",
         "text": "Qual a origem do mundo?"
@@ -701,6 +816,7 @@
         "intent": "out_of_scope",
         "text": "batatinha quando nasce"
       },
+      {
       {
         "intent": "tudo_bem",
         "text": "Tudo bem"
