@@ -91,10 +91,11 @@ templates:
       \ infinito\" que serão necessárias ao desenvolvimento, para começarmos, você\
       \ já possui o Python 3.6 instalado em seu computador?\n"
   utter_informacao_desenvolvimento:
-  - text: "Muito bom, jovem Padawan!!\nVou te mostrar o tutorial de como desenvolver\
+  text: "Muito bom, jovem Padawan!!\nVou te mostrar o tutorial de como desenvolver\
       \ e criar seu jogo em Python com diferentes dificuldades.\nQuando perceber você\
       \ já ser um Meister dos jogos!\nPorém, antes de começar devo te fazer uma pergunta.\n\
-      Você quer começar por qual dificuldade?\nFácil\nMédio\nDificil\n"
+      \ Você quer começar por qual dificuldade?\nPadawan\nJedi\n Ou tambem usar alguns dos\ 
+      \ Tutoriais feitos pela comunidade\n"
     buttons:
     - title: "Padawan(Iniciante)"
       payload: "Facil"
