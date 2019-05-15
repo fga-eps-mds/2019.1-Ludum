@@ -119,7 +119,7 @@ templates:
       title: Jedi(Intermediário)
     - payload: Comunidade
       title: Tutoriais da comunidade
-    text: "Muito bom, jovem Padawan!!\nVou te mostrar o tutorial de como desenvolver\
+  - text: "Muito bom, jovem Padawan!!\nVou te mostrar o tutorial de como desenvolver\
       \ e criar seu jogo em Python com diferentes dificuldades.\nQuando perceber você\
       \ já ser um Meister dos jogos!\nPorém, antes de começar devo te fazer uma pergunta.\n\
       \ Você quer começar por qual dificuldade?\nPadawan\nJedi\n Ou tambem usar alguns dos\ 
