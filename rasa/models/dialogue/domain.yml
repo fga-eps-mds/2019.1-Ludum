@@ -90,6 +90,17 @@ templates:
       \ Você já conhece minhas funcionalidades?\n - Tutorial \n - Ambiente \n - FAQ\
       \  \n - Materiais e links \n - Criação de tutoriais e envio de materiais \n\
       \ Começar com o que, devemos?\n"
+    buttons:
+    - title: "Tutorial"
+      payload: "Tutorial"
+    - title: "Ambiente"
+      payload: "Ambiente"
+    - title: "FAQ"
+      payload: "FAQ"
+    - title: "Materiais e links"
+      payload: "Materiais"
+    - title: "Envio de materiais"
+      payload: "contribuir"
   utter_default:
   - text: "Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender\
       \ direito\nVocê pode perguntar de novo de outro jeito?\n"
