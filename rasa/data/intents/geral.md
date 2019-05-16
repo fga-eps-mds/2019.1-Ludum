@@ -11,6 +11,10 @@
 - pesquisar no stack overflow [como iniciar uma tela pygame](pergunta)
 - stack overflow [como iniciar um jogo pygame](pergunta)
 - stack overflow [pygame](pergunta)
+- perguntar ao stack overflow [how to make pygame objects](pergunta)
+- stack overflow [how to open a screen pygame](pergunta)
+- pesquisar no stack overflow [my code wont work](pergunta)
+- perguntar ao stack overflow [for em python](pergunta)
 
 ## intent:confirmar
 - sim
@@ -60,6 +64,7 @@
 - ola
 - oi
 - bom dia
+- Ola
 
 ## intent:despedir
 - Tchau obrigado

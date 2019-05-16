@@ -44,10 +44,9 @@ class ActionQuestion(Action):
             pergunta = str(tracker.get_slot('pergunta'))
             api = 'https://ludum-duvidas.herokuapp.com/api/duvidas'
             apiPergunta = api + '/pesquisar' + '/:{' + pergunta + '}'
-            dispatcher.utter_message(apiPergunta)
             dispatcher.utter_message('Espere jovem padawan,' +
                                      'vou procurar uma resposta' +
-                                     'no StackOverflow para você')
+                                     'no Stack Overflow para você')
         except ValueError:
             dispatcher.utter_message(ValueError)
         try:
@@ -55,7 +54,10 @@ class ActionQuestion(Action):
             stack = json.loads(link.text)
             utterString = ''
             if(len(stack['data']['answer']) == 0):
-                utterString += 'Que pena... Nem mesmo os grandes mestres Jedi do stackoverflow sabem a resposta para sua pergunta. \nQue tal perguntar de outra forma?'
+                utterString += ('Que pena... Nem mesmo os grandes' +
+                                ' mestres Jedi do stack' +
+                                ' overflow sabem a resposta para sua' +
+                                ' pergunta. \nQue tal perguntar de outra forma?')
             else:
                 for i in range(0, len(stack['data']['answer'])):
                     utterString += 'Resposta ' + str(i + 1) + '\n'
