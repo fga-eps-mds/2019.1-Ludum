@@ -54,14 +54,17 @@ class ActionQuestion(Action):
             link = requests.get(apiPergunta)
             stack = json.loads(link.text)
             utterString = ''
-            for i in range(0, len(stack['data']['answer'])):
-                utterString += 'Resposta ' + str(i + 1) + '\n'
-                utterString += 'Titulo: '
-                utterString += (str(stack['data']['answer'][i]['title']))
-                utterString += '\n'
-                utterString += 'Link: '
-                utterString += str(stack['data']['answer'][i]['link'])
-                utterString += '\n'
+            if(len(stack['data']['answer']) == 0):
+                utterString += 'Que pena... Nem mesmo os grandes mestres Jedi do stackoverflow sabem a resposta para sua pergunta. \nQue tal perguntar de outra forma?'
+            else:
+                for i in range(0, len(stack['data']['answer'])):
+                    utterString += 'Resposta ' + str(i + 1) + '\n'
+                    utterString += 'Titulo: '
+                    utterString += (str(stack['data']['answer'][i]['title']))
+                    utterString += '\n'
+                    utterString += 'Link: '
+                    utterString += str(stack['data']['answer'][i]['link'])
+                    utterString += '\n'
             dispatcher.utter_message(utterString)
         except ValueError:
             dispatcher.utter_message(ValueError)
