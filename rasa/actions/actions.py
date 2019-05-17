@@ -5,6 +5,7 @@ import requests
 from rasa_core_sdk.events import SlotSet
 from rasa_core_sdk.forms import FormAction
 
+
 class ActionTest(Action):
     def name(self):
         return "action_test"
@@ -17,7 +18,6 @@ class ActionTest(Action):
         return []
 
 
-
 class ActionQuestion(FormAction):
     def name(self):
         return "action_question"
@@ -25,7 +25,6 @@ class ActionQuestion(FormAction):
     @staticmethod
     def required_slots(tracker):
         return ["pergunta"]
-
 
     def submit(self, dispatcher, tracker, domain):
         try:
@@ -44,8 +43,8 @@ class ActionQuestion(FormAction):
             if(len(stack['data']['answer']) == 0):
                 utterString += ('Que pena... Nem mesmo os grandes' +
                                 ' mestres Jedi do stack' +
-                                ' overflow sabem a resposta para sua' +
-                                ' pergunta. \nQue tal perguntar de outra forma?')
+                                ' overflow sabem a resposta para sua ' +
+                                'pergunta.\nQue tal perguntar de outra forma?')
             else:
                 for i in range(0, len(stack['data']['answer'])):
                     utterString += 'Resposta ' + str(i + 1) + '\n'
@@ -59,8 +58,8 @@ class ActionQuestion(FormAction):
         except ValueError:
             dispatcher.utter_message(ValueError)
         return [SlotSet('pergunta', None)]
-    def slot_mappings(self):
 
+    def slot_mappings(self):
         return {
-            "pergunta":self.from_text()
+            "pergunta": self.from_text()
         }
