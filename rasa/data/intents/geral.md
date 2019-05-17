@@ -15,6 +15,7 @@
 - stack overflow [how to open a screen pygame](pergunta)
 - pesquisar no stack overflow [my code wont work](pergunta)
 - perguntar ao stack overflow [for em python](pergunta)
+- pesquisar no stack overflow
 
 ## intent:confirmar
 - sim
@@ -66,8 +67,6 @@
 - como contribuir
 - o que preciso para contribuir
 - como contribuir para o repositorio
-
-## intent:contribuicao
 - contribuir
 - como contribuir
 - o que preciso para contribuir
@@ -196,6 +195,7 @@
 - textos
 - fácil
 - Fácil
+- python
 
 ## intent:negar
 - nao

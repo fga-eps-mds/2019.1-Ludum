@@ -59,3 +59,8 @@ class ActionQuestion(FormAction):
         except ValueError:
             dispatcher.utter_message(ValueError)
         return [SlotSet('pergunta', None)]
+    def slot_mappings(self):
+
+        return {
+            "pergunta":self.from_text()
+        }

@@ -209,3 +209,15 @@
     - slot{"pergunta": "pygame"}
     - action_question
 
+## Generated Story 5354283864535294206
+* action_question
+    - action_question
+    - form{"name": "action_question"}
+    - slot{"requested_slot": "pergunta"}
+* form: nao_implementada
+    - form: action_question
+    - slot{"pergunta": "python"}
+    - slot{"pergunta": null}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+
