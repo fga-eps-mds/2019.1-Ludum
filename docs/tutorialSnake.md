@@ -30,7 +30,7 @@
 ## 2.2 - função run
 <p align="justify">Agora, vamos criar a função para o jogo funcionar, e dentro dela usar a estrutura de repetição para capturar os eventos e direções do jogo, em código temos:</p>
 
-<p>imagem = eventoEdirecao</p>
+![](./imagens/eventosEdirecao.png)
 
 <p align="justify">Agora, vamos atualizar os movimentos da Snake</p>
 
@@ -39,19 +39,19 @@
 ## 2.3 - Criando desenho
 <p align="justify">Nessa parte, vamos criar na tela o desenho da Snake e do quadro de pontos, com as seguintes funções:</p>
 
-<p>desenhoEpontos</p>
+![](./imagens/desenhoEpontos.png)
 
 # 3 - Criando Snake
 <p align="justify">Vamos criar a classe Snake para criar nossa <i>Snake</i>, e dentro dessa classe, vamos iniciar a mesma, com a função de inicio.</p>
 
-<p>classeSnake1</p>
+![](./imagens/classeSnake1.png)
 
 ## 3.1 - Verificando colisões
 <p align="justify">Dentro da classe <i>Snake</i>, vamos atualizar os movimentos e verificar se existe colisões.</p>
 
-<p>classeSnake2</p>
+![](./imagens/classeSnake2.png)
 
 # 4 - Comida
 <p align="justify">Agora, vamos criar a comida da Snake, utilizando a biblioteca RANDOM, para a comida aparecer em lugares aleatórios: </p>
 
-<p>comida2</p>
+![](./imagens/comida2.png)
