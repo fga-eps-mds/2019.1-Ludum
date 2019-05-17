@@ -1,3 +1,22 @@
+## intent:action_question
+- stack overflow [pygame](pergunta)
+- pesquisar no stack [python game](pergunta)
+- stack overflow [pygame](pergunta)
+- stack overflow [python pygame](pergunta)
+- perguntar ao stack overflow [pygame pong](pergunta)
+- stack overflow [how to make a pygame object](pergunta)
+- pesquisar no stack overflow [pygame](pergunta)
+- stack overflow [python pong game](pergunta)
+- pesquisar no stack overflow [how to create a ball in pygame](pergunta)
+- pesquisar no stack overflow [como iniciar uma tela pygame](pergunta)
+- stack overflow [como iniciar um jogo pygame](pergunta)
+- stack overflow [pygame](pergunta)
+- perguntar ao stack overflow [how to make pygame objects](pergunta)
+- stack overflow [how to open a screen pygame](pergunta)
+- pesquisar no stack overflow [my code wont work](pergunta)
+- perguntar ao stack overflow [for em python](pergunta)
+- pesquisar no stack overflow
+
 ## intent:confirmar
 - sim
 - claro
@@ -44,6 +63,10 @@
 - sim
 
 ## intent:contribuicao
+- contribuir
+- como contribuir
+- o que preciso para contribuir
+- como contribuir para o repositorio
 - contribuir
 - como contribuir
 - o que preciso para contribuir
@@ -172,6 +195,7 @@
 - textos
 - fácil
 - Fácil
+- python
 
 ## intent:negar
 - nao

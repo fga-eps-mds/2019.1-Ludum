@@ -169,3 +169,55 @@
     - utter_confirmar_ambiente3
     - utter_confirmar_ambiente3
 
+## Generated Story -1774056051555267139
+* action_question{"pergunta": "pygame"}
+    - slot{"pergunta": "pygame"}
+    - action_question
+* action_question{"pergunta": "python game"}
+    - slot{"pergunta": "python game"}
+    - action_question
+
+
+## Generated Story 7250698570674514508
+* action_question{"pergunta": "python pygame"}
+    - slot{"pergunta": "python pygame"}
+    - action_question
+* action_question{"pergunta": "pygame pong"}
+    - slot{"pergunta": "pygame pong"}
+    - action_question
+* action_question{"pergunta": "how to make a pygame object"}
+    - slot{"pergunta": "how to make a pygame object"}
+    - action_question
+
+## Generated Story 2545583305901818447
+* action_question{"pergunta": "pygame"}
+    - slot{"pergunta": "pygame"}
+    - action_question
+* action_question{"pergunta": "python pong game"}
+    - slot{"pergunta": "python pong game"}
+    - action_question
+* action_question{"pergunta": "how to create a ball in pygame"}
+    - slot{"pergunta": "how to create a ball in pygame"}
+    - action_question
+* action_question{"pergunta": "como iniciar uma tela pygame"}
+    - slot{"pergunta": "como iniciar uma tela pygame"}
+    - action_question
+* action_question{"pergunta": "como iniciar um jogo pygame"}
+    - slot{"pergunta": "como iniciar um jogo pygame"}
+    - action_question
+* action_question{"pergunta": "pygame"}
+    - slot{"pergunta": "pygame"}
+    - action_question
+
+## Generated Story 5354283864535294206
+* action_question
+    - action_question
+    - form{"name": "action_question"}
+    - slot{"requested_slot": "pergunta"}
+* form: nao_implementada
+    - form: action_question
+    - slot{"pergunta": "python"}
+    - slot{"pergunta": null}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+

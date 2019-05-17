@@ -2,50 +2,6 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "intent": "action_test",
-        "text": "test custom action"
-      },
-      {
-        "intent": "action_test",
-        "text": "custom action"
-      },
-      {
-        "intent": "action_test",
-        "text": "actions"
-      },
-      {
-        "intent": "action_test",
-        "text": "custom actions"
-      },
-      {
-        "intent": "action_test",
-        "text": "action"
-      },
-      {
-        "intent": "action_test",
-        "text": "test action"
-      },
-      {
-        "intent": "action_question",
-        "text": "Quero fazer uma pergunta ao Stack Overflow"
-      },
-      {
-        "intent": "action_question",
-        "text": "Stack Overflow"
-      },
-      {
-        "intent": "action_question",
-        "text": "stack overflow"
-      },
-      {
-        "intent": "action_question",
-        "text": "stack"
-      },
-      {
-        "intent": "action_question",
-        "text": "overflow"
-      },
-      {
         "intent": "time",
         "text": "qual o melhor time do brasil"
       },
@@ -172,6 +128,242 @@
           }
         ],
         "text": "guerra nas estrelas"
+      },
+      {
+        "intent": "action_test",
+        "text": "test custom action"
+      },
+      {
+        "intent": "action_test",
+        "text": "custom action"
+      },
+      {
+        "intent": "action_test",
+        "text": "actions"
+      },
+      {
+        "intent": "action_test",
+        "text": "custom actions"
+      },
+      {
+        "intent": "action_test",
+        "text": "action"
+      },
+      {
+        "intent": "action_test",
+        "text": "test action"
+      },
+      {
+        "intent": "action_question",
+        "text": "Quero fazer uma pergunta ao Stack Overflow"
+      },
+      {
+        "intent": "action_question",
+        "text": "Stack Overflow"
+      },
+      {
+        "intent": "action_question",
+        "text": "stack overflow"
+      },
+      {
+        "intent": "action_question",
+        "text": "stack"
+      },
+      {
+        "intent": "action_question",
+        "text": "overflow"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "pygame",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "stack overflow pygame"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "value": "python game",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "pesquisar no stack python game"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "pygame",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "stack overflow pygame"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 15,
+            "end": 28,
+            "value": "python pygame",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "stack overflow python pygame"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 28,
+            "end": 39,
+            "value": "pygame pong",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "perguntar ao stack overflow pygame pong"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 15,
+            "end": 42,
+            "value": "how to make a pygame object",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "stack overflow how to make a pygame object"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "pygame",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "pesquisar no stack overflow pygame"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 15,
+            "end": 31,
+            "value": "python pong game",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "stack overflow python pong game"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 28,
+            "end": 58,
+            "value": "how to create a ball in pygame",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "pesquisar no stack overflow how to create a ball in pygame"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 28,
+            "end": 56,
+            "value": "como iniciar uma tela pygame",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "pesquisar no stack overflow como iniciar uma tela pygame"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 15,
+            "end": 42,
+            "value": "como iniciar um jogo pygame",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "stack overflow como iniciar um jogo pygame"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "pygame",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "stack overflow pygame"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 28,
+            "end": 54,
+            "value": "how to make pygame objects",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "perguntar ao stack overflow how to make pygame objects"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 15,
+            "end": 42,
+            "value": "how to open a screen pygame",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "stack overflow how to open a screen pygame"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 28,
+            "end": 45,
+            "value": "my code wont work",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "pesquisar no stack overflow my code wont work"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 28,
+            "end": 41,
+            "value": "for em python",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "perguntar ao stack overflow for em python"
       },
       {
         "intent": "confirmar",
@@ -344,6 +536,22 @@
       {
         "intent": "confirmar",
         "text": "sim"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "contribuir"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como contribuir"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "o que preciso para contribuir"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como contribuir para o repositorio"
       },
       {
         "intent": "contribuicao",
@@ -800,6 +1008,199 @@
       {
         "intent": "negar",
         "text": "não"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
       {
         "intent": "out_of_scope",
         "text": "Qual a origem do mundo?"
@@ -817,6 +1218,17 @@
         "text": "batatinha quando nasce"
       },
       {
+        "intent": "start",
+        "text": "/start"
+      },
+      {
+        "intent": "start",
+        "text": "/start"
+      },
+      {
+        "intent": "start",
+        "text": "/start"
+      },
       {
         "intent": "tudo_bem",
         "text": "Tudo bem"
@@ -828,22 +1240,6 @@
       {
         "intent": "tudo_bem",
         "text": "como vc ta"
-      },
-      {
-        "intent": "contribuicao",
-        "text": "contribuir"
-      },
-      {
-        "intent": "contribuicao",
-        "text": "como contribuir"
-      },
-      {
-        "intent": "contribuicao",
-        "text": "o que preciso para contribuir"
-      },
-      {
-        "intent": "contribuicao",
-        "text": "como contribuir para o repositorio"
       }
     ],
     "regex_features": [],

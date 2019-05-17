@@ -1,41 +1,46 @@
 %YAML 1.1
 ---
 actions:
+- utter_despedir
 - utter_perguntar_ambiente3
-- utter_proximopasso2
-- utter_proximopasso1
+- utter_negar_ambiente2
+- utter_cumprimentar
+- utter_proximopasso3
+- utter_tudo_bem
+- utter_confirmar_ambiente2
+- utter_ask_pergunta
+- utter_informacao_materiais
+- utter_default
 - utter_confirmar_ambiente1
-- utter_contribuicao
-- utter_negar_ambiente3
+- utter_time
+- utter_negar_ambiente1
+- utter_proximopasso1
 - utter_sem_nada
 - utter_informacao_desenvolvimento
-- utter_confirmar_ambiente2
-- utter_default
-- utter_informacao_ambiente
-- utter_despedir
-- action_question
-- utter_tudo_bem
 - extra.actions.ActionQuest
-- utter_proximopasso3
-- utter_informacao
-- utter_cumprimentar
-- utter_negar_ambiente2
 - utter_star_wars
-- utter_negar_ambiente1
-- utter_informacao_materiais
+- utter_informacao_duvidas
+- utter_proximopasso2
+- utter_contribuicao
+- utter_informacao
+- utter_implementacao
+- utter_perguntar_ambiente2
 - action_test
 - utter_confirmar_ambiente3
-- utter_time
-- utter_perguntar_ambiente2
-- utter_informacao_duvidas
-- utter_implementacao
+- utter_negar_ambiente3
+- utter_informacao_ambiente
 entities:
-- starwars
 - time
+- pergunta
+- starwars
+forms:
+- action_question
 intents:
+- action_question
+- nao_implementada
+- cumprimentar
 - confirmar
 - informacao_ambiente
-- cumprimentar
 - negar
 - informacao_duvidas
 - informacao_materiais
@@ -47,10 +52,15 @@ intents:
 - time
 - star_wars
 - action_test
-- action_question
 - contribuicao
-- nao_implementada
+slots:
+  pergunta:
+    type: unfeaturized
+  requested_slot:
+    type: unfeaturized
 templates:
+  utter_ask_pergunta:
+  - text: Que pergunta você deseja fazer ao StackOverflow?
   utter_confirmar_ambiente1:
   - text: "Ótimo, todo nosso tutorial será feito usando o Python 3.6, então é bom\
       \ que você o tenha aí instalado\n"
@@ -64,22 +74,22 @@ templates:
       \ para ajudar os próximos aprendizes que estão por vir\n Para contribuir use\
       \ o nosso WebClient(a ser criado)\n"
   utter_cumprimentar:
-  - text: "Olá, eu sou o Ludum! :D\n Vou te mostrar tudo que sei sobre \n desenvolvimento\
+  - buttons:
+    - payload: Tutorial
+      title: Tutorial
+    - payload: Ambiente
+      title: Ambiente
+    - payload: FAQ
+      title: FAQ
+    - payload: Materiais
+      title: Materiais e links
+    - payload: contribuir
+      title: Envio de materiais
+    text: "Olá, eu sou o Ludum! :D\n Vou te mostrar tudo que sei sobre \n desenvolvimento\
       \ de jogos em Python!\n Mas antes, jovem padawan, devo te fazer uma pergunta,\n\
       \ Você já conhece minhas funcionalidades?\n - Tutorial \n - Ambiente \n - FAQ\
       \  \n - Materiais e links \n - Criação de tutoriais e envio de materiais \n\
       \ Começar com o que, devemos?\n"
-    buttons:
-    - title: "Tutorial"
-      payload: "Tutorial"
-    - title: "Ambiente"
-      payload: "Ambiente"
-    - title: "FAQ"
-      payload: "FAQ"
-    - title: "Materiais e links"
-      payload: "Materiais"
-    - title: "Envio de materiais"
-      payload: "contribuir"
   utter_default:
   - text: "Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender\
       \ direito\nVocê pode perguntar de novo de outro jeito?\n"
@@ -102,19 +112,18 @@ templates:
       \ infinito\" que serão necessárias ao desenvolvimento, para começarmos, você\
       \ já possui o Python 3.6 instalado em seu computador?\n"
   utter_informacao_desenvolvimento:
-  - text: "Muito bom, jovem Padawan!!\nVou te mostrar o tutorial de como desenvolver\
+  - buttons:
+    - payload: Facil
+      title: Padawan(Iniciante)
+    - payload: Medio
+      title: Jedi(Intermediário)
+    - payload: Comunidade
+      title: Tutoriais da comunidade
+    text: "Muito bom, jovem Padawan!!\nVou te mostrar o tutorial de como desenvolver\
       \ e criar seu jogo em Python com diferentes dificuldades.\nQuando perceber você\
       \ já ser um Meister dos jogos!\nPorém, antes de começar devo te fazer uma pergunta.\n\
-      \ Você quer começar por qual dificuldade?\nPadawan\nJedi\n Ou tambem usar alguns dos\ 
-      \ Tutoriais feitos pela comunidade\n"
-    buttons:
-    - title: "Padawan(Iniciante)"
-      payload: "Facil"
-    - title: "Jedi(Intermediário)"
-      payload: "Medio"
-    - title: "Tutoriais da comunidade"
-      payload: "Comunidade"
-
+      \ Você quer começar por qual dificuldade?\nPadawan\nJedi\n Ou tambem usar alguns\
+      \ dos   Tutoriais feitos pela comunidade\n"
   utter_informacao_duvidas:
   - text: "Você pode me perguntar tudo que quiser saber sobre o desenvolvimento de\
       \ jogos em pygame! \nAs vezes eu posso até não saber sua resposta, mas posso\
@@ -133,7 +142,8 @@ templates:
   utter_negar_ambiente1:
   - text: "Para realizarmos nossos tutoriais você precisará do Python 3.6, mas sem\
       \ problema, para instalá-lo basta acessar este site https://www.python.org/downloads/\
-      \ e instalar conforme seu sistema operacional\nJá podemos seguir para o próximo passo ?\n"
+      \ e instalar conforme seu sistema operacional\nJá podemos seguir para o próximo\
+      \ passo ?\n"
   utter_negar_ambiente2:
   - text: "Assim como todo Jedi possui seu sabre de luz, precisamos de algumas ferramentas\
       \ e um editor de texto é uma delas\nCaso não possua nenhum instalado, recomendamos\
@@ -141,18 +151,22 @@ templates:
       \ é tudo de graça!\nJá podemos seguir para o próximo passo ?\n"
   utter_negar_ambiente3:
   - text: "Para instalar a biblioteca PyGame, que será essencial para nós, entre no\
-      \ link https://www.pygame.org/wiki/GettingStarted e siga as instruções\nJá podemos seguir para o próximo passo ?\n"
+      \ link https://www.pygame.org/wiki/GettingStarted e siga as instruções\nJá podemos\
+      \ seguir para o próximo passo ?\n"
   utter_perguntar_ambiente2:
   - text: "Você possui algum editor de texto de sua preferência instalado?\n"
   utter_perguntar_ambiente3:
   - text: "Para fazermos nossos belissimos jogos precisaremos da biblioteca Pygame.\
       \ Você já tem ela instalada?\n"
   utter_proximopasso1:
-  - text: "Caso tenha dificuldades na instalação, sugerimos que você acesse este link https://wiki.python.org/moin/BeginnersGuide/Download\n"
+  - text: "Caso tenha dificuldades na instalação, sugerimos que você acesse este link\
+      \ https://wiki.python.org/moin/BeginnersGuide/Download\n"
   utter_proximopasso2:
-  - text: "Caso tenha dificuldades na instalação, sugerimos que você assista esse vídeo https://www.youtube.com/watch?v=tjN_e-CKTl4\n"
+  - text: "Caso tenha dificuldades na instalação, sugerimos que você assista esse\
+      \ vídeo https://www.youtube.com/watch?v=tjN_e-CKTl4\n"
   utter_proximopasso3:
-   - text: "Caso tenha dificuldades na instalação, sugerimos que você acesse este link https://www.simplifiedpython.net/pygame-tutorial-for-beginners/#Installing_PyGame\n"
+  - text: "Caso tenha dificuldades na instalação, sugerimos que você acesse este link\
+      \ https://www.simplifiedpython.net/pygame-tutorial-for-beginners/#Installing_PyGame\n"
   utter_sem_nada:
   - text: Mas eu nem te perguntei nada
   utter_star_wars:
