@@ -3,7 +3,7 @@ from rasa_core_sdk import Action
 import json
 import requests
 from rasa_core_sdk.events import SlotSet
-
+from rasa_core_sdk.forms import FormAction
 
 class ActionTest(Action):
     def name(self):
@@ -17,11 +17,17 @@ class ActionTest(Action):
         return []
 
 
-class ActionQuestion(Action):
+
+class ActionQuestion(FormAction):
     def name(self):
         return "action_question"
 
-    def run(self, dispatcher, tracker, domain):
+    @staticmethod
+    def required_slots(tracker):
+        return ["pergunta"]
+
+
+    def submit(self, dispatcher, tracker, domain):
         try:
             pergunta = str(tracker.get_slot('pergunta'))
             api = 'https://ludum-duvidas.herokuapp.com/api/duvidas'
@@ -39,8 +45,7 @@ class ActionQuestion(Action):
                 utterString += ('Que pena... Nem mesmo os grandes' +
                                 ' mestres Jedi do stack' +
                                 ' overflow sabem a resposta para sua' +
-                                ' pergunta. \nQue tal perguntar de' +
-                                ' outra forma?')
+                                ' pergunta. \nQue tal perguntar de outra forma?')
             else:
                 for i in range(0, len(stack['data']['answer'])):
                     utterString += 'Resposta ' + str(i + 1) + '\n'

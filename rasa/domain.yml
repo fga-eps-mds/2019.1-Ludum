@@ -13,7 +13,6 @@ actions:
 - utter_default
 - utter_informacao_ambiente
 - utter_despedir
-- action_question
 - utter_tudo_bem
 - extra.actions.ActionQuest
 - utter_proximopasso3
@@ -29,6 +28,7 @@ actions:
 - utter_perguntar_ambiente2
 - utter_informacao_duvidas
 - utter_implementacao
+- utter_ask_pergunta
 entities:
 - pergunta
 - time
@@ -52,9 +52,13 @@ intents:
 - action_test
 - contribuicao
 - nao_implementada
+forms:
+- action_question
 slots:
   pergunta:
-    type: text
+    type: unfeaturized
+  requested_slot:
+    type: unfeaturized
 templates:
   utter_confirmar_ambiente1:
   - text: "Ótimo, todo nosso tutorial será feito usando o Python 3.6, então é bom\
@@ -172,3 +176,5 @@ templates:
   - text: "Melhor time do mundo disparado, Flamengooo!!!!\n"
   utter_tudo_bem:
   - text: "Tudo bem, obrigado! Em que posso te ajudar?\n"
+  utter_ask_pergunta:
+  - text: "Que pergunta você deseja fazer ao StackOverflow?"
