@@ -48,7 +48,7 @@ Agora, vamos desenhar a bolinha na tela
 ## 4 - Vamos adicionar movimento à raquete
 
 ```bash
-Começamos adicionando as coordenadas que alteraremos para movimentar a bolinha
+Começamos adicionando as coordenadas que alteraremos para movimentar a raquete
 ```
 ![mov_raquete](./imagens/imagens_pong/mov_raquete_2_codigo.png)4.1
  
@@ -59,3 +59,20 @@ Agora vamos adicionar movimento à raquete, fazendo com que as setas para direit
 
 ### Este será o resultado
 ![mov_raquete3](./imagens/imagens_pong/mov_raquete.png)4.3
+
+## 5 - Agora adicionaremos movimento à bolinha
+
+```bash
+Começaremos adicionando as coordenadas que usaremos para dar movimento à bolinha
+````
+
+![mov_bolinha1](./imagens/imagens_pong/mov_bola2_codigo.png)5.1
+
+```bash
+Agora iremos mudar as coordenadas da bolinha para dar movimento a ela, já estabelecendo os limites da tela
+````
+
+![mov_bolinha2](./imagens/imagens_pong/mov_bola1_codigo.png)5.2
+
+### Este será o resultado
+![mov_bolinha2](./imagens/imagens_pong/mov_bola_imagem.png)5.3
