@@ -29,3 +29,18 @@ Então mostraremos a raquete na tela
 
 ### Este será o resultado
 ![raquete3](./imagens/imagens_pong/raquete_imagem.png)2.3
+
+## 3 - Vamos criar a bola
+
+```bash
+Primeiramente, vamos criar coordenadas iniciais quaisquer para a bolinha
+```
+![bola1](./imagens/imagens_pong/bola1_codigo.png)3.1
+
+```bash
+Agora, vamos desenhar a bolinha na tela
+```
+![bola2](./imagens/imagens_pong/bola2_codigo.png)3.2
+
+### Este será o resultado
+![bola3](./imagens/imagens_pong/bola_imagem.png)3.2
