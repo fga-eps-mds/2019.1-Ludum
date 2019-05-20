@@ -64,7 +64,7 @@ Agora vamos adicionar movimento à raquete, fazendo com que as setas para direit
 
 ```bash
 Começaremos adicionando as coordenadas que usaremos para dar movimento à bolinha
-````
+`````
 
 ![mov_bolinha1](./imagens/imagens_pong/mov_bola2_codigo.png)5.1
 
@@ -76,3 +76,16 @@ Agora iremos mudar as coordenadas da bolinha para dar movimento a ela, já estab
 
 ### Este será o resultado
 ![mov_bolinha2](./imagens/imagens_pong/mov_bola_imagem.png)5.3
+
+
+## 6 - Agora adicionaremos a biblioteca pygame para evitar erros no próximo passo
+
+```bash
+Primeiro vamos inicializar a biblioteca no começo do programa
+````
+![pygame1](./imagens/imagens_pong/pygame1.png)6.1s
+
+```bash
+Agora vamos fechar a biblioteca no final do programa
+````
+![pygame2](./imagens/imagens_pong/pygame2.png)6.2
