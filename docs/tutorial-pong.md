@@ -83,9 +83,27 @@ Agora iremos mudar as coordenadas da bolinha para dar movimento a ela, já estab
 ```bash
 Primeiro vamos inicializar a biblioteca no começo do programa
 ````
-![pygame1](./imagens/imagens_pong/pygame1.png)6.1s
+![pygame1](./imagens/imagens_pong/pygame1.png)6.1
 
 ```bash
 Agora vamos fechar a biblioteca no final do programa
 ````
 ![pygame2](./imagens/imagens_pong/pygame2.png)6.2
+
+## 7 - Vamos adicionar agora o placar
+
+```bash
+Inicialmente, vamos criar inicializar os pontos para o placar
+```
+![pontos1](./imagens/imagens_pong/pontuacao_codigo_2.png)7.1
+
+```bash
+Agora vamos adicionar algumas linhas, para que quando a bolinha toque na parte superior aumente o placar em 1 ponto e quando toque na inferior sem ser na raquete, a pontuação volte para 0
+```
+![pontos2](./imagens/imagens_pong/pontuacao_codigo_1.png)7.2
+
+
+### Este será o resultado
+![pontos2](./imagens/imagens_pong/pontuacao_imagem.png)7.2
+
+# Pronto, acabamos de fazer nosso primeiro joguinho em pygame
