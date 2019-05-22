@@ -20,9 +20,37 @@
 # 2 - Criando Classes do jogo
 
 ## 2.1 - Classe para inicializar o jogo
+
 <p  align="justify">&emsp;&emsp;Nessa parte, vamos iniciar o nosso jogo. Para isso, vamos criar a <i>class game</i> em código temos:</p>
+
+ 
+<p> classe game</p>
 
 ## 2.2 - função run
 <p align="justify">Agora, vamos criar a função para o jogo funcionar, e dentro dela usar a estrutura de repetição para capturar os eventos e direções do jogo, em código temos:</p>
 
+
+<p>eventosEdirecao</p>
+
 <p align="justify">Agora, vamos atualizar os movimentos da Snake</p>
+
+<p>imagem = atualizandoMovimentos</p>
+
+## 2.3 - Criando desenho
+<p align="justify">Nessa parte, vamos criar na tela o desenho da Snake e do quadro de pontos, com as seguintes funções:</p>
+
+
+
+# 3 - Criando Snake
+<p align="justify">Vamos criar a classe Snake para criar nossa <i>Snake</i>, e dentro dessa classe, vamos iniciar a mesma, com a função de inicio.</p>
+
+
+
+## 3.1 - Verificando colisões
+<p align="justify">Dentro da classe <i>Snake</i>, vamos atualizar os movimentos e verificar se existe colisões.</p>
+
+
+
+# 4 - Comida
+<p align="justify">Agora, vamos criar a comida da Snake, utilizando a biblioteca RANDOM, para a comida aparecer em lugares aleatórios: </p>
+
