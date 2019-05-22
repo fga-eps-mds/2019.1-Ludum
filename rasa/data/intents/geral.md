@@ -61,6 +61,8 @@
 - sim
 - sim
 - sim
+- sim
+- sim
 
 ## intent:contribuicao
 - contribuir
@@ -105,6 +107,10 @@
 - falou, valeu
 - flw vlw
 - xau
+
+## intent:faq
+- FAQ
+- faq
 
 ## intent:informacao
 - Tenho uma pergunta
@@ -152,10 +158,6 @@
 - Você pode responder minhas questões?
 - Duvida
 - como posso tirar uma duvida?
-- FAQ
-- FAQ
-- faq
-- Faq
 - Como posso aprender?
 - Posso te fazer uma pergunta?
 
@@ -259,6 +261,9 @@
 - /start
 - /start
 - /start
+
+## intent:stop
+- /stop
 
 ## intent:tudo_bem
 - Tudo bem

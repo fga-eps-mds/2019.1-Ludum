@@ -4,6 +4,7 @@ import json
 import requests
 from rasa_core_sdk.events import SlotSet
 from rasa_core_sdk.forms import FormAction
+import markdown
 
 
 class ActionTest(Action):
@@ -63,3 +64,18 @@ class ActionQuestion(FormAction):
         return {
             "pergunta": self.from_text()
         }
+
+
+class ActionFaq(Action):
+    def name(self):
+        return "action_faq"
+
+    def run(self, dispatcher, tracker, domain):
+        try:
+            arquivo = open("./docs/perguntas_faq.md",'r')
+            string = str(arquivo.read())                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+            dispatcher.utter_message(string)
+        except ValueError:
+            dispatcher.utter_message(ValueError)
+        return []
+

@@ -221,3 +221,16 @@
     - form{"name": null}
     - slot{"requested_slot": null}
 
+## Generated Story -198256913908738909
+* faq
+    - utter_faq
+* confirmar
+    - action_faq
+
+## Generated Story 6238565761492408280
+* faq
+    - utter_faq
+* confirmar
+    - action_faq
+* stop
+
