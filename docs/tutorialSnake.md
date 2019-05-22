@@ -37,3 +37,40 @@
 <li>  RIGHT = 6</li>
 </ul>
 </html>
+
+# 2 - Criando Classes do jogo
+
+## 2.1 - Classe para inicializar o jogo
+
+<p  align="justify">&emsp;&emsp;Nessa parte, vamos iniciar o nosso jogo. Para isso, vamos criar a <i>class game</i> em código temos:</p>
+<p align="justify">class Game():</p>
+    <p align="justify">"""Initialize pygame, window, background, font,...</p>
+    """</p>
+
+### 2.1.1 - função para iniciar o jogo
+<p  align="justify">&emsp;&emsp;Nessa parte, vamos criar a função para inciar o jogo dentro da <i>class game</i></p>
+
+<p align="justify">def __init__(self,width,height,fps):</p>
+<p align="justify">pygame.init()</p>
+<p align="justify">#Janela</p>
+<p align="justify">pygame.display.set_caption('Snake')</p>
+<p align="justify">self.width=width</p>
+<p align="justify">self.height=height</p>
+<p align="justify">self.screen=pygame.display.set_mode((self.width,self.height))</p>
+<p align="justify">#Criando fundo</p>
+<p align="justify">self.background=pygame.Surface(self.screen.get_size())</p>
+<p align="justify">#Pintar de Preto</p>
+<p align="justify">self.background.fill(BLACK)</p>
+<p align="justify">#Converter superficie</p>
+<p align="justify">self.background.convert()</p>
+<p align="justify">self.scorecard=pygame.draw.rect(self.background,BLUE,Rect([10,10],[self.width-20,100]),1)</p>
+<p align="justify">#Game area</p>
+<p align="justify">self.gamearea=pygame.draw.rect(self.background,BLUE,Rect([10,120],[self.width-20,380]),1)</p>
+<p align="justify">self.points=0</p>
+<p align="justify">#Score</p>
+<p align="justify">self.font=pygame.font.Font(None,36)</p>
+<p align="justify">self.mainClock=pygame.time.Clock()</p>
+<p align="justify">self.fps=fps</p>
+<p align="justify">self.snake=Snake()</p>
+<p align="justify">self.food=Food(self.snake)</p>
+</p>
