@@ -142,6 +142,7 @@
 - como fazer um jogo em python?
 - quero fazer um jogo em python
 - me ensine a fazer um jogo
+- Facil
 
 ## intent:informacao_duvidas
 - Como voce pode responder uma duvida?
@@ -180,21 +181,9 @@
 - Me ensina algo
 
 ## intent:nao_implementada
-- facil
-- Facil
-- medio
-- Medio
-- médio
-- Médio
-- dificil
-- Dificil
-- difícil
-- Difícil
 - videos
 - videos-explicativos
 - textos
-- fácil
-- Fácil
 - python
 
 ## intent:negar
