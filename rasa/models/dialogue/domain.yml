@@ -29,6 +29,7 @@ actions:
 - utter_informacao_duvidas
 - utter_implementacao
 - utter_ask_pergunta
+- utter_tutorial_padawan
 config:
   store_entities_as_slots: true
 entities:
@@ -72,6 +73,8 @@ intents:
     use_entities: true
 - nao_implementada:
     use_entities: true
+- tutorial_facil:
+    use_entities: true 
 slots:
   pergunta:
     auto_fill: true
@@ -204,3 +207,7 @@ templates:
   - text: "Melhor time do mundo disparado, Flamengooo!!!!\n"
   utter_tudo_bem:
   - text: "Tudo bem, obrigado! Em que posso te ajudar?\n"
+  utter_tutorial_padawan:
+  - text : "Meu caro, devo lhe notificar que é super importante que seu ambiente\
+      \  esteja devidamente configurado, a força esta com você ou devo te encaminhar\
+      \  para a configuração de ambiente?\n" 
