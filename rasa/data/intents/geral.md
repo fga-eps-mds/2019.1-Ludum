@@ -142,6 +142,8 @@
 - como fazer um jogo em python?
 - quero fazer um jogo em python
 - me ensine a fazer um jogo
+
+## intent:tutorial_facil
 - Facil
 
 ## intent:informacao_duvidas
