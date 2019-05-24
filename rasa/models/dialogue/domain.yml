@@ -1,50 +1,52 @@
 %YAML 1.1
 ---
 actions:
-- utter_default
-- utter_informacao_materiais
-- action_test
-- utter_negar_ambiente1
-- utter_confirmar_ambiente3
-- utter_ask_pergunta
-- utter_contribuicao
-- utter_informacao
-- utter_faq
-- utter_informacao_duvidas
-- utter_proximopasso1
-- utter_confirmar_ambiente1
-- utter_time
-- utter_negar_ambiente3
-- utter_perguntar_ambiente3
-- utter_implementacao
-- utter_sem_nada
-- utter_proximopasso3
-- utter_negar_ambiente2
-- utter_despedir
-- utter_tudo_bem
-- utter_confirmar_ambiente2
-- action_faq
-- utter_perguntar_ambiente2
 - utter_star_wars
-- utter_informacao_desenvolvimento
-- utter_informacao_ambiente
-- utter_proximopasso2
+- utter_negar_ambiente1
+- utter_tudo_bem
+- utter_proximopasso3
+- action_test
+- utter_faq
 - utter_cumprimentar
+- utter_informacao
+- utter_informacao_duvidas
+- utter_negar_ambiente3
+- utter_informacao_materiais
 - extra.actions.ActionQuest
+- utter_confirmar_ambiente1
+- utter_ask_pergunta
+- utter_despedir
+- utter_time
+- utter_perguntar_ambiente2
+- utter_sem_nada
+- utter_informacao_ambiente
+- utter_confirmar_ambiente3
+- utter_proximopasso1
+- utter_default
+- utter_implementacao
+- utter_confirmar_ambiente2
+- utter_negar_ambiente2
+- utter_contribuicao
+- utter_informacao_desenvolvimento
+- utter_perguntar_ambiente3
+- action_faq
+- utter_proximopasso2
 config:
   store_entities_as_slots: true
 entities:
 - time
-- starwars
 - pergunta
+- starwars
 forms:
 - action_question
 intents:
-- negar:
+- out_of_scope:
     use_entities: true
 - faq:
     use_entities: true
 - confirmar:
+    use_entities: true
+- negar:
     use_entities: true
 - star_wars:
     use_entities: true
@@ -63,8 +65,6 @@ intents:
 - informacao_materiais:
     use_entities: true
 - despedir:
-    use_entities: true
-- out_of_scope:
     use_entities: true
 - tudo_bem:
     use_entities: true

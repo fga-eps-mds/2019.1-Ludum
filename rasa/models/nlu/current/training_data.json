@@ -574,6 +574,26 @@
         "text": "sim"
       },
       {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
         "intent": "contribuicao",
         "text": "contribuir"
       },
@@ -748,6 +768,22 @@
       {
         "intent": "faq",
         "text": "faq"
+      },
+      {
+        "intent": "faq",
+        "text": "faq"
+      },
+      {
+        "intent": "faq",
+        "text": "faq"
+      },
+      {
+        "intent": "faq",
+        "text": "me mande o faq"
+      },
+      {
+        "intent": "faq",
+        "text": "você possui um faq?"
       },
       {
         "intent": "informacao",
@@ -1254,6 +1290,14 @@
         "text": "não"
       },
       {
+        "intent": "negar",
+        "text": "não"
+      },
+      {
+        "intent": "negar",
+        "text": "não"
+      },
+      {
         "intent": "out_of_scope",
         "text": "Qual a origem do mundo?"
       },
@@ -1268,6 +1312,10 @@
       {
         "intent": "out_of_scope",
         "text": "batatinha quando nasce"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "pygame module"
       },
       {
         "intent": "star_wars",

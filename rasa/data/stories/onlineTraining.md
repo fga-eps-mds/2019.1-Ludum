@@ -285,3 +285,28 @@
 * negar
 
 
+## Generated Story -3099197547825249283
+* faq
+    - utter_faq
+* confirmar
+    - action_faq
+* negar
+* faq
+    - utter_faq
+* confirmar
+    - action_faq
+* faq
+    - utter_faq
+* confirmar
+    - action_faq
+* confirmar
+    - action_question
+    - form{"name": "action_question"}
+    - slot{"requested_slot": "pergunta"}
+* form: out_of_scope
+    - form: action_question
+    - slot{"pergunta": "pygame module"}
+    - slot{"pergunta": null}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+
