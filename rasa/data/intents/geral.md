@@ -264,3 +264,5 @@
 - Tudo bem
 - Como vocês estao
 - como vc ta
+
+## intent: tutorial_medio

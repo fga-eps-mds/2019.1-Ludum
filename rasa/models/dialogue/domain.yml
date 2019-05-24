@@ -29,6 +29,7 @@ actions:
 - utter_informacao_duvidas
 - utter_implementacao
 - utter_ask_pergunta
+- utter_tutorial_jedi
 config:
   store_entities_as_slots: true
 entities:
@@ -71,6 +72,8 @@ intents:
 - contribuicao:
     use_entities: true
 - nao_implementada:
+    use_entities: true
+- tutorial_medio:
     use_entities: true
 slots:
   pergunta:
@@ -204,3 +207,8 @@ templates:
   - text: "Melhor time do mundo disparado, Flamengooo!!!!\n"
   utter_tudo_bem:
   - text: "Tudo bem, obrigado! Em que posso te ajudar?\n"
+  utter_tutorial_jedi:
+  - text : "Meu caro, devo lhe notificar que é super importante que seu ambiente\
+      \  esteja devidamente configurado, a força\
+      \  das joias do infinito está em seu poder ou devo te encaminhar\
+      \  para a configuração de ambiente?\n"

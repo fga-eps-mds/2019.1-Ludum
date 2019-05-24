@@ -17,6 +17,7 @@
     "intent_star_wars",
     "intent_time",
     "intent_tudo_bem",
+    "intent_tutorial_medio",
     "entity_pergunta",
     "entity_time",
     "entity_starwars",
@@ -55,6 +56,7 @@
     "prev_utter_informacao_duvidas",
     "prev_utter_implementacao",
     "prev_utter_ask_pergunta",
+    "prev_utter_tutorial_jedi",
     "prev_action_question",
     "active_form_action_question"
   ]
