@@ -63,6 +63,13 @@
 - sim
 - sim
 - sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
 
 ## intent:contribuicao
 - contribuir
@@ -110,6 +117,11 @@
 
 ## intent:faq
 - FAQ
+- faq
+- faq
+- faq
+- faq
+- faq
 - faq
 
 ## intent:informacao
@@ -250,12 +262,18 @@
 - nao
 - nao
 - nao
+- não
+- não
 
 ## intent:out_of_scope
 - Qual a origem do mundo?
 - Você tem signo?
 - Vc gosta de carnaval?
 - batatinha quando nasce
+
+## intent:star_wars
+- pygame object
+- Pygame 3D
 
 ## intent:start
 - /start

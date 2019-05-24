@@ -366,6 +366,10 @@
         "text": "perguntar ao stack overflow for em python"
       },
       {
+        "intent": "action_question",
+        "text": "pesquisar no stack overflow"
+      },
+      {
         "intent": "confirmar",
         "text": "sim"
       },
@@ -376,6 +380,38 @@
       {
         "intent": "confirmar",
         "text": "Sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
       },
       {
         "intent": "confirmar",
@@ -690,6 +726,30 @@
         "text": "xau"
       },
       {
+        "intent": "faq",
+        "text": "FAQ"
+      },
+      {
+        "intent": "faq",
+        "text": "faq"
+      },
+      {
+        "intent": "faq",
+        "text": "faq"
+      },
+      {
+        "intent": "faq",
+        "text": "faq"
+      },
+      {
+        "intent": "faq",
+        "text": "faq"
+      },
+      {
+        "intent": "faq",
+        "text": "faq"
+      },
+      {
         "intent": "informacao",
         "text": "Tenho uma pergunta"
       },
@@ -986,6 +1046,10 @@
         "text": "Fácil"
       },
       {
+        "intent": "nao_implementada",
+        "text": "python"
+      },
+      {
         "intent": "negar",
         "text": "nao"
       },
@@ -1186,6 +1250,10 @@
         "text": "nao"
       },
       {
+        "intent": "negar",
+        "text": "não"
+      },
+      {
         "intent": "out_of_scope",
         "text": "Qual a origem do mundo?"
       },
@@ -1202,8 +1270,12 @@
         "text": "batatinha quando nasce"
       },
       {
-        "intent": "start",
-        "text": "/start"
+        "intent": "star_wars",
+        "text": "pygame object"
+      },
+      {
+        "intent": "star_wars",
+        "text": "Pygame 3D"
       },
       {
         "intent": "start",
@@ -1212,6 +1284,14 @@
       {
         "intent": "start",
         "text": "/start"
+      },
+      {
+        "intent": "start",
+        "text": "/start"
+      },
+      {
+        "intent": "stop",
+        "text": "/stop"
       },
       {
         "intent": "tudo_bem",
