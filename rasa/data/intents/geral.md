@@ -143,6 +143,13 @@
 - quero fazer um jogo em python
 - me ensine a fazer um jogo
 
+## intent:tutorial_medio
+- Medio
+- medio
+- Jedi
+- jedi
+- TutorialMedio
+
 ## intent:informacao_duvidas
 - Como voce pode responder uma duvida?
 - Voce consegue me tirar uma duvida?
@@ -182,10 +189,6 @@
 ## intent:nao_implementada
 - facil
 - Facil
-- medio
-- Medio
-- médio
-- Médio
 - dificil
 - Dificil
 - difícil
@@ -264,5 +267,3 @@
 - Tudo bem
 - Como vocês estao
 - como vc ta
-
-## intent: tutorial_medio

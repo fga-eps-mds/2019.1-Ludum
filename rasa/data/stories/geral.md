@@ -37,7 +37,6 @@
 * informacao_ambiente
     - utter_informacao_ambiente 
 
-
 ## informacao duvidas
 * informacao_duvidas
     - utter_informacao_duvidas
@@ -56,6 +55,12 @@
     - utter_informacao_ambiente
 
 ## path informacao>desenvolvimento
+* informacao
+    - utter_informacao
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento    
+
+## path tutorial medio
 * informacao
     - utter_informacao
 * informacao_desenvolvimento

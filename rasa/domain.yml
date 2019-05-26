@@ -112,7 +112,7 @@ templates:
   utter_informacao_ambiente:
   - text: "Certo, irei lhe perguntar se você possui algumas das nossas \"joias do\
       \ infinito\" que serão necessárias ao desenvolvimento, para começarmos, você\
-      \ já possui o Python 3.6 instalado em seu computador?\n"
+      \ já possui o Python 3.6 instalado em seu computador?\n"      
   utter_informacao_desenvolvimento:
   - buttons:
     - payload: Facil
