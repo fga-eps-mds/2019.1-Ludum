@@ -171,6 +171,10 @@ templates:
   utter_complementos:
   - text: "Eu como Jedi também recomendo que você instale algumas ferramentas que podem ser úteis\
       \ ao nosso desenvolvimento:\n"
+  utter_complementos2:
+  - text: "Uma ótima extensão para o editor de texto Visual Studio é a extensão Python, ela ira te ajudar
+      \ a debugar e usar a ferramenta lint para que sua experiencia seja fantástica!\n
+      \ Para usa-la entre no link https://marketplace.visualstudio.com/items?itemName=ms-python.python\n"
   utter_sem_nada:
   - text: Mas eu nem te perguntei nada
   utter_star_wars:
