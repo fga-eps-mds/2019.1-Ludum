@@ -82,6 +82,9 @@
     - utter_confirmar_ambiente2
     - utter_perguntar_ambiente3
 * confirmar
+    - utter_complementos
+    - utter_complementos2
+    - utter_complementos3
     - utter_implementacao
     
 ## tutorial ambiente 2
@@ -93,6 +96,9 @@
     - utter_confirmar_ambiente2
     - utter_perguntar_ambiente3
 * confirmar
+    - utter_complementos
+    - utter_complementos2
+    - utter_complementos3
     - utter_implementacao
 
 ## tutorial ambiente 3
@@ -105,6 +111,9 @@
     - utter_perguntar_ambiente3
 * negar
     - utter_negar_ambiente3
+    - utter_complementos
+    - utter_complementos2
+    - utter_complementos3
     - utter_implementacao
 
 ## tutorial ambiente 4
@@ -116,6 +125,9 @@
     - utter_perguntar_ambiente3
 * negar
     - utter_negar_ambiente3
+    - utter_complementos
+    - utter_complementos2
+    - utter_complementos3
     - utter_implementacao
 
 ## tutorial ambiente 5
@@ -128,6 +140,9 @@
     - utter_perguntar_ambiente3
 * negar
     - utter_negar_ambiente3
+    - utter_complementos
+    - utter_complementos2
+    - utter_complementos3
     - utter_implementacao
 
 ## tutorial ambiente 6
@@ -139,6 +154,9 @@
     - utter_perguntar_ambiente3
 * negar
     - utter_negar_ambiente3
+    - utter_complementos
+    - utter_complementos2
+    - utter_complementos3
     - utter_implementacao
 
 ## tutorial ambiente 7
@@ -150,6 +168,9 @@
     - utter_confirmar_ambiente2
     - utter_perguntar_ambiente3
 * confirmar 
+    - utter_complementos
+    - utter_complementos2
+    - utter_complementos3
     - utter_implementacao
 
 ## tutorial ambiente 8
@@ -160,6 +181,9 @@
     - utter_confirmar_ambiente2
     - utter_perguntar_ambiente3
 * confirmar
+    - utter_complementos
+    - utter_complementos2
+    - utter_complementos3
     - utter_implementacao
 
 ## Generated Story -5536704352028321519
