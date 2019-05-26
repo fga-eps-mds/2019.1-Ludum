@@ -176,6 +176,10 @@ templates:
   - text: "Uma ótima extensão para o editor de texto Visual Studio é a extensão Python, ela ira te ajudar
       \ a debugar e usar a ferramenta lint para que sua experiencia seja fantástica!\n
       \ Para usa-la entre no link https://marketplace.visualstudio.com/items?itemName=ms-python.python\n"
+  utter_complementos3:
+  - text: "Caso tenha interesse em usar uma IDE nós recomendamos a PyCharm, ela é simples e intuitiva para\
+      \ iniciantes no desenvolvimento.\n
+      \ Para fazer o download entre em: https://www.jetbrains.com/pycharm/download/#section=linux\n"
   utter_sem_nada:
   - text: Mas eu nem te perguntei nada
   utter_star_wars:
