@@ -30,6 +30,7 @@ actions:
 - utter_negar_ambiente3
 - utter_informacao_ambiente
 - utter_complementos
+- utter_complementos2
 entities:
 - time
 - pergunta
