@@ -140,9 +140,9 @@ templates:
   utter_informacao_desenvolvimento:
   - buttons:
     - payload: Facil
-      title: Padawan(Iniciante)
+      title: Padawan - Pong (Iniciante)
     - payload: Medio
-      title: Jedi(Intermediário)
+      title: Jedi - Snake (Intermediário)
     - payload: Comunidade
       title: Tutoriais da comunidade
     text: "Muito bom, jovem Padawan!!\nVou te mostrar o tutorial de como desenvolver\

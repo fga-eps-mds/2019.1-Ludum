@@ -116,9 +116,9 @@ templates:
   utter_informacao_desenvolvimento:
   - buttons:
     - payload: Facil
-      title: Padawan(Iniciante)
+      title: Padawan - Pong(Iniciante)
     - payload: Medio
-      title: Jedi(Intermediário)
+      title: Jedi - Snake (Intermediário)
     - payload: Comunidade
       title: Tutoriais da comunidade
     text: "Muito bom, jovem Padawan!!\nVou te mostrar o tutorial de como desenvolver\
@@ -188,3 +188,8 @@ templates:
       \  esteja devidamente configurado, a força\
       \  das joias do infinito está em seu poder ou devo te encaminhar\
       \  para a configuração de ambiente?\n"
+  utter_tutorial_jedi_confirmar:
+  - text : "Tudo certo Jovem Geek! Vamos começar\
+      \  o tutorial do jogo Snake\n\
+      \  das joias do infinito está em seu poder ou devo te encaminhar\
+      \  para a configuração de ambiente?\n"    

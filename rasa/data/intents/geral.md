@@ -145,10 +145,41 @@
 
 ## intent:tutorial_medio
 - Medio
+- Médio
 - medio
+- médio
 - Jedi
 - jedi
 - TutorialMedio
+- TutorialMédio
+- Tutorial medio
+- Tutorial médio
+- Tutorialmedio
+- Tutorialmédio
+- tutorialMedio
+- tutorialMédio
+- tutorial medio
+- tutorial médio
+- tutorialmedio
+- tutorialmédio
+- Tutorial Jedi
+- Tutorial jedi
+- tutorial Jedi
+- tutorial jedi
+- TutorialJedi
+- Tutorialjedi
+- tutorialJedi
+- tutorialjedi
+- Snake
+- snake
+- Tutorial Snake
+- Tutorial snake
+- tutorial Snake
+- tutorial snake
+- TutorialSnake
+- Tutorialsnake
+- tutorialSnake
+- tutorialsnake
 
 ## intent:informacao_duvidas
 - Como voce pode responder uma duvida?
