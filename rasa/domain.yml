@@ -167,6 +167,9 @@ templates:
   utter_proximopasso3:
   - text: "Caso tenha dificuldades na instalação, sugerimos que você acesse este link\
       \ https://www.simplifiedpython.net/pygame-tutorial-for-beginners/#Installing_PyGame\n"
+  utter_complementos:
+  - text: "Eu como Jedi também recomendo que você instale algumas ferramentas que podem ser úteis\
+      \ ao nosso desenvolvimento:\n"
   utter_sem_nada:
   - text: Mas eu nem te perguntei nada
   utter_star_wars:
