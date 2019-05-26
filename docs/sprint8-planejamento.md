@@ -6,7 +6,7 @@
 
 **Duração**: Uma semana
 
-**Pontos Planejados**: X
+**Pontos Planejados**: 50
 
 -------
 
@@ -45,19 +45,19 @@
 
 |Tarefas|Pontos|
 |-|:--:|
-| TS08 Eu, como desenvolvedor, desejo criar um jogo de baixa complexidade para elaborar o tutorial | 5 |
-| TS09 - Eu, como desenvolvedor, desejo criar um jogo de complexidade um pouco mais alta para elaborar o tutorial | 8 |
-| Adicionar Inlines keyboard ao menu principal e ao menu de seleção de tutorial| 5 |
 | US12 - Eu, como usuário, desejo pesquisar minha dúvida no StackOverflow caso ela não esteja presente no FAQ | 8 |
 | US13 - Eu, como usuário, desejo selecionar a complexidade do jogo em que receberei auxílio | 2 |
+| TS08 Eu, como desenvolvedor, desejo criar um jogo de baixa complexidade para elaborar o tutorial | 5 |
+| TS04 - Eu, como desenvolvedor, desejo popular o banco com links interessantes| 3 |
+| TS09 - Eu, como desenvolvedor, desejo criar um jogo de complexidade um pouco mais alta para elaborar o tutorial | 8 |
 | TS10 - Eu, como desenvolvedor, desejo modelar o banco de dados do microsserviço de links e tutoriais. | 2 |
 | TS11 - Eu, como desenvolvedor, desejo implementar o banco de dados do microsserviço de links e tutoriais. | 3 |
-| TS04 - Eu, como desenvolvedor, desejo popular o banco com links interessantes| 3 |
 | TS14 - Eu, como desenvolvedor, desejo criar um endpoint para acesso aos links.| 5 |
 | TS15 - Eu, como desenvolvedor, desejo criar um endpoint para acesso aos tutoriais| 5 |
 | T45 - Criar docker para o microsserviço de links e tutoriais | 5 |
 | T46 - Configurar a integração contínua para o microsserviço de links e tutoriais | 5 |
 | T47 - Documentar sprint | 1 |
+| T51 - Refatoração do menu Inicial | 3 |
 
 ## 4. Pareamentos
 
