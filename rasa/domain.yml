@@ -30,6 +30,9 @@ actions:
 - utter_negar_ambiente3
 - utter_informacao_ambiente
 - utter_tutorial_padawan
+- utter_tutorial_padawan1
+- utter_tutorial_padawan2
+
 entities:
 - time
 - pergunta
@@ -184,7 +187,18 @@ templates:
   utter_tudo_bem:
   - text: "Tudo bem, obrigado! Em que posso te ajudar?\n"
   utter_tutorial_padawan:
-  - text : "Meu caro, devo lhe notificar que é super importante que seu ambiente\
+  - buttons:
+    - payload: ok
+      title: Continuar
+    - payload: Ambiente
+      title: Configurar 
+    text: "Meu caro, devo lhe notificar que é super importante que seu ambiente\
       \  esteja devidamente configurado, a força esta com você ou devo te encaminhar\
-      \  para a configuração de ambiente?\n" 
-    
+      \  para a configuração de ambiente?\n"
+  utter_tutorial_padawan1:
+  - text: "Neste tutorial irei te ensinar a criar o famoso jogo Pong! Prepare-se!\n"
+  utter_tutorial_padawan2:
+  - text: "Primeiramente iremos criar a tela de fundo\n
+      \ Neste código abaixo, estamos primeiramente importando a pygame, definindo as cores,\
+      \ para então criar a tela com tamanho e nome ()img\n"
+  
