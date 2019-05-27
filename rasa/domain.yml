@@ -210,4 +210,11 @@ templates:
       \ Primeiro, vamos definir abaixo da criação da tela[1.1],\
       \ as coordenadas da raquete com 'rect', 
       \ criar a raquete e já definir que ela não pode sair da tela\n"
+  utter_tutorial_padawan6:
+  - text: "Então mostraremos a raquete na tela\n"  
+  utter_tutorial_padawan7:
+  - text: "Este será o resultado\n"
+  utter_tutorial_padawan8:
+  - text: "Vamos criar a bola\n
+      \ Primeiramente, vamos criar coordenadas iniciais quaisquer para a bolinha\n"
   
