@@ -240,4 +240,9 @@ templates:
   utter_tutorial_padawan17:
   - text: "Agora adicionaremos a biblioteca pygame para evitar erros no próximo passo\n
       \ Primeiro vamos inicializar a biblioteca no começo do programa\n"
+  utter_tutorial_padawan18:
+  - text: "Agora adicionaremos a biblioteca pygame para evitar erros no próximo passo\n
+      \ Primeiro vamos inicializar a biblioteca no começo do programa\n"
+  utter_tutorial_padawan19:
+  - text: "Agora vamos fechar a biblioteca no final do programa\n"
   
