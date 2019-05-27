@@ -1,20 +1,5 @@
-# Histórico de Versão
-
- **Data** | **Versão** | **Descrição** | **Autor(es)**
----|---|---|---
-13/05/2019| 0.1| Criação da versão 1 do Backlog do Projeto | Gabriela, Guilherme e Lucas Lermen
-27/05/2019| 0.2| Corrigindo IDs e realizando alterações na TS03 e TS13| Gabriela
-
-## Sumário
-
-1. [Versão 2](#_1-versão-2)
-2. [Versão 1](#_2-versão-1)
-
-
-
 # **Backlog do Projeto**
-
-## 1. **Versão 2**
+## 1. **Versão 1**
 ### **Épico Sobre o Ludum**
 
 #### Feature 01 - Apresentar o Ludum e seu objetivo
@@ -48,10 +33,10 @@ TS11 | <p align="justify">Eu, como desenvolvedor, desejo implementar o banco de 
 TS04| <p align="justify">Eu, como desenvolvedor, desejo popular o banco com links interessantes</p>| Baixa| 3
 TS14| <p align="justify">Eu, como desenvolvedor, desejo criar um endpoint para acesso aos links.</p>|Média| 5
 TS15| <p align="justify">Eu, como desenvolvedor, desejo criar um endpoint para acesso aos tutoriais.</p>|Média| 5
-TS03| <p align="justify">Eu, como desenvolvedor, desejo ajustar um endpoint que permite armazenar novos links.</p>|Média| 5
+TS03| <p align="justify">Eu, como desenvolvedor, desejo criar um endpoint que permite armazenar novos links.</p>|Média| 5
 TS05| <p align="justify">Eu, como desenvolvedor, desejo criar um endpoint que permite edição de um link.</p>|Média| 5
 TS12| <p align="justify">Eu, como desenvolvedor, desejo criar um endpoint que permite edição de um tutorial.</p>|Média| 5
-TS13| <p align="justify">Eu, como desenvolvedor, desejo ajustar um endpoint que permite armazenar novos tutoriais.</p>|Média| 5
+TS13| <p align="justify">Eu, como desenvolvedor, desejo criar um endpoint que permite armazenar novos tutoriais.</p>|Média| 5
 
 ### **Épico Colaboração de Links e Tutoriais**
 
@@ -98,6 +83,4 @@ US15| <p align="justify">Eu, como usuário, desejo aprender a criar um jogo de c
 US20| <p align="justify"> Eu, como usuário, desejo visualizar os tutoriais da comunidade disponíveis </p>| Média | 2
 US22| <p align="justify"> Eu, como usuário, desejo acessar um tutorial da comunidade</p>| Média | 2
 
-## 2. **Versão 1**
-- [Versão 1 do Backlog do Projeto](/backlogProjeto-versao1.md)
 
