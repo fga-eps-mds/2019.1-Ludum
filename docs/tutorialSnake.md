@@ -34,7 +34,7 @@
 
 <p align="justify">Agora, vamos atualizar os movimentos da Snake</p>
 
-<p>imagem = atualizandoMovimentos</p>
+![](./imagens/atualizandoMovimentos.png)
 
 ## 2.3 - Criando desenho
 <p align="justify">Nessa parte, vamos criar na tela o desenho da Snake e do quadro de pontos, com as seguintes funções:</p>
