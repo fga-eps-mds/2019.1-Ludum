@@ -224,4 +224,12 @@ templates:
   utter_tutorial_padawan11:
   - text: "Vamos adicionar movimento à raquete\n
       \ Começamos adicionando as coordenadas que alteraremos para movimentar a raquete\n"
+  utter_tutorial_padawan12:
+  - text: "Agora vamos adicionar movimento à raquete,\
+      \ fazendo com que as setas para direita e esquerda controlem a raquete\n"
+  utter_tutorial_padawan13:
+  - text: "Este será o resultado\n"  
+  utter_tutorial_padawan14:
+  - text: "Agora adicionaremos movimento à bolinha\n
+      \ Começaremos adicionando as coordenadas que usaremos para dar movimento à bolinha\n" 
   
