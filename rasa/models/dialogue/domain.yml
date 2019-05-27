@@ -41,7 +41,11 @@ actions:
 - utter_tutorial_jedi_classe_game
 - utter_tutorial_jedi_classe_game_c
 - utter_tutorial_jedi_run
-- utter_tutorial_jedi_c
+- utter_tutorial_jedi_run_c
+- utter_tutorial_jedi_movimentos
+- utter_tutorial_jedi_movimentos_c
+- utter_tutorial_jedi_desenhos
+- utter_tutorial_jedi_desenhos_c
 config:
   store_entities_as_slots: true
 entities:
@@ -281,10 +285,28 @@ templates:
       \  capturar os eventos e movimentos, conforme\
       \  indica o cartaz de procurado abaixo:\n"
     image: "https://i.imgur.com/VYV3HfQ.png"  
-  utter_tutorial_jedi_c:
+  utter_tutorial_jedi_run_c:
   - text : "Como renomado Espadachim, você pode alterar os comandos\
       \  de direção. Basta ir no ```if ou elif``` da\
       \  direção escolhida e substituir com o comando que\
       \  desejar.\nApós definir seus comandos, o\
-      \  renomado Espadachim deseja ir além?\n"      
+      \  renomado Espadachim deseja ir além?\n" 
+  utter_tutorial_jedi_movimentos:
+  - text : "Ainda dentro da ```Class Game()``` vamos atualizar as\
+      \  informações do jogo, conforme a imagem:\n"
+    image: "https://i.imgur.com/K4tXDji.png"  
+  utter_tutorial_jedi_movimentos_c:
+  - text : "Aqui atualizamos as informações e fecha a chamada\
+      \  da ```PyGame```.\n\
+      \  Podemos evoluir?\n" 
+  utter_tutorial_jedi_desenhos:
+  - text : "Agora vamos inspirados em Vincent van Gogh\
+      \  vamos desenhos a Snake, a comida e os pontos no display\
+      \  capturar os eventos e movimentos, conforme\
+      \  indica no quadro abaixo:\n"
+    image: "https://i.imgur.com/LLYrKqo.png"
+  utter_tutorial_jedi_desenhos_c:
+  - text : "Após termina de pintar sua tela, com as\
+      \  cores anteriormente definidas.\nDeseja\
+      \  ir além?\n"                 
                 

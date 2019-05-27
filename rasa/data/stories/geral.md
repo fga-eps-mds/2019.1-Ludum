@@ -83,7 +83,14 @@
     - utter_tutorial_jedi_classe_game_c
 * confirmar    
     - utter_tutorial_jedi_run
-    - utter_tutorial_jedi_c
+    - utter_tutorial_jedi_run_c
+* confirmar    
+    - utter_tutorial_jedi_movimentos
+    - utter_tutorial_jedi_movimentos_c
+* confirmar          
+    - utter_tutorial_jedi_desenhos
+    - utter_tutorial_jedi_desenhos_c
+
 
 ## path tutorial medio negar
 * informacao
