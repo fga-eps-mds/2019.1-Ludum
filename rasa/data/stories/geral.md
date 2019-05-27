@@ -75,7 +75,9 @@
 * confirmar    
     - utter_tutorial_jedi_cores
     - utter_tutorial_jedi_cores_c
-    
+* confirmar
+    - utter_tutorial_jedi_direcao
+    - utter_tutorial_jedi_direcao_c    
 
 ## path tutorial medio negar
 * informacao

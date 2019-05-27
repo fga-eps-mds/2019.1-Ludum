@@ -36,6 +36,8 @@ actions:
 - utter_tutorial_jedi_imports_c
 - utter_tutorial_jedi_cores
 - utter_tutorial_jedi_cores_c
+- utter_tutorial_jedi_direcao
+- utter_tutorial_jedi_direcao_c
 config:
   store_entities_as_slots: true
 entities:
@@ -224,27 +226,34 @@ templates:
       \ na tela.\n    A cada joia, a snake cresce e o usuário deve  evitar as colisões\
       \ com o próprio corpo ou com a parede.\n  O placar aumenta a cada vez que comer\
       \ uma joia do infinito.\n    Podemos ir adiante?\n"
+  utter_tutorial_jedi_cores:
+  - image: https://i.imgur.com/fd7dHgX.png
+    text: "Agora que ja temos as bibliotecas necessárias  vamos escolher as cores\
+      \ do jogo que nesse tutorial são:\n  ```Preto (BLACK)\nAzul (BLUE)\nCinza (GRAY)```\n\
+      Como  mostra a imagem abaixo.\n"
+  utter_tutorial_jedi_cores_c:
+  - text: "Mas, como bom mestre da mágia, você  pode mudar as cores do jogo.\nBasta\
+      \ acessar o link  ```http://shibolete.tripod.com/RGB.html``` escolher a cor\
+      \ que deseja e  mudar os valores referênte a cor no código.\nVamos  avançar?\n"
+  utter_tutorial_jedi_imports:
+  - image: https://i.imgur.com/b94hNj2.png
+    text: "Tudo pronto Jovem Geek! O primeiro passa  para iniciar o jogo é criar um\
+      \ arquivo com o nome ```snake.py``` ou  ```NomeDoArquivo.py```.\nDentro desse\
+      \ arquivo  vamos começar fazendo os imports das bibliotecas.\nPygame    e Random,\
+      \ como na imagem abaixo.\n"
+  utter_tutorial_jedi_imports_c:
+  - text: "Podemos ir adiante?\n"
   utter_tutorial_jedi_negar:
   - text: "Certo, jovem Padawan. Vamos  para o ambiente configurar o poder  das joias\
       \ do infinito\n"
-  utter_tutorial_jedi_imports:
-  - text : "Tudo pronto Jovem Geek! O primeiro passa\
-      \  para iniciar o jogo é criar um arquivo com o nome ```snake.py``` ou\
-      \  ```NomeDoArquivo.py```.\nDentro desse arquivo\
-      \  vamos começar fazendo os imports das bibliotecas.\nPygame\    
-      \  e Random, como na imagem abaixo.\n"
-    image: "https://i.imgur.com/b94hNj2.png"
-  utter_tutorial_jedi_imports_c:
-  - text : "Podemos ir adiante?\n"
-  utter_tutorial_jedi_cores:
-  - text : "Agora que ja temos as bibliotecas necessárias\
-      \  vamos escolher as cores do jogo que nesse tutorial são:\n\
-      \  ```Preto (BLACK)\nAzul (BLUE)\nCinza (GRAY)```.\nComo\
+  utter_tutorial_jedi_direcao:
+  - text : "Nessa parte, vamos definir as direções para controlar\
+      \  a nossa magia, que serão:\n\
+      \  ```UP\nDOWN\nRIGHT\nLEFT```\nComo\
       \  mostra a imagem abaixo.\n"
-    image: "https://i.imgur.com/fd7dHgX.png"
-  utter_tutorial_jedi_cores_c:
-  - text : "Mas, como bom mestre da mágia, você\
-      \  pode mudar as cores do jogo.\nBasta acessar o link\
-      \  ```http://shibolete.tripod.com/RGB.html``` escolher a cor que deseja e\
-      \  mudar os valores referênte a cor no código.\nVamos\
-      \  avançar?\n"        
+    image: "https://i.imgur.com/75FxooH.png"   
+  utter_tutorial_jedi_direcao_c:    
+  - text : "Já estamos finalizando a primeira parte\
+      \  do tutorial Snake.\nPodemos\
+      \  dar mais um passo para se tornar um meistres na\
+      \  criação de jogos?\n"      

@@ -36,6 +36,8 @@ actions:
 - utter_tutorial_jedi_imports_c
 - utter_tutorial_jedi_cores
 - utter_tutorial_jedi_cores_c
+- utter_tutorial_jedi_direcao
+- utter_tutorial_jedi_direcao_c
 entities:
 - time
 - pergunta
@@ -228,6 +230,16 @@ templates:
       \  ```http://shibolete.tripod.com/RGB.html``` escolher a cor que deseja e\
       \  mudar os valores referênte a cor no código.\nVamos\
       \  avançar?\n"  
-
+  utter_tutorial_jedi_direcao:
+  - text : "Nessa parte, vamos definir as direções para controlar\
+      \  a nossa magia, que serão:\n\
+      \  ```UP\nDOWN\nRIGHT\nLEFT```\nComo\
+      \  mostra a imagem abaixo.\n"
+    image: "https://i.imgur.com/75FxooH.png"   
+  utter_tutorial_jedi_direcao_c:    
+  - text : "Já estamos finalizando a primeira parte\
+      \  do tutorial Snake.\nPodemos\
+      \  dar mais um passo para se tornar um meistres na\
+      \  criação de jogos?\n"
     
       

@@ -59,6 +59,10 @@
     "prev_utter_tutorial_jedi",
     "prev_utter_tutorial_jedi_confirmar",
     "prev_utter_tutorial_jedi_negar",
+    "prev_utter_tutorial_jedi_imports",
+    "prev_utter_tutorial_jedi_imports_c",
+    "prev_utter_tutorial_jedi_cores",
+    "prev_utter_tutorial_jedi_cores_c",
     "prev_action_question",
     "active_form_action_question"
   ]
