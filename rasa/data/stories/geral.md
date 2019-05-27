@@ -90,7 +90,15 @@
 * confirmar          
     - utter_tutorial_jedi_desenhos
     - utter_tutorial_jedi_desenhos_c
-
+* confirmar
+    - utter_tutorial_jedi_snake
+    - utter_tutorial_jedi_snake_c
+* confirmar
+    - utter_tutorial_jedi_colisao
+    - utter_tutorial_jedi_colisao_c 
+* confirmar           
+    - utter_tutorial_jedi_comida
+    - utter_tutorial_jedi_comida_c
 
 ## path tutorial medio negar
 * informacao

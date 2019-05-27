@@ -46,6 +46,12 @@ actions:
 - utter_tutorial_jedi_movimentos_c
 - utter_tutorial_jedi_desenhos
 - utter_tutorial_jedi_desenhos_c
+- utter_tutorial_jedi_snake
+- utter_tutorial_jedi_snake_c
+- utter_tutorial_jedi_colisao
+- utter_tutorial_jedi_colisao_c
+- utter_tutorial_jedi_comida
+- utter_tutorial_jedi_comida_c
 config:
   store_entities_as_slots: true
 entities:
@@ -308,5 +314,16 @@ templates:
   utter_tutorial_jedi_desenhos_c:
   - text : "Após termina de pintar sua tela, com as\
       \  cores anteriormente definidas.\nDeseja\
-      \  ir além?\n"                 
+      \  ir além?\n"
+  utter_tutorial_jedi_snake:
+  - text : "Estamos iniciando mais uma etapa. Agora, vamos criar a\
+      \  ```Class Snake``` e dar inicio a nossa Snake.\n\
+      \  capturar os eventos e movimentos, conforme\
+      \  indica no quadro abaixo:\n"
+    image: "https://i.imgur.com/ySJs0tA.png"  
+  utter_tutorial_jedi_snake_c:
+  - text : "Enquanto você cria sua Snake. Uma\
+      \  curiosidade. Sabia que a primeira versão do snake foi lançado\
+      \  no ano de 1997 e teve grande sucesso.\nDeseja\
+      \  prosseguir para repetir esse mesmo sucesso?\n"                       
                 
