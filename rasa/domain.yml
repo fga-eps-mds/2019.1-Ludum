@@ -201,4 +201,13 @@ templates:
   - text: "Primeiramente iremos criar a tela de fundo\n
       \ Neste código abaixo, estamos primeiramente importando a pygame, definindo as cores,\
       \ para então criar a tela com tamanho e nome ()img\n"
+  utter_tutorial_padawan3:
+  - text: "Após isso, definimos que a tela só possa ser fechada, se o jogador fechar o programa\n"
+  utter_tutorial_padawan4:
+  - text: "Este será o resultado\n"
+  utter_tutorial_padawan5:
+  - text: "Agora vamos fazer a raquete\n
+      \ Primeiro, vamos definir abaixo da criação da tela[1.1],\
+      \ as coordenadas da raquete com 'rect', 
+      \ criar a raquete e já definir que ela não pode sair da tela\n"
   
