@@ -104,6 +104,301 @@
     - utter_tutorial_jedi_main_c
     - utter_implementacao
 
+## path tutorial medio confirmar 2
+* informacao
+    - utter_informacao
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_medio
+    - utter_tutorial_jedi
+* confirmar
+    - utter_tutorial_jedi_confirmar
+* confirmar
+    - utter_tutorial_jedi_imports
+    - utter_tutorial_jedi_imports_c
+* negar    
+    - utter_tutorial_jedi_imports
+    - utter_tutorial_jedi_imports_c   
+
+## path tutorial medio confirmar 3
+* informacao
+    - utter_informacao
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_medio
+    - utter_tutorial_jedi
+* confirmar
+    - utter_tutorial_jedi_confirmar
+* confirmar
+    - utter_tutorial_jedi_imports
+    - utter_tutorial_jedi_imports_c
+* confirmar    
+    - utter_tutorial_jedi_cores
+    - utter_tutorial_jedi_cores_c
+* negar
+    - utter_tutorial_jedi_cores
+    - utter_tutorial_jedi_cores_c    
+
+## path tutorial medio confirmar 4
+* informacao
+    - utter_informacao
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_medio
+    - utter_tutorial_jedi
+* confirmar
+    - utter_tutorial_jedi_confirmar
+* confirmar
+    - utter_tutorial_jedi_imports
+    - utter_tutorial_jedi_imports_c
+* confirmar    
+    - utter_tutorial_jedi_cores
+    - utter_tutorial_jedi_cores_c
+* confirmar
+    - utter_tutorial_jedi_direcao
+    - utter_tutorial_jedi_direcao_c    
+* negar
+    - utter_tutorial_jedi_direcao
+    - utter_tutorial_jedi_direcao_c
+
+## path tutorial medio confirmar 5
+* informacao
+    - utter_informacao
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_medio
+    - utter_tutorial_jedi
+* confirmar
+    - utter_tutorial_jedi_confirmar
+* confirmar
+    - utter_tutorial_jedi_imports
+    - utter_tutorial_jedi_imports_c
+* confirmar    
+    - utter_tutorial_jedi_cores
+    - utter_tutorial_jedi_cores_c
+* confirmar
+    - utter_tutorial_jedi_direcao
+    - utter_tutorial_jedi_direcao_c    
+* confirmar
+    - utter_tutorial_jedi_classe_game
+    - utter_tutorial_jedi_classe_game_c
+* negar    
+    - utter_tutorial_jedi_classe_game
+    - utter_tutorial_jedi_classe_game_c
+
+## path tutorial medio confirmar 6
+* informacao
+    - utter_informacao
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_medio
+    - utter_tutorial_jedi
+* confirmar
+    - utter_tutorial_jedi_confirmar
+* confirmar
+    - utter_tutorial_jedi_imports
+    - utter_tutorial_jedi_imports_c
+* confirmar    
+    - utter_tutorial_jedi_cores
+    - utter_tutorial_jedi_cores_c
+* confirmar
+    - utter_tutorial_jedi_direcao
+    - utter_tutorial_jedi_direcao_c    
+* confirmar
+    - utter_tutorial_jedi_classe_game
+    - utter_tutorial_jedi_classe_game_c
+* confirmar    
+    - utter_tutorial_jedi_run
+    - utter_tutorial_jedi_run_c
+* negar   
+    - utter_tutorial_jedi_run
+    - utter_tutorial_jedi_run_c
+
+## path tutorial medio confirmar 7
+* informacao
+    - utter_informacao
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_medio
+    - utter_tutorial_jedi
+* confirmar
+    - utter_tutorial_jedi_confirmar
+* confirmar
+    - utter_tutorial_jedi_imports
+    - utter_tutorial_jedi_imports_c
+* confirmar    
+    - utter_tutorial_jedi_cores
+    - utter_tutorial_jedi_cores_c
+* confirmar
+    - utter_tutorial_jedi_direcao
+    - utter_tutorial_jedi_direcao_c    
+* confirmar
+    - utter_tutorial_jedi_classe_game
+    - utter_tutorial_jedi_classe_game_c
+* confirmar    
+    - utter_tutorial_jedi_run
+    - utter_tutorial_jedi_run_c
+* confirmar    
+    - utter_tutorial_jedi_movimentos
+    - utter_tutorial_jedi_movimentos_c
+* negar          
+    - utter_tutorial_jedi_movimentos
+    - utter_tutorial_jedi_movimentos_c
+
+## path tutorial medio confirmar 8
+* informacao
+    - utter_informacao
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_medio
+    - utter_tutorial_jedi
+* confirmar
+    - utter_tutorial_jedi_confirmar
+* confirmar
+    - utter_tutorial_jedi_imports
+    - utter_tutorial_jedi_imports_c
+* confirmar    
+    - utter_tutorial_jedi_cores
+    - utter_tutorial_jedi_cores_c
+* confirmar
+    - utter_tutorial_jedi_direcao
+    - utter_tutorial_jedi_direcao_c    
+* confirmar
+    - utter_tutorial_jedi_classe_game
+    - utter_tutorial_jedi_classe_game_c
+* confirmar    
+    - utter_tutorial_jedi_run
+    - utter_tutorial_jedi_run_c
+* confirmar    
+    - utter_tutorial_jedi_movimentos
+    - utter_tutorial_jedi_movimentos_c
+* confirmar          
+    - utter_tutorial_jedi_desenhos
+    - utter_tutorial_jedi_desenhos_c
+* negar
+    - utter_tutorial_jedi_desenhos
+    - utter_tutorial_jedi_desenhos_c
+
+## path tutorial medio confirmar 9
+* informacao
+    - utter_informacao
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_medio
+    - utter_tutorial_jedi
+* confirmar
+    - utter_tutorial_jedi_confirmar
+* confirmar
+    - utter_tutorial_jedi_imports
+    - utter_tutorial_jedi_imports_c
+* confirmar    
+    - utter_tutorial_jedi_cores
+    - utter_tutorial_jedi_cores_c
+* confirmar
+    - utter_tutorial_jedi_direcao
+    - utter_tutorial_jedi_direcao_c    
+* confirmar
+    - utter_tutorial_jedi_classe_game
+    - utter_tutorial_jedi_classe_game_c
+* confirmar    
+    - utter_tutorial_jedi_run
+    - utter_tutorial_jedi_run_c
+* confirmar    
+    - utter_tutorial_jedi_movimentos
+    - utter_tutorial_jedi_movimentos_c
+* confirmar          
+    - utter_tutorial_jedi_desenhos
+    - utter_tutorial_jedi_desenhos_c
+* confirmar
+    - utter_tutorial_jedi_snake
+    - utter_tutorial_jedi_snake_c
+* negar
+    - utter_tutorial_jedi_snake
+    - utter_tutorial_jedi_snake_c 
+
+## path tutorial medio confirmar 10
+* informacao
+    - utter_informacao
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_medio
+    - utter_tutorial_jedi
+* confirmar
+    - utter_tutorial_jedi_confirmar
+* confirmar
+    - utter_tutorial_jedi_imports
+    - utter_tutorial_jedi_imports_c
+* confirmar    
+    - utter_tutorial_jedi_cores
+    - utter_tutorial_jedi_cores_c
+* confirmar
+    - utter_tutorial_jedi_direcao
+    - utter_tutorial_jedi_direcao_c    
+* confirmar
+    - utter_tutorial_jedi_classe_game
+    - utter_tutorial_jedi_classe_game_c
+* confirmar    
+    - utter_tutorial_jedi_run
+    - utter_tutorial_jedi_run_c
+* confirmar    
+    - utter_tutorial_jedi_movimentos
+    - utter_tutorial_jedi_movimentos_c
+* confirmar          
+    - utter_tutorial_jedi_desenhos
+    - utter_tutorial_jedi_desenhos_c
+* confirmar
+    - utter_tutorial_jedi_snake
+    - utter_tutorial_jedi_snake_c
+* confirmar
+    - utter_tutorial_jedi_colisao
+    - utter_tutorial_jedi_colisao_c 
+* negar           
+    - utter_tutorial_jedi_colisao
+    - utter_tutorial_jedi_colisao_c
+
+## path tutorial medio confirmar 11
+* informacao
+    - utter_informacao
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_medio
+    - utter_tutorial_jedi
+* confirmar
+    - utter_tutorial_jedi_confirmar
+* confirmar
+    - utter_tutorial_jedi_imports
+    - utter_tutorial_jedi_imports_c
+* confirmar    
+    - utter_tutorial_jedi_cores
+    - utter_tutorial_jedi_cores_c
+* confirmar
+    - utter_tutorial_jedi_direcao
+    - utter_tutorial_jedi_direcao_c    
+* confirmar
+    - utter_tutorial_jedi_classe_game
+    - utter_tutorial_jedi_classe_game_c
+* confirmar    
+    - utter_tutorial_jedi_run
+    - utter_tutorial_jedi_run_c
+* confirmar    
+    - utter_tutorial_jedi_movimentos
+    - utter_tutorial_jedi_movimentos_c
+* confirmar          
+    - utter_tutorial_jedi_desenhos
+    - utter_tutorial_jedi_desenhos_c
+* confirmar
+    - utter_tutorial_jedi_snake
+    - utter_tutorial_jedi_snake_c
+* confirmar
+    - utter_tutorial_jedi_colisao
+    - utter_tutorial_jedi_colisao_c 
+* confirmar           
+    - utter_tutorial_jedi_comida
+    - utter_tutorial_jedi_comida_c
+* negar 
+    - utter_tutorial_jedi_comida
+    - utter_tutorial_jedi_comida_c
+
 ## path tutorial medio negar
 * informacao
     - utter_informacao
