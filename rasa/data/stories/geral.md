@@ -69,8 +69,11 @@
     - utter_tutorial_jedi
 * confirmar
     - utter_tutorial_jedi_confirmar
-    - utter_implementacao
-
+* confirmar
+    - utter_tutorial_jedi_imports
+    - utter_tutorial_jedi_imports_c
+* confirmar    
+    
 
 ## path tutorial medio negar
 * informacao
@@ -80,6 +83,8 @@
 * tutorial_medio
     - utter_tutorial_jedi
 * negar
+    - utter_tutorial_jedi_negar
+    - utter_informacao_ambiente    
 
 ## path 1
 * cumprimentar
