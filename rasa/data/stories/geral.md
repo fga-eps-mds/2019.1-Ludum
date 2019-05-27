@@ -73,6 +73,8 @@
     - utter_tutorial_jedi_imports
     - utter_tutorial_jedi_imports_c
 * confirmar    
+    - utter_tutorial_jedi_cores
+    - utter_tutorial_jedi_cores_c
     
 
 ## path tutorial medio negar

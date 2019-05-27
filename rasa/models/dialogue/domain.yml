@@ -34,7 +34,8 @@ actions:
 - utter_tutorial_jedi_negar
 - utter_tutorial_jedi_imports
 - utter_tutorial_jedi_imports_c
-
+- utter_tutorial_jedi_cores
+- utter_tutorial_jedi_cores_c
 config:
   store_entities_as_slots: true
 entities:
@@ -231,5 +232,19 @@ templates:
       \  para iniciar o jogo é criar um arquivo com o nome ```snake.py``` ou\
       \  ```NomeDoArquivo.py```.\nDentro desse arquivo\
       \  vamos começar fazendo os imports das bibliotecas.\nPygame\    
-      \  e Random, como na imagem abaixo:\n"
-    image: "https://i.imgur.com/8NSdUqX.png"
+      \  e Random, como na imagem abaixo.\n"
+    image: "https://i.imgur.com/b94hNj2.png"
+  utter_tutorial_jedi_imports_c:
+  - text : "Podemos ir adiante?\n"
+  utter_tutorial_jedi_cores:
+  - text : "Agora que ja temos as bibliotecas necessárias\
+      \  vamos escolher as cores do jogo que nesse tutorial são:\n\
+      \  ```Preto (BLACK)\nAzul (BLUE)\nCinza (GRAY)```.\nComo\
+      \  mostra a imagem abaixo.\n"
+    image: "https://i.imgur.com/fd7dHgX.png"
+  utter_tutorial_jedi_cores_c:
+  - text : "Mas, como bom mestre da mágia, você\
+      \  pode mudar as cores do jogo.\nBasta acessar o link\
+      \  ```http://shibolete.tripod.com/RGB.html``` escolher a cor que deseja e\
+      \  mudar os valores referênte a cor no código.\nVamos\
+      \  avançar?\n"        
