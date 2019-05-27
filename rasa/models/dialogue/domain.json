@@ -57,6 +57,7 @@
     "prev_utter_negar_ambiente3",
     "prev_utter_informacao_ambiente",
     "prev_utter_tutorial_jedi",
+    "prev_utter_tutorial_jedi_confirmar",
     "prev_action_question",
     "active_form_action_question"
   ]

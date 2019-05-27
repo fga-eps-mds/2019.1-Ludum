@@ -30,6 +30,7 @@ actions:
 - utter_negar_ambiente3
 - utter_informacao_ambiente
 - utter_tutorial_jedi
+- utter_tutorial_jedi_confirmar
 config:
   store_entities_as_slots: true
 entities:
@@ -140,7 +141,7 @@ templates:
   utter_informacao_desenvolvimento:
   - buttons:
     - payload: Facil
-      title: Padawan - Pong (Iniciante)
+      title: Padawan - Pong(Iniciante)
     - payload: Medio
       title: Jedi - Snake (Intermediário)
     - payload: Comunidade
@@ -149,7 +150,7 @@ templates:
       \ e criar seu jogo em Python com diferentes dificuldades.\nQuando perceber você\
       \ já ser um Meister dos jogos!\nPorém, antes de começar devo te fazer uma pergunta.\n\
       \ Você quer começar por qual dificuldade?\nPadawan\nJedi\n Ou tambem usar alguns\
-      \ dos   Tutoriais feitos pela comunidade\n"
+      \ dos Tutoriais feitos pela comunidade\n"
   utter_informacao_duvidas:
   - text: "Você pode me perguntar tudo que quiser saber sobre o desenvolvimento de\
       \ jogos em pygame! \nAs vezes eu posso até não saber sua resposta, mas posso\
@@ -211,3 +212,10 @@ templates:
   - text: "Meu caro, devo lhe notificar que é super importante que seu ambiente  esteja\
       \ devidamente configurado, a força  das joias do infinito está em seu poder\
       \ ou devo te encaminhar  para a configuração de ambiente?\n"
+  utter_tutorial_jedi_confirmar:
+  - text: "Tudo certo Jovem Geek! Vamos começar o tutorial do jogo Snake!\n  Mas antes\
+      \ de prosseguirmos, devo te informar as regras do jogo.\n  O usuário tem que\
+      \ movimentar a snake ou cobrinha e  comer as joias do infinito que aparecem\
+      \ na tela.\n    A cada joia, a snake cresce e o usuário deve  evitar as colisões\
+      \ com o próprio corpo ou com a parede.\n  O placar aumenta a cada vez que comer\
+      \ uma joia do infinito.\n    Podemos ir adiante?\n"

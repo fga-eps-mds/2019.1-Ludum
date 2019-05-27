@@ -60,7 +60,7 @@
 * informacao_desenvolvimento
     - utter_informacao_desenvolvimento    
 
-## path tutorial medio 1
+## path tutorial medio confirmar
 * informacao
     - utter_informacao
 * informacao_desenvolvimento
@@ -68,9 +68,11 @@
 * tutorial_medio
     - utter_tutorial_jedi
 * confirmar
+    - utter_tutorial_jedi_confirmar
+    - utter_implementacao
 
 
-## path tutorial medio 2
+## path tutorial medio negar
 * informacao
     - utter_informacao
 * informacao_desenvolvimento
