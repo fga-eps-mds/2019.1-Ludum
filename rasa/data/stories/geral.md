@@ -171,10 +171,27 @@
 ## Contribuicao
 * contribuicao
     - utter_contribuicao
+
 ## Generated Story -8260612615251012865
 * faq
     - utter_faq
 * confirmar
     - action_faq
 * negar
+    - action_listen
 
+## Faq_2
+* faq
+    - utter_faq
+* negar
+    - action_listen
+
+## Generated Story -8260612615251012865
+* faq
+    - utter_faq
+* confirmar
+    - action_faq
+* negar
+    - action_listen
+* cumprimentar
+    - utter_cumprimentar
