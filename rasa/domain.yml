@@ -245,4 +245,13 @@ templates:
       \ Primeiro vamos inicializar a biblioteca no começo do programa\n"
   utter_tutorial_padawan19:
   - text: "Agora vamos fechar a biblioteca no final do programa\n"
-  
+  utter_tutorial_padawan20:
+  - text: "Vamos adicionar agora o placar\n
+      \ Inicialmente, vamos criar inicializar os pontos para o placar\n"
+  utter_tutorial_padawan21:
+  - text: "Agora vamos adicionar algumas linhas, para que quando a bolinha toque na parte superior\ 
+      \ aumente o placar em 1 ponto e quando toque na inferior sem ser na raquete,
+      \ a pontuação volte para 0\n"
+  utter_tutorial_padawan22:
+  - text: "Este será o resultado\n
+      \ Pronto, acabamos de fazer nosso primeiro joguinho em pygame\n" 
