@@ -38,6 +38,8 @@ actions:
 - utter_tutorial_jedi_cores_c
 - utter_tutorial_jedi_direcao
 - utter_tutorial_jedi_direcao_c
+- utter_tutorial_jedi_classe_game
+- utter_tutorial_jedi_classe_game_c
 config:
   store_entities_as_slots: true
 entities:
@@ -256,4 +258,18 @@ templates:
   - text : "Já estamos finalizando a primeira parte\
       \  do tutorial Snake.\nPodemos\
       \  dar mais um passo para se tornar um meistres na\
-      \  criação de jogos?\n"      
+      \  criação de jogos?\n"
+  utter_tutorial_jedi_classe_game:
+  - text : "Agora, vamos iniciar o nosso jogo, usando a PyGame.\nPara isso\
+      \  temos que criar a classe ```Class Game()```.\nDentro dela\
+      \  vamos iniciar o display do jogo, criar o fundo, arruma\
+      \  a superfície e pontos, conforme o código mostrado\
+      \  no pergaminho abaixo:\n"
+    image: "https://i.imgur.com/0oQigna.png"
+  utter_tutorial_jedi_classe_game_c:
+  - text : "O usuário pode alterar o nome do jogo, para isso,\
+      \  basta modificar a função\
+      \  ```pygame.display.set_caption('NovoNome')```.\n\
+      \  A função ```self.font=pygame.font.Font(None,36)```. Agora\
+      \  que ja escolheu seu ID, deseja ir para o \
+      \  próximo passo?\n"          
