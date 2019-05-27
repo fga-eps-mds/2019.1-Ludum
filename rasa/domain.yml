@@ -317,4 +317,13 @@ templates:
     image: "https://i.imgur.com/YMqdCyl.png"   
   utter_tutorial_jedi_colisao_c:
   - text: "Nosso jogo está quase pronto, deseja\
-      \  chegar ao BOSS?\n"      
+      \  chegar ao BOSS?\n" 
+  utter_tutorial_jedi_comida:
+  - text: "Nessa parte, jovem Padawan, usa a biblioteca ```RANDOM``` para\
+      \  fazer a joias do infinito aparecer em lugares aleatórios.\n\
+      \  Seguindo os códigos que vejos no infinito:\n"
+    image: "https://i.imgur.com/zJAf1BU.png"
+  utter_tutorial_jedi_comida_c:
+  - text: "Estamos finalizando mais uma etapa, gostaria de\
+      \  fazer a ultima parte e finalmente\
+      \  jogar seu próprio jogo?\n"

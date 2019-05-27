@@ -99,6 +99,9 @@
 * confirmar           
     - utter_tutorial_jedi_comida
     - utter_tutorial_jedi_comida_c
+* confirmar 
+    - utter_tutorial_jedi_main
+    - utter_tutorial_jedi_main_c
 
 ## path tutorial medio negar
 * informacao
