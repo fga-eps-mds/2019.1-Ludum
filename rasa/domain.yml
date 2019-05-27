@@ -32,6 +32,13 @@ actions:
 - utter_tutorial_padawan
 - utter_tutorial_padawan1
 - utter_tutorial_padawan2
+- utter_tutorial_padawan3
+- utter_tutorial_padawan4
+- utter_tutorial_padawan5
+- utter_tutorial_padawan6
+- utter_tutorial_padawan7
+- utter_tutorial_padawan8
+- utter_tutorial_padawan9
 
 entities:
 - time
