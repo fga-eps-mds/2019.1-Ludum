@@ -217,4 +217,11 @@ templates:
   utter_tutorial_padawan8:
   - text: "Vamos criar a bola\n
       \ Primeiramente, vamos criar coordenadas iniciais quaisquer para a bolinha\n"
+  utter_tutorial_padawan9:
+  - text: "Agora, vamos desenhar a bolinha na tela\n"
+  utter_tutorial_padawan10:
+  - text: "Este será o resultado\n"
+  utter_tutorial_padawan11:
+  - text: "Vamos adicionar movimento à raquete\n
+      \ Começamos adicionando as coordenadas que alteraremos para movimentar a raquete\n"
   
