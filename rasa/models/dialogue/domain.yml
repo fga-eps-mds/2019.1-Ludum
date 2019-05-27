@@ -40,6 +40,8 @@ actions:
 - utter_tutorial_jedi_direcao_c
 - utter_tutorial_jedi_classe_game
 - utter_tutorial_jedi_classe_game_c
+- utter_tutorial_jedi_run
+- utter_tutorial_jedi_c
 config:
   store_entities_as_slots: true
 entities:
@@ -272,4 +274,17 @@ templates:
       \  ```pygame.display.set_caption('NovoNome')```.\n\
       \  A função ```self.font=pygame.font.Font(None,36)```. Agora\
       \  que ja escolheu seu ID, deseja ir para o \
-      \  próximo passo?\n"          
+      \  próximo passo?\n"
+  utter_tutorial_jedi_run:
+  - text : "Ainda dentro da ```Class Game()``` vamos criar a\
+      \  função ```def run``` para rodar o jogo e\
+      \  capturar os eventos e movimentos, conforme\
+      \  indica o cartaz de procurado abaixo:\n"
+    image: "https://i.imgur.com/VYV3HfQ.png"  
+  utter_tutorial_jedi_c:
+  - text : "Como renomado Espadachim, você pode alterar os comandos\
+      \  de direção. Basta ir no ```if ou elif``` da\
+      \  direção escolhida e substituir com o comando que\
+      \  desejar.\nApós definir seus comandos, o\
+      \  renomado Espadachim deseja ir além?\n"      
+                

@@ -81,6 +81,9 @@
 * confirmar
     - utter_tutorial_jedi_classe_game
     - utter_tutorial_jedi_classe_game_c
+* confirmar    
+    - utter_tutorial_jedi_run
+    - utter_tutorial_jedi_c
 
 ## path tutorial medio negar
 * informacao
