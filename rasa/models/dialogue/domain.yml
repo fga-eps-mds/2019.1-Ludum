@@ -52,6 +52,8 @@ actions:
 - utter_tutorial_jedi_colisao_c
 - utter_tutorial_jedi_comida
 - utter_tutorial_jedi_comida_c
+- utter_tutorial_jedi_main
+- utter_tutorial_jedi_main_c
 config:
   store_entities_as_slots: true
 entities:
@@ -325,5 +327,32 @@ templates:
   - text : "Enquanto você cria sua Snake. Uma\
       \  curiosidade. Sabia que a primeira versão do snake foi lançado\
       \  no ano de 1997 e teve grande sucesso.\nDeseja\
-      \  prosseguir para repetir esse mesmo sucesso?\n"                       
+      \  prosseguir para repetir esse mesmo sucesso?\n" 
+  utter_tutorial_jedi_colisao:
+  - text: "Agora que ja temos a Snake, vamos adicionar\
+      \  colisões ao jogo de acordo com os movimentos. Conforme\n\
+      \  indica a imagem a seguir:\n"
+    image: "https://i.imgur.com/YMqdCyl.png"   
+  utter_tutorial_jedi_colisao_c:
+  - text: "Nosso jogo está quase pronto, deseja\
+      \  chegar ao BOSS?\n" 
+  utter_tutorial_jedi_comida:
+  - text: "Nessa parte, jovem Padawan, usa a biblioteca ```RANDOM``` para\
+      \  fazer a joias do infinito aparecer em lugares aleatórios.\n\
+      \  Seguindo os códigos que vejos no infinito:\n"
+    image: "https://i.imgur.com/zJAf1BU.png"
+  utter_tutorial_jedi_comida_c:
+  - text: "Estamos finalizando mais uma etapa, gostaria de\
+      \  fazer a ultima parte e finalmente\
+      \  jogar seu próprio jogo?\n"
+  utter_tutorial_jedi_main:
+  - text: "Nessa parte, jovem Padawan, usa o ```if``` e\
+      \  dentro dele definimos o tamanho do display e a\
+      \  velocidade da snake que pode ser alterada\
+      \  posteriormente, basta modificar o ultimo dos três\n\
+      \  valores dentro do ```Game(440,510,10).run()```\n"
+    image: "https://i.imgur.com/torhoBI.png"
+  utter_tutorial_jedi_main_c:
+  - text: "Agora que chegamos ao fim, você pode ser considerado\
+      \  um verdadeiro SÁBIO na criação do jogo Snake.\n"                            
                 

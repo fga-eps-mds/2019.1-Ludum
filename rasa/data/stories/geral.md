@@ -102,6 +102,7 @@
 * confirmar 
     - utter_tutorial_jedi_main
     - utter_tutorial_jedi_main_c
+    - utter_implementacao
 
 ## path tutorial medio negar
 * informacao
