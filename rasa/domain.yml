@@ -232,4 +232,12 @@ templates:
   utter_tutorial_padawan14:
   - text: "Agora adicionaremos movimento à bolinha\n
       \ Começaremos adicionando as coordenadas que usaremos para dar movimento à bolinha\n" 
+  utter_tutorial_padawan15:
+  - text: "Agora iremos mudar as coordenadas da bolinha para dar movimento a ela, já estabelecendo os limites da tela\
+      \ já estabelecendo os limites da tela\n"
+  utter_tutorial_padawan16:
+  - text: "Este será o resultado\n"
+  utter_tutorial_padawan17:
+  - text: "Agora adicionaremos a biblioteca pygame para evitar erros no próximo passo\n
+      \ Primeiro vamos inicializar a biblioteca no começo do programa\n"
   
