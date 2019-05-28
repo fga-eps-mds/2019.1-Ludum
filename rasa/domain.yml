@@ -264,4 +264,30 @@ templates:
   - text: "Agora adicionaremos movimento à bolinha\n
       \ Começaremos adicionando as coordenadas que usaremos para dar movimento à bolinha\n" 
     image: "https://i.imgur.com/63G0w76.png"
-  
+  utter_tutorial_padawan15:
+  - text: "Agora iremos mudar as coordenadas da bolinha para dar movimento a ela, já estabelecendo os limites da tela\
+      \ já estabelecendo os limites da tela\n"
+    image: "https://i.imgur.com/A1FaEMk.png"
+  utter_tutorial_padawan16:
+  - text: "Este será o resultado\n"
+    image: "https://i.imgur.com/dK7Elao.png"
+  utter_tutorial_padawan17:
+  - text: "Agora adicionaremos a biblioteca pygame para evitar erros no próximo passo\n
+      \ Primeiro vamos inicializar a biblioteca no começo do programa\n"
+    image: "https://i.imgur.com/blpP9nU.png"
+  utter_tutorial_padawan18:
+  - text: "Agora vamos fechar a biblioteca no final do programa\n"
+    image: "https://i.imgur.com/uhrcVFP.png"
+  utter_tutorial_padawan19:
+  - text: "Vamos adicionar agora o placar\n
+      \ Inicialmente, vamos criar inicializar os pontos para o placar\n"
+    image: "https://i.imgur.com/yrwir1A.png"
+  utter_tutorial_padawan20:
+  - text: "Agora vamos adicionar algumas linhas, para que quando a bolinha toque na parte superior\ 
+      \ aumente o placar em 1 ponto e quando toque na inferior sem ser na raquete,
+      \ a pontuação volte para 0\n"
+    image: "https://i.imgur.com/kZYn8Sv.png"
+  utter_tutorial_padawan21:
+  - text: "Este será o resultado\n
+      \ Pronto, acabamos de fazer nosso primeiro joguinho em pygame\n" 
+    image: "https://i.imgur.com/r5ucsLd.png"
