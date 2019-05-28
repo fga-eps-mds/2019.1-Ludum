@@ -594,6 +594,10 @@
         "text": "sim"
       },
       {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
         "intent": "contribuicao",
         "text": "contribuir"
       },
@@ -780,6 +784,10 @@
       {
         "intent": "faq",
         "text": "me mande o faq"
+      },
+      {
+        "intent": "faq",
+        "text": "você possui um faq?"
       },
       {
         "intent": "faq",
@@ -1284,6 +1292,10 @@
       {
         "intent": "negar",
         "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "não"
       },
       {
         "intent": "negar",

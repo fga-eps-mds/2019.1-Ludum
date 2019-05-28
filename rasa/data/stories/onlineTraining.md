@@ -232,7 +232,6 @@
     - utter_faq
 * confirmar
     - action_faq
-* stop
 
 ## Generated Story -2722450962634838251
 * faq
@@ -284,7 +283,7 @@
 * confirmar
     - action_faq
 * negar
-    - action_listen
+    - utter_despedir
 
 
 ## Generated Story -3099197547825249283
@@ -293,7 +292,7 @@
 * confirmar
     - action_faq
 * negar
-    - action_listen
+    - utter_despedir
 * faq
     - utter_faq
 * confirmar

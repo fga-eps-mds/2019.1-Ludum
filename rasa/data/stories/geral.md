@@ -178,7 +178,9 @@
 * confirmar
     - action_faq
 * negar
-    - action_listen
+    - utter_despedir
+* negar
+    - utter_sem_nada
 
 ## Faq_2
 * faq
@@ -192,6 +194,6 @@
 * confirmar
     - action_faq
 * negar
-    - action_listen
+    - utter_despedir
 * cumprimentar
     - utter_cumprimentar
