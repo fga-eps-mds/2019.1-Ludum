@@ -181,6 +181,28 @@
 - tutorialSnake
 - tutorialsnake
 
+## intent:prosseguir
+- prosseguir
+- Prosseguir
+- Pronto
+- pronto
+- proximo
+- próximo
+- Proximo
+- Próximo
+- Ir
+- ir
+- adiante
+- confirmo
+- avançar
+- avancar
+- avança
+- avanca
+- ir adiante
+- ir além
+- ir para o próximo
+
+
 ## intent:informacao_duvidas
 - Como voce pode responder uma duvida?
 - Voce consegue me tirar uma duvida?
