@@ -97,12 +97,14 @@ templates:
   utter_complementos3:
   - text: "Caso tenha interesse em usar uma IDE nós recomendamos a PyCharm, ela é\
       \ simples e intuitiva para iniciantes no desenvolvimento.\n  Para fazer o download\
-      \ entre em: https://www.jetbrains.com/pycharm/download/#section=linux\n"
+      \ entre em: https://www.jetbrains.com/pycharm/download/#section=linux\n  Conseguiu\
+      \ instalar tudo?? Agora você já pode começar a desenvolver seus jogos!\n"
   utter_confirmar_ambiente1:
   - text: "Ótimo, todo nosso tutorial será feito usando o Python 3.6, então é bom\
       \ que você o tenha aí instalado\n"
   utter_confirmar_ambiente2:
-  - text: "Ótimo, um editor de texto será muito util para nós podermos programar!\n"
+  - text: "Ótimo, um editor de texto será muito util para nós podermos programar!\n\
+      \  Já podemos seguir para o próximo passo?\n"
   utter_confirmar_ambiente3:
   - text: "Tudo certo então, estamos prontos para começar a diversão!\n"
   utter_contribuicao:
@@ -185,7 +187,7 @@ templates:
   - text: "Assim como todo Jedi possui seu sabre de luz, precisamos de algumas ferramentas\
       \ e um editor de texto é uma delas\nCaso não possua nenhum instalado, recomendamos\
       \ o Visual Studio Code\n Para instalá-lo acesse o site https://code.visualstudio.com/download,\
-      \ é tudo de graça!\nJá podemos seguir para o próximo passo ?\n"
+      \ é tudo de graça!\n"
   utter_negar_ambiente3:
   - text: "Para instalar a biblioteca PyGame, que será essencial para nós, entre no\
       \ link https://www.pygame.org/wiki/GettingStarted e siga as instruções\nJá podemos\
@@ -197,13 +199,17 @@ templates:
       \ Você já tem ela instalada?\n"
   utter_proximopasso1:
   - text: "Caso tenha dificuldades na instalação, sugerimos que você acesse este link\
-      \ https://wiki.python.org/moin/BeginnersGuide/Download\n"
+      \ https://wiki.python.org/moin/BeginnersGuide/Download\n Deu certo agora? Se\
+      \ sim vamos para a intalação de algum editor de texto! Pronto?\n"
   utter_proximopasso2:
   - text: "Caso tenha dificuldades na instalação, sugerimos que você assista esse\
-      \ vídeo https://www.youtube.com/watch?v=tjN_e-CKTl4\n"
+      \ vídeo https://www.youtube.com/watch?v=tjN_e-CKTl4\n Tudo certinho com o editor\
+      \ de texto?? Agora vamos para a biblioteca. Está pronto para continuar?\n"
   utter_proximopasso3:
   - text: "Caso tenha dificuldades na instalação, sugerimos que você acesse este link\
-      \ https://www.simplifiedpython.net/pygame-tutorial-for-beginners/#Installing_PyGame\n"
+      \ https://www.simplifiedpython.net/pygame-tutorial-for-beginners/#Installing_PyGame\n\
+      \ Conseguiu? Agora seu ambiente já está configurado, você já pode começar sua\
+      \ jornada no mundo dos jogos\n"
   utter_sem_nada:
   - text: Mas eu nem te perguntei nada
   utter_star_wars:

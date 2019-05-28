@@ -1,12 +1,41 @@
 {
   "action_fingerprints": {
     "action_listen": {
+      "slots": [
+        "pergunta"
+      ]
+    },
+    "utter_implementacao": {
       "slots": []
+    },
+    "utter_despedir": {
+      "slots": []
+    },
+    "utter_tudo_bem": {
+      "slots": []
+    },
+    "action_question": {
+      "slots": [
+        "requested_slot",
+        "pergunta"
+      ]
     },
     "utter_sem_nada": {
       "slots": []
     },
-    "action_ambiente": {
+    "utter_time": {
+      "slots": []
+    },
+    "utter_star_wars": {
+      "slots": []
+    },
+    "utter_default": {
+      "slots": []
+    },
+    "utter_cumprimentar": {
+      "slots": []
+    },
+    "utter_informacao_duvidas": {
       "slots": []
     },
     "utter_confirmar_ambiente3": {
@@ -17,45 +46,23 @@
     },
     "utter_informacao_ambiente": {
       "slots": []
-    },
-    "utter_despedir": {
-      "slots": []
-    },
-    "utter_cumprimentar": {
-      "slots": []
-    },
-    "utter_informacao_duvidas": {
-      "slots": []
-    },
-    "utter_informacao_materiais": {
-      "slots": []
-    },
-    "utter_tudo_bem": {
-      "slots": []
-    },
-    "utter_default": {
-      "slots": []
-    },
-    "utter_star_wars": {
-      "slots": []
-    },
-    "utter_time": {
-      "slots": []
     }
   },
   "python": "3.6.8",
   "max_histories": [
     null,
     null,
+    2,
     2
   ],
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "policy_names": [
     "rasa_core.policies.keras_policy.KerasPolicy",
     "rasa_core.policies.fallback.FallbackPolicy",
-    "rasa_core.policies.memoization.MemoizationPolicy"
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190430-014242",
+  "trained_at": "20190528-190835",
   "rasa_core": "0.13.1",
   "tensorflow": "1.12.2",
   "sklearn": "0.20.3"

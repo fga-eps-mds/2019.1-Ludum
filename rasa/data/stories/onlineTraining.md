@@ -135,7 +135,6 @@
     - utter_negar_ambiente2
 * negar
     - utter_proximopasso2
-* negar
 * confirmar
     - utter_confirmar_ambiente2
     - utter_perguntar_ambiente3
