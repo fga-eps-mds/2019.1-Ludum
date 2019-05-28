@@ -236,4 +236,32 @@ templates:
   utter_tutorial_padawan6:
   - text: "Então mostraremos a raquete na tela\n"
     image: "https://i.imgur.com/uZJI4aS.png"
- 
+  utter_tutorial_padawan7:
+  - text: "Este será o resultado\n"
+    image: "https://i.imgur.com/ycpF69N.png"
+  utter_tutorial_padawan8:
+  - text: "Vamos criar a bola\n
+      \ Primeiramente, vamos criar coordenadas iniciais quaisquer para a bolinha\n"
+    image: "https://i.imgur.com/7wDKcKE.png"
+  utter_tutorial_padawan9:
+  - text: "Agora, vamos desenhar a bolinha na tela\n"
+    image: "https://i.imgur.com/AqueabZ.png"
+  utter_tutorial_padawan10:
+  - text: "Este será o resultado\n"
+    image: "https://i.imgur.com/ivHFtf6.png"
+  utter_tutorial_padawan11:
+  - text: "Vamos adicionar movimento à raquete\n
+      \ Começamos adicionando as coordenadas que alteraremos para movimentar a raquete\n"
+    image: "https://i.imgur.com/jCI0hqJ.png"
+  utter_tutorial_padawan12:
+  - text: "Agora vamos adicionar movimento à raquete,\
+      \ fazendo com que as setas para direita e esquerda controlem a raquete\n"
+    image: "https://i.imgur.com/mavaxUr.png"
+  utter_tutorial_padawan13:
+  - text: "Este será o resultado\n" 
+    image: "https://i.imgur.com/L26qiqT.png"
+  utter_tutorial_padawan14:
+  - text: "Agora adicionaremos movimento à bolinha\n
+      \ Começaremos adicionando as coordenadas que usaremos para dar movimento à bolinha\n" 
+    image: "https://i.imgur.com/63G0w76.png"
+  
