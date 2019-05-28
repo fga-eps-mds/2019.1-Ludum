@@ -32,6 +32,8 @@ actions:
 - utter_complementos
 - utter_complementos2
 - utter_complementos3
+- utter_ambiente_adicional
+- utter_ambiente_adicional2
 config:
   store_entities_as_slots: true
 entities:
@@ -85,6 +87,11 @@ slots:
     initial_value: null
     type: rasa_core.slots.UnfeaturizedSlot
 templates:
+  utter_ambiente_adicional:
+  - text: "Deseja saber mais alguma sugestão?\n"
+  utter_ambiente_adicional2:
+  - text: "Ambiente configurado! Tudo pronto para mergulhamos na saga do infinito!\
+      \ Prepare-se :) \n"
   utter_ask_pergunta:
   - text: Que pergunta você deseja fazer ao StackOverflow?
   utter_complementos:
@@ -103,8 +110,7 @@ templates:
   - text: "Ótimo, todo nosso tutorial será feito usando o Python 3.6, então é bom\
       \ que você o tenha aí instalado\n"
   utter_confirmar_ambiente2:
-  - text: "Ótimo, um editor de texto será muito util para nós podermos programar!\n\
-      \  Já podemos seguir para o próximo passo?\n"
+  - text: "Ótimo, um editor de texto será muito util para nós podermos programar!\n"
   utter_confirmar_ambiente3:
   - text: "Tudo certo então, estamos prontos para começar a diversão!\n"
   utter_contribuicao:
@@ -187,11 +193,11 @@ templates:
   - text: "Assim como todo Jedi possui seu sabre de luz, precisamos de algumas ferramentas\
       \ e um editor de texto é uma delas\nCaso não possua nenhum instalado, recomendamos\
       \ o Visual Studio Code\n Para instalá-lo acesse o site https://code.visualstudio.com/download,\
-      \ é tudo de graça!\n"
+      \ é tudo de graça!\nJá podemos seguir para o próximo passo ?\n"
   utter_negar_ambiente3:
   - text: "Para instalar a biblioteca PyGame, que será essencial para nós, entre no\
-      \ link https://www.pygame.org/wiki/GettingStarted e siga as instruções\nJá podemos\
-      \ seguir para o próximo passo ?\n"
+      \ link https://www.pygame.org/wiki/GettingStarted\nJá podemos seguir para o\
+      \ próximo passo ?\n"
   utter_perguntar_ambiente2:
   - text: "Você possui algum editor de texto de sua preferência instalado?\n"
   utter_perguntar_ambiente3:
@@ -208,8 +214,7 @@ templates:
   utter_proximopasso3:
   - text: "Caso tenha dificuldades na instalação, sugerimos que você acesse este link\
       \ https://www.simplifiedpython.net/pygame-tutorial-for-beginners/#Installing_PyGame\n\
-      \ Conseguiu? Agora seu ambiente já está configurado, você já pode começar sua\
-      \ jornada no mundo dos jogos\n"
+      \ Tudo certo? Se sim me avise para continuarmos\n"
   utter_sem_nada:
   - text: Mas eu nem te perguntei nada
   utter_star_wars:

@@ -32,6 +32,8 @@ actions:
 - utter_complementos
 - utter_complementos2
 - utter_complementos3
+- utter_ambiente_adicional
+- utter_ambiente_adicional2
 entities:
 - time
 - pergunta
@@ -154,7 +156,7 @@ templates:
       \ é tudo de graça!\nJá podemos seguir para o próximo passo ?\n"
   utter_negar_ambiente3:
   - text: "Para instalar a biblioteca PyGame, que será essencial para nós, entre no\
-      \ link https://www.pygame.org/wiki/GettingStarted e siga as instruções\nJá podemos\
+      \ link https://www.pygame.org/wiki/GettingStarted\nJá podemos\
       \ seguir para o próximo passo ?\n"
   utter_perguntar_ambiente2:
   - text: "Você possui algum editor de texto de sua preferência instalado?\n"
@@ -173,8 +175,7 @@ templates:
   utter_proximopasso3:
   - text: "Caso tenha dificuldades na instalação, sugerimos que você acesse este link\
       \ https://www.simplifiedpython.net/pygame-tutorial-for-beginners/#Installing_PyGame\n\
-      \ Conseguiu? Agora seu ambiente já está configurado, você já pode começar sua jornada no\
-      \ mundo dos jogos\n"
+      \ Tudo certo? Se sim me avise para continuarmos\n"
   utter_complementos:
   - text: "Eu como Jedi também recomendo que você instale algumas ferramentas que podem ser úteis\
       \ ao nosso desenvolvimento\n"
@@ -201,3 +202,7 @@ templates:
   - text: "Melhor time do mundo disparado, Flamengooo!!!!\n"
   utter_tudo_bem:
   - text: "Tudo bem, obrigado! Em que posso te ajudar?\n"
+  utter_ambiente_adicional: 
+  - text: "Deseja saber mais alguma sugestão?\n"
+  utter_ambiente_adicional2: 
+  - text: "Ambiente configurado! Tudo pronto para mergulhamos na saga do infinito! Prepare-se :) \n"
