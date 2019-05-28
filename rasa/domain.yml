@@ -47,11 +47,10 @@ actions:
 - utter_tutorial_padawan15
 - utter_tutorial_padawan16
 - utter_tutorial_padawan17
+- utter_tutorial_padawan18
 - utter_tutorial_padawan19
 - utter_tutorial_padawan20
 - utter_tutorial_padawan21
-- utter_tutorial_padawan22
-
 
 entities:
 - time
@@ -221,57 +220,20 @@ templates:
   - text: "Primeiramente iremos criar a tela de fundo\n
       \ Neste código abaixo, estamos primeiramente importando a pygame, definindo as cores,\
       \ para então criar a tela com tamanho e nome ()img\n"
+    image: "https://i.imgur.com/A33MvbG.png"
   utter_tutorial_padawan3:
   - text: "Após isso, definimos que a tela só possa ser fechada, se o jogador fechar o programa\n"
+    image: "https://i.imgur.com/Wx40T7D.png"
   utter_tutorial_padawan4:
   - text: "Este será o resultado\n"
+    image: "https://i.imgur.com/KES2JeF.png"
   utter_tutorial_padawan5:
   - text: "Agora vamos fazer a raquete\n
       \ Primeiro, vamos definir abaixo da criação da tela[1.1],\
       \ as coordenadas da raquete com 'rect', 
       \ criar a raquete e já definir que ela não pode sair da tela\n"
+    image: "https://i.imgur.com/IWifyTg.png"
   utter_tutorial_padawan6:
-  - text: "Então mostraremos a raquete na tela\n"  
-  utter_tutorial_padawan7:
-  - text: "Este será o resultado\n"
-  utter_tutorial_padawan8:
-  - text: "Vamos criar a bola\n
-      \ Primeiramente, vamos criar coordenadas iniciais quaisquer para a bolinha\n"
-  utter_tutorial_padawan9:
-  - text: "Agora, vamos desenhar a bolinha na tela\n"
-  utter_tutorial_padawan10:
-  - text: "Este será o resultado\n"
-  utter_tutorial_padawan11:
-  - text: "Vamos adicionar movimento à raquete\n
-      \ Começamos adicionando as coordenadas que alteraremos para movimentar a raquete\n"
-  utter_tutorial_padawan12:
-  - text: "Agora vamos adicionar movimento à raquete,\
-      \ fazendo com que as setas para direita e esquerda controlem a raquete\n"
-  utter_tutorial_padawan13:
-  - text: "Este será o resultado\n"  
-  utter_tutorial_padawan14:
-  - text: "Agora adicionaremos movimento à bolinha\n
-      \ Começaremos adicionando as coordenadas que usaremos para dar movimento à bolinha\n" 
-  utter_tutorial_padawan15:
-  - text: "Agora iremos mudar as coordenadas da bolinha para dar movimento a ela, já estabelecendo os limites da tela\
-      \ já estabelecendo os limites da tela\n"
-  utter_tutorial_padawan16:
-  - text: "Este será o resultado\n"
-  utter_tutorial_padawan17:
-  - text: "Agora adicionaremos a biblioteca pygame para evitar erros no próximo passo\n
-      \ Primeiro vamos inicializar a biblioteca no começo do programa\n"
-  utter_tutorial_padawan18:
-  - text: "Agora adicionaremos a biblioteca pygame para evitar erros no próximo passo\n
-      \ Primeiro vamos inicializar a biblioteca no começo do programa\n"
-  utter_tutorial_padawan19:
-  - text: "Agora vamos fechar a biblioteca no final do programa\n"
-  utter_tutorial_padawan20:
-  - text: "Vamos adicionar agora o placar\n
-      \ Inicialmente, vamos criar inicializar os pontos para o placar\n"
-  utter_tutorial_padawan21:
-  - text: "Agora vamos adicionar algumas linhas, para que quando a bolinha toque na parte superior\ 
-      \ aumente o placar em 1 ponto e quando toque na inferior sem ser na raquete,
-      \ a pontuação volte para 0\n"
-  utter_tutorial_padawan22:
-  - text: "Este será o resultado\n
-      \ Pronto, acabamos de fazer nosso primeiro joguinho em pygame\n" 
+  - text: "Então mostraremos a raquete na tela\n"
+    image: "https://i.imgur.com/uZJI4aS.png"
+ 

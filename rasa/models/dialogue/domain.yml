@@ -1,47 +1,71 @@
 %YAML 1.1
 ---
 actions:
+- utter_despedir
 - utter_perguntar_ambiente3
-- utter_proximopasso2
-- utter_proximopasso1
+- utter_negar_ambiente2
+- utter_cumprimentar
+- utter_proximopasso3
+- utter_tudo_bem
+- utter_confirmar_ambiente2
+- utter_ask_pergunta
+- utter_informacao_materiais
+- utter_default
 - utter_confirmar_ambiente1
-- utter_contribuicao
-- utter_negar_ambiente3
+- utter_time
+- utter_negar_ambiente1
+- utter_proximopasso1
 - utter_sem_nada
 - utter_informacao_desenvolvimento
-- utter_confirmar_ambiente2
-- utter_default
-- utter_informacao_ambiente
-- utter_despedir
-- utter_tudo_bem
 - extra.actions.ActionQuest
-- utter_proximopasso3
-- utter_informacao
-- utter_cumprimentar
-- utter_negar_ambiente2
 - utter_star_wars
-- utter_negar_ambiente1
-- utter_informacao_materiais
+- utter_informacao_duvidas
+- utter_proximopasso2
+- utter_contribuicao
+- utter_informacao
+- utter_implementacao
+- utter_perguntar_ambiente2
 - action_test
 - utter_confirmar_ambiente3
-- utter_time
-- utter_perguntar_ambiente2
-- utter_informacao_duvidas
-- utter_implementacao
-- utter_ask_pergunta
+- utter_negar_ambiente3
+- utter_informacao_ambiente
 - utter_tutorial_padawan
+- utter_tutorial_padawan1
+- utter_tutorial_padawan2
+- utter_tutorial_padawan3
+- utter_tutorial_padawan4
+- utter_tutorial_padawan5
+- utter_tutorial_padawan6
+- utter_tutorial_padawan7
+- utter_tutorial_padawan8
+- utter_tutorial_padawan9
+- utter_tutorial_padawan10
+- utter_tutorial_padawan11
+- utter_tutorial_padawan12
+- utter_tutorial_padawan13
+- utter_tutorial_padawan14
+- utter_tutorial_padawan15
+- utter_tutorial_padawan16
+- utter_tutorial_padawan17
+- utter_tutorial_padawan18
+- utter_tutorial_padawan19
+- utter_tutorial_padawan20
+- utter_tutorial_padawan21
+- utter_tutorial_padawan22
 config:
   store_entities_as_slots: true
 entities:
-- pergunta
 - time
+- pergunta
 - starwars
 forms:
 - action_question
 intents:
-- cumprimentar:
-    use_entities: true
 - action_question:
+    use_entities: true
+- nao_implementada:
+    use_entities: true
+- cumprimentar:
     use_entities: true
 - confirmar:
     use_entities: true
@@ -71,10 +95,8 @@ intents:
     use_entities: true
 - contribuicao:
     use_entities: true
-- nao_implementada:
-    use_entities: true
 - tutorial_facil:
-    use_entities: true 
+    use_entities: true
 slots:
   pergunta:
     auto_fill: true
@@ -208,6 +230,71 @@ templates:
   utter_tudo_bem:
   - text: "Tudo bem, obrigado! Em que posso te ajudar?\n"
   utter_tutorial_padawan:
-  - text : "Meu caro, devo lhe notificar que é super importante que seu ambiente\
-      \  esteja devidamente configurado, a força esta com você ou devo te encaminhar\
-      \  para a configuração de ambiente?\n" 
+  - buttons:
+    - payload: ok
+      title: Continuar
+    - payload: Ambiente
+      title: Configurar
+    text: "Meu caro, devo lhe notificar que é super importante que seu ambiente  esteja\
+      \ devidamente configurado, a força esta com você ou devo te encaminhar  para\
+      \ a configuração de ambiente?\n"
+  utter_tutorial_padawan1:
+  - text: "Neste tutorial irei te ensinar a criar o famoso jogo Pong! Prepare-se!\n"
+  utter_tutorial_padawan10:
+  - text: "Este será o resultado\n"
+  utter_tutorial_padawan11:
+  - text: "Vamos adicionar movimento à raquete\n  Começamos adicionando as coordenadas\
+      \ que alteraremos para movimentar a raquete\n"
+  utter_tutorial_padawan12:
+  - text: "Agora vamos adicionar movimento à raquete, fazendo com que as setas para\
+      \ direita e esquerda controlem a raquete\n"
+  utter_tutorial_padawan13:
+  - text: "Este será o resultado\n"
+  utter_tutorial_padawan14:
+  - text: "Agora adicionaremos movimento à bolinha\n  Começaremos adicionando as coordenadas\
+      \ que usaremos para dar movimento à bolinha\n"
+  utter_tutorial_padawan15:
+  - text: "Agora iremos mudar as coordenadas da bolinha para dar movimento a ela,\
+      \ já estabelecendo os limites da tela já estabelecendo os limites da tela\n"
+  utter_tutorial_padawan16:
+  - text: "Este será o resultado\n"
+  utter_tutorial_padawan17:
+  - text: "Agora adicionaremos a biblioteca pygame para evitar erros no próximo passo\n\
+      \  Primeiro vamos inicializar a biblioteca no começo do programa\n"
+  utter_tutorial_padawan18:
+  - text: "Agora adicionaremos a biblioteca pygame para evitar erros no próximo passo\n\
+      \  Primeiro vamos inicializar a biblioteca no começo do programa\n"
+  utter_tutorial_padawan19:
+  - text: "Agora vamos fechar a biblioteca no final do programa\n"
+  utter_tutorial_padawan2:
+  - text: "Primeiramente iremos criar a tela de fundo\n  Neste código abaixo, estamos\
+      \ primeiramente importando a pygame, definindo as cores, para então criar a\
+      \ tela com tamanho e nome ()img\n"
+  utter_tutorial_padawan20:
+  - text: "Vamos adicionar agora o placar\n  Inicialmente, vamos criar inicializar\
+      \ os pontos para o placar\n"
+  utter_tutorial_padawan21:
+  - text: "Agora vamos adicionar algumas linhas, para que quando a bolinha toque na\
+      \ parte superior   aumente o placar em 1 ponto e quando toque na inferior sem\
+      \ ser na raquete,  a pontuação volte para 0\n"
+  utter_tutorial_padawan22:
+  - text: "Este será o resultado\n  Pronto, acabamos de fazer nosso primeiro joguinho\
+      \ em pygame\n"
+  utter_tutorial_padawan3:
+  - text: "Após isso, definimos que a tela só possa ser fechada, se o jogador fechar\
+      \ o programa\n"
+  utter_tutorial_padawan4:
+  - text: "Este será o resultado\n"
+  utter_tutorial_padawan5:
+  - text: "Agora vamos fazer a raquete\n  Primeiro, vamos definir abaixo da criação\
+      \ da tela[1.1], as coordenadas da raquete com 'rect',  criar a raquete e já\
+      \ definir que ela não pode sair da tela\n"
+  utter_tutorial_padawan6:
+  - text: "Então mostraremos a raquete na tela\n"
+  utter_tutorial_padawan7:
+  - text: "Este será o resultado\n"
+  utter_tutorial_padawan8:
+  - text: "Vamos criar a bola\n  Primeiramente, vamos criar coordenadas iniciais quaisquer\
+      \ para a bolinha\n"
+  utter_tutorial_padawan9:
+  - text: "Agora, vamos desenhar a bolinha na tela\n"
