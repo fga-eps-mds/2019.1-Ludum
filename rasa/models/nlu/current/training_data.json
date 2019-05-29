@@ -2,178 +2,6 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "intent": "time",
-        "text": "qual o melhor time do brasil"
-      },
-      {
-        "intent": "time",
-        "text": "para qual time você torce?"
-      },
-      {
-        "intent": "time",
-        "text": "que time vc torce?"
-      },
-      {
-        "intent": "time",
-        "text": "quem vai ser o campeao brasileiro nesse ano"
-      },
-      {
-        "intent": "star_wars",
-        "entities": [
-          {
-            "start": 0,
-            "end": 11,
-            "value": "mestre yoda",
-            "entity": "starwars"
-          }
-        ],
-        "text": "mestre yoda"
-      },
-      {
-        "intent": "star_wars",
-        "entities": [
-          {
-            "start": 11,
-            "end": 19,
-            "value": "starwars",
-            "entity": "starwars"
-          }
-        ],
-        "text": "citação de starwars"
-      },
-      {
-        "intent": "star_wars",
-        "entities": [
-          {
-            "start": 5,
-            "end": 9,
-            "value": "yoda",
-            "entity": "starwars"
-          }
-        ],
-        "text": "cite yoda"
-      },
-      {
-        "intent": "star_wars",
-        "entities": [
-          {
-            "start": 21,
-            "end": 25,
-            "value": "jedi",
-            "entity": "starwars"
-          }
-        ],
-        "text": "me manda um concelho jedi"
-      },
-      {
-        "intent": "star_wars",
-        "entities": [
-          {
-            "start": 10,
-            "end": 14,
-            "value": "jedi",
-            "entity": "starwars"
-          }
-        ],
-        "text": "sabedoria jedi"
-      },
-      {
-        "intent": "star_wars",
-        "entities": [
-          {
-            "start": 10,
-            "end": 14,
-            "value": "jedi",
-            "entity": "starwars"
-          }
-        ],
-        "text": "concelhos jedi"
-      },
-      {
-        "intent": "star_wars",
-        "entities": [
-          {
-            "start": 0,
-            "end": 9,
-            "value": "star wars",
-            "entity": "starwars"
-          }
-        ],
-        "text": "star wars"
-      },
-      {
-        "intent": "star_wars",
-        "text": "[yoda] (starwars)"
-      },
-      {
-        "intent": "star_wars",
-        "entities": [
-          {
-            "start": 13,
-            "end": 17,
-            "value": "yoda",
-            "entity": "starwars"
-          }
-        ],
-        "text": "concelhos do yoda"
-      },
-      {
-        "intent": "star_wars",
-        "entities": [
-          {
-            "start": 0,
-            "end": 19,
-            "value": "guerra nas estrelas",
-            "entity": "starwars"
-          }
-        ],
-        "text": "guerra nas estrelas"
-      },
-      {
-        "intent": "action_test",
-        "text": "test custom action"
-      },
-      {
-        "intent": "action_test",
-        "text": "custom action"
-      },
-      {
-        "intent": "action_test",
-        "text": "actions"
-      },
-      {
-        "intent": "action_test",
-        "text": "custom actions"
-      },
-      {
-        "intent": "action_test",
-        "text": "action"
-      },
-      {
-        "intent": "action_test",
-        "text": "test action"
-      },
-      {
-        "intent": "action_question",
-        "text": "Quero fazer uma pergunta ao Stack Overflow"
-      },
-      {
-        "intent": "action_question",
-        "text": "Stack Overflow"
-      },
-      {
-        "intent": "action_question",
-        "text": "stack overflow"
-      },
-      {
-        "intent": "action_question",
-        "text": "stack"
-      },
-      {
-        "intent": "action_question",
-        "text": "overflow"
-      },
-      {
         "intent": "action_question",
         "entities": [
           {
@@ -364,6 +192,10 @@
           }
         ],
         "text": "perguntar ao stack overflow for em python"
+      },
+      {
+        "intent": "action_question",
+        "text": "pesquisar no stack overflow"
       },
       {
         "intent": "confirmar",
@@ -1002,6 +834,10 @@
         "text": "Fácil"
       },
       {
+        "intent": "nao_implementada",
+        "text": "python"
+      },
+      {
         "intent": "negar",
         "text": "nao"
       },
@@ -1240,6 +1076,178 @@
       {
         "intent": "tudo_bem",
         "text": "como vc ta"
+      },
+      {
+        "intent": "action_test",
+        "text": "test custom action"
+      },
+      {
+        "intent": "action_test",
+        "text": "custom action"
+      },
+      {
+        "intent": "action_test",
+        "text": "actions"
+      },
+      {
+        "intent": "action_test",
+        "text": "custom actions"
+      },
+      {
+        "intent": "action_test",
+        "text": "action"
+      },
+      {
+        "intent": "action_test",
+        "text": "test action"
+      },
+      {
+        "intent": "action_question",
+        "text": "Quero fazer uma pergunta ao Stack Overflow"
+      },
+      {
+        "intent": "action_question",
+        "text": "Stack Overflow"
+      },
+      {
+        "intent": "action_question",
+        "text": "stack overflow"
+      },
+      {
+        "intent": "action_question",
+        "text": "stack"
+      },
+      {
+        "intent": "action_question",
+        "text": "overflow"
+      },
+      {
+        "intent": "time",
+        "text": "qual o melhor time do brasil"
+      },
+      {
+        "intent": "time",
+        "text": "para qual time você torce?"
+      },
+      {
+        "intent": "time",
+        "text": "que time vc torce?"
+      },
+      {
+        "intent": "time",
+        "text": "quem vai ser o campeao brasileiro nesse ano"
+      },
+      {
+        "intent": "star_wars",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "mestre yoda",
+            "entity": "starwars"
+          }
+        ],
+        "text": "mestre yoda"
+      },
+      {
+        "intent": "star_wars",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "starwars",
+            "entity": "starwars"
+          }
+        ],
+        "text": "citação de starwars"
+      },
+      {
+        "intent": "star_wars",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "yoda",
+            "entity": "starwars"
+          }
+        ],
+        "text": "cite yoda"
+      },
+      {
+        "intent": "star_wars",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "jedi",
+            "entity": "starwars"
+          }
+        ],
+        "text": "me manda um concelho jedi"
+      },
+      {
+        "intent": "star_wars",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "jedi",
+            "entity": "starwars"
+          }
+        ],
+        "text": "sabedoria jedi"
+      },
+      {
+        "intent": "star_wars",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "jedi",
+            "entity": "starwars"
+          }
+        ],
+        "text": "concelhos jedi"
+      },
+      {
+        "intent": "star_wars",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "star wars",
+            "entity": "starwars"
+          }
+        ],
+        "text": "star wars"
+      },
+      {
+        "intent": "star_wars",
+        "text": "[yoda] (starwars)"
+      },
+      {
+        "intent": "star_wars",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "yoda",
+            "entity": "starwars"
+          }
+        ],
+        "text": "concelhos do yoda"
+      },
+      {
+        "intent": "star_wars",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "guerra nas estrelas",
+            "entity": "starwars"
+          }
+        ],
+        "text": "guerra nas estrelas"
       }
     ],
     "regex_features": [],
