@@ -156,6 +156,7 @@
     - utter_perguntar_ambiente3
 * negar
     - utter_negar_ambiente3
+    - utter_ambiente_adicional3
 * confirmar
     - utter_complementos
     - utter_ambiente_adicional
@@ -177,6 +178,7 @@
     - utter_perguntar_ambiente3
 * negar
     - utter_negar_ambiente3
+    - utter_ambiente_adicional3
 * confirmar
     - utter_complementos
     - utter_ambiente_adicional
@@ -194,6 +196,7 @@
     - utter_perguntar_ambiente3
 * negar
     - utter_negar_ambiente3
+    - utter_ambiente_adicional3
 * confirmar
     - utter_complementos
     - utter_ambiente_adicional
@@ -213,6 +216,8 @@
     - utter_perguntar_ambiente3
 * negar
     - utter_negar_ambiente3
+    - utter_ambiente_adicional3
+* confirmar
     - utter_complementos
     - utter_complementos2
     - utter_complementos3
@@ -229,6 +234,8 @@
     - utter_perguntar_ambiente3
 * negar
     - utter_negar_ambiente3
+    - utter_ambiente_adicional3
+* confirmar
     - utter_complementos
     - utter_complementos2
     - utter_complementos3
@@ -244,6 +251,8 @@
     - utter_perguntar_ambiente3
 * negar
     - utter_negar_ambiente3
+    - utter_ambiente_adicional3
+* confirmar
     - utter_complementos
     - utter_complementos2
     - utter_complementos3
