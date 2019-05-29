@@ -370,6 +370,62 @@
         "text": "sim"
       },
       {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
         "intent": "contribuicao",
         "text": "contribuir"
       },
@@ -520,6 +576,50 @@
       {
         "intent": "despedir",
         "text": "xau"
+      },
+      {
+        "intent": "faq",
+        "text": "FAQ"
+      },
+      {
+        "intent": "faq",
+        "text": "faq"
+      },
+      {
+        "intent": "faq",
+        "text": "faq"
+      },
+      {
+        "intent": "faq",
+        "text": "faq"
+      },
+      {
+        "intent": "faq",
+        "text": "faq"
+      },
+      {
+        "intent": "faq",
+        "text": "faq"
+      },
+      {
+        "intent": "faq",
+        "text": "faq"
+      },
+      {
+        "intent": "faq",
+        "text": "faq"
+      },
+      {
+        "intent": "faq",
+        "text": "me mande o faq"
+      },
+      {
+        "intent": "faq",
+        "text": "você possui um faq?"
+      },
+      {
+        "intent": "faq",
+        "text": "você possui um faq?"
       },
       {
         "intent": "informacao",
@@ -676,22 +776,6 @@
       {
         "intent": "informacao_duvidas",
         "text": "como posso tirar uma duvida?"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "FAQ"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "FAQ"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "faq"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Faq"
       },
       {
         "intent": "informacao_duvidas",
@@ -1038,6 +1122,22 @@
         "text": "nao"
       },
       {
+        "intent": "negar",
+        "text": "não"
+      },
+      {
+        "intent": "negar",
+        "text": "não"
+      },
+      {
+        "intent": "negar",
+        "text": "não"
+      },
+      {
+        "intent": "negar",
+        "text": "não"
+      },
+      {
         "intent": "out_of_scope",
         "text": "Qual a origem do mundo?"
       },
@@ -1054,8 +1154,16 @@
         "text": "batatinha quando nasce"
       },
       {
-        "intent": "start",
-        "text": "/start"
+        "intent": "out_of_scope",
+        "text": "pygame module"
+      },
+      {
+        "intent": "star_wars",
+        "text": "pygame object"
+      },
+      {
+        "intent": "star_wars",
+        "text": "Pygame 3D"
       },
       {
         "intent": "start",
@@ -1064,6 +1172,14 @@
       {
         "intent": "start",
         "text": "/start"
+      },
+      {
+        "intent": "start",
+        "text": "/start"
+      },
+      {
+        "intent": "stop",
+        "text": "/stop"
       },
       {
         "intent": "tudo_bem",

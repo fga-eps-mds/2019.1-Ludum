@@ -1,34 +1,36 @@
 %YAML 1.1
 ---
 actions:
-- utter_despedir
-- utter_perguntar_ambiente3
-- utter_negar_ambiente2
-- utter_cumprimentar
-- utter_proximopasso3
-- utter_tudo_bem
-- utter_confirmar_ambiente2
-- utter_ask_pergunta
-- utter_informacao_materiais
-- utter_default
-- utter_confirmar_ambiente1
 - utter_time
 - utter_negar_ambiente1
-- utter_proximopasso1
-- utter_sem_nada
-- utter_informacao_desenvolvimento
+- utter_proximopasso3
+- utter_perguntar_ambiente3
+- utter_despedir
 - extra.actions.ActionQuest
-- utter_star_wars
-- utter_informacao_duvidas
-- utter_proximopasso2
-- utter_contribuicao
-- utter_informacao
-- utter_implementacao
+- utter_informacao_materiais
 - utter_perguntar_ambiente2
+- utter_informacao_ambiente
+- utter_proximopasso2
+- utter_negar_ambiente2
+- utter_default
+- utter_confirmar_ambiente1
+- utter_informacao
+- utter_tudo_bem
+- utter_sem_nada
+- utter_contribuicao
+- utter_confirmar_ambiente2
+- utter_informacao_duvidas
+- action_faq
+- utter_ask_pergunta
 - action_test
 - utter_confirmar_ambiente3
 - utter_negar_ambiente3
-- utter_informacao_ambiente
+- utter_faq
+- utter_proximopasso1
+- utter_star_wars
+- utter_cumprimentar
+- utter_informacao_desenvolvimento
+- utter_implementacao
 - utter_complementos
 - utter_complementos2
 - utter_complementos3
@@ -36,27 +38,29 @@ actions:
 - utter_ambiente_adicional2
 - utter_ambiente_adicional3
 entities:
-- time
 - pergunta
 - starwars
+- time
 forms:
 - action_question
 intents:
+- confirmar
+- faq
+- negar
+- out_of_scope
+- star_wars
+- stop
 - action_question
 - nao_implementada
 - cumprimentar
-- confirmar
 - informacao_ambiente
-- negar
 - informacao_duvidas
 - informacao_materiais
 - despedir
-- out_of_scope
 - tudo_bem
 - informacao_desenvolvimento
 - informacao
 - time
-- star_wars
 - action_test
 - contribuicao
 slots:
@@ -104,11 +108,10 @@ templates:
   - text: "Vamos tentar mais uma vez? Eu não consegui te entender direito, me pergunta\
       \ de outro jeito?\n"
   utter_despedir:
-  - text: "Foi um prazer te ajudar!\nSempre que tiver alguma dúvida, volte aqui!\n\
-      Até logo!\n"
-  - text: "Foi um prazer te ajudar!\nSempre que precisar, volte aqui!\nAté a próxima!\n"
-  - text: "Foi um prazer te ajudar!\nQuando surgir alguma dúvida, volte aqui!\nAté\
-      \ mais!\n"
+  - text: "Tudo bem, se tiver alguma dúvida, estarei aqui por você!\n"
+  - text: "Ok, sempre que precisar, estarei aqui!!\n"
+  utter_faq:
+  - text: Você deseja ver as perguntas mais frequentes sobre pygame?
   utter_implementacao:
   - text: "Esta funcionalidade ainda não foi implementada\n"
   utter_informacao:

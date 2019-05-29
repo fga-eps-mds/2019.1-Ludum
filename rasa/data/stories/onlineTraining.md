@@ -311,3 +311,94 @@
     - form{"name": null}
     - slot{"requested_slot": null}
 
+## Generated Story -198256913908738909
+* faq
+    - utter_faq
+* confirmar
+    - action_faq
+
+## Generated Story 6238565761492408280
+* faq
+    - utter_faq
+* confirmar
+    - action_faq
+
+## Generated Story -2722450962634838251
+* faq
+    - utter_faq
+* confirmar
+    - action_faq
+
+## Generated Story 4758417350717062024
+* faq
+    - utter_faq
+* confirmar
+    - action_faq
+* confirmar
+    - action_question
+    - form{"name": "action_question"}
+    - slot{"requested_slot": "pergunta"}
+* form: star_wars
+    - form: action_question
+    - slot{"pergunta": "pygame object"}
+    - slot{"pergunta": null}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+
+## Generated Story -2218287935103871778
+* faq
+    - utter_faq
+* confirmar
+    - action_faq
+* negar
+    - utter_despedir
+* faq
+    - utter_faq
+* confirmar
+    - action_faq
+* confirmar
+    - action_question
+    - form{"name": "action_question"}
+    - slot{"requested_slot": "pergunta"}
+* form: star_wars
+    - form: action_question
+    - slot{"pergunta": "Pygame 3D"}
+    - slot{"pergunta": null}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+
+## Generated Story -7844788932215807065
+* faq
+    - utter_faq
+* confirmar
+    - action_faq
+* negar
+    - utter_despedir
+
+
+## Generated Story -3099197547825249283
+* faq
+    - utter_faq
+* confirmar
+    - action_faq
+* negar
+    - utter_despedir
+* faq
+    - utter_faq
+* confirmar
+    - action_faq
+* faq
+    - utter_faq
+* confirmar
+    - action_faq
+* confirmar
+    - action_question
+    - form{"name": "action_question"}
+    - slot{"requested_slot": "pergunta"}
+* form: out_of_scope
+    - form: action_question
+    - slot{"pergunta": "pygame module"}
+    - slot{"pergunta": null}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+
