@@ -26,3 +26,4 @@ ENV TRAINING_EPOCHS=20                     \
     ENVIRONMENT_NAME=localhost             \
     BOT_VERSION=last-commit-hash           \
     ENABLE_ANALYTICS=False                 
+CMD make train && make run-telegram
