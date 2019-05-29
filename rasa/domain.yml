@@ -28,6 +28,8 @@ actions:
 - utter_informacao_duvidas
 - utter_despedir
 - utter_implementacao
+- action_faq
+- utter_faq
 - action_test
 - utter_tutorial_padawan8
 - utter_confirmar_ambiente3
@@ -56,6 +58,12 @@ actions:
 - utter_confirmacao
 - utter_padawan_c4
 - utter_tutorial_padawan22
+- utter_complementos
+- utter_complementos2
+- utter_complementos3
+- utter_ambiente_adicional
+- utter_ambiente_adicional2
+- utter_ambiente_adicional3
 entities:
 - starwars
 - time
@@ -65,20 +73,19 @@ forms:
 intents:
 - informacao_desenvolvimento
 - confirmar
+- faq
 - cumprimentar
 - tutorial_facil
 - action_question
+- negar
 - nao_implementada
 - informacao_ambiente
-- negar
 - informacao_duvidas
 - informacao_materiais
 - despedir
-- out_of_scope
 - tudo_bem
 - informacao
 - time
-- star_wars
 - action_test
 - contribuicao
 slots:
@@ -126,11 +133,10 @@ templates:
   - text: "Vamos tentar mais uma vez? Eu não consegui te entender direito, me pergunta\
       \ de outro jeito?\n"
   utter_despedir:
-  - text: "Foi um prazer te ajudar!\nSempre que tiver alguma dúvida, volte aqui!\n\
-      Até logo!\n"
-  - text: "Foi um prazer te ajudar!\nSempre que precisar, volte aqui!\nAté a próxima!\n"
-  - text: "Foi um prazer te ajudar!\nQuando surgir alguma dúvida, volte aqui!\nAté\
-      \ mais!\n"
+  - text: "Tudo bem, se tiver alguma dúvida, estarei aqui por você!\n"
+  - text: "Ok, sempre que precisar, estarei aqui!!\n"
+  utter_faq:
+  - text: Você deseja ver as perguntas mais frequentes sobre pygame?
   utter_implementacao:
   - text: "Esta funcionalidade ainda não foi implementada\n"
   utter_informacao:
@@ -170,13 +176,12 @@ templates:
   utter_negar_ambiente1:
   - text: "Para realizarmos nossos tutoriais você precisará do Python 3.6, mas sem\
       \ problema, para instalá-lo basta acessar este site https://www.python.org/downloads/\
-      \ e instalar conforme seu sistema operacional\nJá podemos seguir para o próximo\
-      \ passo ?\n"
+      \ e instalar conforme seu sistema operacional\n"
   utter_negar_ambiente2:
   - text: "Assim como todo Jedi possui seu sabre de luz, precisamos de algumas ferramentas\
       \ e um editor de texto é uma delas\nCaso não possua nenhum instalado, recomendamos\
       \ o Visual Studio Code\n Para instalá-lo acesse o site https://code.visualstudio.com/download,\
-      \ é tudo de graça!\nJá podemos seguir para o próximo passo ?\n"
+      \ é tudo de graça!\n"
   utter_negar_ambiente3:
   - text: "Para instalar a biblioteca PyGame, que será essencial para nós, entre no\
       \ link https://www.pygame.org/wiki/GettingStarted e siga as instruções\nJá podemos\
@@ -202,6 +207,17 @@ templates:
   utter_proximopasso3:
   - text: "Caso tenha dificuldades na instalação, sugerimos que você acesse este link\
       \ https://www.simplifiedpython.net/pygame-tutorial-for-beginners/#Installing_PyGame\n"
+  utter_complementos:
+  - text: "Eu como Jedi também recomendo que você instale algumas ferramentas que podem ser úteis\
+      \ ao nosso desenvolvimento\n"
+  utter_complementos2:
+  - text: "Uma ótima extensão para o editor de texto Visual Studio é a extensão Python, ela ira te ajudar
+      \ a debugar e usar a ferramenta lint para que sua experiencia seja fantástica!\n
+      \ Para usa-la entre no link https://marketplace.visualstudio.com/items?itemName=ms-python.python\n"
+  utter_complementos3:
+  - text: "Caso tenha interesse em usar uma IDE nós recomendamos a PyCharm, ela é simples e intuitiva para\
+      \ iniciantes no desenvolvimento.\n
+      \ Para fazer o download entre em: https://www.jetbrains.com/pycharm/download/#section=linux\n"
   utter_sem_nada:
   - text: Mas eu nem te perguntei nada
   utter_star_wars:
@@ -299,3 +315,9 @@ templates:
   - text: "Tudo bem por ai? Podemos continuar?\n"
   utter_tutorial_padawan22:
   - text: "Pronto! Acabamos de fazer nosso primeiro joguinho com a Pygame, parabéns!\n" 
+  utter_ambiente_adicional: 
+  - text: "Deseja saber mais alguma sugestão?\n"
+  utter_ambiente_adicional2: 
+  - text: "Ambiente configurado! Tudo pronto para mergulhamos na saga do infinito! Prepare-se :) \n"
+  utter_ambiente_adicional3:
+  - text: "Tudo certo? Podemos continuar?\n"
