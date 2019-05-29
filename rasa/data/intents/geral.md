@@ -20,6 +20,8 @@
 ## intent:confirmar
 - sim
 - claro
+- continuar
+- Continuar
 - Sim
 - sim
 - sim
@@ -85,6 +87,12 @@
 - como contribuir
 - o que preciso para contribuir
 - como contribuir para o repositorio
+
+## intent:informacao
+- Tenho uma pergunta
+- Tenho uma duvida
+- Duvida
+- voce pode me tirar uma duvida?
 
 ## intent:cumprimentar
 - oi, tudo bem
@@ -170,6 +178,29 @@
 - quero fazer um jogo em python
 - me ensine a fazer um jogo
 
+## intent:tutorial_facil
+- Facil
+- facil
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- facil 
+- facil 
+
+
 ## intent:informacao_duvidas
 - Como voce pode responder uma duvida?
 - Voce consegue me tirar uma duvida?
@@ -203,24 +234,15 @@
 - Me ensina algo
 
 ## intent:nao_implementada
-- facil
-- Facil
-- medio
-- Medio
-- médio
-- Médio
-- dificil
-- Dificil
-- difícil
-- Difícil
 - videos
 - videos-explicativos
 - textos
-- fácil
-- Fácil
 - python
 
 ## intent:negar
+- sair
+- sair 
+- Sair
 - nao
 - não
 - nao
