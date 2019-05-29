@@ -28,15 +28,15 @@ class ActionQuestion(FormAction):
 
     def submit(self, dispatcher, tracker, domain):
         try:
-            pergunta = str(tracker.get_slot('pergunta'))
-            api = 'https://ludum-duvidas.herokuapp.com/api/duvidas'
-            apiPergunta = api + '/pesquisar' + '/:{' + pergunta + '}'
             dispatcher.utter_message('Espere jovem padawan,' +
                                      'vou procurar uma resposta' +
                                      'no Stack Overflow para você')
         except ValueError:
             dispatcher.utter_message(ValueError)
         try:
+            pergunta = str(tracker.get_slot('pergunta'))
+            api = 'https://ludum-duvidas.herokuapp.com/api/duvidas'
+            apiPergunta = api + '/pesquisar' + '/:{' + pergunta + '}'
             link = requests.get(apiPergunta)
             stack = json.loads(link.text)
             utterString = ''
@@ -55,6 +55,10 @@ class ActionQuestion(FormAction):
                     utterString += str(stack['data']['answer'][i]['link'])
                     utterString += '\n'
             dispatcher.utter_message(utterString)
+            stringFinal = "Esses são os links mais uteis que eu encontrei\n"
+            stringFinal += "Espero ter te ajudado! Se tiver Qualquer outra duvida"
+            stringFinal += " estou aqui pra te ajudar!"
+            dispatcher.utter_message(stringFinal)
         except ValueError:
             dispatcher.utter_message(ValueError)
         return [SlotSet('pergunta', None)]
