@@ -31,7 +31,6 @@ actions:
 - utter_cumprimentar
 - utter_informacao_desenvolvimento
 - utter_implementacao
-- utter_informacao_ambiente
 - utter_complementos
 - utter_complementos2
 - utter_complementos3
