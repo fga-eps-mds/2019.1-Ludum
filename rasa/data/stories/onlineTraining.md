@@ -122,20 +122,25 @@
     - utter_informacao_ambiente
 * negar
     - utter_negar_ambiente1
+    - utter_ambiente_adicional3
 * negar
     - utter_proximopasso1
+    - utter_ambiente_adicional3
 * negar
     - utter_proximopasso1
+    - utter_ambiente_adicional3
 * negar
     - utter_proximopasso1
+    - utter_ambiente_adicional3
 * confirmar
     - utter_confirmar_ambiente1
     - utter_perguntar_ambiente2
 * negar
     - utter_negar_ambiente2
+    - utter_ambiente_adicional3
 * negar
     - utter_proximopasso2
-* negar
+    - utter_ambiente_adicional3
 * confirmar
     - utter_confirmar_ambiente2
     - utter_perguntar_ambiente3
@@ -151,8 +156,10 @@
     - utter_informacao_ambiente
 * negar
     - utter_negar_ambiente1
+    - utter_ambiente_adicional3
 * negar
     - utter_proximopasso1
+    - utter_ambiente_adicional3
 * confirmar
     - utter_confirmar_ambiente1
     - utter_perguntar_ambiente2
@@ -161,13 +168,96 @@
     - utter_perguntar_ambiente3
 * negar
     - utter_negar_ambiente3
+    - utter_ambiente_adicional3
 * negar
     - utter_proximopasso3
+    - utter_ambiente_adicional3
 * negar
     - utter_proximopasso3
+    - utter_ambiente_adicional3
 * confirmar
-    - utter_confirmar_ambiente3
-    - utter_confirmar_ambiente3
+    - utter_complementos
+    - utter_ambiente_adicional
+* confirmar
+    - utter_complementos2
+    - utter_ambiente_adicional
+* confirmar
+    - utter_complementos3
+    - utter_ambiente_adicional2
+    - utter_cumprimentar
+
+## Generated Story 5382610376902122974
+* negar
+    - utter_sem_nada
+* confirmar
+    - utter_sem_nada
+* informacao_ambiente
+    - utter_informacao_ambiente
+* negar
+    - utter_negar_ambiente1
+    - utter_ambiente_adicional3
+* negar
+    - utter_proximopasso1
+    - utter_ambiente_adicional3
+* confirmar
+    - utter_confirmar_ambiente1
+    - utter_perguntar_ambiente2
+* confirmar
+    - utter_confirmar_ambiente2
+    - utter_perguntar_ambiente3
+* negar
+    - utter_negar_ambiente3
+    - utter_ambiente_adicional3
+* negar
+    - utter_proximopasso3
+    - utter_ambiente_adicional3
+* negar
+    - utter_proximopasso3
+    - utter_ambiente_adicional3
+* confirmar
+    - utter_complementos
+    - utter_ambiente_adicional
+* negar
+    - utter_ambiente_adicional2
+    - utter_cumprimentar
+
+## Generated Story 538261037692122975
+* negar
+    - utter_sem_nada
+* confirmar
+    - utter_sem_nada
+* informacao_ambiente
+    - utter_informacao_ambiente
+* negar
+    - utter_negar_ambiente1
+    - utter_ambiente_adicional3
+* negar
+    - utter_proximopasso1
+    - utter_ambiente_adicional3
+* confirmar
+    - utter_confirmar_ambiente1
+    - utter_perguntar_ambiente2
+* confirmar
+    - utter_confirmar_ambiente2
+    - utter_perguntar_ambiente3
+* negar
+    - utter_negar_ambiente3
+    - utter_ambiente_adicional3
+* negar
+    - utter_proximopasso3
+    - utter_ambiente_adicional3
+* negar
+    - utter_proximopasso3
+    - utter_ambiente_adicional3
+* confirmar
+    - utter_complementos
+    - utter_ambiente_adicional
+* confirmar
+    - utter_complementos2
+    - utter_ambiente_adicional
+* negar
+    - utter_ambiente_adicional2
+    - utter_cumprimentar
 
 ## Generated Story -1774056051555267139
 * action_question{"pergunta": "pygame"}
