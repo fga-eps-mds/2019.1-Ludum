@@ -261,7 +261,7 @@
 * confirmar
     - action_faq
 * negar
-    - action_listen
+    - utter_despedir
 * faq
     - utter_faq
 * confirmar

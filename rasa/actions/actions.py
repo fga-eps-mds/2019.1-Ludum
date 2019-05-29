@@ -56,8 +56,9 @@ class ActionQuestion(FormAction):
                     utterString += '\n'
             dispatcher.utter_message(utterString)
             stringFinal = "Esses são os links mais uteis que eu encontrei\n"
-            stringFinal += "Espero ter te ajudado! Se tiver Qualquer outra duvida"
-            stringFinal += " estou aqui pra te ajudar!"
+            stringFinal += "Espero ter te ajudado!"
+            stringFinal += " Se tiver Qualquer outra duvida"
+            stringFinal += " estou aqui pra auxilia-lo!"
             dispatcher.utter_message(stringFinal)
         except ValueError:
             dispatcher.utter_message(ValueError)

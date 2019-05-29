@@ -186,7 +186,7 @@
 * faq
     - utter_faq
 * negar
-    - action_listen
+    - utter_despedir
 
 ## Generated Story -8260612615251012865
 * faq

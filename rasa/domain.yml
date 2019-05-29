@@ -102,11 +102,8 @@ templates:
   - text: "Vamos tentar mais uma vez? Eu não consegui te entender direito, me pergunta\
       \ de outro jeito?\n"
   utter_despedir:
-  - text: "Foi um prazer te ajudar!\nSempre que tiver alguma dúvida, volte aqui!\n\
-      Até logo!\n"
-  - text: "Foi um prazer te ajudar!\nSempre que precisar, volte aqui!\nAté a próxima!\n"
-  - text: "Foi um prazer te ajudar!\nQuando surgir alguma dúvida, volte aqui!\nAté\
-      \ mais!\n"
+  - text: "Tudo bem, se tiver alguma dúvida, estarei aqui por você!\n"
+  - text: "Ok, sempre que precisar, estarei aqui!!\n"
   utter_faq:
   - text: Você deseja ver as perguntas mais frequentes sobre pygame?
   utter_implementacao:
