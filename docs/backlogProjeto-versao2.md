@@ -1,21 +1,5 @@
-# Histórico de Versão
-
- **Data** | **Versão** | **Descrição** | **Autor(es)**
----|---|---|---
-13/05/2019| 0.1| Criação da versão 1 do Backlog do Projeto | Gabriela, Guilherme e Lucas Lermen
-27/05/2019| 0.2| Corrigindo IDs e realizando alterações na TS03 e TS13| Gabriela
-29/05/2019| 0.2| Criando Versão 3 do Backlog do Projeto| Gabriela e Lucas Lermen
-
-## Sumário
-
-1. [Versão 3](#_1-versão-3)
-2. [Versão 2](#_2-versão-2)
-3. [Versão 1](#_3-versão-1)
-
-
-
 # **Backlog do Projeto**
-## 1. **Versão 3**
+## 1. **Versão 2**
 ### **Épico Sobre o Ludum**
 
 #### Feature 01 - Apresentar o Ludum e seu objetivo
@@ -53,28 +37,20 @@ TS03| <p align="justify">Eu, como desenvolvedor, desejo ajustar um endpoint que 
 TS05| <p align="justify">Eu, como desenvolvedor, desejo criar um endpoint que permite edição de um link.</p>|Média| 5
 TS12| <p align="justify">Eu, como desenvolvedor, desejo criar um endpoint que permite edição de um tutorial.</p>|Média| 5
 TS13| <p align="justify">Eu, como desenvolvedor, desejo ajustar um endpoint que permite armazenar novos tutoriais.</p>|Média| 5
-TS16| <p align="justify">Eu, como desenvolvedor, desejo criar dois perfis de usuário, sendo eles, administrador e usuário externo.</p>|Média| 8
-TS20| <p align="justify">Eu, como desenvolvedor, desejo criar um serviço de autenticação do usuário no microsserviço de Materiais.</p>|Média| 8
 
 ### **Épico Colaboração de Links e Tutoriais**
 
 #### Feature 05 - Contribuir com o conteúdo do Ludum
 **ID**|**Descrição**|**Prioridade**| **Pontos**
 :---:|:---|:---:|:---:
-US25 | <p align="justify"> Eu, como usuário, desejo acessar o webclient utilizando minhas credenciais.</p>| Alta | 2
-TS20 | <p align="justify"> Eu, como desenvolvedor, desejo realizar a comununicação da tela de login com o serviço de autenticação de usuário.| Baixa | 5 
 US17 | <p align="justify"> Eu, como usuário, desejo cadastrar um tutorial</p>| Alta | 8
 US18 | <p align="justify"> Eu, como usuário, desejo cadastrar um link</p>| Média | 8
-TS21 | <p align="justify"> Eu, como desenvolvedor, desejo realizar a comununicação da tela de cadastro de tutoriais com o respectivo endpoint.| Baixa | 5 
-TS22 | <p align="justify"> Eu, como desenvolvedor, desejo realizar a comununicação da tela de cadastro de tutoriais com o respectivo endpoint.| Baixa | 5 
 
 #### Feature 06 - Gerenciar os novos conteúdos
 **ID**|**Descrição**|**Prioridade**| **Pontos**
 :---:|:---|:---:|:---:
 US09 | <p align="justify"> Eu, como administrador, desejo gerenciar o envio de links </p>| Baixa| 5
 US19 | <p align="justify"> Eu, como administrador, desejo gerenciar o envio de tutoriais </p>| Baixa | 5
-TS23 | <p align="justify"> Eu, como desenvolvedor, desejo realizar a comununicação da tela de gerenciamento de envio de links com o respectivo endpoint.| Baixa | 5 
-TS24 | <p align="justify"> Eu, como desenvolvedor, desejo realizar a comununicação da tela de gerenciamento de envio de tutoriais com o respectivo endpoint.| Baixa | 5 
 
 ### **Épico Resolução de dúvidas**
 
@@ -106,11 +82,3 @@ US14| <p align="justify">Eu, como usuário, desejo aprender a criar um jogo de b
 US15| <p align="justify">Eu, como usuário, desejo aprender a criar um jogo de complexidade um pouco mais alta</p>| Média| 8
 US20| <p align="justify"> Eu, como usuário, desejo visualizar os tutoriais da comunidade disponíveis </p>| Média | 2
 US22| <p align="justify"> Eu, como usuário, desejo acessar um tutorial da comunidade</p>| Média | 2
-
-## 2. **Versão 2**
-- [Versão 2 do Backlog do Projeto](/backlogProjeto-versao2.md)
-
-
-## 3. **Versão 1**
-- [Versão 1 do Backlog do Projeto](/backlogProjeto-versao1.md)
-
