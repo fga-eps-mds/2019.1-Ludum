@@ -55,6 +55,7 @@ actions:
 - utter_tutorial_padawan3
 - utter_confirmacao
 - utter_padawan_c4
+- utter_tutorial_padawan22
 entities:
 - starwars
 - time
@@ -233,12 +234,12 @@ templates:
     text: "Este será o resultado\n"
   utter_tutorial_padawan14:
   - image: https://i.imgur.com/63G0w76.png
-    text: "Agora adicionaremos movimento à bolinha\n  Começaremos adicionando as coordenadas\
+    text: "Começaremos adicionando as coordenadas\
       \ que usaremos para dar movimento à bolinha\n"
   utter_tutorial_padawan15:
   - image: https://i.imgur.com/A1FaEMk.png
     text: "Agora iremos mudar as coordenadas da bolinha para dar movimento a ela,\
-      \ já estabelecendo os limites da tela já estabelecendo os limites da tela\n"
+      \ já estabelecendo os limites da tela\n"
   utter_tutorial_padawan16:
   - image: https://i.imgur.com/dK7Elao.png
     text: "Este será o resultado\n"
@@ -265,8 +266,7 @@ templates:
       \ ser na raquete,  a pontuação volte para 0\n"
   utter_tutorial_padawan21:
   - image: https://i.imgur.com/r5ucsLd.png
-    text: "Este será o resultado\n  Pronto, acabamos de fazer nosso primeiro joguinho\
-      \ em pygame\n"
+    text: "Este será o resultado\n"
   utter_tutorial_padawan3:
   - image: https://i.imgur.com/Wx40T7D.png
     text: "Após isso, definimos que a tela só possa ser fechada, se o jogador fechar\
@@ -297,3 +297,5 @@ templates:
      \ precisa do seu ambiente configurado para continuar. Esta tudo certo por ai?\n"
   utter_padawan_c4:
   - text: "Tudo bem por ai? Podemos continuar?\n"
+  utter_tutorial_padawan22:
+  - text: "Pronto! Acabamos de fazer nosso primeiro joguinho com a Pygame, parabéns!\n" 

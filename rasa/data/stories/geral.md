@@ -55,6 +55,8 @@
     - utter_tutorial_padawan19
     - utter_tutorial_padawan20
     - utter_tutorial_padawan21
+    - utter_tutorial_padawan22
+    - utter_cumprimentar
 
 ## path tutorial facil_retorno
 * informacao_desenvolvimento
