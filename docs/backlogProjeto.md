@@ -4,7 +4,7 @@
 ---|---|---|---
 13/05/2019| 0.1| Criação da versão 1 do Backlog do Projeto | Gabriela, Guilherme e Lucas Lermen
 27/05/2019| 0.2| Corrigindo IDs e realizando alterações na TS03 e TS13| Gabriela
-29/05/2019| 0.2| Criando Versão 3 do Backlog do Projeto| Gabriela e Lucas Lermen
+29/05/2019| 0.3| Criando Versão 3 do Backlog do Projeto| Gabriela e Lucas Lermen
 
 ## Sumário
 
@@ -62,19 +62,19 @@ TS20| <p align="justify">Eu, como desenvolvedor, desejo criar um serviço de aut
 **ID**|**Descrição**|**Prioridade**| **Pontos**
 :---:|:---|:---:|:---:
 US25 | <p align="justify"> Eu, como usuário, desejo acessar o webclient utilizando minhas credenciais.</p>| Alta | 2
-TS20 | <p align="justify"> Eu, como desenvolvedor, desejo realizar a comununicação da tela de login com o serviço de autenticação de usuário.| Baixa | 5 
+TS21 | <p align="justify"> Eu, como desenvolvedor, desejo realizar a comununicação da tela de login com o serviço de autenticação de usuário.| Baixa | 5
 US17 | <p align="justify"> Eu, como usuário, desejo cadastrar um tutorial</p>| Alta | 8
 US18 | <p align="justify"> Eu, como usuário, desejo cadastrar um link</p>| Média | 8
-TS21 | <p align="justify"> Eu, como desenvolvedor, desejo realizar a comununicação da tela de cadastro de tutoriais com o respectivo endpoint.| Baixa | 5 
-TS22 | <p align="justify"> Eu, como desenvolvedor, desejo realizar a comununicação da tela de cadastro de tutoriais com o respectivo endpoint.| Baixa | 5 
+TS22 | <p align="justify"> Eu, como desenvolvedor, desejo realizar a comununicação da tela de cadastro de tutoriais com o respectivo endpoint.| Baixa | 5
+TS23 | <p align="justify"> Eu, como desenvolvedor, desejo realizar a comununicação da tela de cadastro de tutoriais com o respectivo endpoint.| Baixa | 5
 
 #### Feature 06 - Gerenciar os novos conteúdos
 **ID**|**Descrição**|**Prioridade**| **Pontos**
 :---:|:---|:---:|:---:
 US09 | <p align="justify"> Eu, como administrador, desejo gerenciar o envio de links </p>| Baixa| 5
 US19 | <p align="justify"> Eu, como administrador, desejo gerenciar o envio de tutoriais </p>| Baixa | 5
-TS23 | <p align="justify"> Eu, como desenvolvedor, desejo realizar a comununicação da tela de gerenciamento de envio de links com o respectivo endpoint.| Baixa | 5 
-TS24 | <p align="justify"> Eu, como desenvolvedor, desejo realizar a comununicação da tela de gerenciamento de envio de tutoriais com o respectivo endpoint.| Baixa | 5 
+TS24 | <p align="justify"> Eu, como desenvolvedor, desejo realizar a comununicação da tela de gerenciamento de envio de links com o respectivo endpoint.| Baixa | 5
+TS25 | <p align="justify"> Eu, como desenvolvedor, desejo realizar a comununicação da tela de gerenciamento de envio de tutoriais com o respectivo endpoint.| Baixa | 5
 
 ### **Épico Resolução de dúvidas**
 
@@ -94,14 +94,14 @@ US12| <p align="justify">Eu, como usuário, desejo pesquisar minha dúvida no St
 
 ### **Épico Auxílio na criação de jogos**
 
-#### Feature 09 - Criar jogo 
+#### Feature 09 - Criar jogo
 **ID**|**Descrição**|**Prioridade**| **Pontos**
 :---:|:---|:---:|:---:
-US07| <p align="justify">Eu, como usuário, desejo que o Ludum pergunte sobre o meu ambiente de desenvolvimento.</p>| Muito Alta | 3 
+US07| <p align="justify">Eu, como usuário, desejo que o Ludum pergunte sobre o meu ambiente de desenvolvimento.</p>| Muito Alta | 3
 US24| <p align="justify">Eu, como usuário, desejo receber uma lista de recomendações em relação a ferramentas de desenvolvimento.</p>| Média| 3
 TS08| <p align="justify">Eu, como desenvolvedor, desejo criar um jogo de baixa complexidade para elaborar o tutorial</p>| Alta | 8
 TS09| <p align="justify">Eu, como desenvolvedor, desejo criar um jogo de complexidade um pouco mais alta para elaborar o tutorial</p>| Alta | 13
-US13| <p align="justify">Eu, como usuário, desejo selecionar a complexidade do jogo em que receberei auxílio</p>| Média | 2 
+US13| <p align="justify">Eu, como usuário, desejo selecionar a complexidade do jogo em que receberei auxílio</p>| Média | 2
 US14| <p align="justify">Eu, como usuário, desejo aprender a criar um jogo de baixa complexidade</p>| Média | 8
 US15| <p align="justify">Eu, como usuário, desejo aprender a criar um jogo de complexidade um pouco mais alta</p>| Média| 8
 US20| <p align="justify"> Eu, como usuário, desejo visualizar os tutoriais da comunidade disponíveis </p>| Média | 2
@@ -113,4 +113,3 @@ US22| <p align="justify"> Eu, como usuário, desejo acessar um tutorial da comun
 
 ## 3. **Versão 1**
 - [Versão 1 do Backlog do Projeto](/backlogProjeto-versao1.md)
-
