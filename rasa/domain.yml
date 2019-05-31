@@ -1,31 +1,37 @@
 %YAML 1.1
 ---
 actions:
-- utter_despedir
-- utter_perguntar_ambiente3
-- utter_negar_ambiente2
-- utter_cumprimentar
-- utter_proximopasso3
-- utter_tudo_bem
-- utter_confirmar_ambiente2
-- utter_ask_pergunta
-- utter_informacao_materiais
-- utter_default
-- utter_confirmar_ambiente1
-- utter_time
-- utter_negar_ambiente1
-- utter_proximopasso1
+- utter_tutorial_padawan2
 - utter_sem_nada
-- utter_informacao_desenvolvimento
-- extra.actions.ActionQuest
-- utter_star_wars
-- utter_informacao_duvidas
 - utter_proximopasso2
-- utter_contribuicao
-- utter_informacao
-- utter_implementacao
+- utter_padawan_c2
 - utter_perguntar_ambiente2
+- utter_tutorial_padawan21
+- utter_default
+- utter_informacao_materiais
+- utter_tutorial_padawan12
+- utter_negar_ambiente2
+- utter_tutorial_padawan5
+- utter_tutorial_padawan18
+- utter_informacao_desenvolvimento
+- utter_confirmar_ambiente2
+- utter_tutorial_padawan11
+- utter_time
+- utter_tutorial_padawan16
+- utter_negar_ambiente3
+- utter_proximopasso1
+- utter_informacao
+- utter_informacao_ambiente
+- utter_tutorial_padawan4
+- utter_tutorial_padawan1
+- utter_tutorial_padawan13
+- utter_informacao_duvidas
+- utter_despedir
+- utter_implementacao
+- action_faq
+- utter_faq
 - action_test
+- utter_tutorial_padawan8
 - utter_confirmar_ambiente3
 - utter_negar_ambiente3
 - utter_informacao_ambiente
@@ -55,28 +61,59 @@ actions:
 - utter_tutorial_jedi_comida_c
 - utter_tutorial_jedi_main
 - utter_tutorial_jedi_main_c
+- utter_tutorial_padawan10
+- utter_tutorial_padawan6
+- utter_cumprimentar
+- utter_tutorial_padawan9
+- utter_tutorial_padawan14
+- utter_tutorial_padawan19
+- utter_negar_ambiente1
+- utter_confirmar_ambiente1
+- utter_tutorial_padawan17
+- utter_padawan_c3
+- utter_tutorial_padawan7
+- utter_tudo_bem
+- utter_tutorial_padawan15
+- utter_perguntar_ambiente3
+- utter_proximopasso3
+- extra.actions.ActionQuest
+- utter_padawan_c
+- utter_contribuicao
+- utter_tutorial_padawan20
+- utter_ask_pergunta
+- utter_star_wars
+- utter_tutorial_padawan3
+- utter_confirmacao
+- utter_padawan_c4
+- utter_tutorial_padawan22
+- utter_complementos
+- utter_complementos2
+- utter_complementos3
+- utter_ambiente_adicional
+- utter_ambiente_adicional2
+- utter_ambiente_adicional3
 entities:
+- starwars
 - time
 - pergunta
-- starwars
 forms:
 - action_question
 intents:
-- action_question
-- nao_implementada
-- cumprimentar
+- informacao_desenvolvimento
 - confirmar
-- informacao_ambiente
+- faq
+- cumprimentar
+- tutorial_facil
+- action_question
 - negar
+- nao_implementada
+- informacao_ambiente
 - informacao_duvidas
 - informacao_materiais
 - despedir
-- out_of_scope
 - tudo_bem
-- informacao_desenvolvimento
 - informacao
 - time
-- star_wars
 - action_test
 - contribuicao
 - tutorial_medio
@@ -126,11 +163,10 @@ templates:
   - text: "Vamos tentar mais uma vez? Eu não consegui te entender direito, me pergunta\
       \ de outro jeito?\n"
   utter_despedir:
-  - text: "Foi um prazer te ajudar!\nSempre que tiver alguma dúvida, volte aqui!\n\
-      Até logo!\n"
-  - text: "Foi um prazer te ajudar!\nSempre que precisar, volte aqui!\nAté a próxima!\n"
-  - text: "Foi um prazer te ajudar!\nQuando surgir alguma dúvida, volte aqui!\nAté\
-      \ mais!\n"
+  - text: "Tudo bem, se tiver alguma dúvida, estarei aqui por você!\n"
+  - text: "Ok, sempre que precisar, estarei aqui!!\n"
+  utter_faq:
+  - text: Você deseja ver as perguntas mais frequentes sobre pygame?
   utter_implementacao:
   - text: "Esta funcionalidade ainda não foi implementada\n"
   utter_informacao:
@@ -170,17 +206,23 @@ templates:
   utter_negar_ambiente1:
   - text: "Para realizarmos nossos tutoriais você precisará do Python 3.6, mas sem\
       \ problema, para instalá-lo basta acessar este site https://www.python.org/downloads/\
-      \ e instalar conforme seu sistema operacional\nJá podemos seguir para o próximo\
-      \ passo ?\n"
+      \ e instalar conforme seu sistema operacional\n"
   utter_negar_ambiente2:
   - text: "Assim como todo Jedi possui seu sabre de luz, precisamos de algumas ferramentas\
       \ e um editor de texto é uma delas\nCaso não possua nenhum instalado, recomendamos\
       \ o Visual Studio Code\n Para instalá-lo acesse o site https://code.visualstudio.com/download,\
-      \ é tudo de graça!\nJá podemos seguir para o próximo passo ?\n"
+      \ é tudo de graça!\n"
   utter_negar_ambiente3:
   - text: "Para instalar a biblioteca PyGame, que será essencial para nós, entre no\
       \ link https://www.pygame.org/wiki/GettingStarted e siga as instruções\nJá podemos\
       \ seguir para o próximo passo ?\n"
+  utter_padawan_c:
+  - text: "Podemos ir adiante ou voce deseja sair?\n"
+  utter_padawan_c2:
+  - text: "Já estamos finalizando a primeira parte do tutorial Pong.\nPodemos  dar\
+      \ mais um passo para se tornar um meistres na criação de jogos?\n"
+  utter_padawan_c3:
+  - text: "Estamos quase encerrando mais uma etapa.\nDeseja ir além?\n"
   utter_perguntar_ambiente2:
   - text: "Você possui algum editor de texto de sua preferência instalado?\n"
   utter_perguntar_ambiente3:
@@ -195,6 +237,17 @@ templates:
   utter_proximopasso3:
   - text: "Caso tenha dificuldades na instalação, sugerimos que você acesse este link\
       \ https://www.simplifiedpython.net/pygame-tutorial-for-beginners/#Installing_PyGame\n"
+  utter_complementos:
+  - text: "Eu como Jedi também recomendo que você instale algumas ferramentas que podem ser úteis\
+      \ ao nosso desenvolvimento\n"
+  utter_complementos2:
+  - text: "Uma ótima extensão para o editor de texto Visual Studio é a extensão Python, ela ira te ajudar
+      \ a debugar e usar a ferramenta lint para que sua experiencia seja fantástica!\n
+      \ Para usa-la entre no link https://marketplace.visualstudio.com/items?itemName=ms-python.python\n"
+  utter_complementos3:
+  - text: "Caso tenha interesse em usar uma IDE nós recomendamos a PyCharm, ela é simples e intuitiva para\
+      \ iniciantes no desenvolvimento.\n
+      \ Para fazer o download entre em: https://www.jetbrains.com/pycharm/download/#section=linux\n"
   utter_sem_nada:
   - text: Mas eu nem te perguntei nada
   utter_star_wars:
@@ -354,3 +407,92 @@ templates:
   - text: "Agora que chegamos ao fim, você pode ser considerado\
       \ um verdadeiro SÁBIO na criação do jogo Snake.\n"
 
+  utter_tutorial_padawan1:
+  - text: "Neste tutorial irei te ensinar a criar o famoso jogo Pong! Prepare-se!\n"
+  utter_tutorial_padawan10:
+  - image: https://i.imgur.com/ivHFtf6.png
+    text: "Este será o resultado\n"
+  utter_tutorial_padawan11:
+  - image: https://i.imgur.com/jCI0hqJ.png
+    text: "Vamos adicionar movimento à raquete\n  Começamos adicionando as coordenadas\
+      \ que alteraremos para movimentar a raquete\n"
+  utter_tutorial_padawan12:
+  - image: https://i.imgur.com/mavaxUr.png
+    text: "Agora vamos adicionar movimento à raquete, fazendo com que as setas para\
+      \ direita e esquerda controlem a raquete\n"
+  utter_tutorial_padawan13:
+  - image: https://i.imgur.com/L26qiqT.png
+    text: "Este será o resultado\n"
+  utter_tutorial_padawan14:
+  - image: https://i.imgur.com/63G0w76.png
+    text: "Começaremos adicionando as coordenadas\
+      \ que usaremos para dar movimento à bolinha\n"
+  utter_tutorial_padawan15:
+  - image: https://i.imgur.com/A1FaEMk.png
+    text: "Agora iremos mudar as coordenadas da bolinha para dar movimento a ela,\
+      \ já estabelecendo os limites da tela\n"
+  utter_tutorial_padawan16:
+  - image: https://i.imgur.com/dK7Elao.png
+    text: "Este será o resultado\n"
+  utter_tutorial_padawan17:
+  - image: https://i.imgur.com/blpP9nU.png
+    text: "Agora adicionaremos a biblioteca pygame para evitar erros no próximo passo\n\
+      \  Primeiro vamos inicializar a biblioteca no começo do programa\n"
+  utter_tutorial_padawan18:
+  - image: https://i.imgur.com/uhrcVFP.png
+    text: "Agora vamos fechar a biblioteca no final do programa\n"
+  utter_tutorial_padawan19:
+  - image: https://i.imgur.com/yrwir1A.png
+    text: "Vamos adicionar agora o placar\n  Inicialmente, vamos criar inicializar\
+      \ os pontos para o placar\n"
+  utter_tutorial_padawan2:
+  - image: https://i.imgur.com/A33MvbG.png
+    text: "Primeiramente iremos criar a tela de fundo\n  Neste código abaixo, estamos\
+      \ primeiramente importando a pygame, definindo as cores, para então criar a\
+      \ tela com tamanho e nome ()img\n"
+  utter_tutorial_padawan20:
+  - image: https://i.imgur.com/kZYn8Sv.png
+    text: "Agora vamos adicionar algumas linhas, para que quando a bolinha toque na\
+      \ parte superior   aumente o placar em 1 ponto e quando toque na inferior sem\
+      \ ser na raquete,  a pontuação volte para 0\n"
+  utter_tutorial_padawan21:
+  - image: https://i.imgur.com/r5ucsLd.png
+    text: "Este será o resultado\n"
+  utter_tutorial_padawan3:
+  - image: https://i.imgur.com/Wx40T7D.png
+    text: "Após isso, definimos que a tela só possa ser fechada, se o jogador fechar\
+      \ o programa\n"
+  utter_tutorial_padawan4:
+  - image: https://i.imgur.com/KES2JeF.png
+    text: "Este será o resultado\n"
+  utter_tutorial_padawan5:
+  - image: https://i.imgur.com/IWifyTg.png
+    text: "Agora vamos fazer a raquete\n  Primeiro, vamos definir abaixo da criação\
+      \ da tela[1.1], as coordenadas da raquete com 'rect',  criar a raquete e já\
+      \ definir que ela não pode sair da tela\n"
+  utter_tutorial_padawan6:
+  - image: https://i.imgur.com/uZJI4aS.png
+    text: "Então mostraremos a raquete na tela\n"
+  utter_tutorial_padawan7:
+  - image: https://i.imgur.com/ycpF69N.png
+    text: "Este será o resultado\n"
+  utter_tutorial_padawan8:
+  - image: https://i.imgur.com/7wDKcKE.png
+    text: "Vamos criar a bola\n  Primeiramente, vamos criar coordenadas iniciais quaisquer\
+      \ para a bolinha\n"
+  utter_tutorial_padawan9:
+  - image: https://i.imgur.com/AqueabZ.png
+    text: "Agora, vamos desenhar a bolinha na tela\n"
+  utter_confirmacao:
+  - text: "Meu futuro meister dos jogos, assim como um Jedi precisa de sua espada para lutar você
+     \ precisa do seu ambiente configurado para continuar. Esta tudo certo por ai?\n"
+  utter_padawan_c4:
+  - text: "Tudo bem por ai? Podemos continuar?\n"
+  utter_tutorial_padawan22:
+  - text: "Pronto! Acabamos de fazer nosso primeiro joguinho com a Pygame, parabéns!\n" 
+  utter_ambiente_adicional: 
+  - text: "Deseja saber mais alguma sugestão?\n"
+  utter_ambiente_adicional2: 
+  - text: "Ambiente configurado! Tudo pronto para mergulhamos na saga do infinito! Prepare-se :) \n"
+  utter_ambiente_adicional3:
+  - text: "Tudo certo? Podemos continuar?\n"

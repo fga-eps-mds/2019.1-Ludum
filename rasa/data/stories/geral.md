@@ -16,12 +16,198 @@
 * tudo_bem
     - utter_tudo_bem
 
-## tutorial
+## path tutorial facil 1
 * informacao_desenvolvimento
     - utter_informacao_desenvolvimento
-* nao_implementada
-    - utter_implementacao
+* tutorial_facil
+    - utter_confirmacao
+* confirmar
+    - utter_tutorial_padawan1
+    - utter_tutorial_padawan2
+    - utter_tutorial_padawan3
+    - utter_padawan_c4
+* confirmar
+    - utter_tutorial_padawan4
+    - utter_padawan_c
+* confirmar
+    - utter_tutorial_padawan5
+    - utter_tutorial_padawan6
+    - utter_tutorial_padawan7
+    - utter_padawan_c2
+* confirmar    
+    - utter_tutorial_padawan8
+    - utter_tutorial_padawan9
+    - utter_tutorial_padawan10
+    - utter_padawan_c
+* confirmar
+    - utter_tutorial_padawan11
+    - utter_tutorial_padawan12
+    - utter_tutorial_padawan13
+    - utter_padawan_c
+* confirmar
+    - utter_tutorial_padawan14
+    - utter_tutorial_padawan15
+    - utter_tutorial_padawan16
+    - utter_padawan_c3
+* confirmar    
+    - utter_tutorial_padawan17
+    - utter_tutorial_padawan18
+    - utter_tutorial_padawan19
+    - utter_tutorial_padawan20
+    - utter_tutorial_padawan21
+    - utter_tutorial_padawan22
+    - utter_cumprimentar
 
+## path tutorial facil_retorno
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_facil
+    - utter_confirmacao
+* negar
+    - utter_cumprimentar
+
+## path tutorial facil 2
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_facil
+    - utter_confirmacao
+* confirmar
+    - utter_tutorial_padawan1
+    - utter_tutorial_padawan2
+    - utter_tutorial_padawan3
+    - utter_padawan_c4
+* negar
+   - utter_cumprimentar
+
+## path tutorial facil 3
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_facil
+    - utter_confirmacao
+* confirmar
+    - utter_tutorial_padawan1
+    - utter_tutorial_padawan2
+    - utter_tutorial_padawan3
+    - utter_padawan_c4
+* confirmar
+    - utter_tutorial_padawan4
+    - utter_padawan_c
+* negar
+    - utter_cumprimentar
+
+## path tutorial facil 4
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_facil
+    - utter_confirmacao
+* confirmar
+    - utter_tutorial_padawan1
+    - utter_tutorial_padawan2
+    - utter_tutorial_padawan3
+    - utter_padawan_c4
+* confirmar
+    - utter_tutorial_padawan4
+    - utter_padawan_c
+* confirmar
+    - utter_tutorial_padawan5
+    - utter_tutorial_padawan6
+    - utter_tutorial_padawan7
+    - utter_padawan_c2
+* negar    
+    - utter_cumprimentar
+
+## path tutorial facil 5
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_facil
+    - utter_confirmacao
+* confirmar
+    - utter_tutorial_padawan1
+    - utter_tutorial_padawan2
+    - utter_tutorial_padawan3
+    - utter_padawan_c4
+* confirmar
+    - utter_tutorial_padawan4
+    - utter_padawan_c
+* confirmar
+    - utter_tutorial_padawan5
+    - utter_tutorial_padawan6
+    - utter_tutorial_padawan7
+    - utter_padawan_c2
+* confirmar    
+    - utter_tutorial_padawan8
+    - utter_tutorial_padawan9
+    - utter_tutorial_padawan10
+    - utter_padawan_c
+* negar
+    - utter_cumprimentar
+
+## path tutorial facil 6
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_facil
+    - utter_confirmacao
+* confirmar
+    - utter_tutorial_padawan1
+    - utter_tutorial_padawan2
+    - utter_tutorial_padawan3
+    - utter_padawan_c4
+* confirmar
+    - utter_tutorial_padawan4
+    - utter_padawan_c
+* confirmar
+    - utter_tutorial_padawan5
+    - utter_tutorial_padawan6
+    - utter_tutorial_padawan7
+    - utter_padawan_c2
+* confirmar    
+    - utter_tutorial_padawan8
+    - utter_tutorial_padawan9
+    - utter_tutorial_padawan10
+    - utter_padawan_c
+* confirmar
+    - utter_tutorial_padawan11
+    - utter_tutorial_padawan12
+    - utter_tutorial_padawan13
+    - utter_padawan_c
+* negar
+    - utter_cumprimentar
+
+## path tutorial facil 7
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_facil
+    - utter_confirmacao
+* confirmar
+    - utter_tutorial_padawan1
+    - utter_tutorial_padawan2
+    - utter_tutorial_padawan3
+    - utter_padawan_c4
+* confirmar
+    - utter_tutorial_padawan4
+    - utter_padawan_c
+* confirmar
+    - utter_tutorial_padawan5
+    - utter_tutorial_padawan6
+    - utter_tutorial_padawan7
+    - utter_padawan_c2
+* confirmar    
+    - utter_tutorial_padawan8
+    - utter_tutorial_padawan9
+    - utter_tutorial_padawan10
+    - utter_padawan_c
+* confirmar
+    - utter_tutorial_padawan11
+    - utter_tutorial_padawan12
+    - utter_tutorial_padawan13
+    - utter_padawan_c
+* confirmar
+    - utter_tutorial_padawan14
+    - utter_tutorial_padawan15
+    - utter_tutorial_padawan16
+    - utter_padawan_c3
+* negar  
+    - utter_cumprimentar
 
 ## fallback
 * out_of_scope
@@ -419,7 +605,6 @@
 * cumprimentar
         - utter_cumprimentar
 
-
 ## tutorial ambiente 1
 * informacao_ambiente
     - utter_informacao_ambiente
@@ -430,55 +615,177 @@
     - utter_confirmar_ambiente2
     - utter_perguntar_ambiente3
 * confirmar
-    - utter_implementacao
-    
+    - utter_complementos
+    - utter_ambiente_adicional
+* confirmar
+    - utter_complementos2
+    - utter_ambiente_adicional
+* confirmar
+    - utter_complementos3
+    - utter_ambiente_adicional2
+    - utter_cumprimentar
+
 ## tutorial ambiente 2
+* informacao_ambiente
+    - utter_informacao_ambiente
 * confirmar
     - utter_confirmar_ambiente1
     - utter_perguntar_ambiente2
-* negar
-    - utter_negar_ambiente2
+* confirmar
     - utter_confirmar_ambiente2
     - utter_perguntar_ambiente3
 * confirmar
-    - utter_implementacao
+    - utter_complementos
+    - utter_ambiente_adicional
+* negar
+    - utter_ambiente_adicional2
+    - utter_cumprimentar
 
 ## tutorial ambiente 3
+* informacao_ambiente
+    - utter_informacao_ambiente
 * confirmar
     - utter_confirmar_ambiente1
     - utter_perguntar_ambiente2
-* negar
-    - utter_negar_ambiente2
+* confirmar
     - utter_confirmar_ambiente2
     - utter_perguntar_ambiente3
+* confirmar
+    - utter_complementos
+    - utter_ambiente_adicional
+* confirmar
+    - utter_complementos2
+    - utter_ambiente_adicional
 * negar
-    - utter_negar_ambiente3
-    - utter_implementacao
+    - utter_ambiente_adicional2
+    - utter_cumprimentar
 
 ## tutorial ambiente 4
 * confirmar
     - utter_confirmar_ambiente1
     - utter_perguntar_ambiente2
-* confirmar
-    - utter_confirmar_ambiente2
-    - utter_perguntar_ambiente3
 * negar
-    - utter_negar_ambiente3
-    - utter_implementacao
+    - utter_negar_ambiente2
+    - utter_ambiente_adicional3
+* negar
+    - utter_negar_ambiente2
+    - utter_ambiente_adicional3
+* confirmar
+    - utter_complementos
+    - utter_ambiente_adicional
+* confirmar
+    - utter_complementos2
+    - utter_ambiente_adicional
+* confirmar
+    - utter_complementos3
+    - utter_ambiente_adicional2
+    - utter_cumprimentar
 
 ## tutorial ambiente 5
-* negar
-    - utter_negar_ambiente1
+* confirmar
+    - utter_confirmar_ambiente1
     - utter_perguntar_ambiente2
 * negar
     - utter_negar_ambiente2
-    - utter_confirmar_ambiente2
-    - utter_perguntar_ambiente3
+    - utter_ambiente_adicional3
+* negar
+    - utter_negar_ambiente2
+    - utter_ambiente_adicional3
 * negar
     - utter_negar_ambiente3
-    - utter_implementacao
+    - utter_ambiente_adicional3
+* confirmar
+    - utter_complementos
+    - utter_ambiente_adicional
+* confirmar
+    - utter_complementos2
+    - utter_ambiente_adicional
+* confirmar
+    - utter_complementos3
+    - utter_ambiente_adicional2
+    - utter_cumprimentar
 
 ## tutorial ambiente 6
+* confirmar
+    - utter_confirmar_ambiente1
+    - utter_perguntar_ambiente2
+* negar
+    - utter_negar_ambiente2
+    - utter_ambiente_adicional3
+* negar
+    - utter_negar_ambiente2
+    - utter_ambiente_adicional3
+* negar
+    - utter_negar_ambiente3
+    - utter_ambiente_adicional3
+* confirmar
+    - utter_complementos
+    - utter_ambiente_adicional
+* negar
+    - utter_ambiente_adicional2
+    - utter_cumprimentar
+
+## tutorial ambiente 7
+* confirmar
+    - utter_confirmar_ambiente1
+    - utter_perguntar_ambiente2
+* negar
+    - utter_negar_ambiente2
+    - utter_ambiente_adicional3
+* negar
+    - utter_negar_ambiente2
+    - utter_ambiente_adicional3
+* negar
+    - utter_negar_ambiente3
+    - utter_ambiente_adicional3
+* confirmar
+    - utter_complementos
+    - utter_ambiente_adicional
+* confirmar
+    - utter_complementos2
+    - utter_ambiente_adicional
+* negar
+    - utter_ambiente_adicional2
+    - utter_cumprimentar
+
+## tutorial ambiente 8
+* confirmar
+    - utter_confirmar_ambiente1
+    - utter_perguntar_ambiente2
+* confirmar
+    - utter_confirmar_ambiente2
+    - utter_perguntar_ambiente3
+* negar
+    - utter_negar_ambiente3
+    - utter_ambiente_adicional3
+* confirmar
+    - utter_complementos
+    - utter_complementos2
+    - utter_complementos3
+    - utter_ambiente_adicional2
+    - utter_cumprimentar
+
+## tutorial ambiente 9
+* negar
+    - utter_negar_ambiente1
+    - utter_perguntar_ambiente2
+* negar
+    - utter_negar_ambiente2
+    - utter_ambiente_adicional3
+* negar
+    - utter_negar_ambiente2
+    - utter_ambiente_adicional3
+* negar
+    - utter_negar_ambiente3
+    - utter_ambiente_adicional3
+* confirmar
+    - utter_complementos
+    - utter_complementos2
+    - utter_complementos3
+    - utter_ambiente_adicional2
+    - utter_cumprimentar
+
+## tutorial ambiente 10
 * negar
     - utter_negar_ambiente1
     - utter_perguntar_ambiente2
@@ -487,20 +794,32 @@
     - utter_perguntar_ambiente3
 * negar
     - utter_negar_ambiente3
-    - utter_implementacao
+    - utter_ambiente_adicional3
+* confirmar
+    - utter_complementos
+    - utter_complementos2
+    - utter_complementos3
+    - utter_ambiente_adicional2
+    - utter_cumprimentar
 
-## tutorial ambiente 7
+## tutorial ambiente 11
 * negar
     - utter_negar_ambiente1
     - utter_perguntar_ambiente2
 * negar
     - utter_negar_ambiente2
-    - utter_confirmar_ambiente2
-    - utter_perguntar_ambiente3
+    - utter_ambiente_adicional3
+* negar
+    - utter_negar_ambiente2
+    - utter_ambiente_adicional3
 * confirmar 
-    - utter_implementacao
+    - utter_complementos
+    - utter_complementos2
+    - utter_complementos3
+    - utter_ambiente_adicional2
+    - utter_cumprimentar
 
-## tutorial ambiente 8
+## tutorial ambiente 12
 * negar
     - utter_negar_ambiente1
     - utter_perguntar_ambiente2
@@ -508,7 +827,11 @@
     - utter_confirmar_ambiente2
     - utter_perguntar_ambiente3
 * confirmar
-    - utter_implementacao
+    - utter_complementos
+    - utter_complementos2
+    - utter_complementos3
+    - utter_ambiente_adicional2
+    - utter_cumprimentar
 
 ## Generated Story -5536704352028321519
 * confirmar
@@ -519,3 +842,29 @@
 ## Contribuicao
 * contribuicao
     - utter_contribuicao
+
+## Generated Story -8260612615251012865
+* faq
+    - utter_faq
+* confirmar
+    - action_faq
+* negar
+    - utter_despedir
+* negar
+    - utter_sem_nada
+
+## Faq_2
+* faq
+    - utter_faq
+* negar
+    - utter_despedir
+
+## Generated Story -8260612615251012865
+* faq
+    - utter_faq
+* confirmar
+    - action_faq
+* negar
+    - utter_despedir
+* cumprimentar
+    - utter_cumprimentar

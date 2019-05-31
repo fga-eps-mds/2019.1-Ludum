@@ -91,3 +91,50 @@
 * confirmar
     - utter_sem_nada
 
+## Generated Story -348739100311544484
+* cumprimentar
+    - utter_cumprimentar
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_facil
+    - utter_tutorial_padawan1
+    - utter_tutorial_padawan2
+    - utter_tutorial_padawan3
+    - utter_tutorial_padawan4
+    - utter_padawan_c
+* confirmar
+    - utter_tutorial_padawan5
+    - utter_tutorial_padawan6
+    - utter_tutorial_padawan7
+    - utter_padawan_c2
+* confirmar
+    - utter_tutorial_padawan5
+    - utter_tutorial_padawan6
+    - utter_tutorial_padawan7
+    - utter_padawan_c2
+* confirmar
+    - utter_tutorial_padawan8
+    - utter_tutorial_padawan9
+    - utter_tutorial_padawan10
+    - utter_padawan_c
+* confirmar
+    - utter_tutorial_padawan11
+    - utter_tutorial_padawan12
+    - utter_tutorial_padawan13
+    - utter_padawan_c
+* confirmar
+    - utter_tutorial_padawan14
+    - utter_tutorial_padawan15
+    - utter_tutorial_padawan16
+    - utter_padawan_c
+* confirmar
+    - utter_tutorial_padawan17
+    - utter_tutorial_padawan18
+    - utter_tutorial_padawan19
+    - utter_tutorial_padawan20
+    - utter_tutorial_padawan21
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_facil
+    - utter_tutorial_padawan1
+

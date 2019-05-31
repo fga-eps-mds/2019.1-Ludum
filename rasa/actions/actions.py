@@ -12,7 +12,7 @@ class ActionTest(Action):
 
     def run(self, dispatcher, tracker, domain):
         try:
-            dispatcher.utter_message('Mensagem enviada por uma custom action')
+            dispatcher.utter_message('Mensagem enviada por uma custom aaaa')
         except ValueError:
             dispatcher.utter_message(ValueError)
         return []
@@ -28,15 +28,15 @@ class ActionQuestion(FormAction):
 
     def submit(self, dispatcher, tracker, domain):
         try:
-            pergunta = str(tracker.get_slot('pergunta'))
-            api = 'https://ludum-duvidas.herokuapp.com/api/duvidas'
-            apiPergunta = api + '/pesquisar' + '/:{' + pergunta + '}'
             dispatcher.utter_message('Espere jovem padawan,' +
                                      'vou procurar uma resposta' +
                                      'no Stack Overflow para você')
         except ValueError:
             dispatcher.utter_message(ValueError)
         try:
+            pergunta = str(tracker.get_slot('pergunta'))
+            api = 'https://ludum-duvidas.herokuapp.com/api/duvidas'
+            apiPergunta = api + '/pesquisar' + '/:{' + pergunta + '}'
             link = requests.get(apiPergunta)
             stack = json.loads(link.text)
             utterString = ''
@@ -54,7 +54,12 @@ class ActionQuestion(FormAction):
                     utterString += 'Link: '
                     utterString += str(stack['data']['answer'][i]['link'])
                     utterString += '\n'
-            dispatcher.utter_message(utterString)
+                dispatcher.utter_message(utterString)
+                stringFinal = "Esses são os links mais uteis que eu encontrei"
+                stringFinal += "\nEspero ter te ajudado!"
+                stringFinal += " Se tiver Qualquer outra duvida"
+                stringFinal += " estou aqui pra auxilia-lo!"
+                dispatcher.utter_message(stringFinal)
         except ValueError:
             dispatcher.utter_message(ValueError)
         return [SlotSet('pergunta', None)]
@@ -63,3 +68,23 @@ class ActionQuestion(FormAction):
         return {
             "pergunta": self.from_text()
         }
+
+
+class ActionFaq(Action):
+    def name(self):
+        return "action_faq"
+
+    def run(self, dispatcher, tracker, domain):
+        try:
+            string = ''
+            f = open('../rasa/actions/faq/perguntas_faq.txt', 'r')
+            string = f.read()
+            f.close()
+            dispatcher.utter_message(string)
+            finalizar = 'Se não tiver encontrado sua pergunta'
+            finalizar += ' aqui, posso fazer uma pesquisa no stack overflow'
+            dispatcher.utter_message(finalizar)
+            dispatcher.utter_message('Deseja que eu faça isso?')
+        except ValueError:
+            dispatcher.utter_message(ValueError)
+        return []

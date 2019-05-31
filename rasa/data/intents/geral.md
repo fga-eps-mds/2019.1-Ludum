@@ -20,7 +20,23 @@
 ## intent:confirmar
 - sim
 - claro
+- continuar
+- Continuar
 - Sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
 - sim
 - sim
 - sim
@@ -72,6 +88,12 @@
 - o que preciso para contribuir
 - como contribuir para o repositorio
 
+## intent:informacao
+- Tenho uma pergunta
+- Tenho uma duvida
+- Duvida
+- voce pode me tirar uma duvida?
+
 ## intent:cumprimentar
 - oi, tudo bem
 - bom dia
@@ -105,6 +127,19 @@
 - falou, valeu
 - flw vlw
 - xau
+
+## intent:faq
+- FAQ
+- faq
+- faq
+- faq
+- faq
+- faq
+- faq
+- faq
+- me mande o faq
+- você possui um faq?
+- você possui um faq?
 
 ## intent:informacao
 - Tenho uma pergunta
@@ -201,6 +236,27 @@
 - ir adiante
 - ir além
 - ir para o próximo
+## intent:tutorial_facil
+- Facil
+- facil
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- facil 
+- facil 
 
 
 ## intent:informacao_duvidas
@@ -212,10 +268,6 @@
 - Você pode responder minhas questões?
 - Duvida
 - como posso tirar uma duvida?
-- FAQ
-- FAQ
-- faq
-- Faq
 - Como posso aprender?
 - Posso te fazer uma pergunta?
 
@@ -249,11 +301,12 @@
 - videos
 - videos-explicativos
 - textos
-- fácil
-- Fácil
 - python
 
 ## intent:negar
+- sair
+- sair 
+- Sair
 - nao
 - não
 - nao
@@ -304,17 +357,29 @@
 - nao
 - nao
 - nao
+- não
+- não
+- não
+- não
 
 ## intent:out_of_scope
 - Qual a origem do mundo?
 - Você tem signo?
 - Vc gosta de carnaval?
 - batatinha quando nasce
+- pygame module
+
+## intent:star_wars
+- pygame object
+- Pygame 3D
 
 ## intent:start
 - /start
 - /start
 - /start
+
+## intent:stop
+- /stop
 
 ## intent:tudo_bem
 - Tudo bem
