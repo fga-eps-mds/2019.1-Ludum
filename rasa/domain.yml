@@ -34,7 +34,6 @@ actions:
 - utter_tutorial_padawan8
 - utter_confirmar_ambiente3
 - utter_negar_ambiente3
-- utter_informacao_ambiente
 - utter_tutorial_jedi
 - utter_tutorial_jedi_confirmar
 - utter_tutorial_jedi_negar
