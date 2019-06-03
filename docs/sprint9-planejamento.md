@@ -6,7 +6,7 @@
 
 **Duração**: Uma semana
 
-**Pontos Planejados**: 55
+**Pontos Planejados**: 58
 
 -------
 
@@ -37,8 +37,8 @@
 
 <p align = "justify"> As tarefas da <i>sprint</i> serão planejadas visando a continuidade do projeto. Assim sendo, elas são muito importantes para o funcionamento correto do Ludum.</p>
 
-<p align = "justify"> Foram planejados 55 pontos. É uma quantidade acima do velocity do projeto e boa parte dos membros só poderão trabalhar com suas partes no final da <i>sprint</i>. Apesar desses riscos, a equipe se comprometeu a entregar tudo o que foi planejado, tendo em vista a importância das tarefas planejadas.</p>
-
+<p align = "justify"> Foram planejados 58 pontos. É uma quantidade acima do velocity do projeto e boa parte dos membros só poderão trabalhar com suas partes no final da <i>sprint</i>. Apesar desses riscos, a equipe se comprometeu a entregar tudo o que foi planejado, tendo em vista a importância das tarefas planejadas.</p>
+5
 
 ## 3. Tarefas da _Sprint_
 
@@ -55,9 +55,9 @@
 | TS05 - Criar endpoint de edição de links | 5 |
 | TS12 - Criar endpoint de edição de um tutorial | 5 |
 | TS13 - Criar endpoint de armazenamento de novos tutoriais | 5 |
-| Configurar deploy contínuo | 13 |
-| Configurar deploy do microsserviço de tutoriais | 3 |
-| Documentar sprint| 1 |
+| T48 - Documentar sprint| 1 |
+| T49 - Configurar deploy contínuo | 13 |
+| T50 - Configurar deploy do microsserviço de tutoriais | 3 |
 
 
 ## 4. Pareamentos

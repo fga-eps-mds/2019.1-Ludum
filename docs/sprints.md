@@ -48,5 +48,11 @@
 ## <i>Sprint</i> 9
 
 - [Planejamento](/sprint9-planejamento.md)
-- [Resultado](/sprint9-resultado.md) 
+- [Resultado](/sprint9-resultado.md)
+
+## <i>Sprint</i> 10
+
+- [Planejamento](/sprint10-planejamento.md)
+- [Resultado](/sprint10-resultado.md) 
+
 
