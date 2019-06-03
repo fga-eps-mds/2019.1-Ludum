@@ -236,6 +236,14 @@
 - ir adiante
 - ir além
 - ir para o próximo
+- confirmar
+- continua
+- ok
+- estou pronto
+- estou pronta
+- podemos
+- podemos prosseguir
+
 ## intent:tutorial_facil
 - Facil
 - facil

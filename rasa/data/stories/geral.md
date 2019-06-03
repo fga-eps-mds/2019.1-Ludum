@@ -288,7 +288,7 @@
 * prosseguir 
     - utter_tutorial_jedi_main
     - utter_tutorial_jedi_main_c
-    - utter_implementacao
+    - utter_cumprimentar
 
 ## path tutorial medio confirmar 2
 * informacao
