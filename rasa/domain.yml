@@ -18,7 +18,6 @@ actions:
 - utter_tutorial_padawan11
 - utter_time
 - utter_tutorial_padawan16
-- utter_negar_ambiente3
 - utter_proximopasso1
 - utter_informacao
 - utter_informacao_ambiente
@@ -33,6 +32,33 @@ actions:
 - action_test
 - utter_tutorial_padawan8
 - utter_confirmar_ambiente3
+- utter_negar_ambiente3
+- utter_tutorial_jedi
+- utter_tutorial_jedi_confirmar
+- utter_tutorial_jedi_negar
+- utter_tutorial_jedi_imports
+- utter_tutorial_jedi_imports_n
+- utter_tutorial_jedi_imports_c
+- utter_tutorial_jedi_cores
+- utter_tutorial_jedi_cores_c
+- utter_tutorial_jedi_direcao
+- utter_tutorial_jedi_direcao_c
+- utter_tutorial_jedi_classe_game
+- utter_tutorial_jedi_classe_game_c
+- utter_tutorial_jedi_run
+- utter_tutorial_jedi_run_c
+- utter_tutorial_jedi_movimentos
+- utter_tutorial_jedi_movimentos_c
+- utter_tutorial_jedi_desenhos
+- utter_tutorial_jedi_desenhos_c
+- utter_tutorial_jedi_snake
+- utter_tutorial_jedi_snake_c 
+- utter_tutorial_jedi_colisao
+- utter_tutorial_jedi_colisao_c
+- utter_tutorial_jedi_comida
+- utter_tutorial_jedi_comida_c
+- utter_tutorial_jedi_main
+- utter_tutorial_jedi_main_c
 - utter_tutorial_padawan10
 - utter_tutorial_padawan6
 - utter_cumprimentar
@@ -88,6 +114,8 @@ intents:
 - time
 - action_test
 - contribuicao
+- tutorial_medio
+- prosseguir
 slots:
   pergunta:
     type: unfeaturized
@@ -144,20 +172,20 @@ templates:
   utter_informacao_ambiente:
   - text: "Certo, irei lhe perguntar se você possui algumas das nossas \"joias do\
       \ infinito\" que serão necessárias ao desenvolvimento, para começarmos, você\
-      \ já possui o Python 3.6 instalado em seu computador?\n"
+      \ já possui o Python 3.6 instalado em seu computador?\n"      
   utter_informacao_desenvolvimento:
   - buttons:
     - payload: Facil
-      title: Padawan(Iniciante)
+      title: Padawan - Pong(Iniciante)
     - payload: Medio
-      title: Jedi(Intermediário)
+      title: Jedi - Snake (Intermediário)
     - payload: Comunidade
       title: Tutoriais da comunidade
     text: "Muito bom, jovem Padawan!!\nVou te mostrar o tutorial de como desenvolver\
       \ e criar seu jogo em Python com diferentes dificuldades.\nQuando perceber você\
       \ já ser um Meister dos jogos!\nPorém, antes de começar devo te fazer uma pergunta.\n\
       \ Você quer começar por qual dificuldade?\nPadawan\nJedi\n Ou tambem usar alguns\
-      \ dos   Tutoriais feitos pela comunidade\n"
+      \ dos Tutoriais feitos pela comunidade\n"
   utter_informacao_duvidas:
   - text: "Você pode me perguntar tudo que quiser saber sobre o desenvolvimento de\
       \ jogos em pygame! \nAs vezes eu posso até não saber sua resposta, mas posso\
@@ -232,6 +260,141 @@ templates:
   - text: "Melhor time do mundo disparado, Flamengooo!!!!\n"
   utter_tudo_bem:
   - text: "Tudo bem, obrigado! Em que posso te ajudar?\n"
+  utter_tutorial_jedi:
+  - text: "Meu caro, devo lhe notificar que é super importante que seu ambiente\
+      \ esteja devidamente configurado.\nA força\
+      \ das joias do infinito está em seu poder?\n"
+  utter_tutorial_jedi_confirmar:
+  - text: "Tudo certo Jovem Geek! Vamos começar o tutorial do jogo Snake!\nMas\
+      \ antes de prosseguirmos, devo te informar as regras do jogo.\nO\
+      \ usuário tem que movimentar a snake ou cobrinha e\
+      \ comer as joias do infinito que aparecem na tela.\nA cada\    
+      \ joia, a snake cresce e o usuário deve\
+      \ evitar as colisões com o próprio corpo ou com a parede.\nO\
+      \ placar aumenta a cada vez que comer uma joia do infinito.\nPodemos\    
+      \ ir adiante?\n"      
+  utter_tutorial_jedi_negar:
+  - text: "Certo, jovem Padawan. Vamos\
+      \ para o ambiente configurar o poder\
+      \ das joias do infinito\n"  
+  utter_tutorial_jedi_imports:
+  - text: "Tudo pronto Jovem Geek! O primeiro passo\
+      \ para iniciar o jogo é criar um arquivo com o nome `snake.py` ou\
+      \ NomeDoArquivo.py.\nDentro desse arquivo\
+      \ vamos começar fazendo os imports das bibliotecas.\nPygame\    
+      \ e Random, como na imagem abaixo.\n"
+    image: "https://i.imgur.com/b94hNj2.png"
+  utter_tutorial_jedi_imports_c:
+  - text: "Estou te aguardando jovem Padawan! Quando\
+      \ estiver pronto para continuar, me avise!\n"        
+  utter_tutorial_jedi_cores:
+  - text: "Agora que ja temos as bibliotecas necessárias\
+      \ vamos escolher as cores do jogo que nesse tutorial são:\n\
+      \ Preto (BLACK)\nAzul (BLUE)\nCinza (GRAY)\nComo\
+      \ mostra a imagem abaixo.\n"
+    image: "https://i.imgur.com/fd7dHgX.png"
+  utter_tutorial_jedi_cores_c:
+  - text: "Mas, como bom mestre da mágia, você\
+      \ pode mudar as cores do jogo.\nBasta acessar o link\
+      \ http://shibolete.tripod.com/RGB.html escolher a cor que deseja e\
+      \ mudar os valores referênte a cor no código.\nQuando\
+      \ estiver pronto para continuar, me avise!\n"
+  utter_tutorial_jedi_direcao:
+  - text: "Nessa parte, vamos definir as direções para controlar\
+      \ a nossa magia, que serão:\n\
+      \ UP\nDOWN\nRIGHT\nLEFT\n\
+      \ Como mostra a imagem abaixo.\n"
+    image: "https://i.imgur.com/75FxooH.png"   
+  utter_tutorial_jedi_direcao_c:    
+  - text: "Já estamos finalizando a primeira parte\
+      \ do tutorial Snake.\nQuando\
+      \ estiver pronto para continuar, me avise!\n"
+  utter_tutorial_jedi_classe_game:
+  - text: "Agora, vamos iniciar o nosso jogo, usando a PyGame.\nPara isso\
+      \ temos que criar a classe Class Game().\nDentro dela\
+      \ vamos iniciar o display do jogo, criar o fundo, arruma\
+      \ a superfície e pontos, conforme o código mostrado\
+      \ no pergaminho abaixo:\n"
+    image: "https://i.imgur.com/0oQigna.png"
+  utter_tutorial_jedi_classe_game_c:
+  - text: "O usuário pode alterar o nome do jogo, para isso,\
+      \ basta modificar a função\
+      \ pygame.display.set_caption('NovoNome').\n\
+      \ A função self.font=pygame.font.Font(None,36). Agora\
+      \ que ja escolheu seu ID.\nQuando\
+      \ estiver pronto para continuar, me avise!\n"
+  utter_tutorial_jedi_run:
+  - text: "Ainda dentro da Class Game() vamos criar a\
+      \ função def run para rodar o jogo e\
+      \ capturar os eventos e movimentos, conforme\
+      \ indica o cartaz de procurado abaixo:\n"
+    image: "https://i.imgur.com/VYV3HfQ.png"  
+  utter_tutorial_jedi_run_c:
+  - text: "Como renomado Espadachim, você pode alterar os comandos\
+      \ de direção. Basta ir no if ou elif da\
+      \ direção escolhida e substituir com o comando que\
+      \ desejar.\nApós definir seus comandos, o\
+      \ renomado Espadachim, quando\
+      \ estiver pronto para continuar, me avise!\n"
+  utter_tutorial_jedi_movimentos:
+  - text: "Ainda dentro da Class Game() vamos atualizar as\
+      \ informações do jogo, conforme a imagem:\n"
+    image: "https://i.imgur.com/K4tXDji.png"  
+  utter_tutorial_jedi_movimentos_c:
+  - text: "Aqui atualizamos as informações e fecha a chamada\
+      \ da PyGame.\nQuando\
+      \ estiver pronto para continuar, me avise!\n"
+  utter_tutorial_jedi_desenhos:
+  - text: "Agora vamos inspirados em Vincent van Gogh\
+      \ vamos desenhos a Snake, a comida e os pontos no display\
+      \ capturar os eventos e movimentos, conforme\
+      \ indica no quadro abaixo:\n"
+    image: "https://i.imgur.com/LLYrKqo.png"
+  utter_tutorial_jedi_desenhos_c:
+  - text: "Após termina de pintar sua tela, com as\
+      \ cores anteriormente definidas, estamos encerrando.\
+      \ mais uma etapa.\nQuando\
+      \ estiver pronto para continuar, me avise!\n"
+  utter_tutorial_jedi_snake:
+  - text: "Estamos iniciando mais uma etapa. Agora, vamos criar a\
+      \ Class Snake e dar inicio a nossa Snake.\n\
+      \ capturar os eventos e movimentos, conforme\
+      \ indica no quadro abaixo:\n"
+    image: "https://i.imgur.com/ySJs0tA.png"  
+  utter_tutorial_jedi_snake_c:
+  - text: "Enquanto você cria sua Snake. Uma\
+      \ curiosidade. Sabia que a primeira versão do snake foi lançado\
+      \ no ano de 1997 e teve grande sucesso.\nQuando\
+      \ estiver pronto para continuar, me avise!\n"
+  utter_tutorial_jedi_colisao:
+  - text: "Agora que ja temos a Snake, vamos adicionar\
+      \ colisões ao jogo de acordo com os movimentos. Conforme\n\
+      \ indica a imagem a seguir:\n"
+    image: "https://i.imgur.com/YMqdCyl.png"   
+  utter_tutorial_jedi_colisao_c:
+  - text: "Estamos quase no final. Quando\
+      \ estiver pronto para continuar, me avise!\n" 
+  utter_tutorial_jedi_comida:
+  - text: "Nessa parte, jovem Padawan, usa a biblioteca RANDOM para\
+      \ fazer a joias do infinito aparecer em lugares aleatórios.\n\
+      \ Seguindo os códigos que vejos no infinito:\n"
+    image: "https://i.imgur.com/zJAf1BU.png"
+  utter_tutorial_jedi_comida_c:
+  - text: "Estamos finalizando mais uma etapa, gostaria de\
+      \ fazer a ultima parte e finalmente\
+      \ jogar seu próprio jogo?\nQuando\
+      \ estiver pronto para continuar, me avise!\n"
+  utter_tutorial_jedi_main:
+  - text: "Nessa parte, jovem Padawan, usa o IF e\
+      \ dentro dele definimos o tamanho do display e a\
+      \ velocidade da snake que pode ser alterada\
+      \ posteriormente, basta modificar o ultimo dos três\n\
+      \ valores dentro do Game(440,510,10).run()\n"
+    image: "https://i.imgur.com/torhoBI.png"
+  utter_tutorial_jedi_main_c:
+  - text: "Agora que chegamos ao fim, você pode ser considerado\
+      \ um verdadeiro SÁBIO na criação do jogo Snake.\n"
+
   utter_tutorial_padawan1:
   - text: "Neste tutorial irei te ensinar a criar o famoso jogo Pong! Prepare-se!\n"
   utter_tutorial_padawan10:

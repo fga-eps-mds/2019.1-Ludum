@@ -178,6 +178,72 @@
 - quero fazer um jogo em python
 - me ensine a fazer um jogo
 
+## intent:tutorial_medio
+- Medio
+- Médio
+- medio
+- médio
+- Jedi
+- jedi
+- TutorialMedio
+- TutorialMédio
+- Tutorial medio
+- Tutorial médio
+- Tutorialmedio
+- Tutorialmédio
+- tutorialMedio
+- tutorialMédio
+- tutorial medio
+- tutorial médio
+- tutorialmedio
+- tutorialmédio
+- Tutorial Jedi
+- Tutorial jedi
+- tutorial Jedi
+- tutorial jedi
+- TutorialJedi
+- Tutorialjedi
+- tutorialJedi
+- tutorialjedi
+- Snake
+- snake
+- Tutorial Snake
+- Tutorial snake
+- tutorial Snake
+- tutorial snake
+- TutorialSnake
+- Tutorialsnake
+- tutorialSnake
+- tutorialsnake
+
+## intent:prosseguir
+- prosseguir
+- Prosseguir
+- Pronto
+- pronto
+- proximo
+- próximo
+- Proximo
+- Próximo
+- Ir
+- ir
+- adiante
+- confirmo
+- avançar
+- avancar
+- avança
+- avanca
+- ir adiante
+- ir além
+- ir para o próximo
+- confirmar
+- continua
+- ok
+- estou pronto
+- estou pronta
+- podemos
+- podemos prosseguir
+
 ## intent:tutorial_facil
 - Facil
 - facil
@@ -234,6 +300,12 @@
 - Me ensina algo
 
 ## intent:nao_implementada
+- facil
+- Facil
+- dificil
+- Dificil
+- difícil
+- Difícil
 - videos
 - videos-explicativos
 - textos
