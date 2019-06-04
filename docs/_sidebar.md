@@ -18,12 +18,13 @@
 - [Manual da Identidade Visual](/miv.md)
 - [Documento de Visão](/documento-de-visao.md)
 - [Documento de Arquitetura](/documento-de-arquitetura.md)
+- [Modelo Testes de Usabilidade](/modelo-teste-usabilidade.md)
 
 ## _**Backlog**_
 - [Backlog do Produto](/backlogProduto.md)
 - [Backlog do Projeto](/backlogProjeto.md)
 
-## _**RoadMaps**_ 
+## _**RoadMaps**_
 - [Roadmap dos Papéis](/roadmap-dos-papeis.md)
 - [Roadmap do Produto](/roadmap-produto.md)
 
