@@ -18,6 +18,8 @@
 
   * [3.1. Planejadas](#_31-planejadas)
 
+[4. Pareamentos](#_4-pareamentos_)  
+
 -------
 
 ## 1. Papéis
@@ -45,11 +47,11 @@
 |-|:--:|
 | T33- Finalizar documento de arquitetura | 8 |
 | US16 - Exibir informações sobre a funcionalidade de Contribuição| 3 |
-| Configurar deploy do core | 8 |
-| Realizar testes| 5 |
-| Configurar ferramenta de medição dos testes | 3 |
+| T35 - Realizar testes| 5 |
+| T36 - Configurar deploy do core | 8 |
+| T37 - Configurar ferramenta de medição dos testes | 3 |
 | BUG01 - Action do microsserviço dúvidas com problema | 3 |
-| Documentar Sprint | 1 |
+| T34 - Documentar Sprint | 1 |
 
 ## 4. Pareamentos
 

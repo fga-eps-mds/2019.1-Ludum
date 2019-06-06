@@ -15,15 +15,13 @@
 ## Principais funcionalidades
 * **Sobre o Ludum** - o Ludum explicará tudo que ele pode fazer;
 * **Resolução de dúvidas** - o Ludum mostrará as perguntas frequentes relacionadas à PyGame e caso o usuário não encontre ele pesquisará no Stack Overflow;
-* **Configurar ambiente** - o Ludum ensinará como configurar o ambiente;
 * **Recomendação de materiais e links** - o Ludum irá recomendar materiais e links que contribuam ao aprendizado do usuário;
 * **Contribuição pela Comunidade** - A comunidade usuária pode contribuir ao Ludum com materiais e links, além de tutoriais de jogos utilizando a PyGame;
-* **Auxílio na criação de jogos** - o Ludum ensinará como desenvolver jogos com complexidades variadas utilizando a PyGame.
+* **Auxílio na criação de jogos** - o Ludum ensinará como desenvolver jogos com complexidades variadas utilizando a PyGame, além de fornecer algumas recomendações de configurações de ambiente, caso o usuário precise.
 
 ## Tecnologias
 * **Python3** - Linguagem de programação utilizada para codificar o core do bot;
 * **Rasa** - Tecnologia de Inteligência Artificial para o ChatBot;
-* **Flask** - Flask é um pequeno framework web escrito em Python e baseado na biblioteca WSGI Werkzeug e na biblioteca de Jinja2;
 * **NodeJS** - Node.js é um interpretador de código JavaScript com o código aberto, focado em migrar o Javascript do lado do cliente para servidores;
 * **MongoDB** - Banco de dados não relacional utilizado no projeto;
 * **Docker** - Ferramenta para criação e administração de ambientes isolados;

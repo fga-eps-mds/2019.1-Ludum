@@ -1,22 +1,4 @@
-# Histórico de Versão
-
- **Data** | **Versão** | **Descrição** | **Autor(es)**
----|---|---|---
-01/04/2019| 0.1| Criação da versão 1 do Backlog| Gabriela, Guilherme e Lucas Lermen
-01/04/2019| 0.2| Pontuação e definição de novas histórias - Versão 1| Toda equipe
-11/04/2019| 0.3| Adicionando nova história e criando versão 2| Gabriela Moraes
-24/04/2019| 0.4| Criando versão 3| Gabriela Moraes, Guilherme e Lucas Lermen
-02/05/2019| 0.5| Ajustes versão 3| Gabriela Moraes e Lucas Lermen
-
-## Sumário
-
-1. [Versão 3](#_1-versão-3)
-2. [Versão 2](#_2-versão-2)
-3. [Versão 1](#_3-versão-1)
-
-
 # **Backlog do Produto**
-
 ## 1. **Versão 3**
 ### **Épico Sobre o Ludum**
 
@@ -115,9 +97,3 @@ US20| <p align="justify">Eu, como usuário, desejo escolher um tutorial da comun
 :---:|:---|:---:|:---:
 TS19| <p align="justify">Eu, como desenvolvedor, desejo conectar a API do Gmail ao microsserviço de materiais, links e tutoriais </p>| Baixa | 5
 US21| <p align="justify">Eu, como usuário, desejo receber um email informando sobre as novidades adicionadas </p>| Baixa | 5
-
-## 2. **Versão 2**
-- [Versão 2 do Backlog](/backlog-versao2.md)
-
-## 3. **Versão 1**
-- [Versão 1 do Backlog](/backlog-versao1.md)

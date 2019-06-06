@@ -7,6 +7,7 @@
 30/03/2019| 0.3| Adição das seções 5, 6, 7, 12, 13 e 14| Gabriela Moraes
 30/03/2019| 0.4| Adição das seções 8, 9, 10, 11| Gabriela, Guilherme e Lucas Lermen
 02/05/2019| 0.5| Atualização das seções 2, 3, 4, 10| Gabriela Moraes
+30/05/2019| 0.6| Recalculando orçamento do projeto | Gabriela, Guilherme e Lucas Lermen
 
 # Índice
 
@@ -119,15 +120,17 @@ Product Manager|1|R$ 7.000| R$ 25.000
 DevOps|1|R$ 7.000|R$ 25.000
 Arquiteto de software|1| R$ 6.500|R$ 22.750
 Desenvolvedor Python Junior| 5| R$ 3.000 | R$ 10.500
-**Total**|-|-| R$ 111.250
+**Total**|-|-| R$ 153.250
 
 **Observação**: Os salários foram definidos com base na busca acerca da média salarial dos respectivos cargos no mercado de trabalho.
 
 ### Aquisições
 Equipamento| Quantidade | Finalidade| Valor unitário| Valor total
 ---|:---:|---|:---:|:---:
-Notebook| 9| Desenvolvimento e planejamento| R$ 2.667| R$ 24.003
-**Total**|-|-|-| R$ 24.003
+Domínio na GoDaddy| 1| Deploy dos Microsserviços| R$ 4,30| R$ 4,30
+Máquina t2.micro na Amazon EC2 | 1| Deploy do ChatBot| R$ 54,30| R$ 54,30
+Droplet na Digital Ocean rodando Ubuntu 18.04 com 3GB de RAM, 1vCPU, 60GB de SSD e 3TB de transferência de dados | 2| Deploy Contínuo| R$ 46,47| R$ 92,94
+**Total**|-|-|-| R$ 151,54
 
 ### Ferramentas
 Ferramenta | Finalidade | Custo
@@ -143,11 +146,10 @@ Visual Studio Code | Editor de texto | R$ 0
 ### Total
 Categoria| Custo
 ---|---
-Recursos Humanos| R$ 111.250
-Aquisições| R$ 24.003
+Recursos Humanos| R$ 153.250
+Aquisições| R$ 151,54
 Ferramentas|R$ 0
-**Total**| R$ 135.253
-**Total + Taxa de risco (10%)**| R$ 148.778,30
+**Total**| R$ 153.401,54
 
 # 12. Lista das Partes Interessadas
 

@@ -3,6 +3,7 @@ image: python:3.6-slim
 stages:
   - test
   - build
+  - deploy
   
 variables:
   LUDUM_LATEST_IMAGE: $CI_REGISTRY_IMAGE/ludum
@@ -65,3 +66,31 @@ build-action-dev:
     - docker push $LUDUM_ACTION_LATEST_IMAGE:dev
   only:
     - /development/
+
+deploy-prod:
+  image: cdrx/rancher-gitlab-deploy
+  stage: deploy
+  script:
+    - "upgrade
+            --rancher-url $RANCHER_URL
+            --rancher-key $RANCHER_ACCESS_KEY
+            --rancher-secret $RANCHER_SECRET_KEY
+            --environment $RANCHER_ENVIRONMENT
+            --stack $RANCHER_STACK
+            --service ludum"
+  only:
+    - /master/
+
+deploy-actions-prod:
+  image: cdrx/rancher-gitlab-deploy
+  stage: deploy
+  script:
+    - "upgrade
+            --rancher-url $RANCHER_URL
+            --rancher-key $RANCHER_ACCESS_KEY
+            --rancher-secret $RANCHER_SECRET_KEY
+            --environment $RANCHER_ENVIRONMENT
+            --stack $RANCHER_STACK
+            --service actions"
+  only:
+    - /master/

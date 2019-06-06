@@ -13,6 +13,7 @@
 | 30/04/2019 | 0.9 | Adicionando Diagrama de funcionamento do Rasa | Thallys |
 | 31/04/2019 | 1.0 | Refatorando seções 3, 4, 6, 7, 8 | Gabriela de Moraes e Lucas Lermen |
 | 31/04/2019 | 1.1 | Refatorando diagramas | Gabriela de Moraes, Lucas Lermen, Lucas Penido e Guilherme Siqueira |
+| 13/05/2019 | 1.2 | Adicionando diagrama de relações do projeto| Gabriela, Lucas Lermen e Guilherme |
 
 
 # 1. Introdução  
@@ -79,7 +80,11 @@ Estrutura do documento:
 
 ## 2.1 Diagrama de Relações
 
+## Produto
 ![diagrama de relacoes](./imagens/diagrama-relacoes.png)
+
+## Projeto 
+![diagrama de relacoes](./imagens/diagrama-relacoes-projeto.png)
 
 <p  align="justify">O Ludum utiliza como principal padrão arquitetural microsserviços que realizam conexões bidirecionais com o núcleo do chatbot. Cada um destes microsserviços funciona independente das demais partes do sistema.</p>
 
@@ -178,9 +183,7 @@ Estrutura do documento:
 ## 6.1 Visão Geral
 <p align="justify"> Cada microsserviço funciona independente das outras partes do sistema, tópico que foi abordado na representação da arquitetura. Destarte, cada serviço da aplicação possui particulariadades arquiteturais que virão a ser destrinchadas nos tópicos a seguir.</p>
 
-## 6.2 Microsserviço Pesquisar dúvidas
-
-## 6.3 Núcleo
+## 6.2 Núcleo
 
 ![](./imagens/diagrama-rasa.jpg)
 
