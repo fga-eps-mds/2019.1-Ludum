@@ -1,6 +1,27 @@
+## intent:action_question
+- stack overflow [pygame](pergunta)
+- pesquisar no stack [python game](pergunta)
+- stack overflow [pygame](pergunta)
+- stack overflow [python pygame](pergunta)
+- perguntar ao stack overflow [pygame pong](pergunta)
+- stack overflow [how to make a pygame object](pergunta)
+- pesquisar no stack overflow [pygame](pergunta)
+- stack overflow [python pong game](pergunta)
+- pesquisar no stack overflow [how to create a ball in pygame](pergunta)
+- pesquisar no stack overflow [como iniciar uma tela pygame](pergunta)
+- stack overflow [como iniciar um jogo pygame](pergunta)
+- stack overflow [pygame](pergunta)
+- perguntar ao stack overflow [how to make pygame objects](pergunta)
+- stack overflow [how to open a screen pygame](pergunta)
+- pesquisar no stack overflow [my code wont work](pergunta)
+- perguntar ao stack overflow [for em python](pergunta)
+- pesquisar no stack overflow
+
 ## intent:confirmar
 - sim
 - claro
+- continuar
+- Continuar
 - Sim
 - sim
 - sim
@@ -25,6 +46,53 @@
 - sim
 - sim
 - sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+
+## intent:contribuicao
+- contribuir
+- como contribuir
+- o que preciso para contribuir
+- como contribuir para o repositorio
+- contribuir
+- como contribuir
+- o que preciso para contribuir
+- como contribuir para o repositorio
+
+## intent:informacao
+- Tenho uma pergunta
+- Tenho uma duvida
+- Duvida
+- voce pode me tirar uma duvida?
 
 ## intent:cumprimentar
 - oi, tudo bem
@@ -40,6 +108,13 @@
 - ola
 - oi
 - bom dia
+- /start
+- qual o seu nome?
+- quem é você?
+- oque você faz?
+- qual o seu nome?
+- Olá
+- oi
 
 ## intent:despedir
 - Tchau obrigado
@@ -52,6 +127,19 @@
 - falou, valeu
 - flw vlw
 - xau
+
+## intent:faq
+- FAQ
+- faq
+- faq
+- faq
+- faq
+- faq
+- faq
+- faq
+- me mande o faq
+- você possui um faq?
+- você possui um faq?
 
 ## intent:informacao
 - Tenho uma pergunta
@@ -71,6 +159,11 @@
 - ambiente
 - ambiente
 - ambiente
+- como configurar o meu ambiente?
+- como configurar o ambiente
+- como configurar o ambiente
+- como configurar o ambiente
+- como configurar o ambiente
 
 ## intent:informacao_desenvolvimento
 - tutorial
@@ -83,6 +176,96 @@
 - quero fazer um jogo
 - como fazer um jogo em python?
 - quero fazer um jogo em python
+- me ensine a fazer um jogo
+
+## intent:tutorial_medio
+- Medio
+- Médio
+- medio
+- médio
+- Jedi
+- jedi
+- TutorialMedio
+- TutorialMédio
+- Tutorial medio
+- Tutorial médio
+- Tutorialmedio
+- Tutorialmédio
+- tutorialMedio
+- tutorialMédio
+- tutorial medio
+- tutorial médio
+- tutorialmedio
+- tutorialmédio
+- Tutorial Jedi
+- Tutorial jedi
+- tutorial Jedi
+- tutorial jedi
+- TutorialJedi
+- Tutorialjedi
+- tutorialJedi
+- tutorialjedi
+- Snake
+- snake
+- Tutorial Snake
+- Tutorial snake
+- tutorial Snake
+- tutorial snake
+- TutorialSnake
+- Tutorialsnake
+- tutorialSnake
+- tutorialsnake
+
+## intent:prosseguir
+- prosseguir
+- Prosseguir
+- Pronto
+- pronto
+- proximo
+- próximo
+- Proximo
+- Próximo
+- Ir
+- ir
+- adiante
+- confirmo
+- avançar
+- avancar
+- avança
+- avanca
+- ir adiante
+- ir além
+- ir para o próximo
+- confirmar
+- continua
+- ok
+- estou pronto
+- estou pronta
+- podemos
+- podemos prosseguir
+
+## intent:tutorial_facil
+- Facil
+- facil
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- facil 
+- facil 
+
 
 ## intent:informacao_duvidas
 - Como voce pode responder uma duvida?
@@ -93,6 +276,8 @@
 - Você pode responder minhas questões?
 - Duvida
 - como posso tirar uma duvida?
+- Como posso aprender?
+- Posso te fazer uma pergunta?
 
 ## intent:informacao_materiais
 - link
@@ -112,8 +297,24 @@
 - materiais uteis
 - me manda link
 - manda link
+- Me ensina algo
+
+## intent:nao_implementada
+- facil
+- Facil
+- dificil
+- Dificil
+- difícil
+- Difícil
+- videos
+- videos-explicativos
+- textos
+- python
 
 ## intent:negar
+- sair
+- sair 
+- Sair
 - nao
 - não
 - nao
@@ -142,20 +343,53 @@
 - nao
 - nao
 - nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- não
+- não
+- não
+- não
 
 ## intent:out_of_scope
 - Qual a origem do mundo?
 - Você tem signo?
 - Vc gosta de carnaval?
 - batatinha quando nasce
+- pygame module
+
+## intent:star_wars
+- pygame object
+- Pygame 3D
+
+## intent:start
+- /start
+- /start
+- /start
+
+## intent:stop
+- /stop
 
 ## intent:tudo_bem
 - Tudo bem
 - Como vocês estao
 - como vc ta
-
-## intent:contribuicao
-- contribuir
-- como contribuir 
-- o que preciso para contribuir 
-- como contribuir para o repositorio 

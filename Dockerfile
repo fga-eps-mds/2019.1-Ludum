@@ -12,10 +12,12 @@ RUN pip install flake8
 RUN pip install pyTelegramBotAPI
 RUN pip install pymongo
 RUN pip install requests
-
+RUN pip install rasa_nlu[spacy] && \
+    python -m spacy download pt
+    
 ADD . /2019.1-Ludum
 
-WORKDIR /rasa
+WORKDIR /2019.1-Ludum/rasa
 
 ENV TRAINING_EPOCHS=20                     \
     MAX_TYPING_TIME=10                     \
@@ -24,3 +26,4 @@ ENV TRAINING_EPOCHS=20                     \
     ENVIRONMENT_NAME=localhost             \
     BOT_VERSION=last-commit-hash           \
     ENABLE_ANALYTICS=False                 
+CMD make train && make run-telegram

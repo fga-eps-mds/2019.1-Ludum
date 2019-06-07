@@ -19,7 +19,6 @@
     - utter_cumprimentar
 * confirmar
     - action_default_fallback
-    - rewind
 * confirmar
     - utter_sem_nada
 

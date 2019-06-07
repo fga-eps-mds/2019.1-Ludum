@@ -2,12 +2,1244 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "intent": "time",
-        "text": "qual o melhor time do brasil"
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "pygame",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "stack overflow pygame"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "value": "python game",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "pesquisar no stack python game"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "pygame",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "stack overflow pygame"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 15,
+            "end": 28,
+            "value": "python pygame",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "stack overflow python pygame"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 28,
+            "end": 39,
+            "value": "pygame pong",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "perguntar ao stack overflow pygame pong"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 15,
+            "end": 42,
+            "value": "how to make a pygame object",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "stack overflow how to make a pygame object"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "pygame",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "pesquisar no stack overflow pygame"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 15,
+            "end": 31,
+            "value": "python pong game",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "stack overflow python pong game"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 28,
+            "end": 58,
+            "value": "how to create a ball in pygame",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "pesquisar no stack overflow how to create a ball in pygame"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 28,
+            "end": 56,
+            "value": "como iniciar uma tela pygame",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "pesquisar no stack overflow como iniciar uma tela pygame"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 15,
+            "end": 42,
+            "value": "como iniciar um jogo pygame",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "stack overflow como iniciar um jogo pygame"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "pygame",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "stack overflow pygame"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 28,
+            "end": 54,
+            "value": "how to make pygame objects",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "perguntar ao stack overflow how to make pygame objects"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 15,
+            "end": 42,
+            "value": "how to open a screen pygame",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "stack overflow how to open a screen pygame"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 28,
+            "end": 45,
+            "value": "my code wont work",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "pesquisar no stack overflow my code wont work"
+      },
+      {
+        "intent": "action_question",
+        "entities": [
+          {
+            "start": 28,
+            "end": 41,
+            "value": "for em python",
+            "entity": "pergunta"
+          }
+        ],
+        "text": "perguntar ao stack overflow for em python"
+      },
+      {
+        "intent": "action_question",
+        "text": "pesquisar no stack overflow"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "claro"
+      },
+      {
+        "intent": "confirmar",
+        "text": "Sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "confirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "contribuir"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como contribuir"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "o que preciso para contribuir"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como contribuir para o repositorio"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "contribuir"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como contribuir"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "o que preciso para contribuir"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como contribuir para o repositorio"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "oi, tudo bem"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "bom dia"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "boa tarde"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "boa noite"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "olá"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "oie"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "oiee"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "opa tudo bem"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "ola boa tarde"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "ola"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "ola"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "oi"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "bom dia"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "/start"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "qual o seu nome?"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "quem é você?"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "oque você faz?"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "qual o seu nome?"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "Olá"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "oi"
+      },
+      {
+        "intent": "despedir",
+        "text": "Tchau obrigado"
+      },
+      {
+        "intent": "despedir",
+        "text": "Tchau"
+      },
+      {
+        "intent": "despedir",
+        "text": "até logo"
+      },
+      {
+        "intent": "despedir",
+        "text": "namaste"
+      },
+      {
+        "intent": "despedir",
+        "text": "sayonara"
+      },
+      {
+        "intent": "despedir",
+        "text": "até mais"
+      },
+      {
+        "intent": "despedir",
+        "text": "até breve"
+      },
+      {
+        "intent": "despedir",
+        "text": "falou, valeu"
+      },
+      {
+        "intent": "despedir",
+        "text": "flw vlw"
+      },
+      {
+        "intent": "despedir",
+        "text": "xau"
+      },
+      {
+        "intent": "faq",
+        "text": "FAQ"
+      },
+      {
+        "intent": "faq",
+        "text": "faq"
+      },
+      {
+        "intent": "faq",
+        "text": "faq"
+      },
+      {
+        "intent": "faq",
+        "text": "faq"
+      },
+      {
+        "intent": "faq",
+        "text": "faq"
+      },
+      {
+        "intent": "faq",
+        "text": "faq"
+      },
+      {
+        "intent": "faq",
+        "text": "faq"
+      },
+      {
+        "intent": "faq",
+        "text": "faq"
+      },
+      {
+        "intent": "faq",
+        "text": "me mande o faq"
+      },
+      {
+        "intent": "faq",
+        "text": "você possui um faq?"
+      },
+      {
+        "intent": "faq",
+        "text": "você possui um faq?"
+      },
+      {
+        "intent": "informacao",
+        "text": "Tenho uma pergunta"
+      },
+      {
+        "intent": "informacao",
+        "text": "Tenho uma duvida"
+      },
+      {
+        "intent": "informacao",
+        "text": "Duvida"
+      },
+      {
+        "intent": "informacao",
+        "text": "voce pode me tirar uma duvida?"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "como voce pode me ajudar a configurar o ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "voce pode me ajudar a configurar o ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "como funciona a configuracao de ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "o que preciso para começar"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "configurar ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "como configurar o meu ambiente?"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "como configurar o ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "como configurar o ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "como configurar o ambiente"
+      },
+      {
+        "intent": "informacao_ambiente",
+        "text": "como configurar o ambiente"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "tutorial"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "tutorial jogos"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "tutorial jogo"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "quero construir um jogo"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "me mostre o tutorial"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "me ensine a fazer um jogo"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "como fazer um jogo?"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "quero fazer um jogo"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "como fazer um jogo em python?"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "quero fazer um jogo em python"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "me ensine a fazer um jogo"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "Como voce pode responder uma duvida?"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "Voce consegue me tirar uma duvida?"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "Como você pode responder minha pergunta?"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "Me tira uma duvida?"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "Como posso te fazer uma pergunta?"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "Você pode responder minhas questões?"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "Duvida"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "como posso tirar uma duvida?"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "Como posso aprender?"
+      },
+      {
+        "intent": "informacao_duvidas",
+        "text": "Posso te fazer uma pergunta?"
+      },
+      {
+        "intent": "informacao_materiais",
+        "text": "link"
+      },
+      {
+        "intent": "informacao_materiais",
+        "text": "material"
+      },
+      {
+        "intent": "informacao_materiais",
+        "text": "materiais"
+      },
+      {
+        "intent": "informacao_materiais",
+        "text": "quero materiais"
+      },
+      {
+        "intent": "informacao_materiais",
+        "text": "quero links"
+      },
+      {
+        "intent": "informacao_materiais",
+        "text": "me envie materiais"
+      },
+      {
+        "intent": "informacao_materiais",
+        "text": "me envie links"
+      },
+      {
+        "intent": "informacao_materiais",
+        "text": "quais links você pode me mandar?"
+      },
+      {
+        "intent": "informacao_materiais",
+        "text": "quais materiais você pode me mandar?"
+      },
+      {
+        "intent": "informacao_materiais",
+        "text": "voce pode me enviar links?"
+      },
+      {
+        "intent": "informacao_materiais",
+        "text": "voce pode me enviar materiais?"
+      },
+      {
+        "intent": "informacao_materiais",
+        "text": "quais materiais voce tem?"
+      },
+      {
+        "intent": "informacao_materiais",
+        "text": "quais links voce tem?"
+      },
+      {
+        "intent": "informacao_materiais",
+        "text": "links uteis"
+      },
+      {
+        "intent": "informacao_materiais",
+        "text": "materiais uteis"
+      },
+      {
+        "intent": "informacao_materiais",
+        "text": "me manda link"
+      },
+      {
+        "intent": "informacao_materiais",
+        "text": "manda link"
+      },
+      {
+        "intent": "informacao_materiais",
+        "text": "Me ensina algo"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "facil"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "Facil"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "medio"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "Medio"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "médio"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "Médio"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "dificil"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "Dificil"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "difícil"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "Difícil"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "videos"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "videos-explicativos"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "textos"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "fácil"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "Fácil"
+      },
+      {
+        "intent": "nao_implementada",
+        "text": "python"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "não"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "não"
+      },
+      {
+        "intent": "negar",
+        "text": "não"
+      },
+      {
+        "intent": "negar",
+        "text": "não"
+      },
+      {
+        "intent": "negar",
+        "text": "não"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Qual a origem do mundo?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Você tem signo?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Vc gosta de carnaval?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "batatinha quando nasce"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "pygame module"
+      },
+      {
+        "intent": "star_wars",
+        "text": "pygame object"
+      },
+      {
+        "intent": "star_wars",
+        "text": "Pygame 3D"
+      },
+      {
+        "intent": "start",
+        "text": "/start"
+      },
+      {
+        "intent": "start",
+        "text": "/start"
+      },
+      {
+        "intent": "start",
+        "text": "/start"
+      },
+      {
+        "intent": "stop",
+        "text": "/stop"
+      },
+      {
+        "intent": "tudo_bem",
+        "text": "Tudo bem"
+      },
+      {
+        "intent": "tudo_bem",
+        "text": "Como vocês estao"
+      },
+      {
+        "intent": "tudo_bem",
+        "text": "como vc ta"
+      },
+      {
+        "intent": "action_test",
+        "text": "test custom action"
+      },
+      {
+        "intent": "action_test",
+        "text": "custom action"
+      },
+      {
+        "intent": "action_test",
+        "text": "actions"
+      },
+      {
+        "intent": "action_test",
+        "text": "custom actions"
+      },
+      {
+        "intent": "action_test",
+        "text": "action"
+      },
+      {
+        "intent": "action_test",
+        "text": "test action"
+      },
+      {
+        "intent": "action_question",
+        "text": "Quero fazer uma pergunta ao Stack Overflow"
+      },
+      {
+        "intent": "action_question",
+        "text": "Stack Overflow"
+      },
+      {
+        "intent": "action_question",
+        "text": "stack overflow"
+      },
+      {
+        "intent": "action_question",
+        "text": "stack"
+      },
+      {
+        "intent": "action_question",
+        "text": "overflow"
       },
       {
         "intent": "time",
-        "text": "qual o seu time?"
+        "text": "qual o melhor time do brasil"
       },
       {
         "intent": "time",
@@ -119,7 +1351,7 @@
             "entity": "starwars"
           }
         ],
-        "text": "conselhos do yoda"
+        "text": "concelhos do yoda"
       },
       {
         "intent": "star_wars",
@@ -132,578 +1364,6 @@
           }
         ],
         "text": "guerra nas estrelas"
-      },
-      {
-        "intent": "action_test",
-        "text": "test custom action"
-      },
-      {
-        "intent": "action_test",
-        "text": "custom action"
-      },
-      {
-        "intent": "action_test",
-        "text": "actions"
-      },
-      {
-        "intent": "action_test",
-        "text": "custom actions"
-      },
-      {
-        "intent": "action_test",
-        "text": "action"
-      },
-      {
-        "intent": "action_test",
-        "text": "test action"
-      },
-      {
-        "intent": "action_test",
-        "text": "ambiente_action"
-      },
-      {
-        "intent": "confirmar",
-        "text": "sim"
-      },
-      {
-        "intent": "confirmar",
-        "text": "claro"
-      },
-      {
-        "intent": "confirmar",
-        "text": "Sim"
-      },
-      {
-        "intent": "confirmar",
-        "text": "sim"
-      },
-      {
-        "intent": "confirmar",
-        "text": "sim"
-      },
-      {
-        "intent": "confirmar",
-        "text": "sim"
-      },
-      {
-        "intent": "confirmar",
-        "text": "sim"
-      },
-      {
-        "intent": "confirmar",
-        "text": "sim"
-      },
-      {
-        "intent": "confirmar",
-        "text": "sim"
-      },
-      {
-        "intent": "confirmar",
-        "text": "sim"
-      },
-      {
-        "intent": "confirmar",
-        "text": "sim"
-      },
-      {
-        "intent": "confirmar",
-        "text": "sim"
-      },
-      {
-        "intent": "confirmar",
-        "text": "sim"
-      },
-      {
-        "intent": "confirmar",
-        "text": "sim"
-      },
-      {
-        "intent": "confirmar",
-        "text": "sim"
-      },
-      {
-        "intent": "confirmar",
-        "text": "sim"
-      },
-      {
-        "intent": "confirmar",
-        "text": "sim"
-      },
-      {
-        "intent": "confirmar",
-        "text": "sim"
-      },
-      {
-        "intent": "confirmar",
-        "text": "sim"
-      },
-      {
-        "intent": "confirmar",
-        "text": "sim"
-      },
-      {
-        "intent": "confirmar",
-        "text": "sim"
-      },
-      {
-        "intent": "confirmar",
-        "text": "sim"
-      },
-      {
-        "intent": "confirmar",
-        "text": "sim"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "oi, tudo bem"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "bom dia"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "boa tarde"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "boa noite"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "olá"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "oie"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "oiee"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "opa tudo bem"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "ola boa tarde"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "ola"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "ola"
-      },
-      {
-        "intent": "despedir",
-        "text": "Tchau obrigado"
-      },
-      {
-        "intent": "despedir",
-        "text": "Tchau"
-      },
-      {
-        "intent": "despedir",
-        "text": "até logo"
-      },
-      {
-        "intent": "despedir",
-        "text": "namaste"
-      },
-      {
-        "intent": "despedir",
-        "text": "sayonara"
-      },
-      {
-        "intent": "despedir",
-        "text": "até mais"
-      },
-      {
-        "intent": "despedir",
-        "text": "até breve"
-      },
-      {
-        "intent": "despedir",
-        "text": "falou, valeu"
-      },
-      {
-        "intent": "despedir",
-        "text": "flw vlw"
-      },
-      {
-        "intent": "informacao",
-        "text": "Tenho uma pergunta"
-      },
-      {
-        "intent": "informacao",
-        "text": "Tenho uma duvida"
-      },
-      {
-        "intent": "informacao",
-        "text": "Duvida"
-      },
-      {
-        "intent": "informacao",
-        "text": "voce pode me tirar uma duvida?"
-      },
-      {
-        "intent": "informacao_ambiente",
-        "text": "ambiente"
-      },
-      {
-        "intent": "informacao_ambiente",
-        "text": "como voce pode me ajudar a configurar o ambiente"
-      },
-      {
-        "intent": "informacao_ambiente",
-        "text": "voce pode me ajudar a configurar o ambiente"
-      },
-      {
-        "intent": "informacao_ambiente",
-        "text": "como funciona a configuracao de ambiente"
-      },
-      {
-        "intent": "informacao_ambiente",
-        "text": "o que preciso para começar"
-      },
-      {
-        "intent": "informacao_ambiente",
-        "text": "configurar ambiente"
-      },
-      {
-        "intent": "informacao_ambiente",
-        "text": "ambiente"
-      },
-      {
-        "intent": "informacao_ambiente",
-        "text": "ambiente"
-      },
-      {
-        "intent": "informacao_ambiente",
-        "text": "ambiente"
-      },
-      {
-        "intent": "informacao_ambiente",
-        "text": "ambiente"
-      },
-      {
-        "intent": "despedir",
-        "text": "xau"
-      },
-      {
-        "intent": "informacao_desenvolvimento",
-        "text": "tutorial"
-      },
-      {
-        "intent": "informacao_desenvolvimento",
-        "text": "tutorial jogos"
-      },
-      {
-        "intent": "informacao_desenvolvimento",
-        "text": "tutorial jogo"
-      },
-      {
-        "intent": "informacao_desenvolvimento",
-        "text": "quero construir um jogo"
-      },
-      {
-        "intent": "informacao_desenvolvimento",
-        "text": "me mostre o tutorial"
-      },
-      {
-        "intent": "informacao_desenvolvimento",
-        "text": "me ensine a fazer um jogo"
-      },
-      {
-        "intent": "informacao_desenvolvimento",
-        "text": "como fazer um jogo?"
-      },
-      {
-        "intent": "informacao_desenvolvimento",
-        "text": "quero fazer um jogo"
-      },
-      {
-        "intent": "informacao_desenvolvimento",
-        "text": "como fazer um jogo em python?"
-      },
-      {
-        "intent": "informacao_desenvolvimento",
-        "text": "quero fazer um jogo em python"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Como voce pode responder uma duvida?"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Voce consegue me tirar uma duvida?"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Como você pode responder minha pergunta?"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Me tira uma duvida?"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Como posso te fazer uma pergunta?"
-      },
-      {
-        "intent": "cumprimentar",
-      "text": "ola"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "oie"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Você pode responder minhas questões?"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Duvida"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "como posso tirar uma duvida?"
-      },
-      {
-        "intent": "informacao_materiais",
-        "text": "link"
-      },
-      {
-        "intent": "informacao_materiais",
-        "text": "material"
-      },
-      {
-        "intent": "informacao_materiais",
-        "text": "materiais"
-      },
-      {
-        "intent": "informacao_materiais",
-        "text": "quero materiais"
-      },
-      {
-        "intent": "informacao_materiais",
-        "text": "quero links"
-      },
-      {
-        "intent": "informacao_materiais",
-        "text": "me envie materiais"
-      },
-      {
-        "intent": "informacao_materiais",
-        "text": "me envie links"
-      },
-      {
-        "intent": "informacao_materiais",
-        "text": "quais links você pode me mandar?"
-      },
-      {
-        "intent": "informacao_materiais",
-        "text": "quais materiais você pode me mandar?"
-      },
-      {
-        "intent": "informacao_materiais",
-        "text": "voce pode me enviar links?"
-      },
-      {
-        "intent": "informacao_materiais",
-        "text": "voce pode me enviar materiais?"
-      },
-      {
-        "intent": "informacao_materiais",
-        "text": "quais materiais voce tem?"
-      },
-      {
-        "intent": "informacao_materiais",
-        "text": "quais links voce tem?"
-      },
-      {
-        "intent": "informacao_materiais",
-        "text": "links uteis"
-      },
-      {
-        "intent": "informacao_materiais",
-        "text": "materiais uteis"
-      },
-      {
-        "intent": "informacao_materiais",
-        "text": "me manda link"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Como voce pode responder uma duvida?"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Voce consegue me tirar uma duvida?"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Como você pode responder minha pergunta?"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Me tira uma duvida?"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Como posso te fazer uma pergunta?"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Você pode responder minhas questões?"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Duvida"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "Tenho uma duvida"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "FAQ"
-      },
-      {
-        "intent": "informacao_duvidas",
-        "text": "faq"
-      },
-      {
-        "intent": "tudo_bem",
-        "text": "Tudo bem"
-      },
-      {
-        "intent": "negar",
-        "text": "não"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "informacao",
-        "text": "Como você pode me ajudar?"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "out_of_scope",
-        "text": "Qual a origem do mundo?"
-      },
-      {
-        "intent": "out_of_scope",
-        "text": "Você tem signo?"
-      },
-      {
-        "intent": "out_of_scope",
-        "text": "Vc gosta de carnaval?"
-      },
-      {
-        "intent": "out_of_scope",
-        "text": "batatinha quando nasce"
-      },
-      {
-        "intent": "out_of_scope",
-        "text": "nai"
-      },
-      {
-        "intent": "tudo_bem",
-        "text": "Tudo bem"
-      },
-      {
-        "intent": "tudo_bem",
-        "text": "Como vocês estao"
-      },
-      {
-        "intent": "tudo_bem",
-        "text": "como vc ta"
       }
     ],
     "regex_features": [],

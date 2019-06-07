@@ -16,9 +16,198 @@
 * tudo_bem
     - utter_tudo_bem
 
-## tutorial
+## path tutorial facil 1
 * informacao_desenvolvimento
     - utter_informacao_desenvolvimento
+* tutorial_facil
+    - utter_confirmacao
+* confirmar
+    - utter_tutorial_padawan1
+    - utter_tutorial_padawan2
+    - utter_tutorial_padawan3
+    - utter_padawan_c4
+* confirmar
+    - utter_tutorial_padawan4
+    - utter_padawan_c
+* confirmar
+    - utter_tutorial_padawan5
+    - utter_tutorial_padawan6
+    - utter_tutorial_padawan7
+    - utter_padawan_c2
+* confirmar    
+    - utter_tutorial_padawan8
+    - utter_tutorial_padawan9
+    - utter_tutorial_padawan10
+    - utter_padawan_c
+* confirmar
+    - utter_tutorial_padawan11
+    - utter_tutorial_padawan12
+    - utter_tutorial_padawan13
+    - utter_padawan_c
+* confirmar
+    - utter_tutorial_padawan14
+    - utter_tutorial_padawan15
+    - utter_tutorial_padawan16
+    - utter_padawan_c3
+* confirmar    
+    - utter_tutorial_padawan17
+    - utter_tutorial_padawan18
+    - utter_tutorial_padawan19
+    - utter_tutorial_padawan20
+    - utter_tutorial_padawan21
+    - utter_tutorial_padawan22
+    - utter_cumprimentar
+
+## path tutorial facil_retorno
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_facil
+    - utter_confirmacao
+* negar
+    - utter_cumprimentar
+
+## path tutorial facil 2
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_facil
+    - utter_confirmacao
+* confirmar
+    - utter_tutorial_padawan1
+    - utter_tutorial_padawan2
+    - utter_tutorial_padawan3
+    - utter_padawan_c4
+* negar
+   - utter_cumprimentar
+
+## path tutorial facil 3
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_facil
+    - utter_confirmacao
+* confirmar
+    - utter_tutorial_padawan1
+    - utter_tutorial_padawan2
+    - utter_tutorial_padawan3
+    - utter_padawan_c4
+* confirmar
+    - utter_tutorial_padawan4
+    - utter_padawan_c
+* negar
+    - utter_cumprimentar
+
+## path tutorial facil 4
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_facil
+    - utter_confirmacao
+* confirmar
+    - utter_tutorial_padawan1
+    - utter_tutorial_padawan2
+    - utter_tutorial_padawan3
+    - utter_padawan_c4
+* confirmar
+    - utter_tutorial_padawan4
+    - utter_padawan_c
+* confirmar
+    - utter_tutorial_padawan5
+    - utter_tutorial_padawan6
+    - utter_tutorial_padawan7
+    - utter_padawan_c2
+* negar    
+    - utter_cumprimentar
+
+## path tutorial facil 5
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_facil
+    - utter_confirmacao
+* confirmar
+    - utter_tutorial_padawan1
+    - utter_tutorial_padawan2
+    - utter_tutorial_padawan3
+    - utter_padawan_c4
+* confirmar
+    - utter_tutorial_padawan4
+    - utter_padawan_c
+* confirmar
+    - utter_tutorial_padawan5
+    - utter_tutorial_padawan6
+    - utter_tutorial_padawan7
+    - utter_padawan_c2
+* confirmar    
+    - utter_tutorial_padawan8
+    - utter_tutorial_padawan9
+    - utter_tutorial_padawan10
+    - utter_padawan_c
+* negar
+    - utter_cumprimentar
+
+## path tutorial facil 6
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_facil
+    - utter_confirmacao
+* confirmar
+    - utter_tutorial_padawan1
+    - utter_tutorial_padawan2
+    - utter_tutorial_padawan3
+    - utter_padawan_c4
+* confirmar
+    - utter_tutorial_padawan4
+    - utter_padawan_c
+* confirmar
+    - utter_tutorial_padawan5
+    - utter_tutorial_padawan6
+    - utter_tutorial_padawan7
+    - utter_padawan_c2
+* confirmar    
+    - utter_tutorial_padawan8
+    - utter_tutorial_padawan9
+    - utter_tutorial_padawan10
+    - utter_padawan_c
+* confirmar
+    - utter_tutorial_padawan11
+    - utter_tutorial_padawan12
+    - utter_tutorial_padawan13
+    - utter_padawan_c
+* negar
+    - utter_cumprimentar
+
+## path tutorial facil 7
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_facil
+    - utter_confirmacao
+* confirmar
+    - utter_tutorial_padawan1
+    - utter_tutorial_padawan2
+    - utter_tutorial_padawan3
+    - utter_padawan_c4
+* confirmar
+    - utter_tutorial_padawan4
+    - utter_padawan_c
+* confirmar
+    - utter_tutorial_padawan5
+    - utter_tutorial_padawan6
+    - utter_tutorial_padawan7
+    - utter_padawan_c2
+* confirmar    
+    - utter_tutorial_padawan8
+    - utter_tutorial_padawan9
+    - utter_tutorial_padawan10
+    - utter_padawan_c
+* confirmar
+    - utter_tutorial_padawan11
+    - utter_tutorial_padawan12
+    - utter_tutorial_padawan13
+    - utter_padawan_c
+* confirmar
+    - utter_tutorial_padawan14
+    - utter_tutorial_padawan15
+    - utter_tutorial_padawan16
+    - utter_padawan_c3
+* negar  
+    - utter_cumprimentar
 
 ## fallback
 * out_of_scope
@@ -27,15 +216,17 @@
 ## materiais
 * informacao_materiais
     - utter_informacao_materiais
+* nao_implementada
+    - utter_implementacao
     
 ## informacao ambiente 
 * informacao_ambiente
     - utter_informacao_ambiente 
 
-
 ## informacao duvidas
 * informacao_duvidas
     - utter_informacao_duvidas
+    - utter_implementacao
 
 ## path informacao>duvidas
 * informacao
@@ -53,8 +244,357 @@
 * informacao
     - utter_informacao
 * informacao_desenvolvimento
-    - utter_informacao_desenvolvimento
+    - utter_informacao_desenvolvimento    
 
+## path tutorial medio confirmar
+* informacao
+    - utter_informacao
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_medio
+    - utter_tutorial_jedi
+* confirmar
+    - utter_tutorial_jedi_confirmar
+* confirmar
+    - utter_tutorial_jedi_imports
+    - utter_tutorial_jedi_imports_c
+* prosseguir    
+    - utter_tutorial_jedi_cores
+    - utter_tutorial_jedi_cores_c
+* prosseguir
+    - utter_tutorial_jedi_direcao
+    - utter_tutorial_jedi_direcao_c    
+* prosseguir
+    - utter_tutorial_jedi_classe_game
+    - utter_tutorial_jedi_classe_game_c
+* prosseguir    
+    - utter_tutorial_jedi_run
+    - utter_tutorial_jedi_run_c
+* prosseguir    
+    - utter_tutorial_jedi_movimentos
+    - utter_tutorial_jedi_movimentos_c
+* prosseguir          
+    - utter_tutorial_jedi_desenhos
+    - utter_tutorial_jedi_desenhos_c
+* prosseguir
+    - utter_tutorial_jedi_snake
+    - utter_tutorial_jedi_snake_c
+* prosseguir
+    - utter_tutorial_jedi_colisao
+    - utter_tutorial_jedi_colisao_c 
+* prosseguir           
+    - utter_tutorial_jedi_comida
+    - utter_tutorial_jedi_comida_c
+* prosseguir 
+    - utter_tutorial_jedi_main
+    - utter_tutorial_jedi_main_c
+    - utter_cumprimentar
+
+## path tutorial medio confirmar 2
+* informacao
+    - utter_informacao
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_medio
+    - utter_tutorial_jedi
+* confirmar
+    - utter_tutorial_jedi_confirmar
+* confirmar
+    - utter_tutorial_jedi_imports
+    - utter_tutorial_jedi_imports_c
+* negar    
+    - utter_tutorial_jedi_imports
+    - utter_tutorial_jedi_imports_c   
+
+## path tutorial medio confirmar 3
+* informacao
+    - utter_informacao
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_medio
+    - utter_tutorial_jedi
+* confirmar
+    - utter_tutorial_jedi_confirmar
+* confirmar
+    - utter_tutorial_jedi_imports
+    - utter_tutorial_jedi_imports_c
+* prosseguir   
+    - utter_tutorial_jedi_cores
+    - utter_tutorial_jedi_cores_c
+* negar
+    - utter_tutorial_jedi_cores
+    - utter_tutorial_jedi_cores_c    
+
+## path tutorial medio confirmar 4
+* informacao
+    - utter_informacao
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_medio
+    - utter_tutorial_jedi
+* confirmar
+    - utter_tutorial_jedi_confirmar
+* confirmar
+    - utter_tutorial_jedi_imports
+    - utter_tutorial_jedi_imports_c
+* prosseguir    
+    - utter_tutorial_jedi_cores
+    - utter_tutorial_jedi_cores_c
+* prosseguir
+    - utter_tutorial_jedi_direcao
+    - utter_tutorial_jedi_direcao_c    
+* negar
+    - utter_tutorial_jedi_direcao
+    - utter_tutorial_jedi_direcao_c
+
+## path tutorial medio confirmar 5
+* informacao
+    - utter_informacao
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_medio
+    - utter_tutorial_jedi
+* confirmar
+    - utter_tutorial_jedi_confirmar
+* confirmar
+    - utter_tutorial_jedi_imports
+    - utter_tutorial_jedi_imports_c
+* prosseguir    
+    - utter_tutorial_jedi_cores
+    - utter_tutorial_jedi_cores_c
+* prosseguir
+    - utter_tutorial_jedi_direcao
+    - utter_tutorial_jedi_direcao_c    
+* prosseguir
+    - utter_tutorial_jedi_classe_game
+    - utter_tutorial_jedi_classe_game_c
+* negar    
+    - utter_tutorial_jedi_classe_game
+    - utter_tutorial_jedi_classe_game_c
+
+## path tutorial medio confirmar 6
+* informacao
+    - utter_informacao
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_medio
+    - utter_tutorial_jedi
+* confirmar
+    - utter_tutorial_jedi_confirmar
+* confirmar
+    - utter_tutorial_jedi_imports
+    - utter_tutorial_jedi_imports_c
+* prosseguir    
+    - utter_tutorial_jedi_cores
+    - utter_tutorial_jedi_cores_c
+* prosseguir
+    - utter_tutorial_jedi_direcao
+    - utter_tutorial_jedi_direcao_c    
+* prosseguir
+    - utter_tutorial_jedi_classe_game
+    - utter_tutorial_jedi_classe_game_c
+* prosseguir    
+    - utter_tutorial_jedi_run
+    - utter_tutorial_jedi_run_c
+* negar   
+    - utter_tutorial_jedi_run
+    - utter_tutorial_jedi_run_c
+
+## path tutorial medio confirmar 7
+* informacao
+    - utter_informacao
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_medio
+    - utter_tutorial_jedi
+* confirmar
+    - utter_tutorial_jedi_confirmar
+* confirmar
+    - utter_tutorial_jedi_imports
+    - utter_tutorial_jedi_imports_c
+* prosseguir    
+    - utter_tutorial_jedi_cores
+    - utter_tutorial_jedi_cores_c
+* prosseguir
+    - utter_tutorial_jedi_direcao
+    - utter_tutorial_jedi_direcao_c    
+* prosseguir
+    - utter_tutorial_jedi_classe_game
+    - utter_tutorial_jedi_classe_game_c
+* prosseguir    
+    - utter_tutorial_jedi_run
+    - utter_tutorial_jedi_run_c
+* prosseguir    
+    - utter_tutorial_jedi_movimentos
+    - utter_tutorial_jedi_movimentos_c
+* negar          
+    - utter_tutorial_jedi_movimentos
+    - utter_tutorial_jedi_movimentos_c
+
+## path tutorial medio confirmar 8
+* informacao
+    - utter_informacao
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_medio
+    - utter_tutorial_jedi
+* confirmar
+    - utter_tutorial_jedi_confirmar
+* confirmar
+    - utter_tutorial_jedi_imports
+    - utter_tutorial_jedi_imports_c
+* prosseguir    
+    - utter_tutorial_jedi_cores
+    - utter_tutorial_jedi_cores_c
+* prosseguir
+    - utter_tutorial_jedi_direcao
+    - utter_tutorial_jedi_direcao_c    
+* prosseguir
+    - utter_tutorial_jedi_classe_game
+    - utter_tutorial_jedi_classe_game_c
+* prosseguir    
+    - utter_tutorial_jedi_run
+    - utter_tutorial_jedi_run_c
+* prosseguir    
+    - utter_tutorial_jedi_movimentos
+    - utter_tutorial_jedi_movimentos_c
+* prosseguir          
+    - utter_tutorial_jedi_desenhos
+    - utter_tutorial_jedi_desenhos_c
+* negar
+    - utter_tutorial_jedi_desenhos
+    - utter_tutorial_jedi_desenhos_c
+
+## path tutorial medio confirmar 9
+* informacao
+    - utter_informacao
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_medio
+    - utter_tutorial_jedi
+* confirmar
+    - utter_tutorial_jedi_confirmar
+* confirmar
+    - utter_tutorial_jedi_imports
+    - utter_tutorial_jedi_imports_c
+* prosseguir    
+    - utter_tutorial_jedi_cores
+    - utter_tutorial_jedi_cores_c
+* prosseguir
+    - utter_tutorial_jedi_direcao
+    - utter_tutorial_jedi_direcao_c    
+* prosseguir
+    - utter_tutorial_jedi_classe_game
+    - utter_tutorial_jedi_classe_game_c
+* prosseguir   
+    - utter_tutorial_jedi_run
+    - utter_tutorial_jedi_run_c
+* prosseguir    
+    - utter_tutorial_jedi_movimentos
+    - utter_tutorial_jedi_movimentos_c
+* prosseguir          
+    - utter_tutorial_jedi_desenhos
+    - utter_tutorial_jedi_desenhos_c
+* prosseguir
+    - utter_tutorial_jedi_snake
+    - utter_tutorial_jedi_snake_c
+* negar
+    - utter_tutorial_jedi_snake
+    - utter_tutorial_jedi_snake_c 
+
+## path tutorial medio confirmar 10
+* informacao
+    - utter_informacao
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_medio
+    - utter_tutorial_jedi
+* confirmar
+    - utter_tutorial_jedi_confirmar
+* confirmar
+    - utter_tutorial_jedi_imports
+    - utter_tutorial_jedi_imports_c
+* prosseguir    
+    - utter_tutorial_jedi_cores
+    - utter_tutorial_jedi_cores_c
+* prosseguir
+    - utter_tutorial_jedi_direcao
+    - utter_tutorial_jedi_direcao_c    
+* prosseguir
+    - utter_tutorial_jedi_classe_game
+    - utter_tutorial_jedi_classe_game_c
+* prosseguir    
+    - utter_tutorial_jedi_run
+    - utter_tutorial_jedi_run_c
+* prosseguir    
+    - utter_tutorial_jedi_movimentos
+    - utter_tutorial_jedi_movimentos_c
+* prosseguir          
+    - utter_tutorial_jedi_desenhos
+    - utter_tutorial_jedi_desenhos_c
+* prosseguir
+    - utter_tutorial_jedi_snake
+    - utter_tutorial_jedi_snake_c
+* prosseguir
+    - utter_tutorial_jedi_colisao
+    - utter_tutorial_jedi_colisao_c 
+* negar           
+    - utter_tutorial_jedi_colisao
+    - utter_tutorial_jedi_colisao_c
+
+## path tutorial medio confirmar 11
+* informacao
+    - utter_informacao
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_medio
+    - utter_tutorial_jedi
+* confirmar
+    - utter_tutorial_jedi_confirmar
+* confirmar
+    - utter_tutorial_jedi_imports
+    - utter_tutorial_jedi_imports_c
+* prosseguir    
+    - utter_tutorial_jedi_cores
+    - utter_tutorial_jedi_cores_c
+* prosseguir
+    - utter_tutorial_jedi_direcao
+    - utter_tutorial_jedi_direcao_c    
+* prosseguir
+    - utter_tutorial_jedi_classe_game
+    - utter_tutorial_jedi_classe_game_c
+* prosseguir    
+    - utter_tutorial_jedi_run
+    - utter_tutorial_jedi_run_c
+* prosseguir    
+    - utter_tutorial_jedi_movimentos
+    - utter_tutorial_jedi_movimentos_c
+* prosseguir          
+    - utter_tutorial_jedi_desenhos
+    - utter_tutorial_jedi_desenhos_c
+* prosseguir
+    - utter_tutorial_jedi_snake
+    - utter_tutorial_jedi_snake_c
+* prosseguir
+    - utter_tutorial_jedi_colisao
+    - utter_tutorial_jedi_colisao_c 
+* prosseguir           
+    - utter_tutorial_jedi_comida
+    - utter_tutorial_jedi_comida_c
+* negar 
+    - utter_tutorial_jedi_comida
+    - utter_tutorial_jedi_comida_c
+
+## path tutorial medio negar
+* informacao
+    - utter_informacao
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* tutorial_medio
+    - utter_tutorial_jedi
+* negar
+    - utter_tutorial_jedi_negar
+    - utter_informacao_ambiente    
 
 ## path 1
 * cumprimentar
@@ -64,7 +604,6 @@
 ## path 2
 * cumprimentar
         - utter_cumprimentar
-
 
 ## tutorial ambiente 1
 * informacao_ambiente
@@ -76,86 +615,224 @@
     - utter_confirmar_ambiente2
     - utter_perguntar_ambiente3
 * confirmar
-    - utter_confirmar_ambiente3
+    - utter_complementos
+    - utter_ambiente_adicional
+* confirmar
+    - utter_complementos2
+    - utter_ambiente_adicional
+* confirmar
+    - utter_complementos3
+    - utter_ambiente_adicional2
+    - utter_cumprimentar
+
 ## tutorial ambiente 2
+* informacao_ambiente
+    - utter_informacao_ambiente
 * confirmar
     - utter_confirmar_ambiente1
     - utter_perguntar_ambiente2
-* negar
-    - utter_negar_ambiente2
+* confirmar
     - utter_confirmar_ambiente2
     - utter_perguntar_ambiente3
 * confirmar
-    - utter_confirmar_ambiente3
+    - utter_complementos
+    - utter_ambiente_adicional
+* negar
+    - utter_ambiente_adicional2
+    - utter_cumprimentar
+
 ## tutorial ambiente 3
+* informacao_ambiente
+    - utter_informacao_ambiente
 * confirmar
     - utter_confirmar_ambiente1
     - utter_perguntar_ambiente2
-* negar
-    - utter_negar_ambiente2
+* confirmar
     - utter_confirmar_ambiente2
     - utter_perguntar_ambiente3
+* confirmar
+    - utter_complementos
+    - utter_ambiente_adicional
+* confirmar
+    - utter_complementos2
+    - utter_ambiente_adicional
 * negar
-    - utter_negar_ambiente3      
-    - utter_confirmar_ambiente3
+    - utter_ambiente_adicional2
+    - utter_cumprimentar
 
 ## tutorial ambiente 4
 * confirmar
     - utter_confirmar_ambiente1
     - utter_perguntar_ambiente2
-* confirmar
-    - utter_confirmar_ambiente2
-    - utter_perguntar_ambiente3
 * negar
-    - utter_negar_ambiente3      
-    - utter_confirmar_ambiente3
+    - utter_negar_ambiente2
+    - utter_ambiente_adicional3
+* negar
+    - utter_negar_ambiente2
+    - utter_ambiente_adicional3
+* confirmar
+    - utter_complementos
+    - utter_ambiente_adicional
+* confirmar
+    - utter_complementos2
+    - utter_ambiente_adicional
+* confirmar
+    - utter_complementos3
+    - utter_ambiente_adicional2
+    - utter_cumprimentar
 
 ## tutorial ambiente 5
-* negar
-    - utter_negar_ambiente1
+* confirmar
     - utter_confirmar_ambiente1
     - utter_perguntar_ambiente2
 * negar
     - utter_negar_ambiente2
-    - utter_confirmar_ambiente2
-    - utter_perguntar_ambiente3
+    - utter_ambiente_adicional3
 * negar
-    - utter_negar_ambiente3      
-    - utter_confirmar_ambiente3
+    - utter_negar_ambiente2
+    - utter_ambiente_adicional3
+* negar
+    - utter_negar_ambiente3
+    - utter_ambiente_adicional3
+* confirmar
+    - utter_complementos
+    - utter_ambiente_adicional
+* confirmar
+    - utter_complementos2
+    - utter_ambiente_adicional
+* confirmar
+    - utter_complementos3
+    - utter_ambiente_adicional2
+    - utter_cumprimentar
+
 ## tutorial ambiente 6
-* negar
-    - utter_negar_ambiente1
+* confirmar
     - utter_confirmar_ambiente1
     - utter_perguntar_ambiente2
-* confirmar
-    - utter_confirmar_ambiente2
-    - utter_perguntar_ambiente3
 * negar
-    - utter_negar_ambiente3      
-    - utter_confirmar_ambiente3
+    - utter_negar_ambiente2
+    - utter_ambiente_adicional3
+* negar
+    - utter_negar_ambiente2
+    - utter_ambiente_adicional3
+* negar
+    - utter_negar_ambiente3
+    - utter_ambiente_adicional3
+* confirmar
+    - utter_complementos
+    - utter_ambiente_adicional
+* negar
+    - utter_ambiente_adicional2
+    - utter_cumprimentar
 
 ## tutorial ambiente 7
-* negar
-    - utter_negar_ambiente1
+* confirmar
     - utter_confirmar_ambiente1
     - utter_perguntar_ambiente2
 * negar
     - utter_negar_ambiente2
-    - utter_confirmar_ambiente2
-    - utter_perguntar_ambiente3
-* confirmar  
-    - utter_confirmar_ambiente3
+    - utter_ambiente_adicional3
+* negar
+    - utter_negar_ambiente2
+    - utter_ambiente_adicional3
+* negar
+    - utter_negar_ambiente3
+    - utter_ambiente_adicional3
+* confirmar
+    - utter_complementos
+    - utter_ambiente_adicional
+* confirmar
+    - utter_complementos2
+    - utter_ambiente_adicional
+* negar
+    - utter_ambiente_adicional2
+    - utter_cumprimentar
 
 ## tutorial ambiente 8
-* negar
-    - utter_negar_ambiente1
+* confirmar
     - utter_confirmar_ambiente1
     - utter_perguntar_ambiente2
 * confirmar
     - utter_confirmar_ambiente2
     - utter_perguntar_ambiente3
-* confirmar     
-    - utter_confirmar_ambiente3
+* negar
+    - utter_negar_ambiente3
+    - utter_ambiente_adicional3
+* confirmar
+    - utter_complementos
+    - utter_complementos2
+    - utter_complementos3
+    - utter_ambiente_adicional2
+    - utter_cumprimentar
+
+## tutorial ambiente 9
+* negar
+    - utter_negar_ambiente1
+    - utter_perguntar_ambiente2
+* negar
+    - utter_negar_ambiente2
+    - utter_ambiente_adicional3
+* negar
+    - utter_negar_ambiente2
+    - utter_ambiente_adicional3
+* negar
+    - utter_negar_ambiente3
+    - utter_ambiente_adicional3
+* confirmar
+    - utter_complementos
+    - utter_complementos2
+    - utter_complementos3
+    - utter_ambiente_adicional2
+    - utter_cumprimentar
+
+## tutorial ambiente 10
+* negar
+    - utter_negar_ambiente1
+    - utter_perguntar_ambiente2
+* confirmar
+    - utter_confirmar_ambiente2
+    - utter_perguntar_ambiente3
+* negar
+    - utter_negar_ambiente3
+    - utter_ambiente_adicional3
+* confirmar
+    - utter_complementos
+    - utter_complementos2
+    - utter_complementos3
+    - utter_ambiente_adicional2
+    - utter_cumprimentar
+
+## tutorial ambiente 11
+* negar
+    - utter_negar_ambiente1
+    - utter_perguntar_ambiente2
+* negar
+    - utter_negar_ambiente2
+    - utter_ambiente_adicional3
+* negar
+    - utter_negar_ambiente2
+    - utter_ambiente_adicional3
+* confirmar 
+    - utter_complementos
+    - utter_complementos2
+    - utter_complementos3
+    - utter_ambiente_adicional2
+    - utter_cumprimentar
+
+## tutorial ambiente 12
+* negar
+    - utter_negar_ambiente1
+    - utter_perguntar_ambiente2
+* confirmar
+    - utter_confirmar_ambiente2
+    - utter_perguntar_ambiente3
+* confirmar
+    - utter_complementos
+    - utter_complementos2
+    - utter_complementos3
+    - utter_ambiente_adicional2
+    - utter_cumprimentar
+
 ## Generated Story -5536704352028321519
 * confirmar
     - utter_sem_nada
@@ -165,3 +842,29 @@
 ## Contribuicao
 * contribuicao
     - utter_contribuicao
+
+## Generated Story -8260612615251012865
+* faq
+    - utter_faq
+* confirmar
+    - action_faq
+* negar
+    - utter_despedir
+* negar
+    - utter_sem_nada
+
+## Faq_2
+* faq
+    - utter_faq
+* negar
+    - utter_despedir
+
+## Generated Story -8260612615251012865
+* faq
+    - utter_faq
+* confirmar
+    - action_faq
+* negar
+    - utter_despedir
+* cumprimentar
+    - utter_cumprimentar
