@@ -6,7 +6,7 @@
 
 **Duração**: Uma semana
 
-**Pontos Planejados**: X
+**Pontos Planejados**: 59
 
 -------
 
