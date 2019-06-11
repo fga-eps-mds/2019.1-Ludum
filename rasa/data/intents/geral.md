@@ -45,6 +45,9 @@
 - contribuicão
 - contribuicao
 - quero contribuir
+- como posso ajudar
+- como ajudar
+- quero ajudar
 
 
 ## intent:informacao

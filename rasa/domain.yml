@@ -135,7 +135,7 @@ templates:
   - text: "Quer se tornar um Jedi?! Ajude contribuindo com os materiais e links que\
       \ você ache bacana e a força estará com você.\n Você pode tambem criar tutoriais\
       \ para ajudar os próximos aprendizes que estão por vir\n Para contribuir use\
-      \ o nosso WebClient(a ser criado)\n"
+      \ este link: https://ludum-materiais-frontend.herokuapp.com\n"
   utter_cumprimentar:
   - buttons:
     - payload: Tutorial
