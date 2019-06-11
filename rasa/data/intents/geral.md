@@ -29,10 +29,23 @@
 - como contribuir
 - o que preciso para contribuir
 - como contribuir para o repositorio
-- contribuir
 - como contribuir
 - o que preciso para contribuir
 - como contribuir para o repositorio
+- como posso contribuir
+- como faço para contribuir
+- como faço pra contribuir
+- como faço contribuir
+- como faco para contribuir
+- como faco pra contribuir
+- como faco contribuir
+- contribuindo para o projeto
+- como posso constribuir com o projeto
+- contribuição
+- contribuicão
+- contribuicao
+- quero contribuir
+
 
 ## intent:informacao
 - Tenho uma pergunta
