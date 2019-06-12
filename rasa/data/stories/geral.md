@@ -213,12 +213,18 @@
 * out_of_scope
     - utter_default
 
-## materiais
+## materiais path 1
 * informacao_materiais
     - utter_informacao_materiais
-* nao_implementada
-    - utter_implementacao
-    
+* confirmar
+    - utter_informacao_materiais_links
+## materiais path 2 negar
+* informacao_materiais
+    - utter_informacao_materiais
+* negar  
+    - utter_cumprimentar
+
+
 ## informacao ambiente 
 * informacao_ambiente
     - utter_informacao_ambiente 

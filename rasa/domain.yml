@@ -90,6 +90,7 @@ actions:
 - utter_ambiente_adicional
 - utter_ambiente_adicional2
 - utter_ambiente_adicional3
+- utter_informacao_materiais_links
 entities:
 - starwars
 - time
@@ -197,10 +198,14 @@ templates:
       \ pra você.  \n"
   utter_informacao_materiais:
   - text: "Olá, jovem Padawan! :D\nVou te mostrar tudo que sei sobre desenvolvimento\
-      \ de jogos em Python com links de materiais úteis que podem melhorar seu conhecimento\
-      \ para te ajudar a se tornar um verdadeiro Mestre na criação de jogos com PyGame.\n\
-      Mas antes, jovem padawan, devo te fazer uma pergunta: Você prefere videos explicativos\
-      \ ou textos?\n"
+      \ de jogos em Python com links de materiais úteis que podem aumentar o aprendizado\
+      \ para melhorar seu conhecimento, afim de te ajudar a se\
+      \ tornar um verdadeiro Mestre na criação de jogos com PyGame.\n
+      \ Deseja ver esse material?.\n"
+  utter_informacao_materiais_links:
+  - text: "Muito bem jovem Geek! No pedaço de pergaminho abaixo\
+      \ estão listados materiais de apoio, recomendados pelos próprios\
+      \ usuários, mas que podem te ajudar também!\n"     
   utter_negar_ambiente1:
   - text: "Para realizarmos nossos tutoriais você precisará do Python 3.6, mas sem\
       \ problema, para instalá-lo basta acessar este site https://www.python.org/downloads/\
