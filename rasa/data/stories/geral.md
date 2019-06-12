@@ -218,6 +218,7 @@
     - utter_informacao_materiais
 * confirmar
     - utter_informacao_materiais_links
+    - action_link
 ## materiais path 2 negar
 * informacao_materiais
     - utter_informacao_materiais

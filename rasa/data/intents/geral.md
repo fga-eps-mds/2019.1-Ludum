@@ -17,6 +17,14 @@
 - perguntar ao stack overflow [for em python](pergunta)
 - pesquisar no stack overflow
 
+##intent:action_link
+- me recomenda um link 
+- me recomenda um material
+- me recomenda links e materiais
+- me recomenda materiais e links
+- recomenda materiais e links
+
+
 ## intent:confirmar
 - sim
 - claro
