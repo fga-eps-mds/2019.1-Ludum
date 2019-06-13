@@ -97,12 +97,13 @@ class ActionLinks(Action):
         try:
             endpointLinks = 'https://produ-o.ludum-materiais.ludumbot.club/api/links/aprovados/S'
             materiais = requests.get(endpointLinks)
-            dictMateriais = json.loads(materiais)
-            if(len(['data']) == 0):
+            dictMateriais = json.loads(materiais.text)
+            linkText = ''
+            if(len(dictMateriais['data']) == 0):
                 linkText += (   'Oooopsss...' +
                                 'Não encontrei nenhum material')
             else:
-                for i in range(0, len(['data'])):
+                for i in range(0, len(dictMateriais['data'])):
                     linkText += 'Link ' + str(i+1) + '\n'
                     linkText += 'Título: ' + str(dictMateriais['data'][i]['title'])
                     linkText += '\n'
