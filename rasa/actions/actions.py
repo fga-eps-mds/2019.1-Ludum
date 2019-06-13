@@ -88,3 +88,37 @@ class ActionFaq(Action):
         except ValueError:
             dispatcher.utter_message(ValueError)
         return []
+
+class ActionLinks(Action):
+    def name(self):
+        return "action_link"
+
+    def run(self, dispatcher, tracker, domain):
+        try:
+            endpointLinks = 'https://produ-o.ludum-materiais.ludumbot.club/api/links/aprovados/S'
+            materiais = requests.get(endpointLinks)
+            dictMateriais = json.loads(materiais)
+            if(len(['data']) == 0):
+                linkText += (   'Oooopsss...' +
+                                'Não encontrei nenhum material')
+            else:
+                for i in range(0, len(['data'])):
+                    linkText += 'Link ' + str(i+1) + '\n'
+                    linkText += 'Título: ' + str(dictMateriais['data'][i]['title'])
+                    linkText += '\n'
+                    linkText += 'Tipo: ' + str(dictMateriais['data'][i]['type'])
+                    linkText += '\n'
+                    linkText += 'Link: ' + str(dictMateriais['data'][i]['link'])
+                    linkText += '\n'
+                    linkText += '----------------------------------------------'
+                dispatcher.utter_message(linkText)
+                fimMsg = "Esses são os materiais disponíveis no momento... " 
+                fimMsg += "Espero que contribua nos seus estudos  =)"
+                fimMsg += "\n"
+                fimMsg += "Caso você conheça algum material interessante que não está aqui "
+                fimMsg += "contribua com nosso conteúdo. Para mais informações "
+                fimMsg += "basta checar nossa área de envio de materiais no menu principal!"
+                dispatcher.utter_message(fimMsg)
+        except ValueError:
+            dispatcher.utter_message(ValueError)
+        return []
