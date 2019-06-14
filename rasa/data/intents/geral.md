@@ -48,6 +48,22 @@
 - como posso ajudar
 - como ajudar
 - quero ajudar
+- como contribuir?
+- o que preciso para contribuir?
+- como contribuir para o repositorio?
+- como contribuir?
+- o que preciso para contribuir?
+- como contribuir para o repositorio?
+- como posso contribuir?
+- como faço para contribuir?
+- como faço pra contribuir?
+- como faço contribuir?
+- como faco para contribuir?
+- como faco pra contribuir?
+- como faco contribuir?
+- como posso constribuir com o projeto?
+- como posso ajudar?
+- como ajudar?
 
 
 ## intent:informacao
