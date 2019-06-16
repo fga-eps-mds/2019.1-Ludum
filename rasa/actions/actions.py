@@ -88,3 +88,35 @@ class ActionFaq(Action):
         except ValueError:
             dispatcher.utter_message(ValueError)
         return []
+
+
+class ActionEscolhaTutorial(FormAction):
+    def name(self):
+        return "action_escolha_tutorial"
+
+    @staticmethod
+    def required_slots(tracker):
+        return ["escolha_tutorial"]
+
+    def submit(self, dispatcher, tracker, domain):
+        url = 'https://produ-o.ludum-materiais.ludumbot.club/api'
+        try:
+            dispatcher.utter_message('Espere jovem padawan,' +
+                                     'vou lhe mostrar o link' +
+                                     'para esse tutorial')
+        except ValueError:
+            dispatcher.utter_message(ValueError)
+        try:
+            api = url + '/tutoriais'
+            link = requests.get(api)
+            tutoriais = json.loads(link.text)
+            ##pergunta = int(str(tracker.get_slot('escolha_tutorial')))
+            ##dispatcher.utter_message("O link da pergunta numero " + str(pergunta) + " é")
+            ##utterString = api + str(tutoriais['data'][pergunta]['_id'])  
+        except ValueError:
+            utterString = "Hmmm, não encontrei esse tutorial na lista"
+        dispatcher.utter_message("Ola parceiro")
+    def slot_mappings(self):
+        return {    
+            "escolha_tutorial": self.from_text()
+        }

@@ -96,7 +96,9 @@ entities:
 - pergunta
 forms:
 - action_question
+- action_escolha_tutorial
 intents:
+- escolha_tutorial
 - informacao_desenvolvimento
 - confirmar
 - faq
@@ -117,11 +119,15 @@ intents:
 - tutorial_medio
 - prosseguir
 slots:
+  escolha_tutorial:
+    type: unfeaturized
   pergunta:
     type: unfeaturized
   requested_slot:
     type: unfeaturized
 templates:
+  utter_ask_escolha_perguntas:
+  - text: Você deseja ver qual tutorial?
   utter_ask_pergunta:
   - text: Que pergunta você deseja fazer ao StackOverflow?
   utter_confirmar_ambiente1:
