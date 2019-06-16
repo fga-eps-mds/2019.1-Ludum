@@ -96,7 +96,7 @@ class ActionTutoriais(Action):
 
     def run(self, dispatcher, tracker, domain):
         try:
-            api = url + 'tutoriais/aceitos'
+            api = url + '/api/tutoriais'
             link = requests.get(api)
             tutoriais = json.loads(link.text)
             utterString = ''

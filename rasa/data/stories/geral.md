@@ -209,6 +209,22 @@
 * negar  
     - utter_cumprimentar
 
+## path tutorial comunidade_retorno
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* comunidade
+    - utter_confirmacao
+* negar
+    - utter_cumprimentar
+
+## path tutorial comunidade
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* comunidade
+    - utter_confirmacao
+* confirmar
+    - action_tutoriais
+
 ## fallback
 * out_of_scope
     - utter_default

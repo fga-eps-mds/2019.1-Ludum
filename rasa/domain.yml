@@ -29,6 +29,7 @@ actions:
 - utter_implementacao
 - action_faq
 - utter_faq
+- action_tutoriais
 - action_test
 - utter_tutorial_padawan8
 - utter_confirmar_ambiente3
@@ -116,6 +117,7 @@ intents:
 - contribuicao
 - tutorial_medio
 - prosseguir
+- comunidade
 slots:
   pergunta:
     type: unfeaturized
