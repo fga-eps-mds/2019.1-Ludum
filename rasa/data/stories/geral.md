@@ -839,9 +839,13 @@
 * confirmar
     - utter_sem_nada
 
-## Contribuicao
+## path contribuicao
 * contribuicao
     - utter_contribuicao
+    - utter_contribuicao2
+    - utter_contribuicao3
+    - utter_contribuicao4
+    - utter_contribuicao5
 
 ## Generated Story -8260612615251012865
 * faq
