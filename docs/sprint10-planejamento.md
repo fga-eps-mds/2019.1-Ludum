@@ -18,6 +18,8 @@
 
   * [3.1. Planejadas](#_31-planejadas)
 
+[4. Pareamentos](#_4-pareamentos_) 
+
 -------
 
 ## 1. Papéis
