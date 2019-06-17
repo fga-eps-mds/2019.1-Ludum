@@ -5,7 +5,7 @@ import requests
 from rasa_core_sdk.events import SlotSet
 from rasa_core_sdk.forms import FormAction
 
-url = 'https://ludum-duvidas.herokuapp.com'
+url = 'https://produ-o.ludum-materiais.ludumbot.club'
 
 class ActionTest(Action):
     def name(self):
@@ -44,7 +44,7 @@ class ActionQuestion(FormAction):
             if(len(stack['data']['answer']) == 0):
                 utterString += ('Que pena... Nem mesmo os grandes' +
                                 ' mestres Jedi do stack' +
-                                ' overflow sabem a resposta para sua ' +                         
+                                ' overflow sabem a resposta para sua ' +
                                 'pergunta.\nQue tal perguntar de outra forma?')
             else:
                 for i in range(0, len(stack['data']['answer'])):
@@ -96,7 +96,7 @@ class ActionTutoriais(Action):
 
     def run(self, dispatcher, tracker, domain):
         try:
-            api = url + '/api/tutoriais'
+            api = url + '/api/tutoriais/aprovados/S/'
             link = requests.get(api)
             tutoriais = json.loads(link.text)
             utterString = ''
