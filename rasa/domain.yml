@@ -94,6 +94,7 @@ entities:
 - starwars
 - time
 - pergunta
+- escolha_tutorial
 forms:
 - action_question
 - action_escolha_tutorial
@@ -126,7 +127,7 @@ slots:
   requested_slot:
     type: unfeaturized
 templates:
-  utter_ask_escolha_perguntas:
+  utter_ask_escolha_tutorial:
   - text: Você deseja ver qual tutorial?
   utter_ask_pergunta:
   - text: Que pergunta você deseja fazer ao StackOverflow?
