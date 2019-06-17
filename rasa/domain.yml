@@ -115,6 +115,7 @@ intents:
 - informacao
 - time
 - action_test
+- action_link
 - contribuicao
 - tutorial_medio
 - prosseguir
