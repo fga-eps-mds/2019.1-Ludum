@@ -110,12 +110,13 @@ class ActionEscolhaTutorial(FormAction):
             api = url + '/tutoriais'
             link = requests.get(api)
             tutoriais = json.loads(link.text)
-            ##pergunta = int(str(tracker.get_slot('escolha_tutorial')))
-            ##dispatcher.utter_message("O link da pergunta numero " + str(pergunta) + " é")
-            ##utterString = api + str(tutoriais['data'][pergunta]['_id'])  
+            pergunta = int(str(tracker.get_slot('escolha_tutorial')))
+            dispatcher.utter_message("O link da pergunta numero " + str(pergunta) + " é")
+            utterString = api + str(tutoriais['data'][pergunta]['_id'])  
         except ValueError:
             utterString = "Hmmm, não encontrei esse tutorial na lista"
         dispatcher.utter_message("Ola parceiro")
+        return [SlotSet('escolha_tutorial', None)]
     def slot_mappings(self):
         return {    
             "escolha_tutorial": self.from_text()
