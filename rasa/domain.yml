@@ -137,18 +137,18 @@ templates:
   - text: "Tudo certo então, estamos prontos para começar a diversão!\n"
   utter_contribuicao:
   - text: "Você é muito importante para me deixar cada vez melhor e ajudar a cumprir a minha missão.\
-      \ Contribua com todo seu conhecimento e aprendizado... É muito simples!\n"
+      \ Contribua com todo seu conhecimento e aprendizado, é muito simples!\n"
   utter_contribuicao2:
   - text: "Se você achou algum artigo, vídeo, fórum ou alguma coisa muito legal relacionada a Pygame\
-      \ que ajude outros usúarios em seus estudos e gostaria de que eu compartilhasse para todo mundo,\
+      \ que ajude outros usuários em seus estudos e gostaria que eu compartilhasse para todo mundo,\
       \ basta cadastrar esse link em nossos materiais\n"
   utter_contribuicao3:
-  - text: "Se você descobriu algum aspecto interessante acerca da Pygame, se você desenvolveu um jogo e gostaria de ensinar, \
-      \ entre outras coisas, sua ajuda é muito bem-vinda.\n"
+  - text: "Se você descobriu algum aspecto interessante acerca da Pygame ou se você desenvolveu um jogo e gostaria de ensinar,\
+      \ sua ajuda é muito bem-vinda.\n"
   utter_contribuicao4:
-  - text: "Todo material que você me enviar passará por uma avaliação do supremo conselho Jedi antes de ser publicado"
+  - text: "Mas não se preocupe, todo material que você me enviar passará por uma avaliação do supremo conselho Jedi antes de ser publicado\n"
   utter_contribuicao5:
-  - text: "Para cadastrar um desses materiais, acesse o endereço: https://ludum-materiais-frontend.herokuapp.com"
+  - text: "Para cadastrar um desses materiais, acesse o endereço: https://ludum-materiais-frontend.herokuapp.com\n"
   utter_cumprimentar:
   - buttons:
     - payload: Tutorial

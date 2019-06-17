@@ -77,6 +77,10 @@ actions:
 - extra.actions.ActionQuest
 - utter_padawan_c
 - utter_contribuicao
+- utter_contribuicao2
+- utter_contribuicao3
+- utter_contribuicao4
+- utter_contribuicao5
 - utter_tutorial_padawan20
 - utter_ask_pergunta
 - utter_star_wars
@@ -179,10 +183,20 @@ templates:
   utter_confirmar_ambiente3:
   - text: "Tudo certo então, estamos prontos para começar a diversão!\n"
   utter_contribuicao:
-  - text: "Quer se tornar um Jedi?! Ajude contribuindo com os materiais e links que\
-      \ você ache bacana e a força estará com você.\n Você pode tambem criar tutoriais\
-      \ para ajudar os próximos aprendizes que estão por vir\n Para contribuir use\
-      \ este link: https://ludum-materiais-frontend.herokuapp.com\n"
+  - text: "Você é muito importante para me deixar cada vez melhor e ajudar a cumprir\
+      \ a minha missão. Contribua com todo seu conhecimento e aprendizado, é muito\
+      \ simples!\n"
+  utter_contribuicao2:
+  - text: "Se você achou algum artigo, vídeo, fórum ou alguma coisa muito legal relacionada\
+      \ a Pygame que ajude outros usuários em seus estudos e gostaria que eu compartilhasse\
+      \ para todo mundo, basta cadastrar esse link em nossos materiais\n"
+  utter_contribuicao3:
+  - text: "Se você descobriu algum aspecto interessante acerca da Pygame ou se você desenvolveu um jogo e gostaria de ensinar,\
+      \ sua ajuda é muito bem-vinda.\n"
+  utter_contribuicao4:
+  - text: "Mas não se preocupe, todo material que você me enviar passará por uma avaliação do supremo conselho Jedi antes de ser publicado\n"
+  utter_contribuicao5:
+  - text: "Para cadastrar um desses materiais, acesse o endereço: https://ludum-materiais-frontend.herokuapp.com\n"
   utter_cumprimentar:
   - buttons:
     - payload: Tutorial
