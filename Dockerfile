@@ -16,6 +16,7 @@ RUN pip install rasa_nlu[spacy] && \
     python -m spacy download pt
     
 ADD . /2019.1-Ludum
+ADD ./rasa /rasa
 
 WORKDIR /rasa
 
