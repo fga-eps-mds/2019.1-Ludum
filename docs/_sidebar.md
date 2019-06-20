@@ -19,6 +19,7 @@
 - [Documento de Visão](/documento-de-visao.md)
 - [Documento de Arquitetura](/documento-de-arquitetura.md)
 - [Modelo Testes de Usabilidade](/modelo-teste-usabilidade.md)
+- [Earned Value Management (EVM)](/EVM.md)
 
 ## _**Backlog**_
 - [Backlog do Produto](/backlogProduto.md)

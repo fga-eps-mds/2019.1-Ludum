@@ -3,11 +3,12 @@
  **Data** | **Versão** | **Descrição** | **Autor(es)**
 ---|---|---|---
 24/03/2019| 0.1| Criação do Template| Gabriela Moraes
-28/03/2019| 0.2| Adição das seções 1, 2, 3 e 4| Gabriela Moraes
-30/03/2019| 0.3| Adição das seções 5, 6, 7, 12, 13 e 14| Gabriela Moraes
-30/03/2019| 0.4| Adição das seções 8, 9, 10, 11| Gabriela, Guilherme e Lucas Lermen
-02/05/2019| 0.5| Atualização das seções 2, 3, 4, 10| Gabriela Moraes
+28/03/2019| 0.2| Adição das sessões 1, 2, 3 e 4| Gabriela Moraes
+30/03/2019| 0.3| Adição das sessões 5, 6, 7, 12, 13 e 14| Gabriela Moraes
+30/03/2019| 0.4| Adição das sessões 8, 9, 10, 11| Gabriela, Guilherme e Lucas Lermen
+02/05/2019| 0.5| Atualização das sessões 2, 3, 4, 10| Gabriela Moraes
 30/05/2019| 0.6| Recalculando orçamento do projeto | Gabriela, Guilherme e Lucas Lermen
+19/06/2019| 0.7| Refatorando sessões 3, 4, 5, 6 e 13 | Gabriela e Lucas Lermen
 
 # Índice
 
@@ -49,30 +50,27 @@
 <p align="justify">O Ludum, por ser um chatbot, busca solucionar alguns desses aspectos, como passar ao aluno a sensação de uma interação mais pessoal, acompanhar o aluno durante os temas, tornar mais rápidos processos como solução de dúvidas e resolução de alguns problemas, facilitar o acesso a materiais úteis, sem custo e de fácil disponibilização. </p>
 
 # 3. Objetivos do Projeto
-<p align="justify">Os objetivos do Ludum são facilitar o processo de configuração do ambiente, disponibilizar links e materiais que complementem o estudo, tirar dúvidas e mostrar quais são as mais frequentes, possibilitar que a sua comunidade contribua com materiais, links e tutoriais, além de notificar seus usuários quando algo referente ao conteúdo for adicionado e ensinar a construir jogos de diferentes complexidades.</p>
+<p align="justify">Os objetivos do Ludum são facilitar o processo de configuração do ambiente por meio de sugestões, disponibilizar materiais que complementem o estudo, tirar dúvidas e mostrar quais são as mais frequentes, possibilitar que a sua comunidade contribua com links e tutoriais, além de notificar seus usuários quando algo referente ao conteúdo for adicionado e ensinar a construir jogos de diferentes complexidades.</p>
 
 # 4. Requisitos de Alto Nível
-- O Chatbot será desenvolvido para a plataforma Telegram;
-- O Chatbot deverá se comunicar com os microsserviços;
-- O Chatbot deverá conectar com algumas aplicações externas;
-- O Chatbot deve mostrar links e materiais úteis;
-- O Chatbot deve ajudar o aluno a instalar as ferramentas necessárias;
-- O Chatbot deve tirar dúvidas sobre o assunto;
-- O Chatbot deve ensinar a construir jogos do zero.
-- O Chatbot deve permitir que a comunidade contribua com seu conteúdo;
-- O Chatbot deve notificar os seus usuários quando houver adição de conteúdo.
+- Desenvolvido para a plataforma Telegram;
+- Recomendar materiais auxiliares;
+- Indicar dependências e sugerir ferramentas;
+- Sanar dúvidas sobre o assunto;
+- Ensinar a construir jogos do zero;
+- Permitir que a comunidade contribua com seu conteúdo;
+- Notificar os seus usuários quando houver adição de conteúdo.
 
 # 5. Premissas
-- Os usuários possuem um dispostivo com o acesso ao Telegram;
-- Os usuários possuem um dispostivo com hardware suficiente para executar a aplicação;
-- A biblioteca PyGame estará sempre disponível;
-- As API's de terceiros utilizadas estarão sempre disponíveis.
+- Possuir um dispostivo com o acesso ao Telegram;
+- Dispor de um dispostivo com hardware suficiente para executar a aplicação;
+- A biblioteca PyGame estar sempre disponível;
+- As API's de terceiros utilizadas estarem sempre disponíveis.
 
 # 6. Restrições  
 ## Produto
-- Aplicação restrita ao Telegram;
-- Aplicação depende de conexão com Internet;
-- Algumas funcionalidades dependem de serviços de terceiros.
+- Restrito ao Telegram;
+- Dependência de conexão com Internet e de serviços de terceiros.
 
 ## Projeto
 - Os integrantes devem trabalhar 8 horas semanais;
@@ -107,10 +105,10 @@ Data | Marco | Atividade
 ---| ---| ---
 18/03/2019| Início do projeto | Data de início da Sprint 0
 03/05/2019| Release 1 (R1)| Primeira entrega de valor que demonstra viabilidade técnica do projeto
-25/06/2019, 27/06/2019 e 28/06/2019 | Release 2 (R2)| Entrega do produto final
+25/06/2019| Release 2 (R2)| Entrega do produto final
 
 # 11. Resumo do Orçamento
-<p align="justify"> O tempo de duração do projeto é de 14 sprints/semanas.</p>
+<p align="justify"> O tempo de duração do projeto é de 13 sprints/semanas.</p>
 
 ### Recursos Humanos
 Cargo |Quantidade| Salário mensal | Salário Total
@@ -174,7 +172,7 @@ Bruna Nayara Moreira| Professora da disciplina de Métodos de Desenvolvimento de
 
 
 # 13. Gerente do Projeto
-<p align="justify">Para a <b>Primeira Release (R1)</b>, o Gerente de Projeto será a integrante da equipe de EPS, Gabriela Chaves de Moraes. Na <b>Segunda Release (R2)</b> haverá rotação entre os membros da equipe nessa função.</p>
+<p align="justify">O Gerente de Projeto será a integrante da equipe de EPS, Gabriela Chaves de Moraes.</p>
 
 
 # 14. Referências
