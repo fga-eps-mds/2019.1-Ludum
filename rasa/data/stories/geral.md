@@ -21,35 +21,35 @@
     - utter_informacao_desenvolvimento
 * tutorial_facil
     - utter_confirmacao
-* confirmar
+* prosseguir
     - utter_tutorial_padawan1
     - utter_tutorial_padawan2
     - utter_tutorial_padawan3
     - utter_padawan_c4
-* confirmar
+* prosseguir
     - utter_tutorial_padawan4
     - utter_padawan_c
-* confirmar
+* prosseguir
     - utter_tutorial_padawan5
     - utter_tutorial_padawan6
     - utter_tutorial_padawan7
     - utter_padawan_c2
-* confirmar    
+* prosseguir    
     - utter_tutorial_padawan8
     - utter_tutorial_padawan9
     - utter_tutorial_padawan10
     - utter_padawan_c
-* confirmar
+* prosseguir
     - utter_tutorial_padawan11
     - utter_tutorial_padawan12
     - utter_tutorial_padawan13
     - utter_padawan_c
-* confirmar
+* prosseguir
     - utter_tutorial_padawan14
     - utter_tutorial_padawan15
     - utter_tutorial_padawan16
     - utter_padawan_c3
-* confirmar    
+* prosseguir    
     - utter_tutorial_padawan17
     - utter_tutorial_padawan18
     - utter_tutorial_padawan19
@@ -59,12 +59,17 @@
     - utter_cumprimentar
 
 ## path tutorial facil_retorno
+* informacao
+    - utter_informacao
 * informacao_desenvolvimento
     - utter_informacao_desenvolvimento
 * tutorial_facil
     - utter_confirmacao
 * negar
-    - utter_cumprimentar
+    - utter_tutorial_padawan_negar
+    - utter_informacao_ambiente
+
+
 
 ## path tutorial facil 2
 * informacao_desenvolvimento
@@ -77,137 +82,153 @@
     - utter_tutorial_padawan3
     - utter_padawan_c4
 * negar
-   - utter_cumprimentar
+   - utter_tutorial_padawan1
+    - utter_tutorial_padawan2
+    - utter_tutorial_padawan3
+    - utter_padawan_c4
 
 ## path tutorial facil 3
 * informacao_desenvolvimento
     - utter_informacao_desenvolvimento
 * tutorial_facil
     - utter_confirmacao
-* confirmar
+* prosseguir
     - utter_tutorial_padawan1
     - utter_tutorial_padawan2
     - utter_tutorial_padawan3
     - utter_padawan_c4
-* confirmar
+* prosseguir
     - utter_tutorial_padawan4
     - utter_padawan_c
 * negar
-    - utter_cumprimentar
+    - utter_tutorial_padawan4
+    - utter_padawan_c
 
 ## path tutorial facil 4
 * informacao_desenvolvimento
     - utter_informacao_desenvolvimento
 * tutorial_facil
     - utter_confirmacao
-* confirmar
+* prosseguir
     - utter_tutorial_padawan1
     - utter_tutorial_padawan2
     - utter_tutorial_padawan3
     - utter_padawan_c4
-* confirmar
+* prosseguir
     - utter_tutorial_padawan4
     - utter_padawan_c
-* confirmar
+* prosseguir
     - utter_tutorial_padawan5
     - utter_tutorial_padawan6
     - utter_tutorial_padawan7
     - utter_padawan_c2
 * negar    
-    - utter_cumprimentar
+    - utter_tutorial_padawan5
+    - utter_tutorial_padawan6
+    - utter_tutorial_padawan7
+    - utter_padawan_c2
 
 ## path tutorial facil 5
 * informacao_desenvolvimento
     - utter_informacao_desenvolvimento
 * tutorial_facil
     - utter_confirmacao
-* confirmar
+* prosseguir
     - utter_tutorial_padawan1
     - utter_tutorial_padawan2
     - utter_tutorial_padawan3
     - utter_padawan_c4
-* confirmar
+* prosseguir
     - utter_tutorial_padawan4
     - utter_padawan_c
-* confirmar
+* prosseguir
     - utter_tutorial_padawan5
     - utter_tutorial_padawan6
     - utter_tutorial_padawan7
     - utter_padawan_c2
-* confirmar    
+* prosseguir    
     - utter_tutorial_padawan8
     - utter_tutorial_padawan9
     - utter_tutorial_padawan10
     - utter_padawan_c
 * negar
-    - utter_cumprimentar
+    - utter_tutorial_padawan8
+    - utter_tutorial_padawan9
+    - utter_tutorial_padawan10
+    - utter_padawan_c
 
 ## path tutorial facil 6
 * informacao_desenvolvimento
     - utter_informacao_desenvolvimento
 * tutorial_facil
     - utter_confirmacao
-* confirmar
+* prosseguir
     - utter_tutorial_padawan1
     - utter_tutorial_padawan2
     - utter_tutorial_padawan3
     - utter_padawan_c4
-* confirmar
+* prosseguir
     - utter_tutorial_padawan4
     - utter_padawan_c
-* confirmar
+* prosseguir
     - utter_tutorial_padawan5
     - utter_tutorial_padawan6
     - utter_tutorial_padawan7
     - utter_padawan_c2
-* confirmar    
+* prosseguir    
     - utter_tutorial_padawan8
     - utter_tutorial_padawan9
     - utter_tutorial_padawan10
     - utter_padawan_c
-* confirmar
+* prosseguir
     - utter_tutorial_padawan11
     - utter_tutorial_padawan12
     - utter_tutorial_padawan13
     - utter_padawan_c
 * negar
-    - utter_cumprimentar
+    - utter_tutorial_padawan11
+    - utter_tutorial_padawan12
+    - utter_tutorial_padawan13
+    - utter_padawan_c
 
 ## path tutorial facil 7
 * informacao_desenvolvimento
     - utter_informacao_desenvolvimento
 * tutorial_facil
     - utter_confirmacao
-* confirmar
+* prosseguir
     - utter_tutorial_padawan1
     - utter_tutorial_padawan2
     - utter_tutorial_padawan3
     - utter_padawan_c4
-* confirmar
+* prosseguir
     - utter_tutorial_padawan4
     - utter_padawan_c
-* confirmar
+* prosseguir
     - utter_tutorial_padawan5
     - utter_tutorial_padawan6
     - utter_tutorial_padawan7
     - utter_padawan_c2
-* confirmar    
+* prosseguir    
     - utter_tutorial_padawan8
     - utter_tutorial_padawan9
     - utter_tutorial_padawan10
     - utter_padawan_c
-* confirmar
+* prosseguir
     - utter_tutorial_padawan11
     - utter_tutorial_padawan12
     - utter_tutorial_padawan13
     - utter_padawan_c
-* confirmar
+* prosseguir
     - utter_tutorial_padawan14
     - utter_tutorial_padawan15
     - utter_tutorial_padawan16
     - utter_padawan_c3
 * negar  
-    - utter_cumprimentar
+    - utter_tutorial_padawan14
+    - utter_tutorial_padawan15
+    - utter_tutorial_padawan16
+    - utter_padawan_c3
 
 ## fallback
 * out_of_scope
