@@ -187,6 +187,15 @@
 
 ## intent:informacao_desenvolvimento
 - tutorial
+- tutorial
+- Tutorial
+- Tutorial
+- Tutorial
+- tutorial
+- tutorial
+- tutorial
+- tutorial
+- tutorial
 - tutorial jogos
 - tutorial jogo
 - quero construir um jogo
