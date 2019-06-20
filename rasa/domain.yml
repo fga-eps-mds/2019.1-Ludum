@@ -105,6 +105,7 @@ intents:
 - cumprimentar
 - tutorial_facil
 - action_question
+- action_link
 - negar
 - nao_implementada
 - informacao_ambiente
@@ -115,7 +116,6 @@ intents:
 - informacao
 - time
 - action_test
-- action_link
 - contribuicao
 - tutorial_medio
 - prosseguir
