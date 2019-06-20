@@ -7,6 +7,7 @@ from rasa_core_sdk.forms import FormAction
 
 url = 'https://produ-o.ludum-materiais.ludumbot.club'
 
+
 class ActionTest(Action):
     def name(self):
         return "action_test"
@@ -89,6 +90,7 @@ class ActionFaq(Action):
         except ValueError:
             dispatcher.utter_message(ValueError)
         return []
+
 
 class ActionTutoriais(Action):
     def name(self):
