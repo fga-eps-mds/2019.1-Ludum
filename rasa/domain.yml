@@ -155,11 +155,10 @@ templates:
       \ Começar com o que, devemos?\n"
   utter_default:
   - text: "Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender\
-      \ direito\nVocê pode perguntar de novo de outro jeito?\n"
-  - text: "Hummmm... Não sei se entendi. Pode escrever de outra forma?\n"
-  - text: "Acho que não te entendi, você pode me perguntar de novo usando outras palavras?\n"
-  - text: "Vamos tentar mais uma vez? Eu não consegui te entender direito, me pergunta\
-      \ de outro jeito?\n"
+      \ direito, me pergunte de outra forma\n"
+  - text: "Hummmm... Não sei se entendi. Me pergunte de outra forma :)\n"
+  - text: "Acho que não te entendi, que tal me perguntar de outra forma?\n"
+  - text: "Te entender eu não consigo, perguntar de outra forma você deve\n"
   utter_despedir:
   - text: "Tudo bem, se tiver alguma dúvida, estarei aqui por você!\n"
   - text: "Ok, sempre que precisar, estarei aqui!!\n"
