@@ -17,7 +17,7 @@ RUN pip install rasa_nlu[spacy] && \
     
 ADD . /2019.1-Ludum
 
-WORKDIR /2019.1-Ludum/rasa
+WORKDIR /rasa
 
 ENV TRAINING_EPOCHS=20                     \
     MAX_TYPING_TIME=10                     \
