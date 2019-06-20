@@ -68,19 +68,19 @@ TS20| <p align="justify">Eu, como desenvolvedor, desejo criar um serviço de aut
 **ID**|**Descrição**|**Prioridade**| **Pontos**
 :---:|:---|:---:|:---:
 US25 | <p align="justify"> Eu, como usuário, desejo acessar o webclient utilizando minhas credenciais.</p>| Alta | 2
-TS21 | <p align="justify"> Eu, como desenvolvedor, desejo realizar a comununicação da tela de login com o serviço de autenticação de usuário.| Baixa | 5
+TS21 | <p align="justify"> Eu, como desenvolvedor, desejo realizar a comunicação da tela de login com o serviço de autenticação de usuário.| Baixa | 5
 US17 | <p align="justify"> Eu, como usuário, desejo cadastrar um tutorial</p>| Alta | 8
 US18 | <p align="justify"> Eu, como usuário, desejo cadastrar um link</p>| Média | 8
-TS22 | <p align="justify"> Eu, como desenvolvedor, desejo realizar a comununicação da tela de cadastro de tutoriais com o respectivo endpoint.| Baixa | 5
-TS23 | <p align="justify"> Eu, como desenvolvedor, desejo realizar a comununicação da tela de cadastro de tutoriais com o respectivo endpoint.| Baixa | 5
+TS22 | <p align="justify"> Eu, como desenvolvedor, desejo realizar a comunicação da tela de cadastro de tutoriais com o respectivo endpoint.| Baixa | 5
+TS23 | <p align="justify"> Eu, como desenvolvedor, desejo realizar a comunicação da tela de cadastro de tutoriais com o respectivo endpoint.| Baixa | 5
 
 #### Feature 06 - Gerenciar os novos conteúdos
 **ID**|**Descrição**|**Prioridade**| **Pontos**
 :---:|:---|:---:|:---:
 US09 | <p align="justify"> Eu, como administrador, desejo gerenciar o envio de links </p>| Baixa| 5
 US19 | <p align="justify"> Eu, como administrador, desejo gerenciar o envio de tutoriais </p>| Baixa | 5
-TS24 | <p align="justify"> Eu, como desenvolvedor, desejo realizar a comununicação da tela de gerenciamento de envio de links com o respectivo endpoint.| Baixa | 5
-TS25 | <p align="justify"> Eu, como desenvolvedor, desejo realizar a comununicação da tela de gerenciamento de envio de tutoriais com o respectivo endpoint.| Baixa | 5
+TS24 | <p align="justify"> Eu, como desenvolvedor, desejo realizar a comunicação da tela de gerenciamento de envio de links com o respectivo endpoint.| Baixa | 5
+TS25 | <p align="justify"> Eu, como desenvolvedor, desejo realizar a comunicação da tela de gerenciamento de envio de tutoriais com o respectivo endpoint.| Baixa | 5
 
 ### **Épico Resolução de dúvidas**
 

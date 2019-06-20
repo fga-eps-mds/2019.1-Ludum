@@ -6,7 +6,7 @@
 
 **Duração**: Uma semana
 
-**Pontos Planejados**: X
+**Pontos Planejados**: 59
 
 -------
 
@@ -17,6 +17,8 @@
 [3. Tarefas da _Sprint_](#_3-tarefas-da-sprint)  
 
   * [3.1. Planejadas](#_31-planejadas)
+
+[4. Pareamentos](#_4-pareamentos_) 
 
 -------
 
