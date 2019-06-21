@@ -90,6 +90,7 @@ actions:
 - utter_ambiente_adicional
 - utter_ambiente_adicional2
 - utter_ambiente_adicional3
+- utter_menu
 entities:
 - starwars
 - time
@@ -123,7 +124,8 @@ slots:
     type: unfeaturized
 templates:
   utter_ask_pergunta:
-  - text: Que pergunta você deseja fazer ao StackOverflow?
+  - text: "Que pergunta você deseja fazer ao StackOverflow? (Lembrando que a pergunta tem\
+  que ser feita em inglês)"
   utter_confirmar_ambiente1:
   - text: "Ótimo, todo nosso tutorial será feito usando o Python 3.6, então é bom\
       \ que você o tenha aí instalado\n"
@@ -136,6 +138,19 @@ templates:
       \ você ache bacana e a força estará com você.\n Você pode tambem criar tutoriais\
       \ para ajudar os próximos aprendizes que estão por vir\n Para contribuir use\
       \ o nosso WebClient(a ser criado)\n"
+  utter_menus:
+    - buttons:
+    - payload: Tutorial
+      title: Tutorial
+    - payload: Ambiente
+      title: Ambiente
+    - payload: FAQ
+      title: FAQ
+    - payload: Materiais
+      title: Materiais e links
+    - payload: contribuir
+      title: Envio de materiais
+    text: "Ótimo que pude te ajudar! Se precisar de mim, estarei aqui. Que tal usar alguma outra funcionalidade minha?\n"
   utter_cumprimentar:
   - buttons:
     - payload: Tutorial
@@ -157,7 +172,7 @@ templates:
   - text: "Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender\
       \ direito, me pergunte de outra forma\n"
   - text: "Hummmm... Não sei se entendi. Me pergunte de outra forma :)\n"
-  - text: "Acho que não te entendi, que tal me perguntar de outra forma?\n"
+  - text: "Acho que não te entendi, acho melhor me perguntar de outra forma\n"
   - text: "Te entender eu não consigo, perguntar de outra forma você deve\n"
   utter_despedir:
   - text: "Tudo bem, se tiver alguma dúvida, estarei aqui por você!\n"
