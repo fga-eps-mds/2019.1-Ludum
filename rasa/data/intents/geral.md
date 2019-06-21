@@ -147,6 +147,26 @@
 - Duvida
 - voce pode me tirar uma duvida?
 
+## intent:comunidade
+- comunidade
+- Comunidade
+- comunidade 
+- Comunidade
+- Comunidade 
+- Comunidade 
+- comunidade 
+- comunidade 
+- comunidade
+- Comunidade
+- Comunidade 
+- Comunidade 
+- Comunidade 
+- Comunidade 
+- Comunidade 
+- Comunidade 
+- Comunidade 
+- Comunidade 
+
 ## intent:informacao_ambiente
 - ambiente
 - como voce pode me ajudar a configurar o ambiente
@@ -166,6 +186,15 @@
 - como configurar o ambiente
 
 ## intent:informacao_desenvolvimento
+- tutorial
+- tutorial
+- Tutorial
+- Tutorial
+- Tutorial
+- tutorial
+- tutorial
+- tutorial
+- tutorial
 - tutorial
 - tutorial jogos
 - tutorial jogo
@@ -313,12 +342,6 @@
 - Me ensina algo
 
 ## intent:nao_implementada
-- facil
-- Facil
-- dificil
-- Dificil
-- difícil
-- Difícil
 - videos
 - videos-explicativos
 - textos

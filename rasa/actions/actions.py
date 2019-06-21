@@ -5,6 +5,8 @@ import requests
 from rasa_core_sdk.events import SlotSet
 from rasa_core_sdk.forms import FormAction
 
+url = 'https://produ-o.ludum-materiais.ludumbot.club'
+
 
 class ActionTest(Action):
     def name(self):
@@ -35,7 +37,7 @@ class ActionQuestion(FormAction):
             dispatcher.utter_message(ValueError)
         try:
             pergunta = str(tracker.get_slot('pergunta'))
-            api = 'https://ludum-duvidas.herokuapp.com/api/duvidas'
+            api = url + '/api/duvidas'
             apiPergunta = api + '/pesquisar' + '/:{' + pergunta + '}'
             link = requests.get(apiPergunta)
             stack = json.loads(link.text)
@@ -85,6 +87,26 @@ class ActionFaq(Action):
             finalizar += ' aqui, posso fazer uma pesquisa no stack overflow'
             dispatcher.utter_message(finalizar)
             dispatcher.utter_message('Deseja que eu faça isso?')
+        except ValueError:
+            dispatcher.utter_message(ValueError)
+        return []
+
+
+class ActionTutoriais(Action):
+    def name(self):
+        return "action_tutoriais"
+
+    def run(self, dispatcher, tracker, domain):
+        try:
+            api = url + '/api/tutoriais/aprovados/S/'
+            link = requests.get(api)
+            tutoriais = json.loads(link.text)
+            utterString = ''
+            for i in range(0, len(tutoriais['data'])):
+                utterString += str(i) + ")"
+                utterString += str(tutoriais['data'][i]['name'])
+                utterString += '\n'
+
         except ValueError:
             dispatcher.utter_message(ValueError)
         return []
