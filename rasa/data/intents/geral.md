@@ -538,12 +538,12 @@
 - voce me ama
 - voce me ama
 - voce me ama
-- ama 
-- ama 
-- ama 
-- ama 
-- ama 
-- ama 
+- ama
+- ama
+- ama
+- ama
+- ama
+- ama
 - ama 
 - ama 
 - amor

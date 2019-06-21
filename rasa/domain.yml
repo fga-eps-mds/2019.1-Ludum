@@ -129,53 +129,53 @@ slots:
     type: unfeaturized
 templates:
   utter_ask_pergunta:
-  - text: Que pergunta você deseja fazer ao StackOverflow?
+  - text: O que você deseja perguntar ao StackOverflow?
   utter_confirmar_ambiente1:
-  - text: "Ótimo, todo nosso tutorial será feito usando o Python 3.6, então é bom\
+  - text: "Ótimo, todo nosso tutorial será feito usando o Python 3.6, então é necessario\
       \ que você o tenha aí instalado\n"
   utter_confirmar_ambiente2:
-  - text: "Ótimo, um editor de texto será muito util para nós podermos programar!\n"
+  - text: "Ótimo, um editor de texto será muito útil para criarmos nossos jogos!\n"
   utter_contribuicao:
   - text: "Quer se tornar um Jedi?! Ajude contribuindo com os materiais e links que\
-      \ você ache bacana e a força estará com você.\n Você pode tambem criar tutoriais\
+      \ você ache bacana e a força estará com você.\n Você pode também criar tutoriais\
       \ para ajudar os próximos aprendizes que estão por vir\n Para contribuir use\
       \ o nosso WebClient(a ser criado)\n"
   utter_cumprimentar:
   - buttons:
     - payload: Tutorial
-      title: Tutorial
+      title: 1
     - payload: Ambiente
-      title: Ambiente
+      title: 2
     - payload: FAQ
-      title: FAQ
+      title: 3
     - payload: Materiais
-      title: Materiais e links
+      title: 4
     - payload: contribuir
-      title: Envio de materiais
-    text: "Olá, eu sou o Ludum! :D\n Vou te mostrar tudo que sei sobre \n desenvolvimento\
-      \ de jogos em Python!\n Mas antes, jovem padawan, devo te fazer uma pergunta,\n\
-      \ Você já conhece minhas funcionalidades?\n - Tutorial \n - Ambiente \n - FAQ\
-      \  \n - Materiais e links \n - Criação de tutoriais e envio de materiais \n\
+      title: 5
+    text: "Olá, eu sou o Ludum! :D\nVou te mostrar tudo que sei sobre \ndesenvolvimento\
+      \ de jogos em Python!\nMas antes, jovem padawan, devo te fazer uma pergunta,\n\
+      \ Você já conhece minhas funcionalidades?\n - Tutorial(1) \n - Ambiente(2) \n - FAQ(3)\
+      \  \n - Materiais e links(4) \n - Criação de tutoriais e envio de materiais(5) \n\
       \ Começar com o que, devemos?\n"
   utter_default:
   - text: "Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender\
       \ direito\nVocê pode perguntar de novo de outro jeito?\n"
-  - text: "Hummmm... Não sei se entendi. Pode escrever de outra forma?\n"
+  - text: "Hummmm... Não sei se entendi. Pode escrever de outra jeito?\n"
   - text: "Acho que não te entendi, você pode me perguntar de novo usando outras palavras?\n"
   - text: "Vamos tentar mais uma vez? Eu não consegui te entender direito, me pergunta\
       \ de outro jeito?\n"
   utter_despedir:
-  - text: "Tudo bem, se tiver alguma dúvida, estarei aqui por você!\n"
+  - text: "Tudo bem, se tiver alguma dúvida, sempre estarei aqui por você!\n"
   - text: "Ok, sempre que precisar, estarei aqui!!\n"
   utter_faq:
-  - text: Você deseja ver as perguntas mais frequentes sobre pygame?
+  - text: Amante do conhecimento, deseja ver as perguntas mais frequentes sobre a pygame?
   utter_implementacao:
   - text: "Esta funcionalidade ainda não foi implementada\n"
   utter_informacao:
-  - text: "Sobre quais tópicos você tem dúvida?\n"
+  - text: "Qual assunto você tem dúvida caro aprendiz?\n"
   utter_informacao_ambiente:
-  - text: "Certo, irei lhe perguntar se você possui algumas das nossas \"joias do\
-      \ infinito\" que serão necessárias ao desenvolvimento, para começarmos, você\
+  - text: "Certo, agora vamos ver se você possui algumas das \"joias do\
+      \ infinito\" que serão necessárias para o desenvolvimento. Para começarmos, você\
       \ já possui o Python 3.6 instalado em seu computador?\n"      
   utter_informacao_desenvolvimento:
   - buttons:
@@ -493,7 +493,9 @@ templates:
   utter_engracado1:
   - text: "Ora ora, temos um comediante entre nós?\n"
   utter_amor1:
-  - text: "Talvez eu esteja apaixonado por alguem, será você?\n"
+  - text: "Talvez eu esteja a
+  c?
+  ásdapaixonado por alguem, será você?\n"
   utter_criadores1:
   - text: "Fui criado pelos melhores seres humanos existentes, espero que você um dia\
       \ tenha o prazer de os conhecer-los\n"
