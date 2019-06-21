@@ -57,7 +57,7 @@ class ActionQuestion(FormAction):
                 dispatcher.utter_message(utterString)
                 stringFinal = "Esses são os links mais uteis que eu encontrei"
                 stringFinal += "\nEspero ter te ajudado!"
-                stringFinal += " Se tiver Qualquer outra duvida"
+                stringFinal += " Se tiver qualquer outra duvida"
                 stringFinal += " estou aqui pra auxilia-lo!"
                 dispatcher.utter_message(stringFinal)
         except ValueError:
@@ -89,36 +89,44 @@ class ActionFaq(Action):
             dispatcher.utter_message(ValueError)
         return []
 
+
 class ActionLinks(Action):
     def name(self):
         return "action_link"
 
     def run(self, dispatcher, tracker, domain):
         try:
-            endpointLinks = 'https://produ-o.ludum-materiais.ludumbot.club/api/links/aprovados/S'
+            endpointLinks = 'https://produ-o.ludum-materiais.ludumbot.club\
+                            /api/links/aprovados/S'
             materiais = requests.get(endpointLinks)
             dictMateriais = json.loads(materiais.text)
             linkText = ''
             if(len(dictMateriais['data']) == 0):
-                linkText += (   'Oooopsss...' +
-                                'Não encontrei nenhum material')
+                linkText += ('Oooopsss...' + 'Não encontrei nenhum material')
             else:
                 for i in range(0, len(dictMateriais['data'])):
                     linkText += 'Link ' + str(i+1) + '\n'
-                    linkText += 'Título: ' + str(dictMateriais['data'][i]['title'])
+                    linkText += ('Título: ' +
+                                 str(dictMateriais['data'][i]['title']))
                     linkText += '\n'
-                    linkText += 'Tipo: ' + str(dictMateriais['data'][i]['type'])
+                    linkText += ('Tipo: ' +
+                                 str(dictMateriais['data'][i]['type']))
                     linkText += '\n'
-                    linkText += 'Link: ' + str(dictMateriais['data'][i]['link'])
+                    linkText += ('Link: ' +
+                                 str(dictMateriais['data'][i]['link']))
                     linkText += '\n'
-                    linkText += '----------------------------------------------'
+                    linkText += '----------------------------\
+                                ------------------'
                 dispatcher.utter_message(linkText)
-                fimMsg = "Esses são os materiais disponíveis no momento... " 
+                fimMsg = "Esses são os materiais disponíveis no momento... "
                 fimMsg += "Espero que contribua nos seus estudos  =)"
                 fimMsg += "\n"
-                fimMsg += "Caso você conheça algum material interessante que não está aqui "
-                fimMsg += "contribua com nosso conteúdo. Para mais informações "
-                fimMsg += "basta checar nossa área de envio de materiais no menu principal!"
+                fimMsg += "Caso você conheça algum material \
+                           interessante que não está aqui "
+                fimMsg += "contribua com nosso conteúdo.\
+                           Para mais informações "
+                fimMsg += "basta checar nossa área de envio\
+                           de materiais no menu principal!"
                 dispatcher.utter_message(fimMsg)
         except ValueError:
             dispatcher.utter_message(ValueError)
