@@ -56,10 +56,10 @@ class ActionQuestion(FormAction):
                     utterString += str(stack['data']['answer'][i]['link'])
                     utterString += '\n'
                 dispatcher.utter_message(utterString)
-                stringFinal = "Esses são os links mais uteis que eu encontrei"
-                stringFinal += "\nEspero ter te ajudado!"
-                stringFinal += " Se tiver Qualquer outra duvida"
-                stringFinal += " estou aqui pra auxilia-lo!"
+                stringFinal = "Esses são os links mais úteis que eu encontrei"
+                stringFinal += "\nEspero ter te ajudado!,"
+                stringFinal += " se tiver quaisquer outras dúvidas"
+                stringFinal += " estou aqui pra auxiliá-lo!"
                 dispatcher.utter_message(stringFinal)
         except ValueError:
             dispatcher.utter_message(ValueError)
@@ -83,9 +83,9 @@ class ActionFaq(Action):
             f.close()
             dispatcher.utter_message(string)
             finalizar = 'Se não tiver encontrado sua pergunta'
-            finalizar += ' aqui, posso fazer uma pesquisa no stack overflow'
+            finalizar += ' aqui, posso fazer uma rápida pesquisa no stack overflow'
             dispatcher.utter_message(finalizar)
-            dispatcher.utter_message('Deseja que eu faça isso?')
+            dispatcher.utter_message('Deseja que eu faça isso ?')
         except ValueError:
             dispatcher.utter_message(ValueError)
         return []

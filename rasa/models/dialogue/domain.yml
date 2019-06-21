@@ -113,7 +113,8 @@ slots:
     type: rasa_core.slots.UnfeaturizedSlot
 templates:
   utter_ask_pergunta:
-  - text: Que pergunta você deseja fazer ao StackOverflow?
+  - text: "Que pergunta você deseja fazer ao StackOverflow? (Lembrando que a pergunta tem\
+  que ser feita em inglês, pois senão os nossos mestres do StackOverflow não te entenderão)\n"
   utter_confirmar_ambiente1:
   - text: "Ótimo, todo nosso tutorial será feito usando o Python 3.6, então é bom\
       \ que você o tenha aí instalado\n"
@@ -147,7 +148,8 @@ templates:
   - text: "Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender\
       \ direito\nVocê pode perguntar de novo de outro jeito?\n"
   - text: "Hummmm... Não sei se entendi. Pode escrever de outra forma?\n"
-  - text: "Acho que não te entendi, você pode me perguntar de novo usando outras palavras?\n"
+  - text: "Desculpe, mas não te entendi, você pode me perguntar de novo usando outras palavras?\n"
+  - text: "Não entendi oq você quis dizer, poderia dizer de outra forma, por favor ?\n"
   - text: "Vamos tentar mais uma vez? Eu não consegui te entender direito, me pergunta\
       \ de outro jeito?\n"
   utter_despedir:
