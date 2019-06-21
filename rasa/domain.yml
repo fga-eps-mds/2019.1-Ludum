@@ -138,7 +138,7 @@ templates:
       \ você ache bacana e a força estará com você.\n Você pode tambem criar tutoriais\
       \ para ajudar os próximos aprendizes que estão por vir\n Para contribuir use\
       \ o nosso WebClient(a ser criado)\n"
-  utter_menus:
+  utter_menu:
     - buttons:
     - payload: Tutorial
       title: Tutorial

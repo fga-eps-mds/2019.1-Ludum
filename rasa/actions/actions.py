@@ -29,8 +29,8 @@ class ActionQuestion(FormAction):
     def submit(self, dispatcher, tracker, domain):
         try:
             dispatcher.utter_message('Espere jovem padawan,' +
-                                     'vou procurar uma resposta' +
-                                     'no Stack Overflow para você')
+                                     'vou procurar uma resposta ' +
+                                    'no Stack Overflow para você')
         except ValueError:
             dispatcher.utter_message(ValueError)
         try:
