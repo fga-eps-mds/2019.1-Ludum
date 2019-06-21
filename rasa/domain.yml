@@ -179,31 +179,31 @@ templates:
       \ já possui o Python 3.6 instalado em seu computador?\n"      
   utter_informacao_desenvolvimento:
   - buttons:
-    - payload: Facil
-      title: Padawan - Pong(Iniciante)
-    - payload: Medio
-      title: Jedi - Snake (Intermediário)
+    - payload: Fácil
+      title: Iniciante
+    - payload: Médio
+      title: Intermediário
     - payload: Comunidade
-      title: Tutoriais da comunidade
-    text: "Muito bom, jovem Padawan!!\nVou te mostrar o tutorial de como desenvolver\
-      \ e criar seu jogo em Python com diferentes dificuldades.\nQuando perceber você\
-      \ já ser um Meister dos jogos!\nPorém, antes de começar devo te fazer uma pergunta.\n\
-      \ Você quer começar por qual dificuldade?\nPadawan\nJedi\n Ou tambem usar alguns\
+      title: Comunidade
+    text: "Muito bom, jovem Padawan!!\nIrei mostrar-lhe tutoriais de como desenvolver\
+      \ e criar seus jogos em Python em diferentes dificuldades.\nQuando perceber você\
+      \ já será um Meister dos jogos!\nPorém, antes de começar devo te fazer uma pergunta:\n\
+      \ Você deseja começar por qual dificuldade?\n - Padawan\n - Jedi\n Ou tambem usar alguns\
       \ dos Tutoriais feitos pela comunidade\n"
   utter_informacao_duvidas:
   - text: "Você pode me perguntar tudo que quiser saber sobre o desenvolvimento de\
-      \ jogos em pygame! \nAs vezes eu posso até não saber sua resposta, mas posso\
+      \ jogos utilizando Pygame! \nAs vezes eu posso até não saber sua resposta, mas posso\
       \ pesquisar no StackOverflow por uma resposta adequada!\n"
   - text: "Te respondo o que você precisar saber sobre Pygame! Mas assim como todo\
       \ mestre é um eterno aprendiz, eu também não sei de tudo.\nMas posso pesquisar\
-      \ no StackOverflow e procurar a resposta mais indicada\n"
-  - text: "Oque deseja saber, jovem padawan? Se eu não souber a resposta posso pesquisar\
+      \ no StackOverflow e procurar a resposta mais indicada para você\n"
+  - text: "O que deseja saber, jovem padawan? Se eu não souber a resposta posso pesquisar\
       \ pra você.  \n"
   utter_informacao_materiais:
-  - text: "Olá, jovem Padawan! :D\nVou te mostrar tudo que sei sobre desenvolvimento\
+  - text: "Olá, jovem Padawan! :D\nIrei lhe mostrar tudo que sei sobre desenvolvimento\
       \ de jogos em Python com links de materiais úteis que podem melhorar seu conhecimento\
       \ para te ajudar a se tornar um verdadeiro Mestre na criação de jogos com PyGame.\n\
-      Mas antes, jovem padawan, devo te fazer uma pergunta: Você prefere videos explicativos\
+      Mas antes, jovem padawan, devo te fazer uma pergunta: Você prefere vídeos explicativos\
       \ ou textos?\n"
   utter_negar_ambiente1:
   - text: "Para realizarmos nossos tutoriais você precisará do Python 3.6, mas sem\
@@ -219,16 +219,16 @@ templates:
       \ link https://www.pygame.org/wiki/GettingStarted e siga as instruções\nJá podemos\
       \ seguir para o próximo passo ?\n"
   utter_padawan_c:
-  - text: "Podemos ir adiante ou voce deseja sair?\n"
+  - text: "Podemos ir adiante ou você deseja voltar para o menu?\n"
   utter_padawan_c2:
-  - text: "Já estamos finalizando a primeira parte do tutorial Pong.\nPodemos  dar\
-      \ mais um passo para se tornar um meistres na criação de jogos?\n"
+  - text: "Já estamos finalizando a primeira parte do tutorial de Pong.\nPodemos dar\
+      \ mais um passo para se tornar um meistres na criação de jogos ou deseja voltar ao menu?\n"
   utter_padawan_c3:
   - text: "Estamos quase encerrando mais uma etapa.\nDeseja ir além?\n"
   utter_perguntar_ambiente2:
   - text: "Você possui algum editor de texto de sua preferência instalado?\n"
   utter_perguntar_ambiente3:
-  - text: "Para fazermos nossos belissimos jogos precisaremos da biblioteca Pygame.\
+  - text: "Para construirmos nossos belíssimos jogos precisaremos da biblioteca Pygame.\
       \ Você já tem ela instalada?\n"
   utter_proximopasso1:
   - text: "Caso tenha dificuldades na instalação, sugerimos que você acesse este link\
@@ -240,7 +240,7 @@ templates:
   - text: "Caso tenha dificuldades na instalação, sugerimos que você acesse este link\
       \ https://www.simplifiedpython.net/pygame-tutorial-for-beginners/#Installing_PyGame\n"
   utter_complementos:
-  - text: "Eu como Jedi também recomendo que você instale algumas ferramentas que podem ser úteis\
+  - text: "Eu como Jedi também recomendo que você instale algumas ferramentas que irão ser úteis\
       \ ao nosso desenvolvimento\n"
   utter_complementos2:
   - text: "Uma ótima extensão para o editor de texto Visual Studio é a extensão Python, ela ira te ajudar
@@ -270,17 +270,17 @@ templates:
       \ das joias do infinito está em seu poder?\n"
   utter_tutorial_jedi_confirmar:
   - text: "Tudo certo Jovem Geek! Vamos começar o tutorial do jogo Snake!\nMas\
-      \ antes de prosseguirmos, devo te informar as regras do jogo.\nO\
-      \ usuário tem que movimentar a snake ou cobrinha e\
-      \ comer as joias do infinito que aparecem na tela.\nA cada\    
+      \ antes de prosseguirmos, devo lhe informar as regras do jogo.\nO\
+      \ usuário tem que movimentar a snake ou cobrinha, e\
+      \ comer as frutinhas que aparecem na tela.\nA cada\    
       \ joia, a snake cresce e o usuário deve\
       \ evitar as colisões com o próprio corpo ou com a parede.\nO\
-      \ placar aumenta a cada vez que comer uma joia do infinito.\nPodemos\    
+      \ placar aumenta a cada vez que comer uma frutinha.\nPodemos\    
       \ ir adiante?\n"      
   utter_tutorial_jedi_negar:
   - text: "Certo, jovem Padawan. Vamos\
-      \ para o ambiente configurar o poder\
-      \ das joias do infinito\n"  
+      \ para o ambiente verificar se você pussui\
+      \ as joias do infinito\n"  
   utter_tutorial_jedi_imports:
   - text: "Tudo pronto Jovem Geek! O primeiro passo\
       \ para iniciar o jogo é criar um arquivo com o nome `snake.py` ou\
@@ -289,10 +289,10 @@ templates:
       \ e Random, como na imagem abaixo.\n"
     image: "https://i.imgur.com/b94hNj2.png"
   utter_tutorial_jedi_imports_c:
-  - text: "Estou te aguardando jovem Padawan! Quando\
+  - text: "Estou lhe aguardando, jovem Padawan! Quando\
       \ estiver pronto para continuar, me avise!\n"        
   utter_tutorial_jedi_cores:
-  - text: "Agora que ja temos as bibliotecas necessárias\
+  - text: "Agora que já temos as bibliotecas necessárias\
       \ vamos escolher as cores do jogo que nesse tutorial são:\n\
       \ Preto (BLACK)\nAzul (BLUE)\nCinza (GRAY)\nComo\
       \ mostra a imagem abaixo.\n"
