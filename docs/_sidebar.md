@@ -8,6 +8,7 @@
 - [Canvas](/canvas.md)
 - [Tutorial Git](/tutorial-git.md)
 - [CI/CD](/ci-cd.md)
+- [Post Mortem](/post-mortem.md)
 
 ## _**Produto**_
 - [Brainstorm](/brainstorm.md)
