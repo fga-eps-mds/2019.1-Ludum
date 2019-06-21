@@ -45,6 +45,7 @@ class ActionQuestion(FormAction):
                                 ' mestres Jedi do stack' +
                                 ' overflow sabem a resposta para sua ' +
                                 'pergunta.\nQue tal perguntar de outra forma?')
+                dispatcher.utter_message(utterString)
             else:
                 for i in range(0, len(stack['data']['answer'])):
                     utterString += 'Resposta ' + str(i + 1) + '\n'
