@@ -14,7 +14,7 @@
 * cumprimentar
     - utter_cumprimentar
 * tudo_bem
-    - utter_tudo_bem
+    - utter_tudo_bem1
 
 ## path tutorial facil 1
 * informacao_desenvolvimento
@@ -209,9 +209,6 @@
 * negar  
     - utter_cumprimentar
 
-## fallback
-* out_of_scope
-    - utter_default
 
 ## materiais
 * informacao_materiais
@@ -868,3 +865,29 @@
     - utter_despedir
 * cumprimentar
     - utter_cumprimentar
+
+## path mds
+* mds
+    - utter_mds1
+
+## path amor
+* amor
+    - utter_amor1
+
+## path engracado
+* engracado
+    - utter_engracado1
+
+## path time
+* time
+    - utter_time1
+
+## path criadores
+* criadores
+    - utter_criadores1
+
+## path star wars 
+* star_wars
+    - utter_star_wars1
+
+

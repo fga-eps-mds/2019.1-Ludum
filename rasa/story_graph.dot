@@ -49,7 +49,6 @@ digraph  {
 52 [class=intent, fillcolor=lightblue, label=confirmar, shape=rect, style=filled];
 53 [class=intent, fillcolor=lightblue, label=negar, shape=rect, style=filled];
 54 [class=intent, fillcolor=lightblue, label=informacao_desenvolvimento, shape=rect, style=filled];
-55 [class=intent, fillcolor=lightblue, label=out_of_scope, shape=rect, style=filled];
 56 [class=intent, fillcolor=lightblue, label=informacao_materiais, shape=rect, style=filled];
 57 [class=intent, fillcolor=lightblue, label=informacao_ambiente, shape=rect, style=filled];
 58 [class=intent, fillcolor=lightblue, label=informacao_duvidas, shape=rect, style=filled];

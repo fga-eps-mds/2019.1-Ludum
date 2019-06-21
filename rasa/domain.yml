@@ -16,7 +16,6 @@ actions:
 - utter_informacao_desenvolvimento
 - utter_confirmar_ambiente2
 - utter_tutorial_padawan11
-- utter_time
 - utter_tutorial_padawan16
 - utter_proximopasso1
 - utter_informacao
@@ -31,7 +30,6 @@ actions:
 - utter_faq
 - action_test
 - utter_tutorial_padawan8
-- utter_confirmar_ambiente3
 - utter_negar_ambiente3
 - utter_tutorial_jedi
 - utter_tutorial_jedi_confirmar
@@ -70,7 +68,7 @@ actions:
 - utter_tutorial_padawan17
 - utter_padawan_c3
 - utter_tutorial_padawan7
-- utter_tudo_bem
+- utter_tudo_bem1
 - utter_tutorial_padawan15
 - utter_perguntar_ambiente3
 - utter_proximopasso3
@@ -79,7 +77,7 @@ actions:
 - utter_contribuicao
 - utter_tutorial_padawan20
 - utter_ask_pergunta
-- utter_star_wars
+- utter_star_wars1
 - utter_tutorial_padawan3
 - utter_confirmacao
 - utter_padawan_c4
@@ -90,9 +88,12 @@ actions:
 - utter_ambiente_adicional
 - utter_ambiente_adicional2
 - utter_ambiente_adicional3
+- utter_amor1
+- utter_mds1
+- utter_time1
+- utter_engracado1
+- utter_criadores1
 entities:
-- starwars
-- time
 - pergunta
 forms:
 - action_question
@@ -110,8 +111,13 @@ intents:
 - informacao_materiais
 - despedir
 - tudo_bem
-- informacao
+- star_wars
 - time
+- engracado
+- criadores
+- mds
+- amor 
+- informacao
 - action_test
 - contribuicao
 - tutorial_medio
@@ -129,8 +135,6 @@ templates:
       \ que você o tenha aí instalado\n"
   utter_confirmar_ambiente2:
   - text: "Ótimo, um editor de texto será muito util para nós podermos programar!\n"
-  utter_confirmar_ambiente3:
-  - text: "Tudo certo então, estamos prontos para começar a diversão!\n"
   utter_contribuicao:
   - text: "Quer se tornar um Jedi?! Ajude contribuindo com os materiais e links que\
       \ você ache bacana e a força estará com você.\n Você pode tambem criar tutoriais\
@@ -248,18 +252,18 @@ templates:
       \ Para fazer o download entre em: https://www.jetbrains.com/pycharm/download/#section=linux\n"
   utter_sem_nada:
   - text: Mas eu nem te perguntei nada
-  utter_star_wars:
+  utter_star_wars1:
   - text: "O medo é o caminho para o lado negro.\n"
   - text: "O medo leva à raiva, a raiva leva ao ódio e o ódio leva ao sofrimento.\n"
   - text: "Que a Força esteja com você!\n"
   - text: "Grande guerreiro? Guerra não faz grande ninguém.\n"
   - text: "Lembre-se sempre, o seu foco determina a sua realidade.\n"
   - text: "Muito a aprender você ainda tem.\n"
-  utter_time:
+  utter_time1:
   - text: "Flamengo, campeão do carioca de 2019 em cima do vasquinho\n"
   - text: "Melhor time do mundo disparado, Flamengooo!!!!\n"
-  utter_tudo_bem:
-  - text: "Tudo bem, obrigado! Em que posso te ajudar?\n"
+  utter_tudo_bem1:
+  - text: "Estou muito bem, obrigado!\n"
   utter_tutorial_jedi:
   - text: "Meu caro, devo lhe notificar que é super importante que seu ambiente\
       \ esteja devidamente configurado.\nA força\
@@ -484,3 +488,12 @@ templates:
   - text: "Ambiente configurado! Tudo pronto para mergulhamos na saga do infinito! Prepare-se :) \n"
   utter_ambiente_adicional3:
   - text: "Tudo certo? Podemos continuar?\n"
+  utter_mds1:
+  - text: "Rumo ao SS, VAMOS TIME!\n"
+  utter_engracado1:
+  - text: "Ora ora, temos um comediante entre nós?\n"
+  utter_amor1:
+  - text: "Talvez eu esteja apaixonado por alguem, será você?\n"
+  utter_criadores1:
+  - text: "Fui criado pelos melhores seres humanos existentes, espero que você um dia\
+      \ tenha o prazer de os conhecer-los\n"

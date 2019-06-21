@@ -5,46 +5,70 @@
         "pergunta"
       ]
     },
-    "utter_implementacao": {
+    "utter_cumprimentar": {
       "slots": []
     },
-    "utter_despedir": {
+    "utter_informacao_ambiente": {
       "slots": []
     },
-    "utter_tudo_bem": {
+    "utter_tutorial_jedi_snake_c": {
       "slots": []
-    },
-    "action_question": {
-      "slots": [
-        "requested_slot",
-        "pergunta"
-      ]
     },
     "utter_sem_nada": {
       "slots": []
     },
-    "utter_time": {
+    "action_question": {
+      "slots": [
+        "pergunta",
+        "requested_slot"
+      ]
+    },
+    "utter_tutorial_jedi_classe_game_c": {
       "slots": []
     },
-    "utter_star_wars": {
+    "utter_tutorial_jedi_comida_c": {
       "slots": []
     },
-    "utter_default": {
+    "utter_tutorial_jedi_movimentos_c": {
       "slots": []
     },
-    "utter_cumprimentar": {
+    "utter_tudo_bem1": {
       "slots": []
     },
-    "utter_informacao_duvidas": {
+    "utter_star_wars1": {
       "slots": []
     },
-    "utter_confirmar_ambiente3": {
+    "utter_tutorial_jedi_cores_c": {
       "slots": []
     },
     "utter_informacao_desenvolvimento": {
       "slots": []
     },
-    "utter_informacao_ambiente": {
+    "utter_implementacao": {
+      "slots": []
+    },
+    "utter_engracado1": {
+      "slots": []
+    },
+    "utter_tutorial_jedi_colisao_c": {
+      "slots": []
+    },
+    "utter_informacao_duvidas": {
+      "slots": []
+    },
+    "utter_tutorial_jedi_run_c": {
+      "slots": []
+    },
+    "utter_contribuicao": {
+      "slots": []
+    },
+    "utter_despedir": {
+      "slots": []
+    },
+    "utter_tutorial_jedi_desenhos_c": {
+      "slots": []
+    },
+    "utter_tutorial_jedi_direcao_c": {
       "slots": []
     }
   },
@@ -62,7 +86,7 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190528-190835",
+  "trained_at": "20190621-144814",
   "rasa_core": "0.13.1",
   "tensorflow": "1.12.2",
   "sklearn": "0.20.3"

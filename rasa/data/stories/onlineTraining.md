@@ -79,13 +79,7 @@
     - utter_sem_nada
 
 ## Generated Story -3566123589572365818
-* start
-    - utter_cumprimentar
-* start
-    - utter_cumprimentar
 * cumprimentar
-    - utter_cumprimentar
-* start
     - utter_cumprimentar
 * cumprimentar
     - utter_cumprimentar
@@ -395,10 +389,5 @@
     - action_question
     - form{"name": "action_question"}
     - slot{"requested_slot": "pergunta"}
-* form: out_of_scope
-    - form: action_question
-    - slot{"pergunta": "pygame module"}
-    - slot{"pergunta": null}
-    - form{"name": null}
-    - slot{"requested_slot": null}
+
 

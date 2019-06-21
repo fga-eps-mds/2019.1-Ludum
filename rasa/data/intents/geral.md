@@ -167,6 +167,19 @@
 
 ## intent:informacao_desenvolvimento
 - tutorial
+- tutorial
+- tutorial
+- tutorial
+- tutorial
+- tutorial
+- tutorial
+- tutorial
+- tutorial
+- tutorial
+- tutorial
+- tutorial
+- tutorial
+- tutorial
 - tutorial jogos
 - tutorial jogo
 - quero construir um jogo
@@ -370,26 +383,193 @@
 - não
 - não
 
-## intent:out_of_scope
-- Qual a origem do mundo?
-- Você tem signo?
-- Vc gosta de carnaval?
-- batatinha quando nasce
-- pygame module
-
-## intent:star_wars
-- pygame object
-- Pygame 3D
-
-## intent:start
-- /start
-- /start
-- /start
-
-## intent:stop
-- /stop
-
 ## intent:tudo_bem
 - Tudo bem
-- Como vocês estao
-- como vc ta
+- Tudo bem
+- Tudo bem
+- Tudo bem
+- Tudo bem
+- Tudo bem
+- Tudo bem
+- Tudo bem
+- Tudo bem
+- Tudo bem
+- Tudo bem
+- Como vocês esta
+- como vc ta?
+- como vc ta?
+- como vc ta?
+- como vc ta?
+- como vc ta?
+- como vc ta?
+- como vc ta?
+- como vc ta?
+- como vc ta?
+- como vc ta?
+- Tudo bem?
+- Como vai?
+
+## intent:star_wars
+- star wars 
+- star wars 
+- star wars 
+- star wars 
+- star wars 
+- star wars 
+- star wars 
+- star wars 
+- star wars 
+- star wars 
+- star wars 
+- star wars 
+- star wars 
+- star wars 
+- star wars 
+- yoda
+- yoda
+- yoda
+- yoda
+- yoda
+- yoda
+- yoda
+- yoda
+- yoda
+- yoda
+- yoda
+- yoda
+- guerra nas estrelas
+
+## intent:time 
+- Time
+- Time
+- Time
+- Time
+- Time
+- Time
+- Time
+- Time
+- Time
+- Time
+- Time
+- Time
+- Time
+- Time
+- Time
+- Time
+- time
+- time
+- time
+- time
+- time
+- Qual é o seu time
+- Qual é o seu time
+- Qual é o seu time
+- Qual é o seu time
+- Qual é o seu time
+- Qual é o seu time
+- Qual é o seu time
+- Qual é o seu time
+- Qual é o seu time
+- qual time voce torce
+- qual time voce torce
+- qual time voce torce
+- qual time voce torce
+- qual time voce torce
+- qual time voce torce
+
+## intent:criadores
+- Quem te criou?
+- Quem te criou?
+- Quem criou voce?
+- Quem criou voce?
+- Quem criou voce?
+- Quem criou voce?
+- Quem criou voce?
+- Quem te criou?
+- Quem te criou?
+- Quem te criou?
+- Quem te criou?
+- Quem te criou?
+- Quem te criou?
+- Quem fez voce?
+- Donos
+- Donos
+- Donos
+- Donos
+- Donos
+- Donos
+
+## intent:mds
+- vamos passar?
+- mds 
+- mds 
+- mds 
+- mds 
+- mds 
+- mds 
+- mds 
+- mds 
+- mds 
+- mds 
+- SS
+- SS
+- SS
+- SS
+- SS
+- SS
+- SS
+
+## intent:amor
+- Voce gosta de mim?
+- Voce gosta de mim?
+- Voce gosta de mim?
+- Voce gosta de mim?
+- Voce gosta de mim?
+- Voce gosta de mim?
+- Voce gosta de mim?
+- Voce gosta de mim?
+- voce me ama
+- voce me ama
+- voce me ama
+- voce me ama
+- voce me ama
+- voce me ama
+- voce me ama
+- voce me ama
+- voce me ama
+- voce me ama
+- ama 
+- ama 
+- ama 
+- ama 
+- ama 
+- ama 
+- ama 
+- ama 
+- amor
+- amor
+- amor
+- amor
+- amor
+- amor
+- amor
+- amor
+- amor
+- amor
+- amor
+- amor
+- amor
+- amor
+
+## intent:engracado 
+- KKKK
+- kkkkkkk
+- kkkkkkk
+- kkkkkkkk
+- kkkkkkkkkkkk
+- rsrsrs
+- rsrsrs
+- rsrsrs
+- rsrsrsrs
+- kkkkk
+- hsahsahsah
