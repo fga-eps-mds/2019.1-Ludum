@@ -574,13 +574,25 @@
 * confirmar
     - utter_informacao_materiais_links
     - action_link
+    - utter_informacao_materiais_links2
+* confirmar
     - utter_cumprimentar
 ## materiais path 2 negar
 * informacao_materiais
     - utter_informacao_materiais
 * negar  
     - utter_cumprimentar
-
+## materiais path 3 esperar
+* informacao_materiais
+    - utter_informacao_materiais
+* confirmar
+    - utter_informacao_materiais_links
+    - action_link
+    - utter_informacao_materiais_links2
+* negar
+    - utter_informacao_materiais_links3
+* prosseguir
+    - - utter_cumprimentar    
 
 ## informacao ambiente 
 * informacao_ambiente

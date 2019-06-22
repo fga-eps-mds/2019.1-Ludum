@@ -93,6 +93,8 @@ actions:
 - utter_ambiente_adicional2
 - utter_ambiente_adicional3
 - utter_informacao_materiais_links
+- utter_informacao_materiais_links2 
+- utter_informacao_materiais_links3
 - utter_tutorial_padawan_negar
 entities:
 - starwars
@@ -207,9 +209,13 @@ templates:
       \ para melhorar seu conhecimento.\n Você\
       \ deseja ver esse material?\n"
   utter_informacao_materiais_links:
-  - text: "Muito bem jovem Geek! No pedaço de pergaminho abaixo\
-      \ estão listados materiais de apoio, recomendados pelos próprios\
-      \ usuários, mas que podem te ajudar também!\n"     
+  - text: "Esses são os materiais disponíveis no momento que\
+      \ estão listados como materiais de apoio, recomendados pelos próprios\
+      \ usuários, mas que podem te ajudar também!\n"
+  utter_informacao_materiais_links2:
+  - text: "Podemos retornar ao menu principal?\n"  
+  utter_informacao_materiais_links3:
+  - text: "Quando estiver pronto para retornar ao menu é só me avisar!\n"         
   utter_negar_ambiente1:
   - text: "Para realizarmos nossos tutoriais você precisará do Python 3.6, mas sem\
       \ problema, para instalá-lo basta acessar este site https://www.python.org/downloads/\
