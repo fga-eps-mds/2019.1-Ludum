@@ -94,8 +94,6 @@ actions:
 - utter_ambiente_adicional
 - utter_ambiente_adicional2
 - utter_ambiente_adicional3
-- utter_retornar1
-- utter_retornar2
 - utter_menu
 config:
   store_entities_as_slots: true
@@ -316,8 +314,6 @@ templates:
   utter_proximopasso3:
   - text: "Caso tenha dificuldades na instalação, sugerimos que você acesse este link\
       \ https://www.simplifiedpython.net/pygame-tutorial-for-beginners/#Installing_PyGame\n"
-  utter_retornar1:
-  - text: "Agora, deseja retornar ao menu ?\n"
   utter_sem_nada:
   - text: Mas eu nem te perguntei nada
   utter_star_wars:

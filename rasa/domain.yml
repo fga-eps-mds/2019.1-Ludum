@@ -94,8 +94,6 @@ actions:
 - utter_ambiente_adicional
 - utter_ambiente_adicional2
 - utter_ambiente_adicional3
-- utter_retornar1
-- utter_retornar2
 - utter_menu
 entities:
 - starwars
@@ -264,8 +262,6 @@ templates:
   utter_proximopasso3:
   - text: "Caso tenha dificuldades na instalação, sugerimos que você acesse este link\
       \ https://www.simplifiedpython.net/pygame-tutorial-for-beginners/#Installing_PyGame\n"
-  utter_retornar1:
-  - text: "Agora, deseja retornar ao menu ?\n"
   utter_complementos:
   - text: "Eu como Jedi também recomendo que você instale algumas ferramentas que podem ser úteis\
       \ ao nosso desenvolvimento\n"
