@@ -30,7 +30,7 @@ class ActionQuestion(FormAction):
         try:
             dispatcher.utter_message('Espere jovem padawan,' +
                                      'vou procurar uma resposta ' +
-                                    'no Stack Overflow para você')
+                                     'no Stack Overflow para você')
         except ValueError:
             dispatcher.utter_message(ValueError)
         try:
@@ -83,7 +83,8 @@ class ActionFaq(Action):
             f.close()
             dispatcher.utter_message(string)
             finalizar = 'Se não tiver encontrado sua pergunta'
-            finalizar += ' aqui, posso fazer uma rápida pesquisa no stack overflow'
+            finalizar += ' aqui, posso fazer uma rápida pesquisa'
+            finalizar += 'no stack overflow'
             dispatcher.utter_message(finalizar)
             dispatcher.utter_message('Deseja que eu faça isso ?')
         except ValueError:
