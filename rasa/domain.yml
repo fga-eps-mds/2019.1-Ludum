@@ -179,7 +179,7 @@ templates:
   utter_informacao_desenvolvimento:
   - buttons:
     - payload: Facil
-      title: Padawan - Pong(Iniciante)
+      title: Padawan - Pong (Iniciante)
     - payload: Medio
       title: Jedi - Snake (Intermediário)
     - payload: Comunidade
@@ -218,12 +218,13 @@ templates:
       \ link https://www.pygame.org/wiki/GettingStarted e siga as instruções\nJá podemos\
       \ seguir para o próximo passo ?\n"
   utter_padawan_c:
-  - text: "Podemos ir adiante ou voce deseja sair?\n"
+  - text: "Quando estiver pronto para continuar, me avise!\n"
   utter_padawan_c2:
-  - text: "Já estamos finalizando a primeira parte do tutorial Pong.\nPodemos  dar\
-      \ mais um passo para se tornar um meistres na criação de jogos?\n"
+  - text: "Já estamos finalizando a primeira parte do tutorial Pong.\nQuando\
+      \ estiver pronto para continuar, me avise!\n"
   utter_padawan_c3:
-  - text: "Estamos quase encerrando mais uma etapa.\nDeseja ir além?\n"
+  - text: "Estamos quase encerrando mais uma etapa.\nQuando\
+      \ estiver pronto para continuar, me avise!\n"
   utter_perguntar_ambiente2:
   - text: "Você possui algum editor de texto de sua preferência instalado?\n"
   utter_perguntar_ambiente3:
@@ -273,7 +274,7 @@ templates:
       \ usuário tem que movimentar a snake ou cobrinha e\
       \ comer as joias do infinito que aparecem na tela.\nA cada\    
       \ joia, a snake cresce e o usuário deve\
-      \ evitar as colisões com o próprio corpo ou com a parede.\nO\
+      \ evitar as colisões, com o próprio corpo ou com a parede.\nO\
       \ placar aumenta a cada vez que comer uma joia do infinito.\nPodemos\    
       \ ir adiante?\n"      
   utter_tutorial_jedi_negar:
@@ -282,7 +283,7 @@ templates:
       \ das joias do infinito\n"  
   utter_tutorial_jedi_imports:
   - text: "Tudo pronto Jovem Geek! O primeiro passo\
-      \ para iniciar o jogo é criar um arquivo com o nome `snake.py` ou\
+      \ para iniciar o jogo é criar um arquivo com o nome Snake.py ou\
       \ NomeDoArquivo.py.\nDentro desse arquivo\
       \ vamos começar fazendo os imports das bibliotecas.\nPygame\    
       \ e Random, como na imagem abaixo.\n"
@@ -478,7 +479,7 @@ templates:
   - text: "Meu futuro meister dos jogos, assim como um Jedi precisa de sua espada para lutar você
      \ precisa do seu ambiente configurado para continuar. Esta tudo certo por ai?\n"
   utter_padawan_c4:
-  - text: "Tudo bem por ai? Podemos continuar?\n"
+  - text: "Quando estiver pronto para continuar, me avise!\n"
   utter_tutorial_padawan22:
   - text: "Pronto! Acabamos de fazer nosso primeiro joguinho com a Pygame, parabéns!\n" 
   utter_ambiente_adicional: 
