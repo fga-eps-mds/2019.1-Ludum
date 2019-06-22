@@ -114,18 +114,19 @@ class ActionLinks(Action):
                     linkText += ('Link: ' + str(dictMateriais['data'][i]['link']))
                     linkText += '\n'
                     linkText += '----------------------------'
-                dispatcher.utter_message(linkText)
-                fimMsg = "Esses são os materiais disponíveis no momento... "
-                fimMsg += "Espero que contribua nos seus estudos  =)"
-                fimMsg += "\n"
-                fimMsg += "Caso você conheça algum material interessante que não está aqui "
-                fimMsg += "contribua com nosso conteúdo.\n"
-                fimMsg += "Para mais informações "
-                fimMsg += "basta checar nossa área de envio de materiais no menu principal!"
-                dispatcher.utter_message(fimMsg)
+                    dispatcher.utter_message(linkText)
+                    fimMsg = "Esses são os materiais disponíveis no momento... "
+                    fimMsg += "Espero que contribua nos seus estudos  =)"
+                    fimMsg += "\n"
+                    fimMsg += "Caso você conheça algum material interessante que não está aqui "
+                    fimMsg += "contribua com nosso conteúdo.\n"
+                    fimMsg += "Para mais informações "
+                    fimMsg += "basta checar nossa área de envio de materiais no menu principal!"
+                    dispatcher.utter_message(fimMsg)
         except ValueError:
             dispatcher.utter_message(ValueError)
-        return []        
+        return []    
+
 class ActionTutoriais(Action):
     def name(self):
         return "action_tutoriais"
