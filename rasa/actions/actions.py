@@ -106,14 +106,17 @@ class ActionLinks(Action):
                 linkText += ('Oooopsss...' + 'Não encontrei nenhum material')
             else:
                 for i in range(0, len(dictMateriais['data'])):
-                    linkText += 'Link: ' + str(i+1) + '\n'
-                    linkText += ('Título: ' + str(dictMateriais['data'][i]['title']))
+                    linkText += ('Título: ')
+                    linkText += str(dictMateriais['data'][i]['title'])
                     linkText += '\n'
-                    linkText += ('Tipo: ' + str(dictMateriais['data'][i]['type']))
+                    linkText += ('Tipo: ')
+                    linkText += str(dictMateriais['data'][i]['type'])
                     linkText += '\n'
-                    linkText += ('Link: ' + str(dictMateriais['data'][i]['link']))
+                    linkText += ('Link: ')
+                    linkText += str(dictMateriais['data'][i]['link'])
                     linkText += '\n'
                     linkText += '----------------------------'
+                    linkText += '\n'
                     dispatcher.utter_message(linkText)
                     fimMsg = "Esses são os materiais disponíveis no momento... "
                     fimMsg += "Espero que contribua nos seus estudos  =)"

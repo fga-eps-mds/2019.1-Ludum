@@ -574,6 +574,7 @@
 * confirmar
     - utter_informacao_materiais_links
     - action_link
+    - utter_cumprimentar
 ## materiais path 2 negar
 * informacao_materiais
     - utter_informacao_materiais
