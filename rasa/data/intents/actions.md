@@ -12,7 +12,3 @@
 - stack overflow
 - stack
 - overflow
-
-## intent:action_link
-- materiais e links
-- Materiais e Links

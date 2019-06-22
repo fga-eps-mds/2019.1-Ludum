@@ -207,6 +207,14 @@
       },
       {
         "intent": "confirmar",
+        "text": "continuar"
+      },
+      {
+        "intent": "confirmar",
+        "text": "Continuar"
+      },
+      {
+        "intent": "confirmar",
         "text": "Sim"
       },
       {
@@ -458,6 +466,22 @@
         "text": "como contribuir para o repositorio"
       },
       {
+        "intent": "informacao",
+        "text": "Tenho uma pergunta"
+      },
+      {
+        "intent": "informacao",
+        "text": "Tenho uma duvida"
+      },
+      {
+        "intent": "informacao",
+        "text": "Duvida"
+      },
+      {
+        "intent": "informacao",
+        "text": "voce pode me tirar uma duvida?"
+      },
+      {
         "intent": "cumprimentar",
         "text": "oi, tudo bem"
       },
@@ -638,6 +662,78 @@
         "text": "voce pode me tirar uma duvida?"
       },
       {
+        "intent": "comunidade",
+        "text": "comunidade"
+      },
+      {
+        "intent": "comunidade",
+        "text": "Comunidade"
+      },
+      {
+        "intent": "comunidade",
+        "text": "comunidade"
+      },
+      {
+        "intent": "comunidade",
+        "text": "Comunidade"
+      },
+      {
+        "intent": "comunidade",
+        "text": "Comunidade"
+      },
+      {
+        "intent": "comunidade",
+        "text": "Comunidade"
+      },
+      {
+        "intent": "comunidade",
+        "text": "comunidade"
+      },
+      {
+        "intent": "comunidade",
+        "text": "comunidade"
+      },
+      {
+        "intent": "comunidade",
+        "text": "comunidade"
+      },
+      {
+        "intent": "comunidade",
+        "text": "Comunidade"
+      },
+      {
+        "intent": "comunidade",
+        "text": "Comunidade"
+      },
+      {
+        "intent": "comunidade",
+        "text": "Comunidade"
+      },
+      {
+        "intent": "comunidade",
+        "text": "Comunidade"
+      },
+      {
+        "intent": "comunidade",
+        "text": "Comunidade"
+      },
+      {
+        "intent": "comunidade",
+        "text": "Comunidade"
+      },
+      {
+        "intent": "comunidade",
+        "text": "Comunidade"
+      },
+      {
+        "intent": "comunidade",
+        "text": "Comunidade"
+      },
+      {
+        "intent": "comunidade",
+        "text": "Comunidade"
+      },
+      {
         "intent": "informacao_ambiente",
         "text": "ambiente"
       },
@@ -707,6 +803,42 @@
       },
       {
         "intent": "informacao_desenvolvimento",
+        "text": "tutorial"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "Tutorial"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "Tutorial"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "Tutorial"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "tutorial"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "tutorial"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "tutorial"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "tutorial"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
+        "text": "tutorial"
+      },
+      {
+        "intent": "informacao_desenvolvimento",
         "text": "tutorial jogos"
       },
       {
@@ -744,6 +876,334 @@
       {
         "intent": "informacao_desenvolvimento",
         "text": "me ensine a fazer um jogo"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "Medio"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "Médio"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "medio"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "médio"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "Jedi"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "jedi"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "TutorialMedio"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "TutorialMédio"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "Tutorial medio"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "Tutorial médio"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "Tutorialmedio"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "Tutorialmédio"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "tutorialMedio"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "tutorialMédio"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "tutorial medio"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "tutorial médio"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "tutorialmedio"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "tutorialmédio"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "Tutorial Jedi"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "Tutorial jedi"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "tutorial Jedi"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "tutorial jedi"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "TutorialJedi"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "Tutorialjedi"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "tutorialJedi"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "tutorialjedi"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "Snake"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "snake"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "Tutorial Snake"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "Tutorial snake"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "tutorial Snake"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "tutorial snake"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "TutorialSnake"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "Tutorialsnake"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "tutorialSnake"
+      },
+      {
+        "intent": "tutorial_medio",
+        "text": "tutorialsnake"
+      },
+      {
+        "intent": "prosseguir",
+        "text": "prosseguir"
+      },
+      {
+        "intent": "prosseguir",
+        "text": "Prosseguir"
+      },
+      {
+        "intent": "prosseguir",
+        "text": "Pronto"
+      },
+      {
+        "intent": "prosseguir",
+        "text": "pronto"
+      },
+      {
+        "intent": "prosseguir",
+        "text": "proximo"
+      },
+      {
+        "intent": "prosseguir",
+        "text": "próximo"
+      },
+      {
+        "intent": "prosseguir",
+        "text": "Proximo"
+      },
+      {
+        "intent": "prosseguir",
+        "text": "Próximo"
+      },
+      {
+        "intent": "prosseguir",
+        "text": "Ir"
+      },
+      {
+        "intent": "prosseguir",
+        "text": "ir"
+      },
+      {
+        "intent": "prosseguir",
+        "text": "adiante"
+      },
+      {
+        "intent": "prosseguir",
+        "text": "confirmo"
+      },
+      {
+        "intent": "prosseguir",
+        "text": "avançar"
+      },
+      {
+        "intent": "prosseguir",
+        "text": "avancar"
+      },
+      {
+        "intent": "prosseguir",
+        "text": "avança"
+      },
+      {
+        "intent": "prosseguir",
+        "text": "avanca"
+      },
+      {
+        "intent": "prosseguir",
+        "text": "ir adiante"
+      },
+      {
+        "intent": "prosseguir",
+        "text": "ir além"
+      },
+      {
+        "intent": "prosseguir",
+        "text": "ir para o próximo"
+      },
+      {
+        "intent": "prosseguir",
+        "text": "confirmar"
+      },
+      {
+        "intent": "prosseguir",
+        "text": "continua"
+      },
+      {
+        "intent": "prosseguir",
+        "text": "ok"
+      },
+      {
+        "intent": "prosseguir",
+        "text": "estou pronto"
+      },
+      {
+        "intent": "prosseguir",
+        "text": "estou pronta"
+      },
+      {
+        "intent": "prosseguir",
+        "text": "podemos"
+      },
+      {
+        "intent": "prosseguir",
+        "text": "podemos prosseguir"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "Facil"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "facil"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "Facil"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "Facil"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "Facil"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "Facil"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "Facil"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "Facil"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "Facil"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "Facil"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "Facil"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "Facil"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "Facil"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "Facil"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "Facil"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "Facil"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "Facil"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "Facil"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "facil"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "facil"
       },
       {
         "intent": "informacao_duvidas",
@@ -859,46 +1319,6 @@
       },
       {
         "intent": "nao_implementada",
-        "text": "facil"
-      },
-      {
-        "intent": "nao_implementada",
-        "text": "Facil"
-      },
-      {
-        "intent": "nao_implementada",
-        "text": "medio"
-      },
-      {
-        "intent": "nao_implementada",
-        "text": "Medio"
-      },
-      {
-        "intent": "nao_implementada",
-        "text": "médio"
-      },
-      {
-        "intent": "nao_implementada",
-        "text": "Médio"
-      },
-      {
-        "intent": "nao_implementada",
-        "text": "dificil"
-      },
-      {
-        "intent": "nao_implementada",
-        "text": "Dificil"
-      },
-      {
-        "intent": "nao_implementada",
-        "text": "difícil"
-      },
-      {
-        "intent": "nao_implementada",
-        "text": "Difícil"
-      },
-      {
-        "intent": "nao_implementada",
         "text": "videos"
       },
       {
@@ -911,15 +1331,19 @@
       },
       {
         "intent": "nao_implementada",
-        "text": "fácil"
-      },
-      {
-        "intent": "nao_implementada",
-        "text": "Fácil"
-      },
-      {
-        "intent": "nao_implementada",
         "text": "python"
+      },
+      {
+        "intent": "negar",
+        "text": "sair"
+      },
+      {
+        "intent": "negar",
+        "text": "sair"
+      },
+      {
+        "intent": "negar",
+        "text": "Sair"
       },
       {
         "intent": "negar",
@@ -1194,50 +1618,6 @@
         "text": "como vc ta"
       },
       {
-        "intent": "action_test",
-        "text": "test custom action"
-      },
-      {
-        "intent": "action_test",
-        "text": "custom action"
-      },
-      {
-        "intent": "action_test",
-        "text": "actions"
-      },
-      {
-        "intent": "action_test",
-        "text": "custom actions"
-      },
-      {
-        "intent": "action_test",
-        "text": "action"
-      },
-      {
-        "intent": "action_test",
-        "text": "test action"
-      },
-      {
-        "intent": "action_question",
-        "text": "Quero fazer uma pergunta ao Stack Overflow"
-      },
-      {
-        "intent": "action_question",
-        "text": "Stack Overflow"
-      },
-      {
-        "intent": "action_question",
-        "text": "stack overflow"
-      },
-      {
-        "intent": "action_question",
-        "text": "stack"
-      },
-      {
-        "intent": "action_question",
-        "text": "overflow"
-      },
-      {
         "intent": "time",
         "text": "qual o melhor time do brasil"
       },
@@ -1293,42 +1673,6 @@
         "intent": "star_wars",
         "entities": [
           {
-            "start": 21,
-            "end": 25,
-            "value": "jedi",
-            "entity": "starwars"
-          }
-        ],
-        "text": "me manda um concelho jedi"
-      },
-      {
-        "intent": "star_wars",
-        "entities": [
-          {
-            "start": 10,
-            "end": 14,
-            "value": "jedi",
-            "entity": "starwars"
-          }
-        ],
-        "text": "sabedoria jedi"
-      },
-      {
-        "intent": "star_wars",
-        "entities": [
-          {
-            "start": 10,
-            "end": 14,
-            "value": "jedi",
-            "entity": "starwars"
-          }
-        ],
-        "text": "concelhos jedi"
-      },
-      {
-        "intent": "star_wars",
-        "entities": [
-          {
             "start": 0,
             "end": 9,
             "value": "star wars",
@@ -1364,6 +1708,50 @@
           }
         ],
         "text": "guerra nas estrelas"
+      },
+      {
+        "intent": "action_test",
+        "text": "test custom action"
+      },
+      {
+        "intent": "action_test",
+        "text": "custom action"
+      },
+      {
+        "intent": "action_test",
+        "text": "actions"
+      },
+      {
+        "intent": "action_test",
+        "text": "custom actions"
+      },
+      {
+        "intent": "action_test",
+        "text": "action"
+      },
+      {
+        "intent": "action_test",
+        "text": "test action"
+      },
+      {
+        "intent": "action_question",
+        "text": "Quero fazer uma pergunta ao Stack Overflow"
+      },
+      {
+        "intent": "action_question",
+        "text": "Stack Overflow"
+      },
+      {
+        "intent": "action_question",
+        "text": "stack overflow"
+      },
+      {
+        "intent": "action_question",
+        "text": "stack"
+      },
+      {
+        "intent": "action_question",
+        "text": "overflow"
       }
     ],
     "regex_features": [],

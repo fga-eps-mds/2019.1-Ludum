@@ -5,6 +5,8 @@ import requests
 from rasa_core_sdk.events import SlotSet
 from rasa_core_sdk.forms import FormAction
 
+url = 'https://produ-o.ludum-materiais.ludumbot.club'
+
 
 class ActionTest(Action):
     def name(self):
@@ -35,7 +37,7 @@ class ActionQuestion(FormAction):
             dispatcher.utter_message(ValueError)
         try:
             pergunta = str(tracker.get_slot('pergunta'))
-            api = 'https://ludum-duvidas.herokuapp.com/api/duvidas'
+            api = url + '/api/duvidas'
             apiPergunta = api + '/pesquisar' + '/:{' + pergunta + '}'
             link = requests.get(apiPergunta)
             stack = json.loads(link.text)
@@ -96,38 +98,49 @@ class ActionLinks(Action):
 
     def run(self, dispatcher, tracker, domain):
         try:
-            endpointLinks = 'https://produ-o.ludum-materiais.ludumbot.club\
-                            /api/links/aprovados/S'
-            materiais = requests.get(endpointLinks)
+            api = url + '/api/links/aprovados/S'
+            materiais = requests.get(api)
             dictMateriais = json.loads(materiais.text)
             linkText = ''
             if(len(dictMateriais['data']) == 0):
                 linkText += ('Oooopsss...' + 'Não encontrei nenhum material')
             else:
                 for i in range(0, len(dictMateriais['data'])):
-                    linkText += 'Link ' + str(i+1) + '\n'
-                    linkText += ('Título: ' +
-                                 str(dictMateriais['data'][i]['title']))
+                    linkText += 'Link: ' + str(i+1) + '\n'
+                    linkText += ('Título: ' + str(dictMateriais['data'][i]['title']))
                     linkText += '\n'
-                    linkText += ('Tipo: ' +
-                                 str(dictMateriais['data'][i]['type']))
+                    linkText += ('Tipo: ' + str(dictMateriais['data'][i]['type']))
                     linkText += '\n'
-                    linkText += ('Link: ' +
-                                 str(dictMateriais['data'][i]['link']))
+                    linkText += ('Link: ' + str(dictMateriais['data'][i]['link']))
                     linkText += '\n'
-                    linkText += '----------------------------\
-                                ------------------'
+                    linkText += '----------------------------'
                 dispatcher.utter_message(linkText)
                 fimMsg = "Esses são os materiais disponíveis no momento... "
                 fimMsg += "Espero que contribua nos seus estudos  =)"
                 fimMsg += "\n"
-                fimMsg += "Caso você conheça algum material \
-                           interessante que não está aqui "
-                fimMsg += "contribua com nosso conteúdo.\
-                           Para mais informações "
-                fimMsg += "basta checar nossa área de envio\
-                           de materiais no menu principal!"
+                fimMsg += "Caso você conheça algum material interessante que não está aqui "
+                fimMsg += "contribua com nosso conteúdo.\n"
+                fimMsg += "Para mais informações "
+                fimMsg += "basta checar nossa área de envio de materiais no menu principal!"
                 dispatcher.utter_message(fimMsg)
+        except ValueError:
+            dispatcher.utter_message(ValueError)
+        return []        
+class ActionTutoriais(Action):
+    def name(self):
+        return "action_tutoriais"
+
+    def run(self, dispatcher, tracker, domain):
+        try:
+            api = url + '/api/tutoriais/aprovados/S/'
+            link = requests.get(api)
+            tutoriais = json.loads(link.text)
+            utterString = ''
+            for i in range(0, len(tutoriais['data'])):
+                utterString += str(i) + ")"
+                utterString += str(tutoriais['data'][i]['name'])
+                utterString += '\n'
+
         except ValueError:
             dispatcher.utter_message(ValueError)
         return []
