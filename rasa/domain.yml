@@ -96,6 +96,7 @@ actions:
 - utter_ambiente_adicional3
 - utter_retornar1
 - utter_retornar2
+- utter_menu
 entities:
 - starwars
 - time
@@ -151,6 +152,19 @@ templates:
   - text: "Mas não se preocupe, todo material que você me enviar passará por uma avaliação do supremo conselho Jedi antes de ser publicado\n"
   utter_contribuicao5:
   - text: "Para cadastrar um desses materiais, acesse o endereço: https://ludum-materiais-frontend.herokuapp.com\n"
+  utter_menu:
+  - buttons:
+    - payload: Tutorial
+      title: Tutorial
+    - payload: Ambiente
+      title: Ambiente
+    - payload: FAQ
+      title: FAQ
+    - payload: Materiais
+      title: Materiais e links
+    - payload: contribuir
+      title: Envio de materiais
+    text: "Ótimo que pude te ajudar! Se precisar de mim, estarei aqui. Que tal usar alguma outra funcionalidade minha?\n"
   utter_cumprimentar:
   - buttons:
     - payload: Tutorial

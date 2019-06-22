@@ -846,7 +846,7 @@
     - utter_contribuicao3
     - utter_contribuicao4
     - utter_contribuicao5
-    - utter_retornar1
+    - utter_menu
 
 ## Generated Story -8260612615251012865
 * faq
