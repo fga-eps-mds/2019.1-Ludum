@@ -90,6 +90,7 @@ actions:
 - utter_ambiente_adicional
 - utter_ambiente_adicional2
 - utter_ambiente_adicional3
+- utter_menu
 config:
   store_entities_as_slots: true
 entities:
@@ -248,6 +249,20 @@ templates:
       \ para te ajudar a se tornar um verdadeiro Mestre na criação de jogos com PyGame.\n\
       Mas antes, jovem padawan, devo te fazer uma pergunta: Você prefere videos explicativos\
       \ ou textos?\n"
+  utter_menu:
+  - buttons:
+    - payload: Tutorial
+      title: Tutorial
+    - payload: Ambiente
+      title: Ambiente
+    - payload: FAQ
+      title: FAQ
+    - payload: Materiais
+      title: Materiais e links
+    - payload: contribuir
+      title: Envio de materiais
+    text: "Ótimo que pude te ajudar! Se precisar de mim, estarei aqui. Que tal usar\
+      \ alguma outra funcionalidade minha?\n"
   utter_negar_ambiente1:
   - text: "Para realizarmos nossos tutoriais você precisará do Python 3.6, mas sem\
       \ problema, para instalá-lo basta acessar este site https://www.python.org/downloads/\

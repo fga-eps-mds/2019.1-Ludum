@@ -90,6 +90,7 @@ actions:
 - utter_ambiente_adicional
 - utter_ambiente_adicional2
 - utter_ambiente_adicional3
+- utter_menu
 entities:
 - starwars
 - time
@@ -484,3 +485,16 @@ templates:
   - text: "Ambiente configurado! Tudo pronto para mergulhamos na saga do infinito! Prepare-se :) \n"
   utter_ambiente_adicional3:
   - text: "Tudo certo? Podemos continuar?\n"
+  utter_menu:
+  - buttons:
+    - payload: Tutorial
+      title: Tutorial
+    - payload: Ambiente
+      title: Ambiente
+    - payload: FAQ
+      title: FAQ
+    - payload: Materiais
+      title: Materiais e links
+    - payload: contribuir
+      title: Envio de materiais
+    text: "Ótimo que pude te ajudar! Se precisar de mim, estarei aqui. Que tal usar alguma outra funcionalidade minha?\n"
