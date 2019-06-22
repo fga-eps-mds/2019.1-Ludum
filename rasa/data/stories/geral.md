@@ -592,7 +592,7 @@
 * negar
     - utter_informacao_materiais_links3
 * prosseguir
-    - - utter_cumprimentar    
+    - utter_cumprimentar    
 
 ## informacao ambiente 
 * informacao_ambiente
