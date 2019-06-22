@@ -352,7 +352,7 @@
     - utter_informacao_desenvolvimento
 * tutorial_facil
     - utter_confirmacao
-* prosseguir
+* confirmar
     - utter_tutorial_padawan1
     - utter_tutorial_padawan2
     - utter_tutorial_padawan3
