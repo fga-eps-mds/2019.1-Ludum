@@ -102,11 +102,14 @@ class ActionTutoriais(Action):
             link = requests.get(api)
             tutoriais = json.loads(link.text)
             utterString = ''
+            if len(tutoriais['data']) == 0:
+                utterString += 'Infelizmente não foi possivel encontrar'
+                utterString += 'nenhum tutorial'
             for i in range(0, len(tutoriais['data'])):
                 utterString += str(i) + ")"
-                utterString += str(tutoriais['data'][i]['name'])
+                utterString += str(tutoriais['data'][i]['title'])
                 utterString += '\n'
-
+            dispatcher.utter_messager(utterString)
         except ValueError:
             dispatcher.utter_message(ValueError)
         return []
