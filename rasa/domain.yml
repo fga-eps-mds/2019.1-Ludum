@@ -493,9 +493,7 @@ templates:
   utter_engracado1:
   - text: "Ora ora, temos um comediante entre nós?\n"
   utter_amor1:
-  - text: "Talvez eu esteja a
-  c?
-  ásdapaixonado por alguem, será você?\n"
+  - text: "Talvez eu esteja apaixonado por alguem, será você?\n"
   utter_criadores1:
   - text: "Fui criado pelos melhores seres humanos existentes, espero que você um dia\
       \ tenha o prazer de os conhecer-los\n"

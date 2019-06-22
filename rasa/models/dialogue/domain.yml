@@ -16,7 +16,6 @@ actions:
 - utter_informacao_desenvolvimento
 - utter_confirmar_ambiente2
 - utter_tutorial_padawan11
-- utter_time
 - utter_tutorial_padawan16
 - utter_proximopasso1
 - utter_informacao
@@ -31,7 +30,6 @@ actions:
 - utter_faq
 - action_test
 - utter_tutorial_padawan8
-- utter_confirmar_ambiente3
 - utter_negar_ambiente3
 - utter_tutorial_jedi
 - utter_tutorial_jedi_confirmar
@@ -168,12 +166,12 @@ templates:
   utter_ambiente_adicional3:
   - text: "Tudo certo? Podemos continuar?\n"
   utter_amor1:
-  - text: "Talvez eu esteja apaixonado por alguem, será você?\n"
+  - text: "Talvez eu esteja a c? ásdapaixonado por alguem, será você?\n"
   utter_ask_pergunta:
-  - text: Que pergunta você deseja fazer ao StackOverflow?
+  - text: O que você deseja perguntar ao StackOverflow?
   utter_complementos:
   - text: "Eu como Jedi também recomendo que você instale algumas ferramentas que\
-      \ podem ser úteis ao nosso desenvolvimento\n"
+      \ irão ser úteis ao nosso desenvolvimento\n"
   utter_complementos2:
   - text: "Uma ótima extensão para o editor de texto Visual Studio é a extensão Python,\
       \ ela ira te ajudar  a debugar e usar a ferramenta lint para que sua experiencia\
@@ -187,15 +185,13 @@ templates:
       \ para lutar você  precisa do seu ambiente configurado para continuar. Esta\
       \ tudo certo por ai?\n"
   utter_confirmar_ambiente1:
-  - text: "Ótimo, todo nosso tutorial será feito usando o Python 3.6, então é bom\
+  - text: "Ótimo, todo nosso tutorial será feito usando o Python 3.6, então é necessario\
       \ que você o tenha aí instalado\n"
   utter_confirmar_ambiente2:
-  - text: "Ótimo, um editor de texto será muito util para nós podermos programar!\n"
-  utter_confirmar_ambiente3:
-  - text: "Tudo certo então, estamos prontos para começar a diversão!\n"
+  - text: "Ótimo, um editor de texto será muito útil para criarmos nossos jogos!\n"
   utter_contribuicao:
   - text: "Quer se tornar um Jedi?! Ajude contribuindo com os materiais e links que\
-      \ você ache bacana e a força estará com você.\n Você pode tambem criar tutoriais\
+      \ você ache bacana e a força estará com você.\n Você pode também criar tutoriais\
       \ para ajudar os próximos aprendizes que estão por vir\n Para contribuir use\
       \ o nosso WebClient(a ser criado)\n"
   utter_criadores1:
@@ -204,69 +200,70 @@ templates:
   utter_cumprimentar:
   - buttons:
     - payload: Tutorial
-      title: Tutorial
+      title: 1
     - payload: Ambiente
-      title: Ambiente
+      title: 2
     - payload: FAQ
-      title: FAQ
+      title: 3
     - payload: Materiais
-      title: Materiais e links
+      title: 4
     - payload: contribuir
-      title: Envio de materiais
-    text: "Olá, eu sou o Ludum! :D\n Vou te mostrar tudo que sei sobre \n desenvolvimento\
-      \ de jogos em Python!\n Mas antes, jovem padawan, devo te fazer uma pergunta,\n\
-      \ Você já conhece minhas funcionalidades?\n - Tutorial \n - Ambiente \n - FAQ\
-      \  \n - Materiais e links \n - Criação de tutoriais e envio de materiais \n\
-      \ Começar com o que, devemos?\n"
+      title: 5
+    text: "Olá, eu sou o Ludum! :D\nVou te mostrar tudo que sei sobre \ndesenvolvimento\
+      \ de jogos em Python!\nMas antes, jovem padawan, devo te fazer uma pergunta,\n\
+      \ Você já conhece minhas funcionalidades?\n - Tutorial(1) \n - Ambiente(2) \n\
+      \ - FAQ(3)  \n - Materiais e links(4) \n - Criação de tutoriais e envio de materiais(5)\
+      \ \n Começar com o que, devemos?\n"
   utter_default:
   - text: "Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender\
       \ direito\nVocê pode perguntar de novo de outro jeito?\n"
-  - text: "Hummmm... Não sei se entendi. Pode escrever de outra forma?\n"
+  - text: "Hummmm... Não sei se entendi. Pode escrever de outra jeito?\n"
   - text: "Acho que não te entendi, você pode me perguntar de novo usando outras palavras?\n"
   - text: "Vamos tentar mais uma vez? Eu não consegui te entender direito, me pergunta\
       \ de outro jeito?\n"
   utter_despedir:
-  - text: "Tudo bem, se tiver alguma dúvida, estarei aqui por você!\n"
+  - text: "Tudo bem, se tiver alguma dúvida, sempre estarei aqui por você!\n"
   - text: "Ok, sempre que precisar, estarei aqui!!\n"
   utter_engracado1:
-  - text: "Temos um comediante entre nós?\n"
+  - text: "Ora ora, temos um comediante entre nós?\n"
   utter_faq:
-  - text: Você deseja ver as perguntas mais frequentes sobre pygame?
+  - text: Amante do conhecimento, deseja ver as perguntas mais frequentes sobre a
+      pygame?
   utter_implementacao:
   - text: "Esta funcionalidade ainda não foi implementada\n"
   utter_informacao:
-  - text: "Sobre quais tópicos você tem dúvida?\n"
+  - text: "Qual assunto você tem dúvida caro aprendiz?\n"
   utter_informacao_ambiente:
-  - text: "Certo, irei lhe perguntar se você possui algumas das nossas \"joias do\
-      \ infinito\" que serão necessárias ao desenvolvimento, para começarmos, você\
-      \ já possui o Python 3.6 instalado em seu computador?\n"
+  - text: "Certo, agora vamos ver se você possui algumas das \"joias do infinito\"\
+      \ que serão necessárias para o desenvolvimento. Para começarmos, você já possui\
+      \ o Python 3.6 instalado em seu computador?\n"
   utter_informacao_desenvolvimento:
   - buttons:
-    - payload: Facil
-      title: Padawan - Pong(Iniciante)
-    - payload: Medio
-      title: Jedi - Snake (Intermediário)
+    - payload: Fácil
+      title: Iniciante
+    - payload: Médio
+      title: Intermediário
     - payload: Comunidade
-      title: Tutoriais da comunidade
-    text: "Muito bom, jovem Padawan!!\nVou te mostrar o tutorial de como desenvolver\
-      \ e criar seu jogo em Python com diferentes dificuldades.\nQuando perceber você\
-      \ já ser um Meister dos jogos!\nPorém, antes de começar devo te fazer uma pergunta.\n\
-      \ Você quer começar por qual dificuldade?\nPadawan\nJedi\n Ou tambem usar alguns\
-      \ dos Tutoriais feitos pela comunidade\n"
+      title: Comunidade
+    text: "Muito bom, jovem Padawan!!\nIrei mostrar-lhe tutoriais de como desenvolver\
+      \ e criar seus jogos em Python em diferentes dificuldades.\nQuando perceber\
+      \ você já será um Meister dos jogos!\nPorém, antes de começar devo te fazer\
+      \ uma pergunta:\n Você deseja começar por qual dificuldade?\n - Padawan\n -\
+      \ Jedi\n Ou tambem usar alguns dos Tutoriais feitos pela comunidade\n"
   utter_informacao_duvidas:
   - text: "Você pode me perguntar tudo que quiser saber sobre o desenvolvimento de\
-      \ jogos em pygame! \nAs vezes eu posso até não saber sua resposta, mas posso\
-      \ pesquisar no StackOverflow por uma resposta adequada!\n"
+      \ jogos utilizando Pygame! \nAs vezes eu posso até não saber sua resposta, mas\
+      \ posso pesquisar no StackOverflow por uma resposta adequada!\n"
   - text: "Te respondo o que você precisar saber sobre Pygame! Mas assim como todo\
       \ mestre é um eterno aprendiz, eu também não sei de tudo.\nMas posso pesquisar\
-      \ no StackOverflow e procurar a resposta mais indicada\n"
-  - text: "Oque deseja saber, jovem padawan? Se eu não souber a resposta posso pesquisar\
+      \ no StackOverflow e procurar a resposta mais indicada para você\n"
+  - text: "O que deseja saber, jovem padawan? Se eu não souber a resposta posso pesquisar\
       \ pra você.  \n"
   utter_informacao_materiais:
-  - text: "Olá, jovem Padawan! :D\nVou te mostrar tudo que sei sobre desenvolvimento\
+  - text: "Olá, jovem Padawan! :D\nIrei lhe mostrar tudo que sei sobre desenvolvimento\
       \ de jogos em Python com links de materiais úteis que podem melhorar seu conhecimento\
       \ para te ajudar a se tornar um verdadeiro Mestre na criação de jogos com PyGame.\n\
-      Mas antes, jovem padawan, devo te fazer uma pergunta: Você prefere videos explicativos\
+      Mas antes, jovem padawan, devo te fazer uma pergunta: Você prefere vídeos explicativos\
       \ ou textos?\n"
   utter_mds1:
   - text: "Rumo ao SS, VAMOS TIME!\n"
@@ -284,10 +281,11 @@ templates:
       \ link https://www.pygame.org/wiki/GettingStarted e siga as instruções\nJá podemos\
       \ seguir para o próximo passo ?\n"
   utter_padawan_c:
-  - text: "Podemos ir adiante ou voce deseja sair?\n"
+  - text: "Podemos ir adiante ou você deseja voltar para o menu?\n"
   utter_padawan_c2:
-  - text: "Já estamos finalizando a primeira parte do tutorial Pong.\nPodemos  dar\
-      \ mais um passo para se tornar um meistres na criação de jogos?\n"
+  - text: "Já estamos finalizando a primeira parte do tutorial de Pong.\nPodemos dar\
+      \ mais um passo para se tornar um meistres na criação de jogos ou deseja voltar\
+      \ ao menu?\n"
   utter_padawan_c3:
   - text: "Estamos quase encerrando mais uma etapa.\nDeseja ir além?\n"
   utter_padawan_c4:
@@ -295,7 +293,7 @@ templates:
   utter_perguntar_ambiente2:
   - text: "Você possui algum editor de texto de sua preferência instalado?\n"
   utter_perguntar_ambiente3:
-  - text: "Para fazermos nossos belissimos jogos precisaremos da biblioteca Pygame.\
+  - text: "Para construirmos nossos belíssimos jogos precisaremos da biblioteca Pygame.\
       \ Você já tem ela instalada?\n"
   utter_proximopasso1:
   - text: "Caso tenha dificuldades na instalação, sugerimos que você acesse este link\
@@ -315,11 +313,9 @@ templates:
   - text: "Grande guerreiro? Guerra não faz grande ninguém.\n"
   - text: "Lembre-se sempre, o seu foco determina a sua realidade.\n"
   - text: "Muito a aprender você ainda tem.\n"
-  utter_time:
+  utter_time1:
   - text: "Flamengo, campeão do carioca de 2019 em cima do vasquinho\n"
   - text: "Melhor time do mundo disparado, Flamengooo!!!!\n"
-  utter_time1:
-  - text: "Para o Flamengo desde criancinha, digo, desde robozinho rsrs\n"
   utter_tudo_bem1:
   - text: "Estou muito bem, obrigado!\n"
   utter_tutorial_jedi:
@@ -352,14 +348,14 @@ templates:
       \ me avise!\n"
   utter_tutorial_jedi_confirmar:
   - text: "Tudo certo Jovem Geek! Vamos começar o tutorial do jogo Snake!\nMas antes\
-      \ de prosseguirmos, devo te informar as regras do jogo.\nO usuário tem que movimentar\
-      \ a snake ou cobrinha e comer as joias do infinito que aparecem na tela.\nA\
-      \ cada   joia, a snake cresce e o usuário deve evitar as colisões com o próprio\
-      \ corpo ou com a parede.\nO placar aumenta a cada vez que comer uma joia do\
-      \ infinito.\nPodemos   ir adiante?\n"
+      \ de prosseguirmos, devo lhe informar as regras do jogo.\nO usuário tem que\
+      \ movimentar a snake ou cobrinha, e comer as frutinhas que aparecem na tela.\n\
+      A cada   joia, a snake cresce e o usuário deve evitar as colisões com o próprio\
+      \ corpo ou com a parede.\nO placar aumenta a cada vez que comer uma frutinha.\n\
+      Podemos   ir adiante?\n"
   utter_tutorial_jedi_cores:
   - image: https://i.imgur.com/fd7dHgX.png
-    text: "Agora que ja temos as bibliotecas necessárias vamos escolher as cores do\
+    text: "Agora que já temos as bibliotecas necessárias vamos escolher as cores do\
       \ jogo que nesse tutorial são:\n Preto (BLACK)\nAzul (BLUE)\nCinza (GRAY)\n\
       Como mostra a imagem abaixo.\n"
   utter_tutorial_jedi_cores_c:
@@ -390,7 +386,7 @@ templates:
       \ começar fazendo os imports das bibliotecas.\nPygame   e Random, como na imagem\
       \ abaixo.\n"
   utter_tutorial_jedi_imports_c:
-  - text: "Estou te aguardando jovem Padawan! Quando estiver pronto para continuar,\
+  - text: "Estou lhe aguardando, jovem Padawan! Quando estiver pronto para continuar,\
       \ me avise!\n"
   utter_tutorial_jedi_main:
   - image: https://i.imgur.com/torhoBI.png
@@ -408,8 +404,8 @@ templates:
   - text: "Aqui atualizamos as informações e fecha a chamada da PyGame.\nQuando estiver\
       \ pronto para continuar, me avise!\n"
   utter_tutorial_jedi_negar:
-  - text: "Certo, jovem Padawan. Vamos para o ambiente configurar o poder das joias\
-      \ do infinito\n"
+  - text: "Certo, jovem Padawan. Vamos para o ambiente verificar se você pussui as\
+      \ joias do infinito\n"
   utter_tutorial_jedi_run:
   - image: https://i.imgur.com/VYV3HfQ.png
     text: "Ainda dentro da Class Game() vamos criar a função def run para rodar o\
