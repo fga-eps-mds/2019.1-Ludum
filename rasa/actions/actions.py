@@ -105,7 +105,7 @@ class ActionLinks(Action):
             if(len(dictMateriais['data']) == 0):
                 linkText += ('Oooopsss...' + 'Não encontrei nenhum material')
             else:
-                for i in range(0, len(dictMateriais['data'])):
+                for i in range(0, (len(dictMateriais['data']) - 1)):
                     linkText += 'Material disponível: ' + str(i + 1) + '\n'
                     linkText += ('Título: ')
                     linkText += str(dictMateriais['data'][i]['title'])
