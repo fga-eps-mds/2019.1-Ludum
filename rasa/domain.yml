@@ -204,10 +204,9 @@ templates:
   - text: "Oque deseja saber, jovem padawan? Se eu não souber a resposta posso pesquisar\
       \ pra você.  \n"
   utter_informacao_materiais:
-  - text: "Vou te mostrar tudo que sei sobre desenvolvimento\
-      \ de jogos em Python com links de materiais úteis que podem aumentar o aprendizado\
-      \ para melhorar seu conhecimento.\n Você\
-      \ deseja ver esse material?\n"
+  - text: "Então, você está interessado em meus materiais... Conheço vários links\
+      \ legais sobre o desenvolvimento de jogos em python e que podem potencializar\
+      \ o seu aprendizado. Vamos ver? \n"
   utter_informacao_materiais_links:
   - text: "Esses são os materiais disponíveis no momento que\
       \ estão listados como materiais de apoio, recomendados pelos próprios\
