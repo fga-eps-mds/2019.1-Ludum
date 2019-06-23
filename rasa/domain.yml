@@ -283,43 +283,43 @@ templates:
   utter_tutorial_jedi_confirmar:
   - text: "Tudo certo Jovem Geek! Vamos começar o tutorial do jogo Snake!\nMas\
       \ antes de prosseguirmos, devo te informar as regras do jogo.\nO\
-      \ usuário tem que movimentar a snake ou cobrinha e\
+      \ usuário tem que movimentar a snake/cobrinha e\
       \ comer as joias do infinito que aparecem na tela.\nA cada\    
       \ joia, a snake cresce e o usuário deve\
       \ evitar as colisões, com o próprio corpo ou com a parede.\nO\
-      \ placar aumenta a cada vez que comer uma joia do infinito.\nPodemos\    
-      \ ir adiante?\n"      
+      \ placar aumenta a cada vez que comer uma joia do infinito.\nPodemos ir\    
+      \ adiante?\n"      
   utter_tutorial_jedi_negar:
   - text: "Certo, jovem Padawan. Vamos\
       \ para o ambiente configurar o poder\
       \ das joias do infinito\n"  
   utter_tutorial_jedi_imports:
-  - text: "Tudo pronto Jovem Geek! O primeiro passo\
+  - text: "O primeiro passo\
       \ para iniciar o jogo é criar um arquivo com o nome Snake.py ou\
       \ NomeDoArquivo.py.\nDentro desse arquivo\
       \ vamos começar fazendo os imports das bibliotecas.\nPygame\    
-      \ e Random, como na imagem abaixo.\n"
+      \ e Random, como na imagem abaixo:\n"
     image: "https://i.imgur.com/b94hNj2.png"
   utter_tutorial_jedi_imports_c:
-  - text: "Estou te aguardando jovem Padawan! Quando\
+  - text: "Estou te aguardando, jovem Padawan! Quando\
       \ estiver pronto para continuar, me avise!\n"        
   utter_tutorial_jedi_cores:
   - text: "Agora que ja temos as bibliotecas necessárias\
       \ vamos escolher as cores do jogo que nesse tutorial são:\n\
       \ Preto (BLACK)\nAzul (BLUE)\nCinza (GRAY)\nComo\
-      \ mostra a imagem abaixo.\n"
+      \ mostra a imagem abaixo:\n"
     image: "https://i.imgur.com/fd7dHgX.png"
   utter_tutorial_jedi_cores_c:
   - text: "Mas, como bom mestre da mágia, você\
       \ pode mudar as cores do jogo.\nBasta acessar o link\
       \ http://shibolete.tripod.com/RGB.html escolher a cor que deseja e\
-      \ mudar os valores referênte a cor no código.\nQuando\
+      \ mudar os valores referentes as cores no código..\nQuando\
       \ estiver pronto para continuar, me avise!\n"
   utter_tutorial_jedi_direcao:
   - text: "Nessa parte, vamos definir as direções para controlar\
       \ a nossa magia, que serão:\n\
       \ UP\nDOWN\nRIGHT\nLEFT\n\
-      \ Como mostra a imagem abaixo.\n"
+      \ Como mostra a imagem abaixo:\n"
     image: "https://i.imgur.com/75FxooH.png"   
   utter_tutorial_jedi_direcao_c:    
   - text: "Já estamos finalizando a primeira parte\
@@ -328,7 +328,7 @@ templates:
   utter_tutorial_jedi_classe_game:
   - text: "Agora, vamos iniciar o nosso jogo, usando a PyGame.\nPara isso\
       \ temos que criar a classe Class Game().\nDentro dela\
-      \ vamos iniciar o display do jogo, criar o fundo, arruma\
+      \ vamos iniciar o display do jogo, criar o fundo, arrumar\
       \ a superfície e pontos, conforme o código mostrado\
       \ no pergaminho abaixo:\n"
     image: "https://i.imgur.com/0oQigna.png"
@@ -336,9 +336,7 @@ templates:
   - text: "O usuário pode alterar o nome do jogo, para isso,\
       \ basta modificar a função\
       \ pygame.display.set_caption('NovoNome').\n\
-      \ A função self.font=pygame.font.Font(None,36). Agora\
-      \ que ja escolheu seu ID.\nQuando\
-      \ estiver pronto para continuar, me avise!\n"
+      \ Quando estiver pronto para continuar, me avise!\n"
   utter_tutorial_jedi_run:
   - text: "Ainda dentro da Class Game() vamos criar a\
       \ função def run para rodar o jogo e\
