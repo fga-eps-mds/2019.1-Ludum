@@ -191,7 +191,7 @@ templates:
       title: Tutoriais da comunidade
     text: "Muito bom, jovem Padawan!!\nVou te mostrar o tutorial de como desenvolver\
       \ e criar seu jogo em Python com diferentes dificuldades.\nQuando você perceber,\
-      \ já ser um Meistre dos jogos!\nPorém, antes de começar devo te fazer uma pergunta.\n\
+      \ já será um Meistre dos jogos!\nPorém, antes de começar devo te fazer uma pergunta.\n\
       \ Você quer começar por qual dificuldade?\n"
   utter_informacao_duvidas:
   - text: "Você pode me perguntar tudo que quiser saber sobre o desenvolvimento de\
@@ -346,26 +346,25 @@ templates:
   - text: "Como renomado Espadachim, você pode alterar os comandos\
       \ de direção. Basta ir no if ou elif da\
       \ direção escolhida e substituir com o comando que\
-      \ desejar.\nApós definir seus comandos, o\
-      \ renomado Espadachim, quando\
-      \ estiver pronto para continuar, me avise!\n"
+      \ desejar.\nApós definir seus comandos, renomado\ 
+      \ Espadachim, me avise quando estiver pronto para continuar!\n"
   utter_tutorial_jedi_movimentos:
   - text: "Ainda dentro da Class Game() vamos atualizar as\
       \ informações do jogo, conforme a imagem:\n"
     image: "https://i.imgur.com/K4tXDji.png"  
   utter_tutorial_jedi_movimentos_c:
-  - text: "Aqui atualizamos as informações e fecha a chamada\
+  - text: "Aqui atualizamos as informações e fechamos a chamada\
       \ da PyGame.\nQuando\
       \ estiver pronto para continuar, me avise!\n"
   utter_tutorial_jedi_desenhos:
   - text: "Agora vamos inspirados em Vincent van Gogh\
-      \ vamos desenhos a Snake, a comida e os pontos no display\
-      \ capturar os eventos e movimentos, conforme\
+      \ vamos desenhar a Snake, a comida e os pontos no display\
+      \ além de capturar os eventos e movimentos, conforme\
       \ indica no quadro abaixo:\n"
     image: "https://i.imgur.com/LLYrKqo.png"
   utter_tutorial_jedi_desenhos_c:
-  - text: "Após termina de pintar sua tela, com as\
-      \ cores anteriormente definidas, estamos encerrando.\
+  - text: "Após termina de pintar sua tela com as\
+      \ cores anteriormente definidas, estamos encerrando\
       \ mais uma etapa.\nQuando\
       \ estiver pronto para continuar, me avise!\n"
   utter_tutorial_jedi_snake:
