@@ -126,12 +126,13 @@ class ActionLinks(Action):
                 fimMsg += "interessante que não está aqui "
                 fimMsg += "contribua com nosso conteúdo.\n"
                 fimMsg += "Para mais informações "
-                fimMsg += "basta checar nossa área de envio de" 
+                fimMsg += "basta checar nossa área de envio de"
                 fimMsg += " materiais no menu principal!"
                 dispatcher.utter_message(fimMsg)
         except ValueError:
             dispatcher.utter_message(ValueError)
-        return []    
+        return []
+
 
 class ActionTutoriais(Action):
     def name(self):
