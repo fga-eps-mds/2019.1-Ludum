@@ -102,11 +102,10 @@ class ActionLinks(Action):
             materiais = requests.get(api)
             dictMateriais = json.loads(materiais.text)
             linkText = ''
-            aux = 0
             if(len(dictMateriais['data']) == 0):
                 linkText += ('Oooopsss...' + 'Não encontrei nenhum material')
             else:
-                for i in range(0, (len(dictMateriais['data']))): 
+                for i in range(0, (len(dictMateriais['data']))):
                     linkText += 'Material disponível: ' + str(i + 1) + '\n'
                     linkText += ('Título: ')
                     linkText += str(dictMateriais['data'][i]['title'])
@@ -119,7 +118,7 @@ class ActionLinks(Action):
                     linkText += '\n'
                     linkText += '----------------------------'
                     linkText += '\n'
-            dispatcher.utter_message(linkText)      
+            dispatcher.utter_message(linkText)
             fimMsg = "Esses são os materiais disponíveis no momento... "
             fimMsg += "Espero que contribua nos seus estudos.  =)"
             fimMsg += "\n"
