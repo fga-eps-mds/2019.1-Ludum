@@ -58,7 +58,7 @@ class ActionQuestion(FormAction):
                 stringFinal = "Esses são os links mais uteis que eu encontrei"
                 stringFinal += "\nEspero ter te ajudado!"
                 stringFinal += " Se tiver Qualquer outra duvida"
-                stringFinal += " estou aqui pra auxilia-lo!"
+                stringFinal += " estou aqui para te ajudar"
                 dispatcher.utter_message(stringFinal)
         except ValueError:
             dispatcher.utter_message(ValueError)
@@ -107,17 +107,19 @@ class ActionEscolhaTutorial(FormAction):
         except ValueError:
             dispatcher.utter_message(ValueError)
         try:
-            api = url + '/tutoriais'
+            api = url + 'tutoriais/aprovados/S'
             link = requests.get(api)
             tutoriais = json.loads(link.text)
             nPergunta = int(str(tracker.get_slot('escolha_tutorial')))
-            dispatcher.utter_message("O link da pergunta numero " + str(nPergunta) + " é" )
-            utterString = api + '/' + str(tutoriais['data'][nPergunta]['_id'])  
+            strPergunta = "O link da pergunta numero " + str(nPergunta) + " é"
+            dispatcher.utter_message(strPergunta)
+            utterString = api + '/' + str(tutoriais['data'][nPergunta]['_id'])
         except ValueError:
             utterString = "Hmmm, não encontrei esse tutorial na lista"
         dispatcher.utter_message(utterString)
         return [SlotSet('escolha_tutorial', None)]
+
     def slot_mappings(self):
-        return {    
+        return {
             "escolha_tutorial": self.from_text()
         }
