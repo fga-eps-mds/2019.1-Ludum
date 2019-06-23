@@ -453,9 +453,10 @@ templates:
       \ então criar a tela com tamanho e nome.\n"
   utter_tutorial_padawan20:
   - image: https://i.imgur.com/kZYn8Sv.png
-    text: "Agora vamos adicionar algumas linhas, para que quando a bolinha toque na\
-      \ parte superior aumente o placar em 1 ponto e quando toque na inferior sem\
-      \ ser na raquete, a pontuação volte para 0\n"
+    text: "Agora vamos adicionar algumas linhas, para que quando a bolinha\
+      \ toque na parte superior da janela aumente o placar em 1 ponto\
+      \ e quando toque na inferior sem ser na raquete,\
+      \ a pontuação volte para 0\n"
   utter_tutorial_padawan21:
   - image: https://i.imgur.com/r5ucsLd.png
     text: "Este será o resultado.\n"
@@ -468,8 +469,9 @@ templates:
     text: "Este será o resultado\n"
   utter_tutorial_padawan5:
   - image: https://i.imgur.com/IWifyTg.png
-    text: "Agora vamos fazer a raquete\n  Primeiro, vamos definir abaixo da criação\
-      \ da tela[1.1], as coordenadas da raquete com 'rect', criar a raquete e já\
+    text: "Agora vamos fazer a raquete.\nPrimeiro, vamos definir\ 
+      \ abaixo da criação da tela[1.1], as coordenadas da raquete\
+      \ com 'rect', criar a raquete e já\
       \ definir que ela não pode sair da tela.\n"
   utter_tutorial_padawan6:
   - image: https://i.imgur.com/uZJI4aS.png
