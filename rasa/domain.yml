@@ -369,8 +369,8 @@ templates:
       \ estiver pronto para continuar, me avise!\n"
   utter_tutorial_jedi_snake:
   - text: "Estamos iniciando mais uma etapa. Agora, vamos criar a\
-      \ Class Snake e dar inicio a nossa Snake.\n\
-      \ capturar os eventos e movimentos, conforme\
+      \ Class Snake e dar início a nossa Snake por meio da\n\
+      \ captura de eventos e movimentos, conforme\
       \ indica no quadro abaixo:\n"
     image: "https://i.imgur.com/ySJs0tA.png"  
   utter_tutorial_jedi_snake_c:
@@ -387,9 +387,9 @@ templates:
   - text: "Estamos quase no final. Quando\
       \ estiver pronto para continuar, me avise!\n" 
   utter_tutorial_jedi_comida:
-  - text: "Nessa parte, jovem Padawan, usa a biblioteca RANDOM para\
-      \ fazer a joias do infinito aparecer em lugares aleatórios.\n\
-      \ Seguindo os códigos que vejos no infinito:\n"
+  - text: "Nessa parte, jovem Padawan, usaremos a biblioteca RANDOM para\
+      \ fazer a joias do infinito aparecerem em lugares aleatórios.\n\
+      \ Seguindo os códigos mostrados abaixo:\n"
     image: "https://i.imgur.com/zJAf1BU.png"
   utter_tutorial_jedi_comida_c:
   - text: "Estamos finalizando mais uma etapa, gostaria de\
@@ -398,9 +398,9 @@ templates:
       \ estiver pronto para continuar, me avise!\n"
   utter_tutorial_jedi_main:
   - text: "Nessa parte, jovem Padawan, usa o IF e\
-      \ dentro dele definimos o tamanho do display, e a\
-      \ velocidade da snake que pode ser alterada.\nPosteriormente\
-      \ basta modificar o ultimo dos três\n\
+      \ dentro dele definiremos o tamanho do display e a\
+      \ velocidade da snake que, inclusive, pode ser alterada\
+      \ modificando o último dos três\n\
       \ valores dentro do Game(440,510,10).run()\n"
     image: "https://i.imgur.com/torhoBI.png"
   utter_tutorial_jedi_main_c:
@@ -443,13 +443,14 @@ templates:
     text: "Agora vamos fechar a biblioteca no final do programa.\n"
   utter_tutorial_padawan19:
   - image: https://i.imgur.com/yrwir1A.png
-    text: "Vamos adicionar agora o placar\nInicialmente, vamos criar inicializar\
-      \ os pontos para o placar.\n"
+    text: "Feito isso, podemos adicionar o placar\nInicialmente, vamos criar\
+      \ uma variável para os pontos do placar e\
+      \ inicializá-la com o valor 0.\n"
   utter_tutorial_padawan2:
   - image: https://i.imgur.com/A33MvbG.png
-    text: "Primeiramente iremos criar a tela de fundo\n  Neste código abaixo, estamos\
-      \ primeiramente importando a pygame, definindo as cores, para então criar a\
-      \ tela com tamanho e nome ()img.\n"
+    text: "Primeiramente iremos criar a tela de fundo.\nA primeira tarefa\
+      \ que devemos fazer é importar a pygame e definir as cores, para\
+      \ então criar a tela com tamanho e nome.\n"
   utter_tutorial_padawan20:
   - image: https://i.imgur.com/kZYn8Sv.png
     text: "Agora vamos adicionar algumas linhas, para que quando a bolinha toque na\
@@ -478,8 +479,8 @@ templates:
     text: "Este será o resultado.\n"
   utter_tutorial_padawan8:
   - image: https://i.imgur.com/7wDKcKE.png
-    text: "Vamos criar a bola\n  Primeiramente, vamos criar coordenadas iniciais quaisquer\
-      \ para a bolinha.\n"
+    text: "Vamos criar a bola...\nO primeiro passo que devemos realizar\
+      \ é criar coordenadas iniciais quaisquer para a bolinha\n"
   utter_tutorial_padawan9:
   - image: https://i.imgur.com/AqueabZ.png
     text: "Agora, vamos desenhar a bolinha na tela.\n"
