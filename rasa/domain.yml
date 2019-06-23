@@ -152,7 +152,8 @@ templates:
       \ que ajude outros usuários em seus estudos e gostaria que eu compartilhasse para todo mundo,\
       \ basta cadastrar esse link em nossos materiais\n"
   utter_contribuicao3:
-  - text: "Se você descobriu algum aspecto interessante acerca da Pygame ou se você desenvolveu um jogo e gostaria de ensinar,\
+  - text: "Se você descobriu algum aspecto interessante acerca da Pygame ou\
+      \ se você desenvolveu um jogo e gostaria de ensinar,\
       \ sua ajuda é muito bem-vinda.\n"
   utter_contribuicao4:
   - text: "Mas não se preocupe, todo material que você me enviar passará por uma avaliação do supremo conselho Jedi antes de ser publicado\n"
