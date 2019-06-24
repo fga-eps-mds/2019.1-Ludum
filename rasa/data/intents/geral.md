@@ -31,6 +31,60 @@
 - continuar
 - Continuar
 - Sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
 
 ## intent:contribuicao
 - contribuir
@@ -78,6 +132,22 @@
 - Tenho uma pergunta
 - Tenho uma duvida
 - Duvida
+- Duvida
+- Duvida
+- Duvida
+- Duvida
+- Duvida
+- Duvida
+- Duvida
+- duvida
+- duvida
+- duvida
+- duvida
+- duvida
+- duvida
+- duvida
+- duvida
+- duvida
 - voce pode me tirar uma duvida?
 
 ## intent:cumprimentar
@@ -116,6 +186,18 @@
 ## intent:faq
 - FAQ
 - faq
+- faq
+- faq
+- faq
+- faq
+- faq
+- faq
+- faq
+- faq
+- faq
+- faq
+- faq
+- faq
 - me mande o faq
 - você possui um faq?
 
@@ -153,7 +235,14 @@
 - o que preciso para começar
 - configurar ambiente
 - ambiente
+- ambiente
+- ambiente
+- ambiente
+- ambiente
 - como configurar o meu ambiente?
+- como configurar o ambiente
+- como configurar o ambiente
+- como configurar o ambiente
 - como configurar o ambiente
 
 ## intent:informacao_desenvolvimento
@@ -277,8 +366,8 @@
 - Padawan
 - padawan
 - PONG
-
-
+- Fácil 
+- fácil 
 
 ## intent:informacao_duvidas
 - Como voce pode responder uma duvida?
@@ -323,7 +412,45 @@
 - sair 
 - Sair
 - nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
 - não
+- não
+- não
+- não
+- não
+- não
+- não
+- não
+- não
+- Não
+- Não
+- Não
+- Não
+- Não
+- Não
+- Não
+- Não
+- Não
+- Não
+- Nao
+- Nao
+- Nao
+- Nao
+- Nao
+- Nao
+- Nao
+- Nao
+
 
 ## intent:out_of_scope
 - Qual a origem do mundo?

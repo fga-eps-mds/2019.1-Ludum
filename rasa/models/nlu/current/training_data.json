@@ -2,6 +2,142 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
+        "intent": "time",
+        "text": "qual o melhor time do brasil"
+      },
+      {
+        "intent": "time",
+        "text": "para qual time você torce?"
+      },
+      {
+        "intent": "time",
+        "text": "que time vc torce?"
+      },
+      {
+        "intent": "time",
+        "text": "quem vai ser o campeao brasileiro nesse ano"
+      },
+      {
+        "intent": "star_wars",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "mestre yoda",
+            "entity": "starwars"
+          }
+        ],
+        "text": "mestre yoda"
+      },
+      {
+        "intent": "star_wars",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "starwars",
+            "entity": "starwars"
+          }
+        ],
+        "text": "citação de starwars"
+      },
+      {
+        "intent": "star_wars",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "yoda",
+            "entity": "starwars"
+          }
+        ],
+        "text": "cite yoda"
+      },
+      {
+        "intent": "star_wars",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "star wars",
+            "entity": "starwars"
+          }
+        ],
+        "text": "star wars"
+      },
+      {
+        "intent": "star_wars",
+        "text": "[yoda] (starwars)"
+      },
+      {
+        "intent": "star_wars",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "yoda",
+            "entity": "starwars"
+          }
+        ],
+        "text": "concelhos do yoda"
+      },
+      {
+        "intent": "star_wars",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "guerra nas estrelas",
+            "entity": "starwars"
+          }
+        ],
+        "text": "guerra nas estrelas"
+      },
+      {
+        "intent": "action_test",
+        "text": "test custom action"
+      },
+      {
+        "intent": "action_test",
+        "text": "custom action"
+      },
+      {
+        "intent": "action_test",
+        "text": "actions"
+      },
+      {
+        "intent": "action_test",
+        "text": "custom actions"
+      },
+      {
+        "intent": "action_test",
+        "text": "action"
+      },
+      {
+        "intent": "action_test",
+        "text": "test action"
+      },
+      {
+        "intent": "action_question",
+        "text": "Quero fazer uma pergunta ao Stack Overflow"
+      },
+      {
+        "intent": "action_question",
+        "text": "Stack Overflow"
+      },
+      {
+        "intent": "action_question",
+        "text": "stack overflow"
+      },
+      {
+        "intent": "action_question",
+        "text": "stack"
+      },
+      {
+        "intent": "action_question",
+        "text": "overflow"
+      },
+      {
         "intent": "action_question",
         "entities": [
           {
@@ -196,6 +332,26 @@
       {
         "intent": "action_question",
         "text": "pesquisar no stack overflow"
+      },
+      {
+        "intent": "action_links",
+        "text": "me recomenda um link"
+      },
+      {
+        "intent": "action_links",
+        "text": "me recomenda um material"
+      },
+      {
+        "intent": "action_links",
+        "text": "me recomenda links e materiais"
+      },
+      {
+        "intent": "action_links",
+        "text": "me recomenda materiais e links"
+      },
+      {
+        "intent": "action_links",
+        "text": "recomenda materiais e links"
       },
       {
         "intent": "confirmar",
@@ -451,10 +607,6 @@
       },
       {
         "intent": "contribuicao",
-        "text": "contribuir"
-      },
-      {
-        "intent": "contribuicao",
         "text": "como contribuir"
       },
       {
@@ -464,6 +616,134 @@
       {
         "intent": "contribuicao",
         "text": "como contribuir para o repositorio"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como posso contribuir"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como faço para contribuir"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como faço pra contribuir"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como faço contribuir"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como faco para contribuir"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como faco pra contribuir"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como faco contribuir"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "contribuindo para o projeto"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como posso constribuir com o projeto"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "contribuição"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "contribuicão"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "contribuicao"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "quero contribuir"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como posso ajudar"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como ajudar"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "quero ajudar"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como contribuir?"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "o que preciso para contribuir?"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como contribuir para o repositorio?"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como contribuir?"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "o que preciso para contribuir?"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como contribuir para o repositorio?"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como posso contribuir?"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como faço para contribuir?"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como faço pra contribuir?"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como faço contribuir?"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como faco para contribuir?"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como faco pra contribuir?"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como faco contribuir?"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como posso constribuir com o projeto?"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como posso ajudar?"
+      },
+      {
+        "intent": "contribuicao",
+        "text": "como ajudar?"
       },
       {
         "intent": "informacao",
@@ -476,6 +756,70 @@
       {
         "intent": "informacao",
         "text": "Duvida"
+      },
+      {
+        "intent": "informacao",
+        "text": "Duvida"
+      },
+      {
+        "intent": "informacao",
+        "text": "Duvida"
+      },
+      {
+        "intent": "informacao",
+        "text": "Duvida"
+      },
+      {
+        "intent": "informacao",
+        "text": "Duvida"
+      },
+      {
+        "intent": "informacao",
+        "text": "Duvida"
+      },
+      {
+        "intent": "informacao",
+        "text": "Duvida"
+      },
+      {
+        "intent": "informacao",
+        "text": "Duvida"
+      },
+      {
+        "intent": "informacao",
+        "text": "duvida"
+      },
+      {
+        "intent": "informacao",
+        "text": "duvida"
+      },
+      {
+        "intent": "informacao",
+        "text": "duvida"
+      },
+      {
+        "intent": "informacao",
+        "text": "duvida"
+      },
+      {
+        "intent": "informacao",
+        "text": "duvida"
+      },
+      {
+        "intent": "informacao",
+        "text": "duvida"
+      },
+      {
+        "intent": "informacao",
+        "text": "duvida"
+      },
+      {
+        "intent": "informacao",
+        "text": "duvida"
+      },
+      {
+        "intent": "informacao",
+        "text": "duvida"
       },
       {
         "intent": "informacao",
@@ -516,10 +860,6 @@
       {
         "intent": "cumprimentar",
         "text": "ola boa tarde"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "ola"
       },
       {
         "intent": "cumprimentar",
@@ -635,11 +975,31 @@
       },
       {
         "intent": "faq",
-        "text": "me mande o faq"
+        "text": "faq"
       },
       {
         "intent": "faq",
-        "text": "você possui um faq?"
+        "text": "faq"
+      },
+      {
+        "intent": "faq",
+        "text": "faq"
+      },
+      {
+        "intent": "faq",
+        "text": "faq"
+      },
+      {
+        "intent": "faq",
+        "text": "faq"
+      },
+      {
+        "intent": "faq",
+        "text": "faq"
+      },
+      {
+        "intent": "faq",
+        "text": "me mande o faq"
       },
       {
         "intent": "faq",
@@ -1099,10 +1459,6 @@
       },
       {
         "intent": "prosseguir",
-        "text": "confirmar"
-      },
-      {
-        "intent": "prosseguir",
         "text": "continua"
       },
       {
@@ -1204,6 +1560,62 @@
       {
         "intent": "tutorial_facil",
         "text": "facil"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "Pong"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "pong"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "tutorial facil"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "TutorialFacil"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "TutorialFACIL"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "Tutorial facil"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "Tutorial fácil"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "Tutorialfacil"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "Tutorialfácil"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "Padawan"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "padawan"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "PONG"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "Fácil"
+      },
+      {
+        "intent": "tutorial_facil",
+        "text": "fácil"
       },
       {
         "intent": "informacao_duvidas",
@@ -1351,158 +1763,6 @@
       },
       {
         "intent": "negar",
-        "text": "não"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
         "text": "nao"
       },
       {
@@ -1560,6 +1820,98 @@
       {
         "intent": "negar",
         "text": "não"
+      },
+      {
+        "intent": "negar",
+        "text": "não"
+      },
+      {
+        "intent": "negar",
+        "text": "não"
+      },
+      {
+        "intent": "negar",
+        "text": "não"
+      },
+      {
+        "intent": "negar",
+        "text": "não"
+      },
+      {
+        "intent": "negar",
+        "text": "não"
+      },
+      {
+        "intent": "negar",
+        "text": "Não"
+      },
+      {
+        "intent": "negar",
+        "text": "Não"
+      },
+      {
+        "intent": "negar",
+        "text": "Não"
+      },
+      {
+        "intent": "negar",
+        "text": "Não"
+      },
+      {
+        "intent": "negar",
+        "text": "Não"
+      },
+      {
+        "intent": "negar",
+        "text": "Não"
+      },
+      {
+        "intent": "negar",
+        "text": "Não"
+      },
+      {
+        "intent": "negar",
+        "text": "Não"
+      },
+      {
+        "intent": "negar",
+        "text": "Não"
+      },
+      {
+        "intent": "negar",
+        "text": "Não"
+      },
+      {
+        "intent": "negar",
+        "text": "Nao"
+      },
+      {
+        "intent": "negar",
+        "text": "Nao"
+      },
+      {
+        "intent": "negar",
+        "text": "Nao"
+      },
+      {
+        "intent": "negar",
+        "text": "Nao"
+      },
+      {
+        "intent": "negar",
+        "text": "Nao"
+      },
+      {
+        "intent": "negar",
+        "text": "Nao"
+      },
+      {
+        "intent": "negar",
+        "text": "Nao"
+      },
+      {
+        "intent": "negar",
+        "text": "Nao"
       },
       {
         "intent": "out_of_scope",
@@ -1616,142 +1968,6 @@
       {
         "intent": "tudo_bem",
         "text": "como vc ta"
-      },
-      {
-        "intent": "time",
-        "text": "qual o melhor time do brasil"
-      },
-      {
-        "intent": "time",
-        "text": "para qual time você torce?"
-      },
-      {
-        "intent": "time",
-        "text": "que time vc torce?"
-      },
-      {
-        "intent": "time",
-        "text": "quem vai ser o campeao brasileiro nesse ano"
-      },
-      {
-        "intent": "star_wars",
-        "entities": [
-          {
-            "start": 0,
-            "end": 11,
-            "value": "mestre yoda",
-            "entity": "starwars"
-          }
-        ],
-        "text": "mestre yoda"
-      },
-      {
-        "intent": "star_wars",
-        "entities": [
-          {
-            "start": 11,
-            "end": 19,
-            "value": "starwars",
-            "entity": "starwars"
-          }
-        ],
-        "text": "citação de starwars"
-      },
-      {
-        "intent": "star_wars",
-        "entities": [
-          {
-            "start": 5,
-            "end": 9,
-            "value": "yoda",
-            "entity": "starwars"
-          }
-        ],
-        "text": "cite yoda"
-      },
-      {
-        "intent": "star_wars",
-        "entities": [
-          {
-            "start": 0,
-            "end": 9,
-            "value": "star wars",
-            "entity": "starwars"
-          }
-        ],
-        "text": "star wars"
-      },
-      {
-        "intent": "star_wars",
-        "text": "[yoda] (starwars)"
-      },
-      {
-        "intent": "star_wars",
-        "entities": [
-          {
-            "start": 13,
-            "end": 17,
-            "value": "yoda",
-            "entity": "starwars"
-          }
-        ],
-        "text": "concelhos do yoda"
-      },
-      {
-        "intent": "star_wars",
-        "entities": [
-          {
-            "start": 0,
-            "end": 19,
-            "value": "guerra nas estrelas",
-            "entity": "starwars"
-          }
-        ],
-        "text": "guerra nas estrelas"
-      },
-      {
-        "intent": "action_test",
-        "text": "test custom action"
-      },
-      {
-        "intent": "action_test",
-        "text": "custom action"
-      },
-      {
-        "intent": "action_test",
-        "text": "actions"
-      },
-      {
-        "intent": "action_test",
-        "text": "custom actions"
-      },
-      {
-        "intent": "action_test",
-        "text": "action"
-      },
-      {
-        "intent": "action_test",
-        "text": "test action"
-      },
-      {
-        "intent": "action_question",
-        "text": "Quero fazer uma pergunta ao Stack Overflow"
-      },
-      {
-        "intent": "action_question",
-        "text": "Stack Overflow"
-      },
-      {
-        "intent": "action_question",
-        "text": "stack overflow"
-      },
-      {
-        "intent": "action_question",
-        "text": "stack"
-      },
-      {
-        "intent": "action_question",
-        "text": "overflow"
       }
     ],
     "regex_features": [],
