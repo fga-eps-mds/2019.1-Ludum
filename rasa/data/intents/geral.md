@@ -17,12 +17,74 @@
 - perguntar ao stack overflow [for em python](pergunta)
 - pesquisar no stack overflow
 
+##intent:action_links
+- me recomenda um link 
+- me recomenda um material
+- me recomenda links e materiais
+- me recomenda materiais e links
+- recomenda materiais e links
+
+
 ## intent:confirmar
 - sim
 - claro
 - continuar
 - Continuar
 - Sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
 
 ## intent:contribuicao
 - contribuir
@@ -70,6 +132,22 @@
 - Tenho uma pergunta
 - Tenho uma duvida
 - Duvida
+- Duvida
+- Duvida
+- Duvida
+- Duvida
+- Duvida
+- Duvida
+- Duvida
+- duvida
+- duvida
+- duvida
+- duvida
+- duvida
+- duvida
+- duvida
+- duvida
+- duvida
 - voce pode me tirar uma duvida?
 
 ## intent:cumprimentar
@@ -108,6 +186,18 @@
 ## intent:faq
 - FAQ
 - faq
+- faq
+- faq
+- faq
+- faq
+- faq
+- faq
+- faq
+- faq
+- faq
+- faq
+- faq
+- faq
 - me mande o faq
 - você possui um faq?
 
@@ -117,6 +207,26 @@
 - Duvida
 - voce pode me tirar uma duvida?
 
+## intent:comunidade
+- comunidade
+- Comunidade
+- comunidade 
+- Comunidade
+- Comunidade 
+- Comunidade 
+- comunidade 
+- comunidade 
+- comunidade
+- Comunidade
+- Comunidade 
+- Comunidade 
+- Comunidade 
+- Comunidade 
+- Comunidade 
+- Comunidade 
+- Comunidade 
+- Comunidade 
+
 ## intent:informacao_ambiente
 - ambiente
 - como voce pode me ajudar a configurar o ambiente
@@ -125,10 +235,26 @@
 - o que preciso para começar
 - configurar ambiente
 - ambiente
+- ambiente
+- ambiente
+- ambiente
+- ambiente
 - como configurar o meu ambiente?
+- como configurar o ambiente
+- como configurar o ambiente
+- como configurar o ambiente
 - como configurar o ambiente
 
 ## intent:informacao_desenvolvimento
+- tutorial
+- tutorial
+- Tutorial
+- Tutorial
+- Tutorial
+- tutorial
+- tutorial
+- tutorial
+- tutorial
 - tutorial
 - tutorial jogos
 - tutorial jogo
@@ -199,7 +325,6 @@
 - ir adiante
 - ir além
 - ir para o próximo
-- confirmar
 - continua
 - ok
 - estou pronto
@@ -207,9 +332,40 @@
 - podemos
 - podemos prosseguir
 
+
 ## intent:tutorial_facil
 - Facil
 - facil
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- facil 
+- facil 
+- Pong
+- pong
+- tutorial facil
+- TutorialFacil
+- TutorialFACIL
+- Tutorial facil
+- Tutorial fácil
+- Tutorialfacil
+- Tutorialfácil
+- Padawan
+- padawan
+- PONG
 - Fácil 
 - fácil 
 
@@ -246,12 +402,6 @@
 - Me ensina algo
 
 ## intent:nao_implementada
-- facil
-- Facil
-- dificil
-- Dificil
-- difícil
-- Difícil
 - videos
 - videos-explicativos
 - textos
@@ -262,7 +412,45 @@
 - sair 
 - Sair
 - nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
 - não
+- não
+- não
+- não
+- não
+- não
+- não
+- não
+- não
+- Não
+- Não
+- Não
+- Não
+- Não
+- Não
+- Não
+- Não
+- Não
+- Não
+- Nao
+- Nao
+- Nao
+- Nao
+- Nao
+- Nao
+- Nao
+- Nao
+
 
 ## intent:out_of_scope
 - Qual a origem do mundo?

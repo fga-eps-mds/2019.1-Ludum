@@ -29,7 +29,9 @@ actions:
 - utter_implementacao
 - action_faq
 - utter_faq
+- action_tutoriais
 - action_test
+- action_link
 - utter_tutorial_padawan8
 - utter_confirmar_ambiente3
 - utter_negar_ambiente3
@@ -94,6 +96,10 @@ actions:
 - utter_ambiente_adicional
 - utter_ambiente_adicional2
 - utter_ambiente_adicional3
+- utter_informacao_materiais_links
+- utter_informacao_materiais_links2 
+- utter_informacao_materiais_links3
+- utter_tutorial_padawan_negar
 - utter_menu
 entities:
 - starwars
@@ -108,6 +114,7 @@ intents:
 - cumprimentar
 - tutorial_facil
 - action_question
+- action_links
 - negar
 - nao_implementada
 - informacao_ambiente
@@ -121,6 +128,7 @@ intents:
 - contribuicao
 - tutorial_medio
 - prosseguir
+- comunidade
 slots:
   pergunta:
     type: unfeaturized
@@ -203,7 +211,7 @@ templates:
   utter_informacao_desenvolvimento:
   - buttons:
     - payload: Facil
-      title: Padawan - Pong(Iniciante)
+      title: Padawan - Pong (Iniciante)
     - payload: Medio
       title: Jedi - Snake (Intermediário)
     - payload: Comunidade
@@ -223,11 +231,17 @@ templates:
   - text: "Oque deseja saber, jovem padawan? Se eu não souber a resposta posso pesquisar\
       \ pra você.  \n"
   utter_informacao_materiais:
-  - text: "Olá, jovem Padawan! :D\nVou te mostrar tudo que sei sobre desenvolvimento\
-      \ de jogos em Python com links de materiais úteis que podem melhorar seu conhecimento\
-      \ para te ajudar a se tornar um verdadeiro Mestre na criação de jogos com PyGame.\n\
-      Mas antes, jovem padawan, devo te fazer uma pergunta: Você prefere videos explicativos\
-      \ ou textos?\n"
+  - text: "Então, você está interessado em meus materiais... Conheço vários links\
+      \ legais sobre o desenvolvimento de jogos em python e que podem potencializar\
+      \ o seu aprendizado. Vamos ver? \n"
+  utter_informacao_materiais_links:
+  - text: "Esses são os materiais disponíveis no momento que\
+      \ estão listados como materiais de apoio, recomendados pelos próprios\
+      \ usuários, mas que podem te ajudar também!\n"
+  utter_informacao_materiais_links2:
+  - text: "Podemos retornar ao menu principal?\n"  
+  utter_informacao_materiais_links3:
+  - text: "Quando estiver pronto para retornar ao menu é só me avisar!\n"         
   utter_negar_ambiente1:
   - text: "Para realizarmos nossos tutoriais você precisará do Python 3.6, mas sem\
       \ problema, para instalá-lo basta acessar este site https://www.python.org/downloads/\
@@ -242,12 +256,13 @@ templates:
       \ link https://www.pygame.org/wiki/GettingStarted e siga as instruções\nJá podemos\
       \ seguir para o próximo passo ?\n"
   utter_padawan_c:
-  - text: "Podemos ir adiante ou voce deseja sair?\n"
+  - text: "Quando estiver pronto para continuar, me avise!\n"
   utter_padawan_c2:
-  - text: "Já estamos finalizando a primeira parte do tutorial Pong.\nPodemos  dar\
-      \ mais um passo para se tornar um meistres na criação de jogos?\n"
+  - text: "Já estamos finalizando a primeira parte do tutorial Pong.\nQuando\
+      \ estiver pronto para continuar, me avise!\n"
   utter_padawan_c3:
-  - text: "Estamos quase encerrando mais uma etapa.\nDeseja ir além?\n"
+  - text: "Estamos quase encerrando mais uma etapa.\nQuando\
+      \ estiver pronto para continuar, me avise!\n"
   utter_perguntar_ambiente2:
   - text: "Você possui algum editor de texto de sua preferência instalado?\n"
   utter_perguntar_ambiente3:
@@ -297,7 +312,7 @@ templates:
       \ usuário tem que movimentar a snake ou cobrinha e\
       \ comer as joias do infinito que aparecem na tela.\nA cada\    
       \ joia, a snake cresce e o usuário deve\
-      \ evitar as colisões com o próprio corpo ou com a parede.\nO\
+      \ evitar as colisões, com o próprio corpo ou com a parede.\nO\
       \ placar aumenta a cada vez que comer uma joia do infinito.\nPodemos\    
       \ ir adiante?\n"      
   utter_tutorial_jedi_negar:
@@ -306,7 +321,7 @@ templates:
       \ das joias do infinito\n"  
   utter_tutorial_jedi_imports:
   - text: "Tudo pronto Jovem Geek! O primeiro passo\
-      \ para iniciar o jogo é criar um arquivo com o nome `snake.py` ou\
+      \ para iniciar o jogo é criar um arquivo com o nome Snake.py ou\
       \ NomeDoArquivo.py.\nDentro desse arquivo\
       \ vamos começar fazendo os imports das bibliotecas.\nPygame\    
       \ e Random, como na imagem abaixo.\n"
@@ -394,7 +409,7 @@ templates:
       \ no ano de 1997 e teve grande sucesso.\nQuando\
       \ estiver pronto para continuar, me avise!\n"
   utter_tutorial_jedi_colisao:
-  - text: "Agora que ja temos a Snake, vamos adicionar\
+  - text: "Agora que já temos a Snake, vamos adicionar\
       \ colisões ao jogo de acordo com os movimentos. Conforme\n\
       \ indica a imagem a seguir:\n"
     image: "https://i.imgur.com/YMqdCyl.png"   
@@ -413,9 +428,9 @@ templates:
       \ estiver pronto para continuar, me avise!\n"
   utter_tutorial_jedi_main:
   - text: "Nessa parte, jovem Padawan, usa o IF e\
-      \ dentro dele definimos o tamanho do display e a\
-      \ velocidade da snake que pode ser alterada\
-      \ posteriormente, basta modificar o ultimo dos três\n\
+      \ dentro dele definimos o tamanho do display, e a\
+      \ velocidade da snake que pode ser alterada.\nPosteriormente\
+      \ basta modificar o ultimo dos três\n\
       \ valores dentro do Game(440,510,10).run()\n"
     image: "https://i.imgur.com/torhoBI.png"
   utter_tutorial_jedi_main_c:
@@ -429,80 +444,80 @@ templates:
     text: "Este será o resultado\n"
   utter_tutorial_padawan11:
   - image: https://i.imgur.com/jCI0hqJ.png
-    text: "Vamos adicionar movimento à raquete\n  Começamos adicionando as coordenadas\
-      \ que alteraremos para movimentar a raquete\n"
+    text: "Vamos adicionar movimento à raquete.\nComeçamos adicionando as coordenadas\
+      \ que alteraremos para movimentar a raquete.\n"
   utter_tutorial_padawan12:
   - image: https://i.imgur.com/mavaxUr.png
     text: "Agora vamos adicionar movimento à raquete, fazendo com que as setas para\
-      \ direita e esquerda controlem a raquete\n"
+      \ direita e esquerda controlem a raquete.\n"
   utter_tutorial_padawan13:
   - image: https://i.imgur.com/L26qiqT.png
-    text: "Este será o resultado\n"
+    text: "Este será o resultado.\n"
   utter_tutorial_padawan14:
   - image: https://i.imgur.com/63G0w76.png
     text: "Começaremos adicionando as coordenadas\
-      \ que usaremos para dar movimento à bolinha\n"
+      \ que usaremos para dar movimento à bolinha.\n"
   utter_tutorial_padawan15:
   - image: https://i.imgur.com/A1FaEMk.png
     text: "Agora iremos mudar as coordenadas da bolinha para dar movimento a ela,\
-      \ já estabelecendo os limites da tela\n"
+      \ já estabelecendo os limites da tela.\n"
   utter_tutorial_padawan16:
   - image: https://i.imgur.com/dK7Elao.png
-    text: "Este será o resultado\n"
+    text: "Este será o resultado.\n"
   utter_tutorial_padawan17:
   - image: https://i.imgur.com/blpP9nU.png
-    text: "Agora adicionaremos a biblioteca pygame para evitar erros no próximo passo\n\
-      \  Primeiro vamos inicializar a biblioteca no começo do programa\n"
+    text: "Agora adicionaremos a biblioteca pygame para evitar erros no próximo passo.\nPrimeiro\
+      \ vamos inicializar a biblioteca no começo do programa\n"
   utter_tutorial_padawan18:
   - image: https://i.imgur.com/uhrcVFP.png
-    text: "Agora vamos fechar a biblioteca no final do programa\n"
+    text: "Agora vamos fechar a biblioteca no final do programa.\n"
   utter_tutorial_padawan19:
   - image: https://i.imgur.com/yrwir1A.png
-    text: "Vamos adicionar agora o placar\n  Inicialmente, vamos criar inicializar\
-      \ os pontos para o placar\n"
+    text: "Vamos adicionar agora o placar\nInicialmente, vamos criar inicializar\
+      \ os pontos para o placar.\n"
   utter_tutorial_padawan2:
   - image: https://i.imgur.com/A33MvbG.png
     text: "Primeiramente iremos criar a tela de fundo\n  Neste código abaixo, estamos\
       \ primeiramente importando a pygame, definindo as cores, para então criar a\
-      \ tela com tamanho e nome ()img\n"
+      \ tela com tamanho e nome ()img.\n"
   utter_tutorial_padawan20:
   - image: https://i.imgur.com/kZYn8Sv.png
     text: "Agora vamos adicionar algumas linhas, para que quando a bolinha toque na\
-      \ parte superior   aumente o placar em 1 ponto e quando toque na inferior sem\
-      \ ser na raquete,  a pontuação volte para 0\n"
+      \ parte superior aumente o placar em 1 ponto e quando toque na inferior sem\
+      \ ser na raquete, a pontuação volte para 0\n"
   utter_tutorial_padawan21:
   - image: https://i.imgur.com/r5ucsLd.png
-    text: "Este será o resultado\n"
+    text: "Este será o resultado.\n"
   utter_tutorial_padawan3:
   - image: https://i.imgur.com/Wx40T7D.png
     text: "Após isso, definimos que a tela só possa ser fechada, se o jogador fechar\
-      \ o programa\n"
+      \ o programa.\n"
   utter_tutorial_padawan4:
   - image: https://i.imgur.com/KES2JeF.png
     text: "Este será o resultado\n"
   utter_tutorial_padawan5:
   - image: https://i.imgur.com/IWifyTg.png
     text: "Agora vamos fazer a raquete\n  Primeiro, vamos definir abaixo da criação\
-      \ da tela[1.1], as coordenadas da raquete com 'rect',  criar a raquete e já\
-      \ definir que ela não pode sair da tela\n"
+      \ da tela[1.1], as coordenadas da raquete com 'rect', criar a raquete e já\
+      \ definir que ela não pode sair da tela.\n"
   utter_tutorial_padawan6:
   - image: https://i.imgur.com/uZJI4aS.png
-    text: "Então mostraremos a raquete na tela\n"
+    text: "Então mostraremos a raquete na tela.\n"
   utter_tutorial_padawan7:
   - image: https://i.imgur.com/ycpF69N.png
-    text: "Este será o resultado\n"
+    text: "Este será o resultado.\n"
   utter_tutorial_padawan8:
   - image: https://i.imgur.com/7wDKcKE.png
     text: "Vamos criar a bola\n  Primeiramente, vamos criar coordenadas iniciais quaisquer\
-      \ para a bolinha\n"
+      \ para a bolinha.\n"
   utter_tutorial_padawan9:
   - image: https://i.imgur.com/AqueabZ.png
-    text: "Agora, vamos desenhar a bolinha na tela\n"
+    text: "Agora, vamos desenhar a bolinha na tela.\n"
   utter_confirmacao:
   - text: "Meu futuro meister dos jogos, assim como um Jedi precisa de sua espada para lutar você
      \ precisa do seu ambiente configurado para continuar. Esta tudo certo por ai?\n"
   utter_padawan_c4:
-  - text: "Tudo bem por ai? Podemos continuar?\n"
+  - text: "Quando estiver pronto para continuar, me avise!\n"
   utter_tutorial_padawan22:
   - text: "Pronto! Acabamos de fazer nosso primeiro joguinho com a Pygame, parabéns!\n" 
   utter_ambiente_adicional: 
@@ -511,3 +526,7 @@ templates:
   - text: "Ambiente configurado! Tudo pronto para mergulhamos na saga do infinito! Prepare-se :) \n"
   utter_ambiente_adicional3:
   - text: "Tudo certo? Podemos continuar?\n"
+  utter_tutorial_padawan_negar:
+  - text: "Certo, jovem Padawan. Vamos\
+      \ para o ambiente configurar o poder\
+      \ das joias do infinito\n"     
