@@ -257,8 +257,7 @@ templates:
       \ é tudo de graça!\n"
   utter_negar_ambiente3:
   - text: "Para instalar a biblioteca PyGame, que será essencial para nós, entre no\
-      \ link https://www.pygame.org/wiki/GettingStarted e siga as instruções\nJá podemos\
-      \ seguir para o próximo passo ?\n"
+      \ link https://www.pygame.org/wiki/GettingStarted e siga as instruções apresentadas\n"
   utter_padawan_c:
   - text: "Quando estiver pronto para continuar, me avise!\n"
   utter_padawan_c2:
@@ -273,7 +272,8 @@ templates:
   - text: "Para fazermos nossos belissimos jogos precisaremos da biblioteca Pygame.\
       \ Você já tem ela instalada?\n"
   utter_proximopasso1:
-  - text: "Caso tenha dificuldades na instalação, sugerimos que você acesse este link\
+  - text: "Caso ainda tenha dificuldades na instalação meu caro padawan,\
+      \ sugerimos que você acesse este link\
       \ https://wiki.python.org/moin/BeginnersGuide/Download\n"
   utter_proximopasso2:
   - text: "Caso tenha dificuldades na instalação, sugerimos que você assista esse\

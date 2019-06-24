@@ -17,7 +17,7 @@
 - perguntar ao stack overflow [for em python](pergunta)
 - pesquisar no stack overflow
 
-##intent:action_links
+## intent:action_link
 - me recomenda um link 
 - me recomenda um material
 - me recomenda links e materiais
@@ -455,9 +455,6 @@
 - /start
 - /start
 - /start
-
-## intent:stop
-- /stop
 
 ## intent:tudo_bem
 - Tudo bem

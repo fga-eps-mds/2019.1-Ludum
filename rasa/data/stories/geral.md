@@ -1039,7 +1039,7 @@
 * confirmar
     - utter_complementos3
     - utter_ambiente_adicional2
-    - utter_cumprimentar
+    - utter_menu
 
 ## tutorial ambiente 2
 * informacao_ambiente
@@ -1055,7 +1055,7 @@
     - utter_ambiente_adicional
 * negar
     - utter_ambiente_adicional2
-    - utter_cumprimentar
+    - utter_menu
 
 ## tutorial ambiente 3
 * informacao_ambiente
@@ -1074,7 +1074,7 @@
     - utter_ambiente_adicional
 * negar
     - utter_ambiente_adicional2
-    - utter_cumprimentar
+    - utter_menu
 
 ## tutorial ambiente 4
 * confirmar
@@ -1084,8 +1084,12 @@
     - utter_negar_ambiente2
     - utter_ambiente_adicional3
 * negar
-    - utter_negar_ambiente2
+    - utter_proximopasso2
     - utter_ambiente_adicional3
+* confirmar
+    - utter_perguntar_ambiente3
+* confirmar
+    - utter_negar_ambiente3
 * confirmar
     - utter_complementos
     - utter_ambiente_adicional
@@ -1095,7 +1099,7 @@
 * confirmar
     - utter_complementos3
     - utter_ambiente_adicional2
-    - utter_cumprimentar
+    - utter_menu
 
 ## tutorial ambiente 5
 * confirmar
@@ -1105,7 +1109,7 @@
     - utter_negar_ambiente2
     - utter_ambiente_adicional3
 * negar
-    - utter_negar_ambiente2
+    - utter_proximopasso2
     - utter_ambiente_adicional3
 * negar
     - utter_negar_ambiente3
@@ -1119,7 +1123,7 @@
 * confirmar
     - utter_complementos3
     - utter_ambiente_adicional2
-    - utter_cumprimentar
+    - utter_menu
 
 ## tutorial ambiente 6
 * confirmar
@@ -1129,7 +1133,7 @@
     - utter_negar_ambiente2
     - utter_ambiente_adicional3
 * negar
-    - utter_negar_ambiente2
+    - utter_proximopasso2
     - utter_ambiente_adicional3
 * negar
     - utter_negar_ambiente3
@@ -1139,7 +1143,7 @@
     - utter_ambiente_adicional
 * negar
     - utter_ambiente_adicional2
-    - utter_cumprimentar
+    - utter_menu
 
 ## tutorial ambiente 7
 * confirmar
@@ -1149,7 +1153,7 @@
     - utter_negar_ambiente2
     - utter_ambiente_adicional3
 * negar
-    - utter_negar_ambiente2
+    - utter_proximopasso2
     - utter_ambiente_adicional3
 * negar
     - utter_negar_ambiente3
@@ -1162,7 +1166,7 @@
     - utter_ambiente_adicional
 * negar
     - utter_ambiente_adicional2
-    - utter_cumprimentar
+    - utter_menu
 
 ## tutorial ambiente 8
 * confirmar
@@ -1179,7 +1183,7 @@
     - utter_complementos2
     - utter_complementos3
     - utter_ambiente_adicional2
-    - utter_cumprimentar
+    - utter_menu
 
 ## tutorial ambiente 9
 * negar
@@ -1189,7 +1193,7 @@
     - utter_negar_ambiente2
     - utter_ambiente_adicional3
 * negar
-    - utter_negar_ambiente2
+    - utter_proximopasso2
     - utter_ambiente_adicional3
 * negar
     - utter_negar_ambiente3
@@ -1199,7 +1203,7 @@
     - utter_complementos2
     - utter_complementos3
     - utter_ambiente_adicional2
-    - utter_cumprimentar
+    - utter_menu
 
 ## tutorial ambiente 10
 * negar
@@ -1216,7 +1220,7 @@
     - utter_complementos2
     - utter_complementos3
     - utter_ambiente_adicional2
-    - utter_cumprimentar
+    - utter_menu
 
 ## tutorial ambiente 11
 * negar
@@ -1226,14 +1230,14 @@
     - utter_negar_ambiente2
     - utter_ambiente_adicional3
 * negar
-    - utter_negar_ambiente2
+    - utter_proximopasso2
     - utter_ambiente_adicional3
 * confirmar 
     - utter_complementos
     - utter_complementos2
     - utter_complementos3
     - utter_ambiente_adicional2
-    - utter_cumprimentar
+    - utter_menu
 
 ## tutorial ambiente 12
 * negar
@@ -1247,7 +1251,7 @@
     - utter_complementos2
     - utter_complementos3
     - utter_ambiente_adicional2
-    - utter_cumprimentar
+    - utter_menu
 
 ## Generated Story -5536704352028321519
 * confirmar
