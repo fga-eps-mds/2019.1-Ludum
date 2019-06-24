@@ -209,6 +209,22 @@
 * negar  
     - utter_cumprimentar
 
+## path tutorial comunidade_retorno
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* comunidade
+    - utter_confirmacao
+* negar
+    - utter_cumprimentar
+
+## path tutorial comunidade
+* informacao_desenvolvimento
+    - utter_informacao_desenvolvimento
+* comunidade
+    - utter_confirmacao
+* confirmar
+    - action_tutoriais
+
 ## fallback
 * out_of_scope
     - utter_default
@@ -839,9 +855,14 @@
 * confirmar
     - utter_sem_nada
 
-## Contribuicao
+## path contribuicao
 * contribuicao
     - utter_contribuicao
+    - utter_contribuicao2
+    - utter_contribuicao3
+    - utter_contribuicao4
+    - utter_contribuicao5
+    - utter_menu
 
 ## Generated Story -8260612615251012865
 * faq

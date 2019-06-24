@@ -30,12 +30,13 @@ class ActionQuestion(FormAction):
         try:
             dispatcher.utter_message('Espere jovem padawan,' +
                                      'vou procurar uma resposta' +
-                                     'no Stack Overflow para você')
+                                     ' no Stack Overflow para você')
         except ValueError:
             dispatcher.utter_message(ValueError)
         try:
+            url = 'https://ludum-duvidas.herokuapp.com'
             pergunta = str(tracker.get_slot('pergunta'))
-            api = 'https://ludum-duvidas.herokuapp.com/api/duvidas'
+            api = url + '/api/duvidas'
             apiPergunta = api + '/pesquisar' + '/:{' + pergunta + '}'
             link = requests.get(apiPergunta)
             stack = json.loads(link.text)
@@ -90,6 +91,7 @@ class ActionFaq(Action):
         return []
 
 
+<<<<<<< HEAD
 class ActionEscolhaTutorial(FormAction):
     def name(self):
         return "action_escolha_tutorial"
@@ -123,3 +125,27 @@ class ActionEscolhaTutorial(FormAction):
         return {
             "escolha_tutorial": self.from_text()
         }
+=======
+class ActionTutoriais(Action):
+    def name(self):
+        return "action_tutoriais"
+
+    def run(self, dispatcher, tracker, domain):
+        try:
+            url = 'https://produ-o.ludum-materiais.ludumbot.club'
+            api = url + '/api/tutoriais/aprovados/S/'
+            link = requests.get(api)
+            tutoriais = json.loads(link.text)
+            utterString = ''
+            if len(tutoriais['data']) == 0:
+                utterString += 'Infelizmente não foi possivel encontrar'
+                utterString += 'nenhum tutorial'
+            for i in range(0, len(tutoriais['data'])):
+                utterString += str(i) + ")"
+                utterString += str(tutoriais['data'][i]['title'])
+                utterString += '\n'
+            dispatcher.utter_message(utterString)
+        except ValueError:
+            dispatcher.utter_message(ValueError)
+        return []
+>>>>>>> 7912c32a7fc238224a24f6e2066457a60ceb39f3
