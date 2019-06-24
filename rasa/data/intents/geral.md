@@ -451,18 +451,6 @@
 - Nao
 - Nao
 
-
-## intent:out_of_scope
-- Qual a origem do mundo?
-- Você tem signo?
-- Vc gosta de carnaval?
-- batatinha quando nasce
-- pygame module
-
-## intent:star_wars
-- pygame object
-- Pygame 3D
-
 ## intent:start
 - /start
 - /start
