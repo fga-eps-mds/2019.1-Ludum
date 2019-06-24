@@ -5,8 +5,6 @@ import requests
 from rasa_core_sdk.events import SlotSet
 from rasa_core_sdk.forms import FormAction
 
-url = 'https://produ-o.ludum-materiais.ludumbot.club'
-
 
 class ActionTest(Action):
     def name(self):
@@ -32,10 +30,11 @@ class ActionQuestion(FormAction):
         try:
             dispatcher.utter_message('Espere jovem padawan,' +
                                      'vou procurar uma resposta' +
-                                     'no Stack Overflow para você')
+                                     ' no Stack Overflow para você')
         except ValueError:
             dispatcher.utter_message(ValueError)
         try:
+            url = 'https://ludum-duvidas.herokuapp.com'
             pergunta = str(tracker.get_slot('pergunta'))
             api = url + '/api/duvidas'
             apiPergunta = api + '/pesquisar' + '/:{' + pergunta + '}'
@@ -98,18 +97,19 @@ class ActionTutoriais(Action):
 
     def run(self, dispatcher, tracker, domain):
         try:
+            url = 'https://produ-o.ludum-materiais.ludumbot.club'
             api = url + '/api/tutoriais/aprovados/S/'
             link = requests.get(api)
             tutoriais = json.loads(link.text)
             utterString = ''
-            if len(tutoriais['data']) == 0:
-                utterString += 'Infelizmente não foi possivel encontrar'
-                utterString += 'nenhum tutorial'
+            #if len(tutoriais['data']) == 0:
+             #   utterString += 'Infelizmente não foi possivel encontrar'
+              #  utterString += 'nenhum tutorial'
             for i in range(0, len(tutoriais['data'])):
                 utterString += str(i) + ")"
                 utterString += str(tutoriais['data'][i]['title'])
                 utterString += '\n'
-            dispatcher.utter_messager(utterString)
+            dispatcher.utter_message(utterString)
         except ValueError:
             dispatcher.utter_message(ValueError)
         return []
