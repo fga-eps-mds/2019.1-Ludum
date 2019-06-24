@@ -7,7 +7,7 @@
 - [Definição de Pronto](/definicao-pronto.md)
 - [Canvas](/canvas.md)
 - [Tutorial Git](/tutorial-git.md)
-- [Git Flow](/git-flow.md)
+- [CI/CD](/ci-cd.md)
 
 ## _**Produto**_
 - [Brainstorm](/brainstorm.md)
