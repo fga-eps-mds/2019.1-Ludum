@@ -32,7 +32,7 @@ class ActionQuestion(FormAction):
     def submit(self, dispatcher, tracker, domain):
         try:
             dispatcher.utter_message('Espere jovem padawan,' +
-                                     'vou procurar uma resposta' +
+                                     'vou procurar uma resposta ' +
                                      'no Stack Overflow para você')
         except ValueError:
             dispatcher.utter_message(ValueError)
@@ -48,6 +48,7 @@ class ActionQuestion(FormAction):
                                 ' mestres Jedi do stack' +
                                 ' overflow sabem a resposta para sua ' +
                                 'pergunta.\nQue tal perguntar de outra forma?')
+                dispatcher.utter_message(utterString)
             else:
                 for i in range(0, len(stack['data']['answer'])):
                     utterString += 'Resposta ' + str(i + 1) + '\n'
@@ -58,10 +59,10 @@ class ActionQuestion(FormAction):
                     utterString += str(stack['data']['answer'][i]['link'])
                     utterString += '\n'
                 dispatcher.utter_message(utterString)
-                stringFinal = "Esses são os links mais uteis que eu encontrei"
-                stringFinal += "\nEspero ter te ajudado!"
-                stringFinal += " Se tiver qualquer outra duvida"
-                stringFinal += " estou aqui pra auxilia-lo!"
+                stringFinal = "Esses são os links mais úteis que eu encontrei"
+                stringFinal += "\nEspero ter te ajudado!,"
+                stringFinal += " se tiver quaisquer outras dúvidas"
+                stringFinal += " estou aqui pra auxiliá-lo!"
                 dispatcher.utter_message(stringFinal)
         except ValueError:
             dispatcher.utter_message(ValueError)
@@ -85,9 +86,10 @@ class ActionFaq(Action):
             f.close()
             dispatcher.utter_message(string)
             finalizar = 'Se não tiver encontrado sua pergunta'
-            finalizar += ' aqui, posso fazer uma pesquisa no stack overflow'
+            finalizar += ' aqui, posso fazer uma rápida pesquisa'
+            finalizar += 'no stack overflow'
             dispatcher.utter_message(finalizar)
-            dispatcher.utter_message('Deseja que eu faça isso?')
+            dispatcher.utter_message('Deseja que eu faça isso ?')
         except ValueError:
             dispatcher.utter_message(ValueError)
         return []

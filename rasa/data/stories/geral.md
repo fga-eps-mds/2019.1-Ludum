@@ -1230,6 +1230,7 @@
     - action_faq
 * negar
     - utter_despedir
+    - utter_menu
 * negar
     - utter_sem_nada
 
@@ -1246,5 +1247,6 @@
     - action_faq
 * negar
     - utter_despedir
+    - utter_menu
 * cumprimentar
     - utter_cumprimentar

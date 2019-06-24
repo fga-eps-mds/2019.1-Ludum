@@ -39,7 +39,6 @@ actions:
 - utter_tutorial_jedi_confirmar
 - utter_tutorial_jedi_negar
 - utter_tutorial_jedi_imports
-- utter_tutorial_jedi_imports_n
 - utter_tutorial_jedi_imports_c
 - utter_tutorial_jedi_cores
 - utter_tutorial_jedi_cores_c
@@ -85,7 +84,6 @@ actions:
 - utter_contribuicao5
 - utter_tutorial_padawan20
 - utter_ask_pergunta
-- utter_star_wars
 - utter_tutorial_padawan3
 - utter_confirmacao
 - utter_padawan_c4
@@ -114,8 +112,9 @@ intents:
 - cumprimentar
 - tutorial_facil
 - action_question
-- action_links
+- action_link
 - negar
+- start
 - nao_implementada
 - informacao_ambiente
 - informacao_duvidas
@@ -136,7 +135,8 @@ slots:
     type: unfeaturized
 templates:
   utter_ask_pergunta:
-  - text: Que pergunta você deseja fazer ao StackOverflow?
+  - text: "Que pergunta você deseja fazer ao StackOverflow? (Lembrando que a pergunta tem\
+  que ser feita em inglês, pois senão os nossos mestres do StackOverflow não te entenderão)\n"
   utter_confirmar_ambiente1:
   - text: "Ótimo, todo nosso tutorial será feito usando o Python 3.6, então é bom\
       \ que você o tenha aí instalado\n"
@@ -145,6 +145,10 @@ templates:
   utter_confirmar_ambiente3:
   - text: "Tudo certo então, estamos prontos para começar a diversão!\n"
   utter_contribuicao:
+  - text: "Quer se tornar um Jedi?! Ajude contribuindo com os materiais e links que\
+      \ você ache bacana e a força estará com você.\n Você pode tambem criar tutoriais\
+      \ para ajudar os próximos aprendizes que estão por vir\n Para contribuir use\
+      \ o nosso WebClient(a ser criado)\n"
   - text: "Você é muito importante para me deixar cada vez melhor e ajudar a cumprir a minha missão.\
       \ Contribua com todo seu conhecimento e aprendizado, é muito simples!\n"
   utter_contribuicao2:
@@ -191,11 +195,11 @@ templates:
       \ Começar com o que, devemos?\n"
   utter_default:
   - text: "Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender\
-      \ direito\nVocê pode perguntar de novo de outro jeito?\n"
-  - text: "Hummmm... Não sei se entendi. Pode escrever de outra forma?\n"
-  - text: "Acho que não te entendi, você pode me perguntar de novo usando outras palavras?\n"
-  - text: "Vamos tentar mais uma vez? Eu não consegui te entender direito, me pergunta\
-      \ de outro jeito?\n"
+      \ direito, me pergunte de outra forma\n"
+  - text: "Hummmm... Não sei se entendi. Me pergunte de outra forma\n"
+  - text: "Desculpe, mas não te entendi, você pode me perguntar de novo usando outras palavras?\n"
+  - text: "Te entender eu não consigo, perguntar de outra forma você deve\n"
+  - text: "Não entendi oq você quis dizer, poderia dizer de outra forma, por favor ?\n"
   utter_despedir:
   - text: "Tudo bem, se tiver alguma dúvida, estarei aqui por você!\n"
   - text: "Ok, sempre que precisar, estarei aqui!!\n"
@@ -290,13 +294,6 @@ templates:
       \ Para fazer o download entre em: https://www.jetbrains.com/pycharm/download/#section=linux\n"
   utter_sem_nada:
   - text: Mas eu nem te perguntei nada
-  utter_star_wars:
-  - text: "O medo é o caminho para o lado negro.\n"
-  - text: "O medo leva à raiva, a raiva leva ao ódio e o ódio leva ao sofrimento.\n"
-  - text: "Que a Força esteja com você!\n"
-  - text: "Grande guerreiro? Guerra não faz grande ninguém.\n"
-  - text: "Lembre-se sempre, o seu foco determina a sua realidade.\n"
-  - text: "Muito a aprender você ainda tem.\n"
   utter_time:
   - text: "Flamengo, campeão do carioca de 2019 em cima do vasquinho\n"
   - text: "Melhor time do mundo disparado, Flamengooo!!!!\n"
