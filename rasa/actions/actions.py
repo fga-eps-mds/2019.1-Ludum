@@ -91,7 +91,6 @@ class ActionFaq(Action):
         return []
 
 
-<<<<<<< HEAD
 class ActionEscolhaTutorial(FormAction):
     def name(self):
         return "action_escolha_tutorial"
@@ -125,7 +124,7 @@ class ActionEscolhaTutorial(FormAction):
         return {
             "escolha_tutorial": self.from_text()
         }
-=======
+
 class ActionTutoriais(Action):
     def name(self):
         return "action_tutoriais"
@@ -148,4 +147,3 @@ class ActionTutoriais(Action):
         except ValueError:
             dispatcher.utter_message(ValueError)
         return []
->>>>>>> 7912c32a7fc238224a24f6e2066457a60ceb39f3
