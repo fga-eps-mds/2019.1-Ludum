@@ -224,6 +224,7 @@
     - utter_confirmacao
 * confirmar
     - action_tutoriais
+    - escolha_tutoriais
 
 ## fallback
 * out_of_scope
