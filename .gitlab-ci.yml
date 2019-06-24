@@ -94,3 +94,31 @@ deploy-actions-prod:
             --service actions"
   only:
     - /master/
+
+deploy-dev:
+  image: cdrx/rancher-gitlab-deploy
+  stage: deploy
+  script:
+    - "upgrade
+            --rancher-url $RANCHER_URL
+            --rancher-key $RANCHER_ACCESS_KEY
+            --rancher-secret $RANCHER_SECRET_KEY
+            --environment $RANCHER_ENVIRONMENT_DEV
+            --stack $RANCHER_STACK_DEV
+            --service ludum"
+  only:
+    - /development/
+
+deploy-actions-dev:
+  image: cdrx/rancher-gitlab-deploy
+  stage: deploy
+  script:
+    - "upgrade
+            --rancher-url $RANCHER_URL
+            --rancher-key $RANCHER_ACCESS_KEY
+            --rancher-secret $RANCHER_SECRET_KEY
+            --environment $RANCHER_ENVIRONMENT_DEV
+            --stack $RANCHER_STACK_DEV
+            --service actions"
+  only:
+    - /development/
