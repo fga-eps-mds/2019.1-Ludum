@@ -339,12 +339,7 @@
     - form{"name": "action_question"}
     - slot{"requested_slot": "pergunta"}
     - utter_menu
-* form: star_wars
-    - form: action_question
-    - slot{"pergunta": "pygame object"}
-    - slot{"pergunta": null}
-    - form{"name": null}
-    - slot{"requested_slot": null}
+
 
 ## Generated Story -2218287935103871778
 * faq
@@ -362,12 +357,7 @@
     - form{"name": "action_question"}
     - slot{"requested_slot": "pergunta"}
     - utter_menu
-* form: star_wars
-    - form: action_question
-    - slot{"pergunta": "Pygame 3D"}
-    - slot{"pergunta": null}
-    - form{"name": null}
-    - slot{"requested_slot": null}
+
 
 ## Generated Story -7844788932215807065
 * faq

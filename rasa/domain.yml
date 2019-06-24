@@ -39,7 +39,6 @@ actions:
 - utter_tutorial_jedi_confirmar
 - utter_tutorial_jedi_negar
 - utter_tutorial_jedi_imports
-- utter_tutorial_jedi_imports_n
 - utter_tutorial_jedi_imports_c
 - utter_tutorial_jedi_cores
 - utter_tutorial_jedi_cores_c
@@ -85,7 +84,6 @@ actions:
 - utter_contribuicao5
 - utter_tutorial_padawan20
 - utter_ask_pergunta
-- utter_star_wars
 - utter_tutorial_padawan3
 - utter_confirmacao
 - utter_padawan_c4
@@ -116,6 +114,7 @@ intents:
 - action_question
 - action_link
 - negar
+- start
 - nao_implementada
 - informacao_ambiente
 - informacao_duvidas
@@ -157,7 +156,8 @@ templates:
       \ que ajude outros usuários em seus estudos e gostaria que eu compartilhasse para todo mundo,\
       \ basta cadastrar esse link em nossos materiais\n"
   utter_contribuicao3:
-  - text: "Se você descobriu algum aspecto interessante acerca da Pygame ou se você desenvolveu um jogo e gostaria de ensinar,\
+  - text: "Se você descobriu algum aspecto interessante acerca da Pygame ou\
+      \ se você desenvolveu um jogo e gostaria de ensinar,\
       \ sua ajuda é muito bem-vinda.\n"
   utter_contribuicao4:
   - text: "Mas não se preocupe, todo material que você me enviar passará por uma avaliação do supremo conselho Jedi antes de ser publicado\n"
@@ -222,10 +222,9 @@ templates:
     - payload: Comunidade
       title: Tutoriais da comunidade
     text: "Muito bom, jovem Padawan!!\nVou te mostrar o tutorial de como desenvolver\
-      \ e criar seu jogo em Python com diferentes dificuldades.\nQuando perceber você\
-      \ já ser um Meister dos jogos!\nPorém, antes de começar devo te fazer uma pergunta.\n\
-      \ Você quer começar por qual dificuldade?\nPadawan\nJedi\n Ou tambem usar alguns\
-      \ dos Tutoriais feitos pela comunidade\n"
+      \ e criar seu jogo em Python com diferentes dificuldades.\nQuando você perceber,\
+      \ já será um Meistre dos jogos!\nPorém, antes de começar devo te fazer uma pergunta.\n\
+      \ Você quer começar por qual dificuldade?\n"
   utter_informacao_duvidas:
   - text: "Você pode me perguntar tudo que quiser saber sobre o desenvolvimento de\
       \ jogos em pygame! \nAs vezes eu posso até não saber sua resposta, mas posso\
@@ -295,13 +294,6 @@ templates:
       \ Para fazer o download entre em: https://www.jetbrains.com/pycharm/download/#section=linux\n"
   utter_sem_nada:
   - text: Mas eu nem te perguntei nada
-  utter_star_wars:
-  - text: "O medo é o caminho para o lado negro.\n"
-  - text: "O medo leva à raiva, a raiva leva ao ódio e o ódio leva ao sofrimento.\n"
-  - text: "Que a Força esteja com você!\n"
-  - text: "Grande guerreiro? Guerra não faz grande ninguém.\n"
-  - text: "Lembre-se sempre, o seu foco determina a sua realidade.\n"
-  - text: "Muito a aprender você ainda tem.\n"
   utter_time:
   - text: "Flamengo, campeão do carioca de 2019 em cima do vasquinho\n"
   - text: "Melhor time do mundo disparado, Flamengooo!!!!\n"
@@ -314,43 +306,43 @@ templates:
   utter_tutorial_jedi_confirmar:
   - text: "Tudo certo Jovem Geek! Vamos começar o tutorial do jogo Snake!\nMas\
       \ antes de prosseguirmos, devo te informar as regras do jogo.\nO\
-      \ usuário tem que movimentar a snake ou cobrinha e\
+      \ usuário tem que movimentar a snake/cobrinha e\
       \ comer as joias do infinito que aparecem na tela.\nA cada\    
       \ joia, a snake cresce e o usuário deve\
       \ evitar as colisões, com o próprio corpo ou com a parede.\nO\
-      \ placar aumenta a cada vez que comer uma joia do infinito.\nPodemos\    
-      \ ir adiante?\n"      
+      \ placar aumenta a cada vez que comer uma joia do infinito.\nPodemos ir\    
+      \ adiante?\n"      
   utter_tutorial_jedi_negar:
   - text: "Certo, jovem Padawan. Vamos\
       \ para o ambiente configurar o poder\
       \ das joias do infinito\n"  
   utter_tutorial_jedi_imports:
-  - text: "Tudo pronto Jovem Geek! O primeiro passo\
+  - text: "O primeiro passo\
       \ para iniciar o jogo é criar um arquivo com o nome Snake.py ou\
       \ NomeDoArquivo.py.\nDentro desse arquivo\
       \ vamos começar fazendo os imports das bibliotecas.\nPygame\    
-      \ e Random, como na imagem abaixo.\n"
+      \ e Random, como na imagem abaixo:\n"
     image: "https://i.imgur.com/b94hNj2.png"
   utter_tutorial_jedi_imports_c:
-  - text: "Estou te aguardando jovem Padawan! Quando\
+  - text: "Estou te aguardando, jovem Padawan! Quando\
       \ estiver pronto para continuar, me avise!\n"        
   utter_tutorial_jedi_cores:
   - text: "Agora que ja temos as bibliotecas necessárias\
       \ vamos escolher as cores do jogo que nesse tutorial são:\n\
       \ Preto (BLACK)\nAzul (BLUE)\nCinza (GRAY)\nComo\
-      \ mostra a imagem abaixo.\n"
+      \ mostra a imagem abaixo:\n"
     image: "https://i.imgur.com/fd7dHgX.png"
   utter_tutorial_jedi_cores_c:
   - text: "Mas, como bom mestre da mágia, você\
       \ pode mudar as cores do jogo.\nBasta acessar o link\
       \ http://shibolete.tripod.com/RGB.html escolher a cor que deseja e\
-      \ mudar os valores referênte a cor no código.\nQuando\
+      \ mudar os valores referentes as cores no código..\nQuando\
       \ estiver pronto para continuar, me avise!\n"
   utter_tutorial_jedi_direcao:
   - text: "Nessa parte, vamos definir as direções para controlar\
       \ a nossa magia, que serão:\n\
       \ UP\nDOWN\nRIGHT\nLEFT\n\
-      \ Como mostra a imagem abaixo.\n"
+      \ Como mostra a imagem abaixo:\n"
     image: "https://i.imgur.com/75FxooH.png"   
   utter_tutorial_jedi_direcao_c:    
   - text: "Já estamos finalizando a primeira parte\
@@ -359,7 +351,7 @@ templates:
   utter_tutorial_jedi_classe_game:
   - text: "Agora, vamos iniciar o nosso jogo, usando a PyGame.\nPara isso\
       \ temos que criar a classe Class Game().\nDentro dela\
-      \ vamos iniciar o display do jogo, criar o fundo, arruma\
+      \ vamos iniciar o display do jogo, criar o fundo, arrumar\
       \ a superfície e pontos, conforme o código mostrado\
       \ no pergaminho abaixo:\n"
     image: "https://i.imgur.com/0oQigna.png"
@@ -367,9 +359,7 @@ templates:
   - text: "O usuário pode alterar o nome do jogo, para isso,\
       \ basta modificar a função\
       \ pygame.display.set_caption('NovoNome').\n\
-      \ A função self.font=pygame.font.Font(None,36). Agora\
-      \ que ja escolheu seu ID.\nQuando\
-      \ estiver pronto para continuar, me avise!\n"
+      \ Quando estiver pronto para continuar, me avise!\n"
   utter_tutorial_jedi_run:
   - text: "Ainda dentro da Class Game() vamos criar a\
       \ função def run para rodar o jogo e\
@@ -380,32 +370,31 @@ templates:
   - text: "Como renomado Espadachim, você pode alterar os comandos\
       \ de direção. Basta ir no if ou elif da\
       \ direção escolhida e substituir com o comando que\
-      \ desejar.\nApós definir seus comandos, o\
-      \ renomado Espadachim, quando\
-      \ estiver pronto para continuar, me avise!\n"
+      \ desejar.\nApós definir seus comandos, renomado\ 
+      \ Espadachim, me avise quando estiver pronto para continuar!\n"
   utter_tutorial_jedi_movimentos:
   - text: "Ainda dentro da Class Game() vamos atualizar as\
       \ informações do jogo, conforme a imagem:\n"
     image: "https://i.imgur.com/K4tXDji.png"  
   utter_tutorial_jedi_movimentos_c:
-  - text: "Aqui atualizamos as informações e fecha a chamada\
+  - text: "Aqui atualizamos as informações e fechamos a chamada\
       \ da PyGame.\nQuando\
       \ estiver pronto para continuar, me avise!\n"
   utter_tutorial_jedi_desenhos:
   - text: "Agora vamos inspirados em Vincent van Gogh\
-      \ vamos desenhos a Snake, a comida e os pontos no display\
-      \ capturar os eventos e movimentos, conforme\
+      \ vamos desenhar a Snake, a comida e os pontos no display\
+      \ além de capturar os eventos e movimentos, conforme\
       \ indica no quadro abaixo:\n"
     image: "https://i.imgur.com/LLYrKqo.png"
   utter_tutorial_jedi_desenhos_c:
-  - text: "Após termina de pintar sua tela, com as\
-      \ cores anteriormente definidas, estamos encerrando.\
+  - text: "Após termina de pintar sua tela com as\
+      \ cores anteriormente definidas, estamos encerrando\
       \ mais uma etapa.\nQuando\
       \ estiver pronto para continuar, me avise!\n"
   utter_tutorial_jedi_snake:
   - text: "Estamos iniciando mais uma etapa. Agora, vamos criar a\
-      \ Class Snake e dar inicio a nossa Snake.\n\
-      \ capturar os eventos e movimentos, conforme\
+      \ Class Snake e dar início a nossa Snake por meio da\n\
+      \ captura de eventos e movimentos, conforme\
       \ indica no quadro abaixo:\n"
     image: "https://i.imgur.com/ySJs0tA.png"  
   utter_tutorial_jedi_snake_c:
@@ -422,9 +411,9 @@ templates:
   - text: "Estamos quase no final. Quando\
       \ estiver pronto para continuar, me avise!\n" 
   utter_tutorial_jedi_comida:
-  - text: "Nessa parte, jovem Padawan, usa a biblioteca RANDOM para\
-      \ fazer a joias do infinito aparecer em lugares aleatórios.\n\
-      \ Seguindo os códigos que vejos no infinito:\n"
+  - text: "Nessa parte, jovem Padawan, usaremos a biblioteca RANDOM para\
+      \ fazer a joias do infinito aparecerem em lugares aleatórios.\n\
+      \ Seguindo os códigos mostrados abaixo:\n"
     image: "https://i.imgur.com/zJAf1BU.png"
   utter_tutorial_jedi_comida_c:
   - text: "Estamos finalizando mais uma etapa, gostaria de\
@@ -433,9 +422,9 @@ templates:
       \ estiver pronto para continuar, me avise!\n"
   utter_tutorial_jedi_main:
   - text: "Nessa parte, jovem Padawan, usa o IF e\
-      \ dentro dele definimos o tamanho do display, e a\
-      \ velocidade da snake que pode ser alterada.\nPosteriormente\
-      \ basta modificar o ultimo dos três\n\
+      \ dentro dele definiremos o tamanho do display e a\
+      \ velocidade da snake que, inclusive, pode ser alterada\
+      \ modificando o último dos três\n\
       \ valores dentro do Game(440,510,10).run()\n"
     image: "https://i.imgur.com/torhoBI.png"
   utter_tutorial_jedi_main_c:
@@ -478,18 +467,20 @@ templates:
     text: "Agora vamos fechar a biblioteca no final do programa.\n"
   utter_tutorial_padawan19:
   - image: https://i.imgur.com/yrwir1A.png
-    text: "Vamos adicionar agora o placar\nInicialmente, vamos criar inicializar\
-      \ os pontos para o placar.\n"
+    text: "Feito isso, podemos adicionar o placar\nInicialmente, vamos criar\
+      \ uma variável para os pontos do placar e\
+      \ inicializá-la com o valor 0.\n"
   utter_tutorial_padawan2:
   - image: https://i.imgur.com/A33MvbG.png
-    text: "Primeiramente iremos criar a tela de fundo\n  Neste código abaixo, estamos\
-      \ primeiramente importando a pygame, definindo as cores, para então criar a\
-      \ tela com tamanho e nome ()img.\n"
+    text: "Primeiramente iremos criar a tela de fundo.\nA primeira tarefa\
+      \ que devemos fazer é importar a pygame e definir as cores, para\
+      \ então criar a tela com tamanho e nome.\n"
   utter_tutorial_padawan20:
   - image: https://i.imgur.com/kZYn8Sv.png
-    text: "Agora vamos adicionar algumas linhas, para que quando a bolinha toque na\
-      \ parte superior aumente o placar em 1 ponto e quando toque na inferior sem\
-      \ ser na raquete, a pontuação volte para 0\n"
+    text: "Agora vamos adicionar algumas linhas, para que quando a bolinha\
+      \ toque na parte superior da janela aumente o placar em 1 ponto\
+      \ e quando toque na inferior sem ser na raquete,\
+      \ a pontuação volte para 0\n"
   utter_tutorial_padawan21:
   - image: https://i.imgur.com/r5ucsLd.png
     text: "Este será o resultado.\n"
@@ -502,8 +493,9 @@ templates:
     text: "Este será o resultado\n"
   utter_tutorial_padawan5:
   - image: https://i.imgur.com/IWifyTg.png
-    text: "Agora vamos fazer a raquete\n  Primeiro, vamos definir abaixo da criação\
-      \ da tela[1.1], as coordenadas da raquete com 'rect', criar a raquete e já\
+    text: "Agora vamos fazer a raquete.\nPrimeiro, vamos definir\ 
+      \ abaixo da criação da tela[1.1], as coordenadas da raquete\
+      \ com 'rect', criar a raquete e já\
       \ definir que ela não pode sair da tela.\n"
   utter_tutorial_padawan6:
   - image: https://i.imgur.com/uZJI4aS.png
@@ -513,8 +505,8 @@ templates:
     text: "Este será o resultado.\n"
   utter_tutorial_padawan8:
   - image: https://i.imgur.com/7wDKcKE.png
-    text: "Vamos criar a bola\n  Primeiramente, vamos criar coordenadas iniciais quaisquer\
-      \ para a bolinha.\n"
+    text: "Vamos criar a bola...\nO primeiro passo que devemos realizar\
+      \ é criar coordenadas iniciais quaisquer para a bolinha\n"
   utter_tutorial_padawan9:
   - image: https://i.imgur.com/AqueabZ.png
     text: "Agora, vamos desenhar a bolinha na tela.\n"

@@ -108,7 +108,7 @@ class ActionLinks(Action):
             if(len(dictMateriais['data']) == 0):
                 linkText += ('Oooopsss...' + 'Não encontrei nenhum material')
             else:
-                for i in range(0, (len(dictMateriais['data']) - 1)):
+                for i in range(0, (len(dictMateriais['data']))):
                     linkText += 'Material disponível: ' + str(i + 1) + '\n'
                     linkText += ('Título: ')
                     linkText += str(dictMateriais['data'][i]['title'])
@@ -121,17 +121,17 @@ class ActionLinks(Action):
                     linkText += '\n'
                     linkText += '----------------------------'
                     linkText += '\n'
-                dispatcher.utter_message(linkText)
-                fimMsg = "Esses são os materiais disponíveis no momento... "
-                fimMsg += "Espero que contribua nos seus estudos.  =)"
-                fimMsg += "\n"
-                fimMsg += "Caso você conheça algum material "
-                fimMsg += "interessante que não está aqui "
-                fimMsg += "contribua com nosso conteúdo.\n"
-                fimMsg += "Para mais informações "
-                fimMsg += "basta checar nossa área de envio de"
-                fimMsg += " materiais no menu principal!"
-                dispatcher.utter_message(fimMsg)
+            dispatcher.utter_message(linkText)
+            fimMsg = "Esses são os materiais disponíveis no momento... "
+            fimMsg += "Espero que contribua nos seus estudos.  =)"
+            fimMsg += "\n"
+            fimMsg += "Caso você conheça algum material "
+            fimMsg += "interessante que não está aqui "
+            fimMsg += "contribua com nosso conteúdo.\n"
+            fimMsg += "Para mais informações "
+            fimMsg += "basta checar nossa área de envio de"
+            fimMsg += " materiais no menu principal!"
+            dispatcher.utter_message(fimMsg)
         except ValueError:
             dispatcher.utter_message(ValueError)
         return []
