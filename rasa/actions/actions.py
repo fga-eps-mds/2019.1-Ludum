@@ -8,6 +8,7 @@ from rasa_core_sdk.forms import FormAction
 url = 'https://produ-o.ludum-materiais.ludumbot.club'
 urlDuvida = 'https://produ-o.ludum-duvida.ludumbot.club'
 
+
 class ActionTest(Action):
     def name(self):
         return "action_test"
