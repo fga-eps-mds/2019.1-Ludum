@@ -23,70 +23,48 @@
 - continuar
 - Continuar
 - Sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
-- sim
 
 ## intent:contribuicao
 - contribuir
 - como contribuir
 - o que preciso para contribuir
 - como contribuir para o repositorio
-- contribuir
 - como contribuir
 - o que preciso para contribuir
 - como contribuir para o repositorio
+- como posso contribuir
+- como faço para contribuir
+- como faço pra contribuir
+- como faço contribuir
+- como faco para contribuir
+- como faco pra contribuir
+- como faco contribuir
+- contribuindo para o projeto
+- como posso constribuir com o projeto
+- contribuição
+- contribuicão
+- contribuicao
+- quero contribuir
+- como posso ajudar
+- como ajudar
+- quero ajudar
+- como contribuir?
+- o que preciso para contribuir?
+- como contribuir para o repositorio?
+- como contribuir?
+- o que preciso para contribuir?
+- como contribuir para o repositorio?
+- como posso contribuir?
+- como faço para contribuir?
+- como faço pra contribuir?
+- como faço contribuir?
+- como faco para contribuir?
+- como faco pra contribuir?
+- como faco contribuir?
+- como posso constribuir com o projeto?
+- como posso ajudar?
+- como ajudar?
+
 
 ## intent:informacao
 - Tenho uma pergunta
@@ -104,7 +82,6 @@
 - oiee
 - opa tudo bem
 - ola boa tarde
-- ola
 - ola
 - oi
 - bom dia
@@ -131,14 +108,7 @@
 ## intent:faq
 - FAQ
 - faq
-- faq
-- faq
-- faq
-- faq
-- faq
-- faq
 - me mande o faq
-- você possui um faq?
 - você possui um faq?
 
 ## intent:informacao
@@ -175,14 +145,7 @@
 - o que preciso para começar
 - configurar ambiente
 - ambiente
-- ambiente
-- ambiente
-- ambiente
-- ambiente
 - como configurar o meu ambiente?
-- como configurar o ambiente
-- como configurar o ambiente
-- como configurar o ambiente
 - como configurar o ambiente
 
 ## intent:informacao_desenvolvimento
@@ -276,25 +239,8 @@
 ## intent:tutorial_facil
 - Facil
 - facil
-- Facil 
-- Facil 
-- Facil 
-- Facil 
-- Facil 
-- Facil 
-- Facil 
-- Facil 
-- Facil 
-- Facil 
-- Facil 
-- Facil 
-- Facil 
-- Facil 
-- Facil 
-- Facil 
-- facil 
-- facil 
-
+- Fácil 
+- fácil 
 
 ## intent:informacao_duvidas
 - Como voce pode responder uma duvida?
@@ -339,58 +285,6 @@
 - sair 
 - Sair
 - nao
-- não
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- não
-- não
-- não
 - não
 
 ## intent:out_of_scope

@@ -16,6 +16,11 @@
     "intent_nao_implementada",
     "intent_negar",
     "intent_prosseguir",
+<<<<<<< HEAD
+=======
+    "intent_star_wars",
+    "intent_stop",
+>>>>>>> 6d54ea644e9cd3297e29194510d4a4973a181743
     "intent_time",
     "intent_tudo_bem",
     "intent_tutorial_facil",
@@ -23,6 +28,11 @@
     "entity_starwars",
     "entity_time",
     "entity_pergunta",
+<<<<<<< HEAD
+=======
+    "entity_starwars",
+    "entity_time",
+>>>>>>> 6d54ea644e9cd3297e29194510d4a4973a181743
     "prev_action_listen",
     "prev_action_restart",
     "prev_action_default_fallback",
@@ -30,6 +40,7 @@
     "prev_action_revert_fallback_events",
     "prev_action_default_ask_affirmation",
     "prev_action_default_ask_rephrase",
+<<<<<<< HEAD
     "prev_utter_tutorial_padawan2",
     "prev_utter_sem_nada",
     "prev_utter_proximopasso2",
@@ -39,6 +50,12 @@
     "prev_utter_default",
     "prev_utter_informacao_materiais",
     "prev_utter_tutorial_padawan12",
+=======
+    "prev_action_faq",
+    "prev_utter_faq", 
+    "prev_utter_despedir",
+    "prev_utter_perguntar_ambiente3",
+>>>>>>> 6d54ea644e9cd3297e29194510d4a4973a181743
     "prev_utter_negar_ambiente2",
     "prev_utter_tutorial_padawan5",
     "prev_utter_tutorial_padawan18",
@@ -89,6 +106,7 @@
     "prev_utter_tutorial_jedi_comida_c",
     "prev_utter_tutorial_jedi_main",
     "prev_utter_tutorial_jedi_main_c",
+<<<<<<< HEAD
     "prev_utter_tutorial_padawan10",
     "prev_utter_tutorial_padawan6",
     "prev_utter_cumprimentar",
@@ -120,6 +138,11 @@
     "prev_utter_ambiente_adicional",
     "prev_utter_ambiente_adicional2",
     "prev_utter_ambiente_adicional3",
+=======
+    "prev_utter_complementos",
+    "prev_utter_complementos2",
+    "prev_utter_complementos3",
+>>>>>>> 6d54ea644e9cd3297e29194510d4a4973a181743
     "prev_action_question",
     "active_form_action_question"
   ]
