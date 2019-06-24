@@ -17,6 +17,14 @@
 - perguntar ao stack overflow [for em python](pergunta)
 - pesquisar no stack overflow
 
+## intent:action_link
+- me recomenda um link 
+- me recomenda um material
+- me recomenda links e materiais
+- me recomenda materiais e links
+- recomenda materiais e links
+
+
 ## intent:confirmar
 - sim
 - claro
@@ -83,15 +91,63 @@
 - como contribuir
 - o que preciso para contribuir
 - como contribuir para o repositorio
-- contribuir
 - como contribuir
 - o que preciso para contribuir
 - como contribuir para o repositorio
+- como posso contribuir
+- como faço para contribuir
+- como faço pra contribuir
+- como faço contribuir
+- como faco para contribuir
+- como faco pra contribuir
+- como faco contribuir
+- contribuindo para o projeto
+- como posso constribuir com o projeto
+- contribuição
+- contribuicão
+- contribuicao
+- quero contribuir
+- como posso ajudar
+- como ajudar
+- quero ajudar
+- como contribuir?
+- o que preciso para contribuir?
+- como contribuir para o repositorio?
+- como contribuir?
+- o que preciso para contribuir?
+- como contribuir para o repositorio?
+- como posso contribuir?
+- como faço para contribuir?
+- como faço pra contribuir?
+- como faço contribuir?
+- como faco para contribuir?
+- como faco pra contribuir?
+- como faco contribuir?
+- como posso constribuir com o projeto?
+- como posso ajudar?
+- como ajudar?
+
 
 ## intent:informacao
 - Tenho uma pergunta
 - Tenho uma duvida
 - Duvida
+- Duvida
+- Duvida
+- Duvida
+- Duvida
+- Duvida
+- Duvida
+- Duvida
+- duvida
+- duvida
+- duvida
+- duvida
+- duvida
+- duvida
+- duvida
+- duvida
+- duvida
 - voce pode me tirar uma duvida?
 
 ## intent:cumprimentar
@@ -104,7 +160,6 @@
 - oiee
 - opa tudo bem
 - ola boa tarde
-- ola
 - ola
 - oi
 - bom dia
@@ -137,8 +192,13 @@
 - faq
 - faq
 - faq
+- faq
+- faq
+- faq
+- faq
+- faq
+- faq
 - me mande o faq
-- você possui um faq?
 - você possui um faq?
 
 ## intent:informacao
@@ -146,6 +206,26 @@
 - Tenho uma duvida
 - Duvida
 - voce pode me tirar uma duvida?
+
+## intent:comunidade
+- comunidade
+- Comunidade
+- comunidade 
+- Comunidade
+- Comunidade 
+- Comunidade 
+- comunidade 
+- comunidade 
+- comunidade
+- Comunidade
+- Comunidade 
+- Comunidade 
+- Comunidade 
+- Comunidade 
+- Comunidade 
+- Comunidade 
+- Comunidade 
+- Comunidade 
 
 ## intent:informacao_ambiente
 - ambiente
@@ -166,6 +246,15 @@
 - como configurar o ambiente
 
 ## intent:informacao_desenvolvimento
+- tutorial
+- tutorial
+- Tutorial
+- Tutorial
+- Tutorial
+- tutorial
+- tutorial
+- tutorial
+- tutorial
 - tutorial
 - tutorial jogos
 - tutorial jogo
@@ -236,13 +325,13 @@
 - ir adiante
 - ir além
 - ir para o próximo
-- confirmar
 - continua
 - ok
 - estou pronto
 - estou pronta
 - podemos
 - podemos prosseguir
+
 
 ## intent:tutorial_facil
 - Facil
@@ -265,7 +354,20 @@
 - Facil 
 - facil 
 - facil 
-
+- Pong
+- pong
+- tutorial facil
+- TutorialFacil
+- TutorialFACIL
+- Tutorial facil
+- Tutorial fácil
+- Tutorialfacil
+- Tutorialfácil
+- Padawan
+- padawan
+- PONG
+- Fácil 
+- fácil 
 
 ## intent:informacao_duvidas
 - Como voce pode responder uma duvida?
@@ -300,12 +402,6 @@
 - Me ensina algo
 
 ## intent:nao_implementada
-- facil
-- Facil
-- dificil
-- Dificil
-- difícil
-- Difícil
 - videos
 - videos-explicativos
 - textos
@@ -316,44 +412,6 @@
 - sair 
 - Sair
 - nao
-- não
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
-- nao
 - nao
 - nao
 - nao
@@ -369,25 +427,34 @@
 - não
 - não
 - não
-
-## intent:out_of_scope
-- Qual a origem do mundo?
-- Você tem signo?
-- Vc gosta de carnaval?
-- batatinha quando nasce
-- pygame module
-
-## intent:star_wars
-- pygame object
-- Pygame 3D
+- não
+- não
+- não
+- não
+- não
+- Não
+- Não
+- Não
+- Não
+- Não
+- Não
+- Não
+- Não
+- Não
+- Não
+- Nao
+- Nao
+- Nao
+- Nao
+- Nao
+- Nao
+- Nao
+- Nao
 
 ## intent:start
 - /start
 - /start
 - /start
-
-## intent:stop
-- /stop
 
 ## intent:tudo_bem
 - Tudo bem

@@ -14,6 +14,7 @@
 | 31/04/2019 | 1.0 | Refatorando seções 3, 4, 6, 7, 8 | Gabriela de Moraes e Lucas Lermen |
 | 31/04/2019 | 1.1 | Refatorando diagramas | Gabriela de Moraes, Lucas Lermen, Lucas Penido e Guilherme Siqueira |
 | 13/05/2019 | 1.2 | Adicionando diagrama de relações do projeto| Gabriela, Lucas Lermen e Guilherme |
+| 20/06/2019 | 1.3 | Adicionando segunda versão do diagrama de implantação| Gabriela e Lucas Lermen|
 
 
 # 1. Introdução  
@@ -155,7 +156,7 @@ Estrutura do documento:
 
 <li> O núcleo do Ludum deve ser desenvolvido em Pyhton 3.6 </i>
 <li> Uso do Docker para desenvolvimento em ambientes isolados; </li>
-<li> Telegram necessário para consversar com o Ludum; </i>
+<li> Telegram necessário para conversar com o Ludum; </i>
 <li> Conexão com a internet necessária; </li>
 <li>As conversas com o Ludum são feitas em português, porém o microserviço de pesquisa de dúvidas no StackOverFlow meramente retorna resultados em língua inglesa. </li>
 <li> O Ludum deve ser desenvolvido em aproximadamente 4 meses; </li>
@@ -175,8 +176,11 @@ Estrutura do documento:
 
 
 # 5. Visão de Implantação
+## Versão 2
+![](./imagens/diagrama-implantacao-v2.png)
 
-![](./imagens/diagrama-implantacao.png)
+## Versão 1
+![](./imagens/diagrama-implantacao-v1.png)
 
 
 # 6. Visão de Implementação
