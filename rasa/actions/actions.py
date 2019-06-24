@@ -118,7 +118,7 @@ class ActionLinks(Action):
                     linkText += '\n'
                     linkText += '----------------------------'
                     linkText += '\n'
-                    dispatcher.utter_message(linkText)
+                dispatcher.utter_message(linkText)
                 fimMsg = "Esses são os materiais disponíveis no momento... "
                 fimMsg += "Espero que contribua nos seus estudos.  =)"
                 fimMsg += "\n"
