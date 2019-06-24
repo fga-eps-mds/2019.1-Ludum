@@ -338,6 +338,7 @@
     - action_question
     - form{"name": "action_question"}
     - slot{"requested_slot": "pergunta"}
+    - utter_menu
 * form: star_wars
     - form: action_question
     - slot{"pergunta": "pygame object"}
@@ -360,6 +361,7 @@
     - action_question
     - form{"name": "action_question"}
     - slot{"requested_slot": "pergunta"}
+    - utter_menu
 * form: star_wars
     - form: action_question
     - slot{"pergunta": "Pygame 3D"}
@@ -395,6 +397,7 @@
     - action_question
     - form{"name": "action_question"}
     - slot{"requested_slot": "pergunta"}
+    - utter_menu
 * form: out_of_scope
     - form: action_question
     - slot{"pergunta": "pygame module"}
