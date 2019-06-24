@@ -6,7 +6,7 @@ from rasa_core_sdk.events import SlotSet
 from rasa_core_sdk.forms import FormAction
 
 url = 'https://produ-o.ludum-materiais.ludumbot.club'
-
+urlDuvida = 'https://produ-o.ludum-duvida.ludumbot.club'
 
 class ActionTest(Action):
     def name(self):
@@ -37,7 +37,7 @@ class ActionQuestion(FormAction):
             dispatcher.utter_message(ValueError)
         try:
             pergunta = str(tracker.get_slot('pergunta'))
-            api = url + '/api/duvidas'
+            api = urlDuvida + '/api/duvidas'
             apiPergunta = api + '/pesquisar' + '/:{' + pergunta + '}'
             link = requests.get(apiPergunta)
             stack = json.loads(link.text)
