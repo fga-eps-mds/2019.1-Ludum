@@ -8,6 +8,7 @@
 - [Canvas](/canvas.md)
 - [Tutorial Git](/tutorial-git.md)
 - [CI/CD](/ci-cd.md)
+- [Post Mortem](/post-mortem.md)
 
 ## _**Produto**_
 - [Brainstorm](/brainstorm.md)
@@ -19,6 +20,7 @@
 - [Documento de Visão](/documento-de-visao.md)
 - [Documento de Arquitetura](/documento-de-arquitetura.md)
 - [Modelo Testes de Usabilidade](/modelo-teste-usabilidade.md)
+- [Aplicação Testes de Usabilidade](/teste-usabilidade.md)
 - [Earned Value Management (EVM)](/EVM.md)
 
 ## _**Backlog**_

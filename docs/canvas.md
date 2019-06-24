@@ -8,7 +8,7 @@
 # Canvas do Projeto
 
 ## Versão 2
-![](./imagens/canvas-v2.jpg)
+![](./imagens/canvas-v2.png)
 
 ## Versão 1
 

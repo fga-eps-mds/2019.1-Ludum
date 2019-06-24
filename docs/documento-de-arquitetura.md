@@ -15,7 +15,7 @@
 | 31/04/2019 | 1.1 | Refatorando diagramas | Gabriela de Moraes, Lucas Lermen, Lucas Penido e Guilherme Siqueira |
 | 13/05/2019 | 1.2 | Adicionando diagrama de relações do projeto| Gabriela, Lucas Lermen e Guilherme |
 | 20/06/2019 | 1.3 | Adicionando segunda versão do diagrama de implantação| Gabriela e Lucas Lermen|
-
+| 21/06/2019 | 1.4 | Adicionando modelagens na sessão 7| Gabriela e Lucas Lermen|
 
 # 1. Introdução  
 
@@ -171,8 +171,11 @@ Estrutura do documento:
 <p align="justify">Como citado anteriormente, a arquitetura do Ludum é baseada no uso de microsserviços que se conectam com o núcleo da aplicação. Assim sendo, pode ser representada por meio de um diagrama de pacotes onde cada microsserviço e o núcleo são representados por esses pacotes e, por sua vez, são compostos por outros pacotes significativos para seu correto funcionamento.</p>
 
 ## 4.2 Pacotes Significativos do Ponto de Vista da Arquitetura
+### Versão 2
+![](./imagens/diagrama-pacotes-v2.png)
 
-![](./imagens/diagrama-pacotes.png)
+### Versão 1
+![](./imagens/diagrama-pacotes-v1.png)
 
 
 # 5. Visão de Implantação
@@ -196,8 +199,14 @@ Estrutura do documento:
 ## 7.1 Visão geral
 <p align="justify"> Os microsserviçoes e o núcleo do Ludum possuem bancos de dados para armazenar os dados necessários para o funcionamento do serviço em questão. Nós tópicos a seguir serão apresentados os modelos de dados de cada um desses serviços</p>
 
-## 7.2 BD do microsserviço Perguntas
-![modelagem banco](./imagens/ModelagemBancoMicrosservicoDuvidas.png)
+## 7.2 BD do Microsserviço de Dúvidas
+![modelagem banco](./imagens/ModelagemBancoMicrosservicoDuvidas-v1.png)
+
+## 7.3 BD do Microsserviço de Links e Tutoriais
+## Versão 2
+![modelagem banco](./imagens/ModelagemBancoMicrosservicoLinksTutoriais-v2.png)
+### Versão 1
+![modelagem banco](./imagens/ModelagemBancoMicrosservicoLinksTutoriais-v1.png)
 
 # 8. Tamanho e Desempenho
 
