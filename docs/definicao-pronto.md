@@ -34,7 +34,7 @@
 * Todas as tasks cumpridas;
 * Estar conforme os critérios de aceitação;
 * Deve estar passando pela integração contínua;
-* Teste unitários realizados.
+
 
 <p align="justify">Para as demais, o critério permanece o mesmo.</p>
 

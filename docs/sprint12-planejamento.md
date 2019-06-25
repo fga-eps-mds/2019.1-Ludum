@@ -2,11 +2,11 @@
 
 **Data de Início**: 12/06/2019
 
-**Data de Término**: 18/06/2019
+**Data de Término**: 17/06/2019
 
 **Duração**: Uma semana
 
-**Pontos Planejados**: X
+**Pontos Planejados**: 32
 
 -------
 
@@ -50,7 +50,7 @@
 | US22 - Acessar tutorial da comunidade | 8 | 
 | US10 - Recomendar Materiais | 5 |
 | US08 - Informar sobre formas de contribuição com conteúdo| 2 |
-| Documentar sprint | 1 |
+| T60 - Documentar sprint | 1 |
 
 ## 4. Quadro de pareamento
 
