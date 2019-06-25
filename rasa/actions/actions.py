@@ -46,6 +46,7 @@ class ActionQuestion(FormAction):
                                 ' mestres Jedi do stack' +
                                 ' overflow sabem a resposta para sua ' +
                                 'pergunta.\nQue tal perguntar de outra forma?')
+                dispatcher.utter_message(utterString)
             else:
                 for i in range(0, len(stack['data']['answer'])):
                     utterString += 'Resposta ' + str(i + 1) + '\n'
@@ -56,10 +57,10 @@ class ActionQuestion(FormAction):
                     utterString += str(stack['data']['answer'][i]['link'])
                     utterString += '\n'
                 dispatcher.utter_message(utterString)
-                stringFinal = "Esses são os links mais uteis que eu encontrei"
-                stringFinal += "\nEspero ter te ajudado!"
-                stringFinal += " Se tiver Qualquer outra duvida"
-                stringFinal += " estou aqui pra auxilia-lo!"
+                stringFinal = "Esses são os links mais úteis que eu encontrei"
+                stringFinal += "\nEspero ter te ajudado!,"
+                stringFinal += " se tiver quaisquer outras dúvidas"
+                stringFinal += " estou aqui pra auxiliá-lo!"
                 dispatcher.utter_message(stringFinal)
         except ValueError:
             dispatcher.utter_message(ValueError)
@@ -83,9 +84,53 @@ class ActionFaq(Action):
             f.close()
             dispatcher.utter_message(string)
             finalizar = 'Se não tiver encontrado sua pergunta'
-            finalizar += ' aqui, posso fazer uma pesquisa no stack overflow'
+            finalizar += ' aqui, posso fazer uma rápida pesquisa'
+            finalizar += 'no stack overflow'
             dispatcher.utter_message(finalizar)
-            dispatcher.utter_message('Deseja que eu faça isso?')
+            dispatcher.utter_message('Deseja que eu faça isso ?')
+        except ValueError:
+            dispatcher.utter_message(ValueError)
+        return []
+
+
+class ActionLinks(Action):
+    def name(self):
+        return "action_link"
+
+    def run(self, dispatcher, tracker, domain):
+        try:
+            url = 'https://produ-o.ludum-materiais.ludumbot.club'
+            api = url + '/api/links/aprovados/S'
+            materiais = requests.get(api)
+            dictMateriais = json.loads(materiais.text)
+            linkText = ''
+            if(len(dictMateriais['data']) == 0):
+                linkText += ('Oooopsss...' + 'Não encontrei nenhum material')
+            else:
+                for i in range(0, (len(dictMateriais['data']))):
+                    linkText += 'Material disponível: ' + str(i + 1) + '\n'
+                    linkText += ('Título: ')
+                    linkText += str(dictMateriais['data'][i]['title'])
+                    linkText += '\n'
+                    linkText += ('Tipo: ')
+                    linkText += str(dictMateriais['data'][i]['type'])
+                    linkText += '\n'
+                    linkText += ('Link: ')
+                    linkText += str(dictMateriais['data'][i]['link'])
+                    linkText += '\n'
+                    linkText += '----------------------------'
+                    linkText += '\n'
+            dispatcher.utter_message(linkText)
+            fimMsg = "Esses são os materiais disponíveis no momento... "
+            fimMsg += "Espero que contribua nos seus estudos.  =)"
+            fimMsg += "\n"
+            fimMsg += "Caso você conheça algum material "
+            fimMsg += "interessante que não está aqui "
+            fimMsg += "contribua com nosso conteúdo.\n"
+            fimMsg += "Para mais informações "
+            fimMsg += "basta checar nossa área de envio de"
+            fimMsg += " materiais no menu principal!"
+            dispatcher.utter_message(fimMsg)
         except ValueError:
             dispatcher.utter_message(ValueError)
         return []

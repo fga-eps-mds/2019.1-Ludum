@@ -5,16 +5,34 @@
         "pergunta"
       ]
     },
+    "utter_sem_nada": {
+      "slots": []
+    },
+    "action_tutoriais": {
+      "slots": []
+    },
+    "utter_implementacao": {
+      "slots": []
+    },
+    "utter_default": {
+      "slots": []
+    },
+    "utter_tutorial_jedi_cores_c": {
+      "slots": []
+    },
+    "utter_tutorial_jedi_snake_c": {
+      "slots": []
+    },
     "utter_cumprimentar": {
       "slots": []
     },
-    "utter_star_wars": {
-      "slots": []
+    "utter_menu": {
+      "slots": [
+        "pergunta",
+        "requested_slot"
+      ]
     },
-    "utter_despedir": {
-      "slots": []
-    },
-    "utter_tutorial_jedi_desenhos_c": {
+    "utter_informacao_ambiente": {
       "slots": []
     },
     "action_question": {
@@ -23,46 +41,28 @@
         "requested_slot"
       ]
     },
-    "utter_sem_nada": {
+    "utter_tutorial_jedi_comida_c": {
       "slots": []
     },
     "utter_tutorial_jedi_run_c": {
       "slots": []
     },
-    "utter_tutorial_jedi_cores_c": {
+    "utter_despedir": {
       "slots": []
     },
-    "utter_contribuicao": {
+    "utter_tutorial_jedi_direcao_c": {
       "slots": []
     },
-    "action_faq": {
-      "slots": []
-    },
-    "utter_implementacao": {
-      "slots": []
-    },
-    "utter_tutorial_jedi_movimentos_c": {
-      "slots": []
-    },
-    "utter_informacao_duvidas": {
-      "slots": []
-    },
-    "utter_time": {
+    "utter_padawan_c": {
       "slots": []
     },
     "utter_tudo_bem": {
       "slots": []
     },
-    "utter_default": {
+    "utter_padawan_c3": {
       "slots": []
     },
-    "utter_informacao_ambiente": {
-      "slots": []
-    },
-    "action_tutoriais": {
-      "slots": []
-    },
-    "utter_tutorial_jedi_colisao_c": {
+    "utter_informacao_duvidas": {
       "slots": []
     },
     "utter_tutorial_jedi_classe_game_c": {
@@ -83,7 +83,7 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190622-194752",
+  "trained_at": "20190625-022727",
   "rasa_core": "0.13.1",
   "tensorflow": "1.12.3",
   "sklearn": "0.20.3"

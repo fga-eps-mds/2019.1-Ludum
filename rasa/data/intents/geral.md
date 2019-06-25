@@ -17,12 +17,21 @@
 - perguntar ao stack overflow [for em python](pergunta)
 - pesquisar no stack overflow
 
+## intent:action_link
+- me recomenda um link 
+- me recomenda um material
+- me recomenda links e materiais
+- me recomenda materiais e links
+- recomenda materiais e links
+
+
 ## intent:confirmar
 - sim
 - claro
 - continuar
 - Continuar
 - Sim
+<<<<<<< HEAD
 - SIm
 - Sim
 - sim
@@ -32,6 +41,62 @@
 - SIM
 - sim
 - Sim
+=======
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+- sim
+>>>>>>> f4047216b374bb32b3d3191765ddf312c7c6b88d
 
 ## intent:contribuicao
 - contribuir
@@ -79,6 +144,22 @@
 - Tenho uma pergunta
 - Tenho uma duvida
 - Duvida
+- Duvida
+- Duvida
+- Duvida
+- Duvida
+- Duvida
+- Duvida
+- Duvida
+- duvida
+- duvida
+- duvida
+- duvida
+- duvida
+- duvida
+- duvida
+- duvida
+- duvida
 - voce pode me tirar uma duvida?
 
 ## intent:cumprimentar
@@ -120,6 +201,18 @@
 - FAQ
 - FAQ
 - faq
+- faq
+- faq
+- faq
+- faq
+- faq
+- faq
+- faq
+- faq
+- faq
+- faq
+- faq
+- faq
 - me mande o faq
 - você possui um faq?
 
@@ -157,7 +250,14 @@
 - o que preciso para começar
 - configurar ambiente
 - ambiente
+- ambiente
+- ambiente
+- ambiente
+- ambiente
 - como configurar o meu ambiente?
+- como configurar o ambiente
+- como configurar o ambiente
+- como configurar o ambiente
 - como configurar o ambiente
 
 ## intent:informacao_desenvolvimento
@@ -240,7 +340,6 @@
 - ir adiante
 - ir além
 - ir para o próximo
-- confirmar
 - continua
 - ok
 - estou pronto
@@ -248,9 +347,40 @@
 - podemos
 - podemos prosseguir
 
+
 ## intent:tutorial_facil
 - Facil
 - facil
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- Facil 
+- facil 
+- facil 
+- Pong
+- pong
+- tutorial facil
+- TutorialFacil
+- TutorialFACIL
+- Tutorial facil
+- Tutorial fácil
+- Tutorialfacil
+- Tutorialfácil
+- Padawan
+- padawan
+- PONG
 - Fácil 
 - fácil 
 
@@ -297,26 +427,49 @@
 - sair 
 - Sair
 - nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
+- nao
 - não
-
-## intent:out_of_scope
-- Qual a origem do mundo?
-- Você tem signo?
-- Vc gosta de carnaval?
-- batatinha quando nasce
-- pygame module
-
-## intent:star_wars
-- pygame object
-- Pygame 3D
+- não
+- não
+- não
+- não
+- não
+- não
+- não
+- não
+- Não
+- Não
+- Não
+- Não
+- Não
+- Não
+- Não
+- Não
+- Não
+- Não
+- Nao
+- Nao
+- Nao
+- Nao
+- Nao
+- Nao
+- Nao
+- Nao
 
 ## intent:start
 - /start
 - /start
 - /start
-
-## intent:stop
-- /stop
 
 ## intent:tudo_bem
 - Tudo bem
