@@ -154,7 +154,7 @@ class ActionEscolhaTutorial(FormAction):
             dispatcher.utter_message(ValueError)
         try:
             api = url + '/tutoriais/aprovados/S'
-            url = 'https://ludum-materiais-frontend.herokuapp.com/tutoriais'
+            url = 'https://produ-o.ludum-materiais.ludumbot.club/tutoriais'
             link = requests.get(api)
             tutoriais = json.loads(link.text)
             nPergunta = int(str(tracker.get_slot('escolha_tutorial')))
