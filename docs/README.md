@@ -3,9 +3,10 @@
 <a href="https://www.gnu.org/licenses/gpl-3.0.pt-br.html"><img src="https://img.shields.io/badge/licence-GPL3-green.svg"/></a> <a href="CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg"></a> 
 <a href="https://gitlab.com/guilhermesiqueira/2019-1-Ludum/commits/development"><img alt="pipeline status" src="https://gitlab.com/guilhermesiqueira/2019-1-Ludum/badges/development/pipeline.svg" /></a>
 <a href="https://codeclimate.com/github/fga-eps-mds/2019.1-Ludum/maintainability"><img src="https://api.codeclimate.com/v1/badges/cb8e7c95b446f448d64f/maintainability" /></a>
-<a href="https://gitlab.com/guilhermesiqueira/2019-1-Ludum/commits/development"><img alt="coverage report" src="https://gitlab.com/guilhermesiqueira/2019-1-Ludum/badges/development/coverage.svg" /></a>
+<br><br> <b><a href="https://t.me/OLudumBot">Clique aqui para conversar comigo no Telegram!</a></b> 
+<br> Se não conseguir me encontre pelo meu username é <b>@OLudumBot</b>
+<br> Ah! Eu também possuo uma versão de homologação é <a href="https://t.me/ludumdev_bot">@ludumdev_bot</a></b>
 </p>
-
 
 # Ludum - O assistente virtual sobre o PyGame
 
@@ -25,10 +26,12 @@
 * **NodeJS** - Node.js é um interpretador de código JavaScript com o código aberto, focado em migrar o Javascript do lado do cliente para servidores;
 * **MongoDB** - Banco de dados não relacional utilizado no projeto;
 * **Docker** - Ferramenta para criação e administração de ambientes isolados;
-* **GitLab CI** - Ferramenta responsável pelo integração contínua e deploy contínuo.
+* **GitLab CI** - Ferramenta responsável pelo integração contínua e deploy contínuo;
+* **Rancher** - É uma uma plataforma opensource para gerenciar infraestrutura de Docker e Kubernetes em produção, assim como efetuar deploy de apps usando Docker. O deploy pode ser local ou em servers remotos (Digital Ocean, AWS, etc).
 
 ## Documentação
-Os arquivos da documentação do projeto estão localizados na pasta `docs` e para visualizá-los basta acessar o nosso GitHub Pages disponível em https://fga-eps-mds.github.io/2019.1-Ludum/#/
+Os arquivos da documentação do projeto estão localizados na pasta `docs` e para visualizá-los basta acessar o nosso GitHub Pages disponível em https://fga-eps-mds.github.io/2019.1-Ludum/#/.
+<p>Toda a estrutura de repositórios se encontra em nossa organização. Conheça mais <a href="https://github.com/botludum">clicando aqui.</a></p>
 
 ## Quero ajudar! Como contribuir?
 <p align="justify"> Sua ajuda é muito bem vinda! O guia com todos os passos para contribuir ao Ludum se encontra <a href="https://github.com/fga-eps-mds/2019.1-Ludum/blob/development/CONTRIBUTING.md">aqui</a> e não esqueça de seguir nosso código de conduta, para conferir basta clicar <a href="https://github.com/fga-eps-mds/2019.1-Ludum/blob/master/CODE_OF_CONDUCT.md">aqui</a>.</p>
