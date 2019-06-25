@@ -57,10 +57,10 @@ class ActionQuestion(FormAction):
                     utterString += str(stack['data']['answer'][i]['link'])
                     utterString += '\n'
                 dispatcher.utter_message(utterString)
-                stringFinal = "Esses são os links mais úteis que eu encontrei"
-                stringFinal += "\nEspero ter te ajudado!,"
-                stringFinal += " se tiver quaisquer outras dúvidas"
-                stringFinal += " estou aqui pra auxiliá-lo!"
+                stringFinal = "Esses são os links mais uteis que eu encontrei"
+                stringFinal += "\nEspero ter te ajudado!"
+                stringFinal += " Se tiver Qualquer outra duvida"
+                stringFinal += " estou aqui para te ajudar"
                 dispatcher.utter_message(stringFinal)
         except ValueError:
             dispatcher.utter_message(ValueError)
@@ -85,7 +85,7 @@ class ActionFaq(Action):
             dispatcher.utter_message(string)
             finalizar = 'Se não tiver encontrado sua pergunta'
             finalizar += ' aqui, posso fazer uma rápida pesquisa'
-            finalizar += 'no stack overflow'
+            finalizar += ' no stack overflow'
             dispatcher.utter_message(finalizar)
             dispatcher.utter_message('Deseja que eu faça isso ?')
         except ValueError:
@@ -136,6 +136,47 @@ class ActionLinks(Action):
         return []
 
 
+class ActionEscolhaTutorial(FormAction):
+    def name(self):
+        return "action_escolha_tutorial"
+
+    @staticmethod
+    def required_slots(tracker):
+        return ["escolha_tutorial"]
+
+    def submit(self, dispatcher, tracker, domain):
+        url = 'https://produ-o.ludum-materiais.ludumbot.club/api'
+        try:
+            dispatcher.utter_message('Espere jovem padawan,' +
+                                     'vou lhe mostrar o link' +
+                                     'para esse tutorial')
+        except ValueError:
+            dispatcher.utter_message(ValueError)
+        try:
+            api = url + '/tutoriais/aprovados/S'
+            url = 'https://ludum-materiais-frontend.herokuapp.com/tutoriais'
+            link = requests.get(api)
+            tutoriais = json.loads(link.text)
+            nPergunta = int(str(tracker.get_slot('escolha_tutorial')))
+            if(nPergunta >= len(tutoriais['data'])):
+                utterString = 'Não achei o link para esse tutorial D='
+            else:
+                strPergunta = "O link do tutorial numero "
+                strPergunta += str(nPergunta) + " é"
+                dispatcher.utter_message(strPergunta)
+                utterString = url
+                utterString += '/' + str(tutoriais['data'][nPergunta]['_id'])
+        except ValueError:
+            utterString = "Hmmm, não encontrei esse tutorial na lista"
+        dispatcher.utter_message(utterString)
+        return [SlotSet('escolha_tutorial', None)]
+
+    def slot_mappings(self):
+        return {
+            "escolha_tutorial": self.from_text()
+        }
+
+
 class ActionTutoriais(Action):
     def name(self):
         return "action_tutoriais"
@@ -149,7 +190,7 @@ class ActionTutoriais(Action):
             utterString = ''
             if len(tutoriais['data']) == 0:
                 utterString += 'Infelizmente não foi possivel encontrar'
-                utterString += 'nenhum tutorial'
+                utterString += ' nenhum tutorial'
             else:
                 utterString += 'Esses são os tutoriais aprovados pelo'
                 utterString += ' nosso conselho Jedi:\n'

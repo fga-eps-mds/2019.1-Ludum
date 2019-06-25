@@ -595,7 +595,7 @@
 * comunidade
     - utter_confirmacao
 * negar
-    - utter_cumprimentar
+    - utter_menu
 
 ## path tutorial comunidade
 * informacao_desenvolvimento
@@ -604,8 +604,10 @@
     - utter_confirmacao
 * confirmar
     - action_tutoriais
+    - action_escolha_tutorial
+    - utter_menu
 
-## fallback
+## fallbacku
 * out_of_scope
     - utter_default
 

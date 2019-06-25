@@ -103,9 +103,12 @@ entities:
 - starwars
 - time
 - pergunta
+- escolha_tutorial
 forms:
 - action_question
+- action_escolha_tutorial
 intents:
+- escolha_tutorial
 - informacao_desenvolvimento
 - confirmar
 - faq
@@ -129,13 +132,17 @@ intents:
 - prosseguir
 - comunidade
 slots:
+  escolha_tutorial:
+    type: unfeaturized
   pergunta:
     type: unfeaturized
   requested_slot:
     type: unfeaturized
 templates:
+  utter_ask_escolha_tutorial:
+  - text: Você deseja ver qual tutorial?
   utter_ask_pergunta:
-  - text: "Que pergunta você deseja fazer ao StackOverflow? (Lembrando que a pergunta tem\
+  - text: "Que pergunta você deseja fazer ao StackOverflow? (Lembrando que a pergunta tem \
   que ser feita em inglês, pois senão os nossos mestres do StackOverflow não te entenderão)\n"
   utter_confirmar_ambiente1:
   - text: "Ótimo, todo nosso tutorial será feito usando o Python 3.6, então é bom\
