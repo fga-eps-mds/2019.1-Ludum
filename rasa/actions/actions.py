@@ -108,7 +108,7 @@ class ActionEscolhaTutorial(FormAction):
         except ValueError:
             dispatcher.utter_message(ValueError)
         try:
-            api = url + 'tutoriais/aprovados/S'
+            api = url + '/tutoriais/aprovados/S'
             link = requests.get(api)
             tutoriais = json.loads(link.text)
             nPergunta = int(str(tracker.get_slot('escolha_tutorial')))
