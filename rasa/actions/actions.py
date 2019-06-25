@@ -105,10 +105,13 @@ class ActionTutoriais(Action):
             if len(tutoriais['data']) == 0:
                 utterString += 'Infelizmente não foi possivel encontrar'
                 utterString += 'nenhum tutorial'
-            for i in range(0, len(tutoriais['data'])):
-                utterString += str(i) + ")"
-                utterString += str(tutoriais['data'][i]['title'])
-                utterString += '\n'
+            else:
+                utterString += 'Esses são os tutoriais aprovados pelo'
+                utterString += ' nosso conselho Jedi:\n'
+                for i in range(0, len(tutoriais['data'])):
+                    utterString += str(i) + ")"
+                    utterString += str(tutoriais['data'][i]['title'])
+                    utterString += '\n'
             dispatcher.utter_message(utterString)
         except ValueError:
             dispatcher.utter_message(ValueError)

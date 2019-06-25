@@ -23,6 +23,15 @@
 - continuar
 - Continuar
 - Sim
+- SIm
+- Sim
+- sim
+- Sim
+- sim
+- Sim
+- SIM
+- sim
+- Sim
 
 ## intent:contribuicao
 - contribuir
@@ -106,6 +115,9 @@
 - xau
 
 ## intent:faq
+- FAQ
+- FAQ
+- FAQ
 - FAQ
 - faq
 - me mande o faq
