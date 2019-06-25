@@ -31,6 +31,17 @@
 - continuar
 - Continuar
 - Sim
+<<<<<<< HEAD
+- SIm
+- Sim
+- sim
+- Sim
+- sim
+- Sim
+- SIM
+- sim
+- Sim
+=======
 - sim
 - sim
 - sim
@@ -85,6 +96,7 @@
 - sim
 - sim
 - sim
+>>>>>>> f4047216b374bb32b3d3191765ddf312c7c6b88d
 
 ## intent:contribuicao
 - contribuir
@@ -184,6 +196,9 @@
 - xau
 
 ## intent:faq
+- FAQ
+- FAQ
+- FAQ
 - FAQ
 - faq
 - faq

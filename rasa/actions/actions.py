@@ -5,9 +5,6 @@ import requests
 from rasa_core_sdk.events import SlotSet
 from rasa_core_sdk.forms import FormAction
 
-url = 'https://produ-o.ludum-materiais.ludumbot.club'
-urlDuvida = 'https://produ-o.ludum-duvida.ludumbot.club'
-
 
 class ActionTest(Action):
     def name(self):
@@ -32,13 +29,14 @@ class ActionQuestion(FormAction):
     def submit(self, dispatcher, tracker, domain):
         try:
             dispatcher.utter_message('Espere jovem padawan,' +
-                                     'vou procurar uma resposta ' +
-                                     'no Stack Overflow para você')
+                                     'vou procurar uma resposta' +
+                                     ' no Stack Overflow para você')
         except ValueError:
             dispatcher.utter_message(ValueError)
         try:
+            url = 'https://ludum-duvidas.herokuapp.com'
             pergunta = str(tracker.get_slot('pergunta'))
-            api = urlDuvida + '/api/duvidas'
+            api = url + '/api/duvidas'
             apiPergunta = api + '/pesquisar' + '/:{' + pergunta + '}'
             link = requests.get(apiPergunta)
             stack = json.loads(link.text)
@@ -101,6 +99,7 @@ class ActionLinks(Action):
 
     def run(self, dispatcher, tracker, domain):
         try:
+            url = 'https://produ-o.ludum-materiais.ludumbot.club'
             api = url + '/api/links/aprovados/S'
             materiais = requests.get(api)
             dictMateriais = json.loads(materiais.text)
@@ -143,15 +142,22 @@ class ActionTutoriais(Action):
 
     def run(self, dispatcher, tracker, domain):
         try:
+            url = 'https://produ-o.ludum-materiais.ludumbot.club'
             api = url + '/api/tutoriais/aprovados/S/'
             link = requests.get(api)
             tutoriais = json.loads(link.text)
             utterString = ''
-            for i in range(0, len(tutoriais['data'])):
-                utterString += str(i) + ")"
-                utterString += str(tutoriais['data'][i]['name'])
-                utterString += '\n'
-
+            if len(tutoriais['data']) == 0:
+                utterString += 'Infelizmente não foi possivel encontrar'
+                utterString += 'nenhum tutorial'
+            else:
+                utterString += 'Esses são os tutoriais aprovados pelo'
+                utterString += ' nosso conselho Jedi:\n'
+                for i in range(0, len(tutoriais['data'])):
+                    utterString += str(i) + ")"
+                    utterString += str(tutoriais['data'][i]['title'])
+                    utterString += '\n'
+            dispatcher.utter_message(utterString)
         except ValueError:
             dispatcher.utter_message(ValueError)
         return []
