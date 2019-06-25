@@ -34,7 +34,7 @@ class ActionQuestion(FormAction):
         except ValueError:
             dispatcher.utter_message(ValueError)
         try:
-            url = 'https://ludum-duvidas.herokuapp.com'
+            url = 'https://produ-o.ludum-duvida.ludumbot.club'
             pergunta = str(tracker.get_slot('pergunta'))
             api = url + '/api/duvidas'
             apiPergunta = api + '/pesquisar' + '/:{' + pergunta + '}'
