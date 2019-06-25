@@ -46,6 +46,7 @@ class ActionQuestion(FormAction):
                                 ' mestres Jedi do stack' +
                                 ' overflow sabem a resposta para sua ' +
                                 'pergunta.\nQue tal perguntar de outra forma?')
+                dispatcher.utter_message(utterString)
             else:
                 for i in range(0, len(stack['data']['answer'])):
                     utterString += 'Resposta ' + str(i + 1) + '\n'
@@ -83,9 +84,53 @@ class ActionFaq(Action):
             f.close()
             dispatcher.utter_message(string)
             finalizar = 'Se não tiver encontrado sua pergunta'
-            finalizar += ' aqui, posso fazer uma pesquisa no stack overflow'
+            finalizar += ' aqui, posso fazer uma rápida pesquisa'
+            finalizar += ' no stack overflow'
             dispatcher.utter_message(finalizar)
-            dispatcher.utter_message('Deseja que eu faça isso?')
+            dispatcher.utter_message('Deseja que eu faça isso ?')
+        except ValueError:
+            dispatcher.utter_message(ValueError)
+        return []
+
+
+class ActionLinks(Action):
+    def name(self):
+        return "action_link"
+
+    def run(self, dispatcher, tracker, domain):
+        try:
+            url = 'https://produ-o.ludum-materiais.ludumbot.club'
+            api = url + '/api/links/aprovados/S'
+            materiais = requests.get(api)
+            dictMateriais = json.loads(materiais.text)
+            linkText = ''
+            if(len(dictMateriais['data']) == 0):
+                linkText += ('Oooopsss...' + 'Não encontrei nenhum material')
+            else:
+                for i in range(0, (len(dictMateriais['data']))):
+                    linkText += 'Material disponível: ' + str(i + 1) + '\n'
+                    linkText += ('Título: ')
+                    linkText += str(dictMateriais['data'][i]['title'])
+                    linkText += '\n'
+                    linkText += ('Tipo: ')
+                    linkText += str(dictMateriais['data'][i]['type'])
+                    linkText += '\n'
+                    linkText += ('Link: ')
+                    linkText += str(dictMateriais['data'][i]['link'])
+                    linkText += '\n'
+                    linkText += '----------------------------'
+                    linkText += '\n'
+            dispatcher.utter_message(linkText)
+            fimMsg = "Esses são os materiais disponíveis no momento... "
+            fimMsg += "Espero que contribua nos seus estudos.  =)"
+            fimMsg += "\n"
+            fimMsg += "Caso você conheça algum material "
+            fimMsg += "interessante que não está aqui "
+            fimMsg += "contribua com nosso conteúdo.\n"
+            fimMsg += "Para mais informações "
+            fimMsg += "basta checar nossa área de envio de"
+            fimMsg += " materiais no menu principal!"
+            dispatcher.utter_message(fimMsg)
         except ValueError:
             dispatcher.utter_message(ValueError)
         return []
@@ -109,12 +154,18 @@ class ActionEscolhaTutorial(FormAction):
             dispatcher.utter_message(ValueError)
         try:
             api = url + '/tutoriais/aprovados/S'
+            url = 'https://ludum-materiais-frontend.herokuapp.com/tutoriais'
             link = requests.get(api)
             tutoriais = json.loads(link.text)
             nPergunta = int(str(tracker.get_slot('escolha_tutorial')))
-            strPergunta = "O link da pergunta numero " + str(nPergunta) + " é"
-            dispatcher.utter_message(strPergunta)
-            utterString = api + '/' + str(tutoriais['data'][nPergunta]['_id'])
+            if(nPergunta >= len(tutoriais['data'])):
+                utterString = 'Não achei o link para esse tutorial D='
+            else:
+                strPergunta = "O link do tutorial numero "
+                strPergunta += str(nPergunta) + " é"
+                dispatcher.utter_message(strPergunta)
+                utterString = url
+                utterString += '/' + str(tutoriais['data'][nPergunta]['_id'])
         except ValueError:
             utterString = "Hmmm, não encontrei esse tutorial na lista"
         dispatcher.utter_message(utterString)
@@ -124,6 +175,7 @@ class ActionEscolhaTutorial(FormAction):
         return {
             "escolha_tutorial": self.from_text()
         }
+
 
 class ActionTutoriais(Action):
     def name(self):
@@ -138,11 +190,14 @@ class ActionTutoriais(Action):
             utterString = ''
             if len(tutoriais['data']) == 0:
                 utterString += 'Infelizmente não foi possivel encontrar'
-                utterString += 'nenhum tutorial'
-            for i in range(0, len(tutoriais['data'])):
-                utterString += str(i) + ")"
-                utterString += str(tutoriais['data'][i]['title'])
-                utterString += '\n'
+                utterString += ' nenhum tutorial'
+            else:
+                utterString += 'Esses são os tutoriais aprovados pelo'
+                utterString += ' nosso conselho Jedi:\n'
+                for i in range(0, len(tutoriais['data'])):
+                    utterString += str(i) + ")"
+                    utterString += str(tutoriais['data'][i]['title'])
+                    utterString += '\n'
             dispatcher.utter_message(utterString)
         except ValueError:
             dispatcher.utter_message(ValueError)
