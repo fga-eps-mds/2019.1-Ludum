@@ -4,6 +4,7 @@
 ---|---|---|---
 21/06/2019 | 0.1 | Criação do documento | Gabriela e Lucas Lermen
 24/06/2019 | 0.2 | Adicionando opinioões do restante dos membros| Todos
+28/06/2019 | 0.3 | Acrescentando alguns detalhes | Gabriela Moraes
 
 # Introdução
 <p align="justify">O presente documento tem como finalidade compartilhar as experiências vividas pela equipe durante o desenvolvimento do projeto além de promover uma autorreflexão. Também visa auxiliar outras equipes na condução de futuros projetos.</p>
@@ -18,7 +19,7 @@
 * Flexibilidade da equipe em relação as tecnologias (Rasa/Python e ReactJS).
 
 # Pontos Fracos
-* Limitação de hardware de um dos integrantes da equipe;
+* Limitação de hardware da integrante Gabriela Chaves o que compremeteu a revisão de PRs no repositório do Core do sistema se não houvesse a participação de outros integrantes na revisão;
 * Inexperiência em relação a chatbots;
 * Pequeno atraso inicial devido a incerteza em relação ao tema do projeto;
 * Dificuldade para incorporar a arquitetura microsserviços em um chatbot;
