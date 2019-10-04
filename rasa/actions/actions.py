@@ -34,7 +34,7 @@ class ActionQuestion(FormAction):
         except ValueError:
             dispatcher.utter_message(ValueError)
         try:
-            url = 'https://produ-o.ludum-duvida.ludumbot.club'
+            url = 'https://ludum-duvidas.herokuapp.com'
             pergunta = str(tracker.get_slot('pergunta'))
             api = url + '/api/duvidas'
             apiPergunta = api + '/pesquisar' + '/:{' + pergunta + '}'
@@ -99,7 +99,7 @@ class ActionLinks(Action):
 
     def run(self, dispatcher, tracker, domain):
         try:
-            url = 'https://produ-o.ludum-materiais.ludumbot.club'
+            url = 'https://ludum-materiais.herokuapp.com'
             api = url + '/api/links/aprovados/S'
             materiais = requests.get(api)
             dictMateriais = json.loads(materiais.text)
@@ -145,7 +145,7 @@ class ActionEscolhaTutorial(FormAction):
         return ["escolha_tutorial"]
 
     def submit(self, dispatcher, tracker, domain):
-        url = 'https://produ-o.ludum-materiais.ludumbot.club/api'
+        url = 'https://ludum-materiais.herokuapp.com/api'
         try:
             dispatcher.utter_message('Espere jovem padawan,' +
                                      'vou lhe mostrar o link' +
@@ -154,7 +154,7 @@ class ActionEscolhaTutorial(FormAction):
             dispatcher.utter_message(ValueError)
         try:
             api = url + '/tutoriais/aprovados/S'
-            url = 'https://produ-o.ludum-materiais.ludumbot.club/tutoriais'
+            url = 'https://ludum-materiais.herokuapp.com/api/tutoriais'
             link = requests.get(api)
             tutoriais = json.loads(link.text)
             nPergunta = int(str(tracker.get_slot('escolha_tutorial')))
@@ -183,7 +183,7 @@ class ActionTutoriais(Action):
 
     def run(self, dispatcher, tracker, domain):
         try:
-            url = 'https://produ-o.ludum-materiais.ludumbot.club'
+            url = 'https://ludum-materiais.herokuapp.com'
             api = url + '/api/tutoriais/aprovados/S/'
             link = requests.get(api)
             tutoriais = json.loads(link.text)
