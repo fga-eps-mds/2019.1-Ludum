@@ -3,7 +3,7 @@ image: python:3.6-slim
 stages:
   - test
   - build
-  - deploy
+#   - deploy
   
 variables:
   LUDUM_LATEST_IMAGE: $CI_REGISTRY_IMAGE/ludum
@@ -67,58 +67,58 @@ build-action-dev:
   only:
     - /development/
 
-deploy-prod:
-  image: cdrx/rancher-gitlab-deploy
-  stage: deploy
-  script:
-    - "upgrade
-            --rancher-url $RANCHER_URL
-            --rancher-key $RANCHER_ACCESS_KEY
-            --rancher-secret $RANCHER_SECRET_KEY
-            --environment $RANCHER_ENVIRONMENT
-            --stack $RANCHER_STACK
-            --service ludum"
-  only:
-    - /master/
+# deploy-prod:
+#   image: cdrx/rancher-gitlab-deploy
+#   stage: deploy
+#   script:
+#     - "upgrade
+#             --rancher-url $RANCHER_URL
+#             --rancher-key $RANCHER_ACCESS_KEY
+#             --rancher-secret $RANCHER_SECRET_KEY
+#             --environment $RANCHER_ENVIRONMENT
+#             --stack $RANCHER_STACK
+#             --service ludum"
+#   only:
+#     - /master/
 
-deploy-actions-prod:
-  image: cdrx/rancher-gitlab-deploy
-  stage: deploy
-  script:
-    - "upgrade
-            --rancher-url $RANCHER_URL
-            --rancher-key $RANCHER_ACCESS_KEY
-            --rancher-secret $RANCHER_SECRET_KEY
-            --environment $RANCHER_ENVIRONMENT
-            --stack $RANCHER_STACK
-            --service actions"
-  only:
-    - /master/
+# deploy-actions-prod:
+#   image: cdrx/rancher-gitlab-deploy
+#   stage: deploy
+#   script:
+#     - "upgrade
+#             --rancher-url $RANCHER_URL
+#             --rancher-key $RANCHER_ACCESS_KEY
+#             --rancher-secret $RANCHER_SECRET_KEY
+#             --environment $RANCHER_ENVIRONMENT
+#             --stack $RANCHER_STACK
+#             --service actions"
+#   only:
+#     - /master/
 
-deploy-dev:
-  image: cdrx/rancher-gitlab-deploy
-  stage: deploy
-  script:
-    - "upgrade
-            --rancher-url $RANCHER_URL
-            --rancher-key $RANCHER_ACCESS_KEY
-            --rancher-secret $RANCHER_SECRET_KEY
-            --environment $RANCHER_ENVIRONMENT_DEV
-            --stack $RANCHER_STACK_DEV
-            --service ludum"
-  only:
-    - /development/
+# deploy-dev:
+#   image: cdrx/rancher-gitlab-deploy
+#   stage: deploy
+#   script:
+#     - "upgrade
+#             --rancher-url $RANCHER_URL
+#             --rancher-key $RANCHER_ACCESS_KEY
+#             --rancher-secret $RANCHER_SECRET_KEY
+#             --environment $RANCHER_ENVIRONMENT_DEV
+#             --stack $RANCHER_STACK_DEV
+#             --service ludum"
+#   only:
+#     - /development/
 
-deploy-actions-dev:
-  image: cdrx/rancher-gitlab-deploy
-  stage: deploy
-  script:
-    - "upgrade
-            --rancher-url $RANCHER_URL
-            --rancher-key $RANCHER_ACCESS_KEY
-            --rancher-secret $RANCHER_SECRET_KEY
-            --environment $RANCHER_ENVIRONMENT_DEV
-            --stack $RANCHER_STACK_DEV
-            --service actions"
-  only:
-    - /development/
+# deploy-actions-dev:
+#   image: cdrx/rancher-gitlab-deploy
+#   stage: deploy
+#   script:
+#     - "upgrade
+#             --rancher-url $RANCHER_URL
+#             --rancher-key $RANCHER_ACCESS_KEY
+#             --rancher-secret $RANCHER_SECRET_KEY
+#             --environment $RANCHER_ENVIRONMENT_DEV
+#             --stack $RANCHER_STACK_DEV
+#             --service actions"
+#   only:
+#     - /development/
